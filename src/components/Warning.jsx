@@ -1,8 +1,14 @@
 import React from 'react'
+import './index.css';
+// import Typekit from 'react-typekit';
 
 const Warning = () => {
   return (
-    <div >WARNING: This product contains nicotine. Nicotine is an addictive chemical.</div>
+
+        <div className='text-center uppercase p-1 w-full text-xl'>
+            <b>WARNING: This product contains nicotine. Nicotine is an addictive chemical</b>
+        </div>
+
   )
 }
 

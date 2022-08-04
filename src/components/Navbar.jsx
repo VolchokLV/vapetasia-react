@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from './img/Vapetasia_Logo_2_small.png';
+import { AiOutlineSearch } from 'react-icons/ai' 
 
 const Navbar = () => {
   return <nav className="nav">
@@ -19,6 +20,7 @@ const Navbar = () => {
             <a href="/wholesale">WHOLESALE</a>
             <a href="/storelocator">STORE LOCATOR</a>
             <a href="/pact">PACT</a>
+            <AiOutlineSearch size={25} style={{marginTop: '6px', color: 'white'}} />
           </div>
         </div>
       </div>

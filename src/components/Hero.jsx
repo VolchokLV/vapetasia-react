@@ -17,7 +17,7 @@ const Hero = () => {
           bgImageAlt="Home Hero"
           strength={300}
       >
-        Content goes here. Parallax height grows with content height.
+        
         <div style={{ height: '600px' }} />
     </Parallax>
     <div className='gash'>

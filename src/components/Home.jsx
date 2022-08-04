@@ -1,7 +1,9 @@
 import React from 'react';
 import Warning from './Warning';
 import Hero from './Hero';
-
+import './index.css';
+import Navbar from './Navbar';
+import HeroText from './HeroText';
 
 const Home = () => {
   return (
@@ -9,12 +11,30 @@ const Home = () => {
 <style>
    @import url("https://use.typekit.net/fde1wvh.css");
 </style>
-    <div className='main justify-items-center items-center w-full'>
-        <div className='grid grid-row-1 justify-items-center items-center w-100% border-4 border-black mr-5 ml-5'>
+    <div className='wrapper'>
+
+      <div className='warning-container'>
+        <div className='warning'>
             <Warning />
         </div>
-        <div className='grid grid-row-1 justify-items-center items-center w-full'>
+      </div>
+        <div className='navbar-container'>
+          <div className='nav'>
+            <Navbar />
+          </div>
+        </div>
+        <div className='hero-container'>
+          <div className='hero'>
             <Hero />
+          </div>
+          <div className='hero-text'>
+            <HeroText />
+          </div>
+        </div>
+        <div className='swwaa-container'>
+          <div className='swwaa'>
+            <Hero />
+          </div>
         </div>
     </div>
     </>

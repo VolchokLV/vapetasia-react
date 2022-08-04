@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 //import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 import {
@@ -19,7 +20,7 @@ import {
   Hero,
   HeroText,
   Home,
-  IndusctryUpdates,
+  IndustryUpdates,
   LetsGetSocial,
   Navbar,
   NicWarning,

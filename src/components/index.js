@@ -13,7 +13,7 @@ export { default as Pact } from './Pact';
 export { default as StoreLocator } from './StoreLocator';
 export { default as Wholesale } from './Wholesale';
 export { default as SeeWhatWeAreAbout } from './SeeWhatWeAreAbout';
-export { default as IndustryUpdate } from './IndusctryUpdates';
+export { default as IndustryUpdate } from './IndustryUpdates';
 export { default as PopularFlavors } from './PopularFlavors';
 export { default as AuthorizedRetailers } from './AuthorizedRetailers';
 export { default as BuyOnline } from './BuyOnline';

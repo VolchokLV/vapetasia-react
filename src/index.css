@@ -1,10 +1,39 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/*====Adobe Type Kit =======*/
+@import url("https://use.typekit.net/fde1wvh.css");
 
-@layer base {
-  html {
-    font-family: Acumin, system-ui, sans-serif;
-  }
+/* ========================== Variables CSS =================== */
+:root {
+  /* =============== COLORS =========== */
+  /*  COLOR Mode HSL(hue, saturation, lighness  */
+  --first-color: #FAA500;
+  --title-color-hero: white;
+  --text-color-hero: black;
+  /* --body-color: hsl(258, 60%, 98%;); */
+  --container-color: #fff;
+
+/* =============== Font and Typography =========== */
+--body-font: 'Rubik', sans-serif;
+--h1-font-size: 2.25rem;
+--h2-font-size: 1.5rem;
+--h3-font-size: 1.25rem;
+--normal-font-size: 1rem;
+--small-font-size: .875rem;
+--smaller-font-size: .813rem;
+
+/* =============== Font Weight =========== */
+--font-medium: 500;
+--font-semibold: 600;
+--font-bold: 700;
 }
 
+/* Responsive Typography */
+@media screen and (max-width: 1024px) {
+  :root {
+    --h1-font-size: 1.75rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+  }
+}

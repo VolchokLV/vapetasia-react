@@ -1,0 +1,22 @@
+.warning-container {
+    margin: 30px;
+    display: flex;
+    border: 6px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.warning {
+  line-height: 1 !important;
+  text-transform: uppercase;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+@media screen and (max-width: 600px) {
+  .warning-container {
+    font-size: 18px;
+    text-align: center;
+  }
+}

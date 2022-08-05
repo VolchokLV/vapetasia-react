@@ -1,0 +1,11 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;     
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  body {
+    margin: 0;
+  }

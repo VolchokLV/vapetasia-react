@@ -1,7 +1,8 @@
 import React, { useState, useEffect} from 'react';
-import '../index.css'
+import './hero.css';
 import { Parallax, Background  } from 'react-parallax';
 // style={ {trasform: 'translateY(${ offsetY * 0.5}px)'}}>
+
 
 
 

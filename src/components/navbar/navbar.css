@@ -31,7 +31,6 @@
   padding: 0 1rem;
 }
 
-
 .nav a:hover {
   color: var(--first-color);
   text-decoration: underline;
@@ -40,5 +39,5 @@
 }
 
 .nav a.active {
-  color: #FAA500;
+  color: var(--first-color);
 }

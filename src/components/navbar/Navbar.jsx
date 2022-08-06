@@ -10,21 +10,20 @@ const Navbar = () => {
   return (
   
     <div className='navbar-container'>
-        <nav className='navbar'>
-          <div className='site-logo'><a><img src={logo} alt="Vapetasia" /></a></div>          
-              <div className='nav'>
-                  <a href="/" className='nav'>HOME</a>
-                  <a href="/flavors">FLAVORS</a>
-                  <a href="/disposables">DISPOSABLES</a>
-                  <a href="/advocacy">ADVOCACY</a>
-                  <a href="/blog">BLOG</a>
-                  <a href="/aboutus">ABOUT US</a>
-                  <a href="/contactus">CONTACT US</a>
-                  <a href="/wholesale">WHOLESALE</a>
-                  <a href="/storelocator">STORE LOCATOR</a>
-                  <a href="/pact">PACT</a>
-                  <AiOutlineSearch size={25} style={{marginTop: '6px', color: 'white'}} />                
-              </div>        
+      {/* <div className='site-logo'><a><img src={logo} alt="Vapetasia" /></a></div>   */}
+        <nav className='nav'>
+        <div className='site-logo'><a><img src={logo} alt="Vapetasia" /></a></div>      
+            <a href="/" className='nav'>HOME</a>
+            <a href="/flavors">FLAVORS</a>
+            <a href="/disposables">DISPOSABLES</a>
+            <a href="/advocacy">ADVOCACY</a>
+            <a href="/blog">BLOG</a>
+            <a href="/aboutus">ABOUT US</a>
+            <a href="/contactus">CONTACT US</a>
+            <a href="/wholesale">WHOLESALE</a>
+            <a href="/storelocator">STORE LOCATOR</a>
+            <a href="/pact">PACT</a>
+            <AiOutlineSearch size={25} style={{marginTop: '6px', color: 'white'}} />                   
         </nav>
     </div>  
       /* <div onClick={()=> setNav(!nav)} className="mobile-nav">

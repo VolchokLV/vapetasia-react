@@ -1,5 +1,5 @@
 import React from 'react';
-import {Hero, HeroText, SeeWhatWeAreAbout} from '../../components';
+import {AuthorizedRetailers, BuyOnline, Hero, HeroText, IndustryUpdate, LetsGetSocial, PopularFlavors, PromotingVapetasia, SeeWhatWeAreAbout} from '../../components';
 import './home.css';
 
 
@@ -20,7 +20,13 @@ const Home = () => {
         <div className='swwaa'>
           <SeeWhatWeAreAbout />
         </div>
-      </div>         
+      </div>
+      <IndustryUpdate />
+      <PopularFlavors />
+      <AuthorizedRetailers />
+      <BuyOnline />
+      <LetsGetSocial />
+      <PromotingVapetasia />
     </>
 
   );

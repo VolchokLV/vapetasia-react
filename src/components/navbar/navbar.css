@@ -1,20 +1,21 @@
-.navbarContainer {
+.navbar-container {
     display: flexbox;
     box-sizing: border-box;
     background-color: black;
+    align-items: center;
   }
 
   .nav {
-    height: 130px;
+    height: 100px;
     background-color: black;
     color: white;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: left;
     align-items: center;
     gap: 2rem;
     padding: 0 1rem;
-    max-width: 1920px;
+
   }
 
 .nav a {

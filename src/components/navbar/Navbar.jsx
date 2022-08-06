@@ -2,18 +2,18 @@
 import React  from 'react';
 import logo from '../../img/Vapetasia_Logo_2_small.png'
 import { AiOutlineMenu, AiOutlineClose, AiOutlineSearch} from 'react-icons/ai';
-import styles from './navbar.css';
+import './navbar.css';
 
 
 const Navbar = () => {
     // const [nav, setNav] = useState(false);
   return (
   
-    <div className={styles.navbarContainer}>
-        <nav className={styles.nav}>
-          <div className={styles.site_logo}><a><img src={logo} alt="Vapetasia" /></a></div>          
-              <div className={styles.nav}>
-                  <a href="/home" className={styles.nav}>HOME</a>
+    <div className='navbar-container'>
+        <nav className='navbar'>
+          <div className='site-logo'><a><img src={logo} alt="Vapetasia" /></a></div>          
+              <div className='nav'>
+                  <a href="/" className='nav'>HOME</a>
                   <a href="/flavors">FLAVORS</a>
                   <a href="/disposables">DISPOSABLES</a>
                   <a href="/advocacy">ADVOCACY</a>

@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from './blog.css'
 
 const Blog = () => {
   return (

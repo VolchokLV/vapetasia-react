@@ -29,7 +29,7 @@ function App() {
           <Route path="/flavors/e-liquid-100ml" element={<Eliquid100ml />} /> 
           <Route path="/flavors/e-liquid-60ml" element={<Eliquid60ml />} /> 
           <Route path="/flavors/e-liquid-30ml" element={<Eliquid30ml />} /> 
-          <Route path="/store-loactor" element={<StoreLocator />} /> 
+          <Route path="/store-locator" element={<StoreLocator />} /> 
           <Route path="/pact" element={<Pact />} /> 
           <Route path="/wholesale" element={<Wholesale />} /> 
         </Routes>

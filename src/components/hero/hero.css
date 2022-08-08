@@ -1,4 +1,15 @@
 .container {
     display: flexbox;
     height: 400px;
+    position: relative;
+  }
+
+  /* .gash {
+    z-index: 15;
+  } */
+
+  .hero-text {
+    margin-top: -50px;
+    margin-bottom: 200px;
+    overflow: hidden;
   }

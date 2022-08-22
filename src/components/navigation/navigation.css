@@ -1,0 +1,6 @@
+#site-navigation-wrap, #site-navigation, #menu-main-nav-bar-menu {
+  height: 80px;
+  width: 100%;
+  display: block;
+  background: none;
+}

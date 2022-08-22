@@ -1,6 +1,10 @@
 import React from 'react'
 
-const Disposables = () => {
+const Disposables = (props) => {
+
+  console.log('disposable prods:')
+  console.log(props)
+
   return (
     <div>Disposables</div>
   )

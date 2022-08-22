@@ -1,6 +1,10 @@
 import React from 'react'
 
-const Eliquid100ml = () => {
+const Eliquid100ml = (props) => {
+
+  console.log('100ml prods:')
+  console.log(props)
+
   return (
     <div>Eliquid100ml</div>
   )

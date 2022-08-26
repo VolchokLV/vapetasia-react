@@ -6,7 +6,9 @@ const Disposables = (props) => {
   console.log(props)
 
   return (
-    <div>Disposables</div>
+    <div>
+      {props.products.map(p => (<div>{p.product_name}</div>))}
+    </div>
   )
 }
 

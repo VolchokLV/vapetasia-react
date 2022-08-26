@@ -1,82 +1,1077 @@
 [
     {
-        "product_name": "Test feat. 30ml",
-        "product_type": "e-liquid-30ml",
-        "product_slug": "https://www.vapetasia.com/e-liquid-100ml/killer-kustard",
-        "main_img_src": "/img/USA_Killer_Kustard_100ml_3mg.png",
-        "size": "30, 60, 100",
-        "mg": "0,3,6,12",
+        "product_name": "Killer Kustard",
+        "product_types": ["e-liquid", "salt"],
+        "product_slug": "killer-kustard", 
+        "img_src": {
+            "30ml": "/img/30ml/Killer_Kustard_30ml_24mg.png",
+            "60ml": "/img/600ml/Killer_Kustard_60ml_3mg.png",
+            "100ml": "/img/100ml/Killer_Kustard_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["60ml", "100ml"],
+            "salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["0mg","3mg", "6mg", "12mg"],
+            "salt": ["12mg", "24mg", "48mg"]
+        },
+        "main_text": "Our award-winning Killer Kustard is globally known for its unmatched vanilla custard flavor. Fair warning, this one is hard to put down!",
         "hero_txt": "An enchanting mix of vanilla and creamy custard, reaching the perfect harmony of sweet and savory.",
         "sub_txt": "Our award-winning Killer Kustard is globally known for its unmatched vanilla custard flavor. Fair warning, this one is hard to put down!",
-        "popup_txt": "Our award-winning Killer Kustard is globally known for its unmatched vanilla custard flavor. Fair warning, this one is hard to put down!",
-        "popup_img_src": "/img/USA_Killer_Kustard_100ml_3mg.png",
-        "buy_now1": "https://www.ejuices.com/products/vapetasia-killer-kustard",
-        "buy_now2": "https://vapesocietysupplies.com/products/killer-kustard-ejuice-100ml-vapetasia/",
-        "buy_now3": "https://www.elementvape.com/killer-kustard-vapetasia",
-        "is_featured": 1
+        "popup_txt": "Our award-winning Killer Kustard is globally known for its unmatched vanilla custard flavor. Fair warning, this one is hard to put down!",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vapetasia-killer-kustard", "https://vapesocietysupplies.com/products/killer-kustard-ejuice-100ml-vapetasia/", "https://www.elementvape.com/killer-kustard-vapetasia"],
+            "60ml": ["https://www.ejuices.com/products/vapetasia-killer-kustard", "https://vapesocietysupplies.com/products/killer-kustard-ejuice-100ml-vapetasia/", "https://www.elementvape.com/killer-kustard-vapetasia"],
+            "30ml": ["https://www.ejuices.com/products/vapetasia-ejuice-salts-killer-kustard", "https://vapesocietysupplies.com/products/killer-kustard-salt-vapetasia-salts-30ml/", "https://www.elementvape.com/killer-kustard-vapetasia-salts"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1            
     },
     {
-        "product_name": "Test not feat. 60ml",
-        "product_type": "e-liquid-60ml",
-        "product_slug": "https://www.vapetasia.com/e-liquid-100ml/killer-kustard",
-        "main_img_src": "/img/USA_Killer_Kustard_100ml_3mg.png",
-        "size": "30, 60, 100",
-        "mg": "0,3,6,12",
-        "hero_txt": "An enchanting mix of vanilla and creamy custard, reaching the perfect harmony of sweet and savory.",
-        "sub_txt": "Our award-winning Killer Kustard is globally known for its unmatched vanilla custard flavor. Fair warning, this one is hard to put down!",
-        "popup_txt": "Our award-winning Killer Kustard is globally known for its unmatched vanilla custard flavor. Fair warning, this one is hard to put down!",
-        "popup_img_src": "/img/USA_Killer_Kustard_100ml_3mg.png",
-        "buy_now1": "https://www.ejuices.com/products/vapetasia-killer-kustard",
-        "buy_now2": "https://vapesocietysupplies.com/products/killer-kustard-ejuice-100ml-vapetasia/",
-        "buy_now3": "https://www.elementvape.com/killer-kustard-vapetasia",
-        "is_featured": 0
+        "product_name": "Killer Kustard Strawberry",
+        "product_types": ["e-liquid", "salt"],
+        "product_slug": "killer-kustard-strawberry", 
+        "img_src": {
+            "30ml": "/img/30ml/Killer_Kustard_Strawberry_30ml_24mg.png",
+            "60ml": "/img/600ml/Killer_Kustard_Strawberry_60ml_3mg.png",
+            "100ml": "/img/100ml/Killer_Kustard_Strawberry_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["60ml", "100ml"],
+            "salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["0mg","3mg", "6mg"],
+            "salt": ["12mg", "24mg", "48mg"]
+        },
+        "main_text": "Treat yourself to the taste of freshly picked strawberries at its peak sweetness with this perfect blend of juicy strawberries and rich vanilla custard.",
+        "hero_txt": "Treat yourself to the taste of freshly picked strawberries at its peak sweetness with this perfect blend of juicy strawberries and rich vanilla custard.",
+        "sub_txt": "Killer Kustard Strawberry Salts by Vapetasia merges sweet ripe strawberry chunks with rich and creamy vanilla custard. With each vape your taste buds experence a rush of sweet and savory dessert flavor!",
+        "popup_txt": "Treat yourself to the taste of freshly picked strawberries at its peak sweetness with this perfect blend of juicy strawberries and rich vanilla custard.",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/killer-kustard-by-vapetasia-killer-kustard-strawberry", "https://vapesocietysupplies.com/products/killer-kustard-strawberry-100ml-vapetasia/", "https://www.elementvape.com/killer-kustard-strawberry-vapetasia"],
+            "60ml": ["https://www.ejuices.com/products/killer-kustard-by-vapetasia-killer-kustard-strawberry", "https://vapesocietysupplies.com/products/killer-kustard-strawberry-100ml-vapetasia/", "https://www.elementvape.com/killer-kustard-strawberry-vapetasia"],
+            "30ml": ["https://www.ejuices.com/products/vapetasia-ejuice-salts-killer-kustard-strawberry", "https://vapesocietysupplies.com/products/killer-kustard-strawberry-vapetasia-salts-30ml/", "https://www.elementvape.com/killer-kustard-strawberry-vapetasia-salts"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1            
+    },    
+    {
+        "product_name": "White Gummy",
+        "product_types": ["e-liquid", "salt"],
+        "product_slug": "white-gummy", 
+        "img_src": {
+            "30ml": "/img/30ml/Killer_Sweets_White_Gummy_30ml_24mg.png",
+            "100ml": "/img/100ml/Killer_Sweets_White_Gummy_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["100ml"],
+            "salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["3mg", "6mg"],
+            "salt": ["24mg", "48mg"]
+        },
+        "main_text": "Sink your teeth into a chewy vacation of candy flavor. Pineapple gummies will take you on a delicious trip to tropical flavor town!",
+        "hero_txt": "This bear is straight chilling! Get ready for a cool breeze on your tropical pineapple expedition. This gummy is hard to put down!",
+        "sub_txt": "Sink your teeth into a chewy vacation of candy flavor. Pineapple gummies will take you on a delicious trip to tropical flavor town!",
+        "popup_txt": "This bear is straight chilling! Get ready for a cool breeze on your tropical pineapple expedition. This gummy is hard to put down!",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vapetasia-killer-sweets-ntn-iced-white-gummy", "https://vape.com/products/iced-killer-sweets-white-gummy-by-vapetasia-synthetic-100ml", "https://www.elementvape.com/iced-white-gummy-vapetasia"],       
+            "30ml": ["https://www.ejuices.com/products/vapetasia-killer-sweets-ntn-salts-white-gummy", "https://vape.com/products/killer-sweets-white-gummy-by-vapetasia-synthetic-salt-30ml", "https://www.elementvape.com/iced-white-gummy-vapetasia-salts"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1        
+    }, 	
+    {
+        "product_name": "Rain Bops",
+        "product_types": ["e-liquid", "salt"],
+        "product_slug": "Rain-Bops", 
+        "img_src": {
+            "30ml": "/img/30ml/Killer_Sweets_Rain_Bops_30ml_24mg.png",
+            "100ml": "/img/100ml/Killer_Sweets_Rain_Bops_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["100ml"],
+            "salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["3mg", "6mg"],
+            "salt": ["24mg", "48mg"]
+        },
+        "main_text": "Tart raindrops will make your senses explode with sweet chewy candy flavors. Your sweet tooth cravings will be more than satisfied!",
+        "hero_txt": "Tart raindrops will make your senses explode with sweet chewy candy flavors. Your sweet tooth cravings will be more than satisfied!",
+        "sub_txt": "Tart raindrops will make your senses explode with sweet chewy candy flavors. Your sweet tooth cravings will be more than satisfied!",
+        "popup_txt": "Tart raindrops will make your senses explode with sweet chewy candy flavors. Your sweet tooth cravings will be more than satisfied!",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vapetasia-killer-sweets-ntn-rain-bops", "https://vape.com/products/killer-sweets-rain-bops-by-vapetasia-synthetic-100ml", "https://www.elementvape.com/rain-bops-vapetasia"],       
+            "30ml": ["https://www.elementvape.com/rain-bops-vapetasia", "https://vape.com/products/killer-sweets-rain-bops-by-vapetasia-synthetic-salt-30ml", "https://www.elementvape.com/rain-bops-vapetasia-salts"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1
+            
+    }, 	
+    {
+        "product_name": "Blueberry Parfait",
+        "product_types": ["e-liquid", "salt"],
+        "product_slug": "blueberry-parfait", 
+        "img_src": {
+            "30ml": "/img/30ml/Vape_Partfait_Blueberry_Parfait_30ml_24mg.png",
+            "60ml": "/img/600ml/Vape_Partfait_Blueberry_Parfait_60ml_3mg.png",
+            "100ml": "/img/100ml/Vape_Partfait_Blueberry_Parfait_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["60ml", "100ml"],
+            "salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["0mg","3mg", "6mg"],
+            "salt": ["24mg", "48mg"]
+        },
+        "main_text": "Delicious blueberries and whipped sweet cream yogurt layered with honey kissed granola clusters.",
+        "hero_txt": "Delicious blueberries and whipped sweet cream yogurt layered with honey kissed granola clusters.",
+        "sub_txt": "Delicious blueberries and whipped sweet cream yogurt layered with honey kissed granola clusters. A base of whole-milk vanilla yogurt (none of that tart Greek stuff here) is whipped until it’s smooth and decadently creamy. From there we add generous layers of honey-kissed granola clusters and blueberries bursting with fresh juice. Bottled and ready to tantalize your taste buds, this gourmet vape is perfect at breakfast or while snacking on the go, it’s delicious any time of the day.",
+        "popup_txt": "Delicious blueberries and whipped sweet cream yogurt layered with honey kissed granola clusters. A base of whole-milk vanilla yogurt (none of that tart Greek stuff here) is whipped until it’s smooth and decadently creamy.",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vape-parfait-blueberry-parfait", "https://vapesocietysupplies.com/products/blueberry-parfait-by-vapetasia-100ml/", "https://www.elementvape.com/blueberry-parfait-vapetasia"],
+            "60ml": ["https://www.ejuices.com/products/vape-parfait-blueberry-parfait", "https://vapesocietysupplies.com/products/blueberry-parfait-by-vapetasia-100ml/", "https://www.elementvape.com/blueberry-parfait-vapetasia"],
+            "30ml": ["https://www.ejuices.com/products/vape-parfait-salts-blueberry-parfait", "https://vapesocietysupplies.com/products/blueberry-parfait-by-vapetasia-salts-30ml/", "https://www.elementvape.com/blueberry-parfait-vapetasia-salts"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1        
+    },    
+    {
+        "product_name": "Iced White Gummy",
+        "product_types": ["e-liquid", "salt"],
+        "product_slug": "iced-white-gummy", 
+        "img_src": {
+            "30ml": "/img/30ml/Iced_White_Gummy_30ml_24mg.png",
+            "100ml": "/img/100ml/Iced_White_Gummy_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["60ml", "100ml"],
+            "salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["3mg", "6mg"],
+            "salt": ["24mg", "48mg"]
+        },
+        "main_text": "This bear is straight chilling! Get ready for a cool breeze on your tropical pineapple expedition. This gummy is hard to put down!",
+        "hero_txt": "This bear is straight chilling! Get ready for a cool breeze on your tropical pineapple expedition. This gummy is hard to put down!",
+        "sub_txt": "This bear is straight chilling! Get ready for a cool breeze on your tropical pineapple expedition. This gummy is hard to put down!",
+        "popup_txt": "This bear is straight chilling! Get ready for a cool breeze on your tropical pineapple expedition. This gummy is hard to put down!",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vapetasia-killer-sweets-ntn-white-gummy", "https://vape.com/products/killer-sweets-white-gummy-by-vapetasia-synthetic-100ml", "https://www.elementvape.com/white-gummy-vapetasia"],
+            "30ml": ["https://www.ejuices.com/products/vapetasia-killer-sweets-ntn-salts-iced-white-gummy", "https://vape.com/products/iced-killer-sweets-white-gummy-by-vapetasia-synthetic-salt-30ml", "https://www.elementvape.com/iced-white-gummy-vapetasia-salts"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1        
+    },    
+    {
+        "product_name": "Iced Rain Bops",
+        "product_types": ["e-liquid", "salt"],
+        "product_slug": "iced-rain-bops", 
+        "img_src": {
+            "30ml": "/img/30ml/Iced_Rain_Bops_30ml_24mg.png",
+            "100ml": "/img/100ml/Iced_Rain_Bops_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["100ml"],
+            "salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["3mg", "6mg"],
+            "salt": ["24mg", "48mg"]
+        },
+        "main_text": "The treasure of flavor hidden at the end of the frozen rainbow isn’t a pot of gold, but a hailstorm of icy, colorful chewy candy flavor.",
+        "hero_txt": "Tart raindrops will make your senses explode with sweet chewy candy flavors. Your sweet tooth cravings will be more than satisfied!",
+        "sub_txt": "The treasure of flavor hidden at the end of the frozen rainbow isn’t a pot of gold, but a hailstorm of icy, colorful chewy candy flavor.",
+        "popup_txt": "The treasure of flavor hidden at the end of the frozen rainbow isn’t a pot of gold, but a hailstorm of icy, colorful chewy candy flavor.",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vapetasia-killer-sweets-ntn-iced-rain-bops", "https://vape.com/products/iced-killer-sweets-rain-bops-by-vapetasia-synthetic-100ml/", "https://www.elementvape.com/iced-rain-bops-vapetasia"],
+            "30ml": ["https://www.ejuices.com/products/vapetasia-killer-sweets-ntn-iced-rain-bops", "https://vape.com/products/iced-killer-sweets-rain-bops-by-vapetasia-synthetic-salt-30ml", "https://www.elementvape.com/iced-rain-bops-vapetasia"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1
+    }, 
+    {
+        "product_name": "Strawberry Parfait",
+        "product_types": ["e-liquid", "salt"],
+        "product_slug": "strawberry-parfait", 
+        "img_src": {
+            "30ml": "/img/30ml/Vape_Parfait_Strawberry_Parfait_30ml_24mg.png",
+            "60ml": "/img/600ml/Vape_Parfait_Strawberry_Parfait_60ml_3mg.png",
+            "100ml": "/img/100ml/Vape_Parfait_Strawberry_Parfait_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["60ml", "100ml"],
+            "salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["0mg","3mg", "6mg"],
+            "salt": ["24mg", "48mg"]
+        },
+        "main_text": "Parfait Strawberry delivers the deliciousness of fresh cut strawberries and honey granola clusters layered with sweet and creamy yogurt.",
+        "hero_txt": "Parfait Strawberry delivers the deliciousness of fresh cut strawberries and honey granola clusters layered with sweet and creamy yogurt.",
+        "sub_txt": "Parfait Strawberry delivers the deliciousness of fresh cut strawberries and honey granola clusters layered with sweet and creamy yogurt. A smooth whole-milk yogurt is whipped with vanilla to provide the perfectly balanced mellow creamy flavor. From that base we delicately layer granola clusters kissed with honey and fresh cut strawberries burst with juicy goodness. Bottled and ready to tantalize your taste buds, this gourmet vape is perfect at breakfast or while snacking on the go, it’s delicious any time of the day.",
+        "popup_txt": "Parfait Strawberry delivers the deliciousness of fresh cut strawberries and honey granola clusters layered with sweet and creamy yogurt.",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/pages/search-results-page?q=Strawberry+Parfait", "https://vapesocietysupplies.com/products/strawberry-parfait-by-vapetasia-100ml/", "https://www.elementvape.com/catalogsearch/result/?q=Strawberry+Parfait"],
+            "60ml": ["https://www.ejuices.com/products/vape-parfait-strawberry-parfait", "https://vapesocietysupplies.com/products/strawberry-parfait-by-vapetasia-100ml/", "https://www.elementvape.com/strawberry-parfait-vapetasia"],
+            "30ml": ["https://www.ejuices.com/products/vape-parfait-salts-strawberry-parfait", "https://vape.com/products/strawberry-parfait-by-vapetasia-salts-30ml", "https://www.elementvape.com/strawberry-parfait-vapetasia-salts"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1
+    }, 
+    {
+            "product_name": "Killer Fruits Blue Razz",
+            "product_types": ["e-liquid", "salt"],
+            "product_slug": "blue-razz", 
+            "img_src": {
+                "30ml": "/img/30ml/Killer_Fruits_Blue_Razz_30ml_24mg.png",
+                "100ml": "/img/100ml/Killer_Fruits_Blue_Razz_100ml_3mg.png"
+            },
+            "sizes": {
+                "eliquid": ["100ml"],
+                "salt": ["30ml"]
+            },
+            "strengths": {
+                "eliquid": ["3mg", "6mg"],
+                "salt": ["12mg", "24mg"]
+            },
+            "main_text": "A burst of tart flavor perfectly curated to exceed your expectations. A smooth flavorful inhale of blue raspberry will captivate your tastebuds, you may not want to let it out!",
+            "hero_txt": "A burst of tart flavor perfectly curated to exceed your expectations. A smooth flavorful inhale of blue raspberry will captivate your tastebuds, you may not want to let it out!",
+            "sub_txt": "A burst of tart flavor perfectly curated to exceed your expectations. A smooth flavorful inhale of blue raspberry will captivate your tastebuds, you may not want to let it out!",
+            "popup_txt": "A burst of tart flavor perfectly curated to exceed your expectations. A smooth flavorful inhale of blue raspberry will captivate your tastebuds, you may not want to let it out!",        
+            "buy_now": {
+                "100ml": ["https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-salts-blue-razz-30ml", "https://vape.com/products/killer-fruits-blue-razz-by-vapetasia-synthetic-salts-series-e-liquid", "https://www.elementvape.com/blue-razz-vapetasia-salts"],
+                "30ml": ["https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-blue-razz-100ml", "https://vape.com/products/killer-fruits-blue-razz-by-vapetasia-synthetic-series-e-liquid", "https://www.elementvape.com/blue-razz-vapetasia"]
+            },   
+            "is_featured": 0,
+            "sort_order": 1            
     },
     {
-        "product_name": "Test not feat. 100ml",
-        "product_type": "e-liquid-100ml",
-        "product_slug": "https://www.vapetasia.com/e-liquid-100ml/killer-kustard",
-        "main_img_src": "/img/USA_Killer_Kustard_100ml_3mg.png",
-        "size": "30, 60, 100",
-        "mg": "0,3,6,12",
-        "hero_txt": "An enchanting mix of vanilla and creamy custard, reaching the perfect harmony of sweet and savory.",
-        "sub_txt": "Our award-winning Killer Kustard is globally known for its unmatched vanilla custard flavor. Fair warning, this one is hard to put down!",
-        "popup_txt": "Our award-winning Killer Kustard is globally known for its unmatched vanilla custard flavor. Fair warning, this one is hard to put down!",
-        "popup_img_src": "/img/USA_Killer_Kustard_100ml_3mg.png",
-        "buy_now1": "https://www.ejuices.com/products/vapetasia-killer-kustard",
-        "buy_now2": "https://vapesocietysupplies.com/products/killer-kustard-ejuice-100ml-vapetasia/",
-        "buy_now3": "https://www.elementvape.com/killer-kustard-vapetasia",
-        "is_featured": 0
+        "product_name": "Killer Fruites Straw Guaw",
+        "product_types": ["e-liquid", "salt"],
+        "product_slug": "straw-guaw", 
+        "img_src": {
+            "30ml": "/img/30ml/Killer_Fruits_Staw_Guaw_30ml_24mg.png",
+            "100ml": "/img/100ml/Killer_Fruits_Staw_Guaw_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["60ml", "100ml"],
+            "salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["3mg", "6mg"],
+            "salt": ["24mg", "48mg"]
+        },
+        "main_text": "Allow your taste buds to dance to the medley of sweet strawberries coupled with exotic guava as they create a harmonizing blend of flavor.",
+        "hero_txt": "Allow your taste buds to dance to the medley of sweet strawberries coupled with exotic guava as they create a harmonizing blend of flavor.",
+        "sub_txt": "Allow your taste buds to dance to the medley of sweet strawberries coupled with exotic guava as they create a harmonizing blend of flavor.",
+        "popup_txt": "Allow your taste buds to dance to the medley of sweet strawberries coupled with exotic guava as they create a harmonizing blend of flavor.",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-salts-straw-guaw-30ml", "https://vape.com/products/killer-fruits-straw-guaw-by-vapetasia-synthetic-salts-series-e-liquid", "https://www.elementvape.com/straw-guaw-vapetasia-salts"],
+            "30ml": ["https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-salts-straw-guaw-30ml", "https://vape.com/products/killer-fruits-straw-guaw-by-vapetasia-synthetic-salts-series-e-liquid", "https://www.elementvape.com/straw-guaw-vapetasia-salts"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1
+    }, 
+    {
+        "product_name": "Killer Fruits Trapple",
+        "product_types": ["e-liquid", "salt"],
+        "product_slug": "trapple", 
+        "img_src": {
+            "30ml": "/img/30ml/Killer_Fruits_Trapple_30ml_24mg.png",
+            "100ml": "/img/100ml/Killer_Fruits_Trapple_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["60ml", "100ml"],
+            "salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["3mg", "6mg"],
+            "salt": ["24mg", "48mg"]
+        },
+        "main_text": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
+        "hero_txt": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
+        "sub_txt": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
+        "popup_txt": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-trapple-100ml", "https://vape.com/collections/all/products/killer-fruits-trapple-by-vapetasia-synthetic-100ml", "https://www.elementvape.com/trapple-vapetasia"],
+            "30ml": ["https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-salts-trapple-30ml", "https://vape.com/collections/all/products/killer-fruits-trapple-by-vapetasia-synthetic-salts-30ml", "https://www.elementvape.com/trapple-vapetasia-salts"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1
+    }, 
+    {
+        "product_name": "Iced Blue Razz",
+        "product_types": ["e-liquid", "salt"],
+        "product_slug": "iced-blue-razz", 
+        "img_src": {
+            "30ml": "/img/30ml/Iced_Blue_Razz_30ml_24mg.png",
+            "100ml": "/img/100ml/Iced_Blue_Razz_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["60ml", "100ml"],
+            "salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["3mg", "6mg"],
+            "salt": ["24mg", "48mg"]
+        },
+        "main_text": "Enjoy the chilled taste of vibrant blue raspberry sweetness as you indulge in the icy delicacy that will surely leave you nothing less than satisfied.",
+        "hero_txt": "Enjoy the chilled taste of vibrant blue raspberry sweetness as you indulge in the icy delicacy that will surely leave you nothing less than satisfied.",
+        "sub_txt": "Enjoy the chilled taste of vibrant blue raspberry sweetness as you indulge in the icy delicacy that will surely leave you nothing less than satisfied.",
+        "popup_txt": "Enjoy the chilled taste of vibrant blue raspberry sweetness as you indulge in the icy delicacy that will surely leave you nothing less than satisfied.",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-salts-iced-blue-razz-30ml", "https://vape.com/products/killer-fruits-blue-razz-iced-by-vapetasia-synthetic-salts-series-e-liquid", "https://www.elementvape.com/blue-razz-vapetasia-salts"],
+            "30ml": ["https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-salts-iced-blue-razz-30ml", "https://vapesocietysupplies.com/products/killer-kustard-salt-vapetasia-salts-30ml/", "https://www.elementvape.com/iced-blue-razz-vapetasia-synthetic"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1        
     },
     {
-        "product_name": "Test feat. disp.",
-        "product_type": "disposable",
-        "product_slug": "https://www.vapetasia.com/e-liquid-100ml/killer-kustard",
-        "main_img_src": "/img/USA_Killer_Kustard_100ml_3mg.png",
-        "size": "30, 60, 100",
-        "mg": "0,3,6,12",
-        "hero_txt": "An enchanting mix of vanilla and creamy custard, reaching the perfect harmony of sweet and savory.",
-        "sub_txt": "Our award-winning Killer Kustard is globally known for its unmatched vanilla custard flavor. Fair warning, this one is hard to put down!",
-        "popup_txt": "Our award-winning Killer Kustard is globally known for its unmatched vanilla custard flavor. Fair warning, this one is hard to put down!",
-        "popup_img_src": "/img/USA_Killer_Kustard_100ml_3mg.png",
-        "buy_now1": "https://www.ejuices.com/products/vapetasia-killer-kustard",
-        "buy_now2": "https://vapesocietysupplies.com/products/killer-kustard-ejuice-100ml-vapetasia/",
-        "buy_now3": "https://www.elementvape.com/killer-kustard-vapetasia",
-        "is_featured": 1
+        "product_name": "Iced Straw Guaw",
+        "product_types": ["e-liquid", "salt"],
+        "product_slug": "iced-straw-guaw", 
+        "img_src": {
+            "30ml": "/img/30ml/Iced_Straw_Guaw_30ml_24mg.png",
+            "100ml": "/img/100ml/Iced_Straw_Guaw_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["100ml"],
+            "salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["3mg", "6mg"],
+            "salt": ["24mg", "48mg"]
+        },
+        "main_text": "Strawberry and Guava lifted up by an encapsulating cool breeze creates a lasting taste of frozen sweetness to mesmerize your taste buds.",
+        "hero_txt": "Strawberry and Guava lifted up by an encapsulating cool breeze creates a lasting taste of frozen sweetness to mesmerize your taste buds.",
+        "sub_txt": "Strawberry and Guava lifted up by an encapsulating cool breeze creates a lasting taste of frozen sweetness to mesmerize your taste buds.",
+        "popup_txt": "Strawberry and Guava lifted up by an encapsulating cool breeze creates a lasting taste of frozen sweetness to mesmerize your taste buds.",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-iced-straw-guaw-100ml", "https://vape.com/products/killer-fruits-straw-guaw-iced-by-vapetasia-synthetic-100ml", "https://www.elementvape.com/iced-straw-guaw-vapetasia-synthetic"],        
+            "30ml": ["https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-salts-iced-straw-guaw-30ml", "https://vape.com/products/killer-fruits-straw-guaw-iced-by-vapetasia-synthetic-salts-30ml", "https://www.elementvape.com/iced-straw-guaw-vapetasia-synthetic-salts"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1
+        
     },
     {
-        "product_name": "Test not feat. disp.",
-        "product_type": "disposable",
-        "product_slug": "https://www.vapetasia.com/e-liquid-100ml/killer-kustard",
-        "main_img_src": "/img/USA_Killer_Kustard_100ml_3mg.png",
-        "size": "30, 60, 100",
-        "mg": "0,3,6,12",
-        "hero_txt": "An enchanting mix of vanilla and creamy custard, reaching the perfect harmony of sweet and savory.",
-        "sub_txt": "Our award-winning Killer Kustard is globally known for its unmatched vanilla custard flavor. Fair warning, this one is hard to put down!",
-        "popup_txt": "Our award-winning Killer Kustard is globally known for its unmatched vanilla custard flavor. Fair warning, this one is hard to put down!",
-        "popup_img_src": "/img/USA_Killer_Kustard_100ml_3mg.png",
-        "buy_now1": "https://www.ejuices.com/products/vapetasia-killer-kustard",
-        "buy_now2": "https://vapesocietysupplies.com/products/killer-kustard-ejuice-100ml-vapetasia/",
-        "buy_now3": "https://www.elementvape.com/killer-kustard-vapetasia",
-        "is_featured": 0
+        "product_name": "Iced Trapple",
+        "product_types": ["e-liquid", "salt"],
+        "product_slug": "iced-trapple", 
+        "img_src": {
+            "30ml": "/img/30ml/Iced_Trapple_30ml_24mg.png",
+            "100ml": "/img/100ml/Iced_Trapple_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["100ml"],
+            "salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["3mg", "6mg"],
+            "salt": ["24mg", "48mg"]
+        },
+        "main_text": "Seamlessly blended apples will take your senses by a cold storm of flavor. Red, green, and golden apples bond together with ice to create a taste that is hard to let go of.",
+        "hero_txt": "Seamlessly blended apples will take your senses by a cold storm of flavor. Red, green, and golden apples bond together with ice to create a taste that is hard to let go of.",
+        "sub_txt": "Seamlessly blended apples will take your senses by a cold storm of flavor. Red, green, and golden apples bond together with ice to create a taste that is hard to let go of.",
+        "popup_txt": "Seamlessly blended apples will take your senses by a cold storm of flavor. Red, green, and golden apples bond together with ice to create a taste that is hard to let go of.",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-salts-iced-trapple-30ml", "https://vape.com/collections/all/products/killer-fruits-trapple-iced-by-vapetasia-synthetic-salts-30ml", "https://www.elementvape.com/iced-trapple-vapetasia-synthetic-salts"],            
+            "30ml": ["https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-salts-iced-trapple-30ml", "https://vape.com/collections/all/products/killer-fruits-trapple-iced-by-vapetasia-synthetic-100ml#", "https://www.elementvape.com/iced-trapple-vapetasia-synthetic"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1
+        
+    },
+    {
+        "product_name": "Killer Fruits Pango",
+        "product_types": ["e-liquid"],
+        "product_slug": "pango", 
+        "img_src": {
+			"30ml": "/img/30ml/Pango_30ml_24mg.png",
+            "100ml": "/img/100ml/Pango_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["100ml"],
+			"salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["3mg", "6mg"],
+			"salt": ["24mg", "48mg"]
+			
+        },
+        "main_text": "A fusion of juicy peaches with freshly sliced mangos form a harmonious blend of sweet flavor for you to enjoy!",
+        "hero_txt": "New from Vapetasia! Our Killer Fruits lineup offers unique blends of succulent fruit flavors!",
+        "sub_txt": "A fusion of juicy peaches with freshly sliced mangos form a harmonious blend of sweet flavor for you to enjoy!",
+        "popup_txt": "A fusion of juicy peaches with freshly sliced mangos form a harmonious blend of sweet flavor for you to enjoy!",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-pango-100ml", "https://vape.com/products/killer-fruits-pango-by-vapetasia-e-liquid", "https://www.elementvape.com/pango-vapetasia"],
+			"30ml": ["https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-salts-pango-30ml", "https://vape.com/products/killer-fruits-pango-by-vapetasia-e-liquid", "https://www.elementvape.com/pango-vapetasia"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1
+        
+    },
+    {
+        "product_name": "Killer Kustard Blueberry",
+        "product_types": ["e-liquid", "salt"],
+        "product_slug": "killer-kustard-blueberry", 
+        "img_src": {
+            "30ml": "/img/30ml/Killer_Kustard_Blueberry_30ml_24mg.png",
+            "60ml": "/img/600ml/Killer_Kustard_Blueberry_60ml_3mg.png",
+            "100ml": "/img/100ml/Killer_Kustard_Blueberry_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["60ml", "100ml"],
+            "salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["0mg","3mg", "6mg"],
+            "salt": ["24mg", "48mg"]
+        },
+        "main_text": "Crazy for the Killer Kustard Blueberry. Enjoy a pinch of ripe blueberry sweetness, complemented by our rich vanilla custard",
+        "hero_txt": "Crazy for the Killer Kustard Blueberry. Enjoy a pinch of ripe blueberry sweetness, complemented by our rich vanilla custard",
+        "sub_txt": " Vapetasia presents Blueberry Killer Kustard E-Liquid! Available in 60ml bottles, this blueberry custard elquid is pure bliss! If you are searching for the smoothest, richest and most delicious custard on the planet with that perfect kiss of blueberry… look no further!",
+        "popup_txt": "Crazy for the Killer Kustard Blueberry. Enjoy a pinch of ripe blueberry sweetness, complemented by our rich vanilla custard",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vapetasia-ejuice-killer-kustard-blueberry", "https://vapesocietysupplies.com/products/killer-kustard-blueberry-by-vapetasia-100ml/", "https://www.elementvape.com/killer-kustard-blueberry-vapetasia"],
+            "60ml": ["https://www.ejuices.com/products/vapetasia-ejuice-killer-kustard-blueberry", "https://vapesocietysupplies.com/products/killer-kustard-blueberry-by-vapetasia-100ml/", "https://www.elementvape.com/killer-kustard-blueberry-vapetasia"],
+            "30ml": ["https://www.ejuices.com/products/vapetasia-ejuice-salts-killer-kustard-blueberry", "https://vapesocietysupplies.com/products/killer-kustard-blueberry-by-vapetasia-salts-30ml/", "https://www.elementvape.com/killer-kustard-blueberry-vapetasia-salts"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1
+            
+    },
+    {
+        "product_name": "Killer Kustard Lemon",
+        "product_types": ["e-liquid"],
+        "product_slug": "killer-kustard-lemon", 
+        "img_src": {
+            "100ml": "/img/100ml/Killer_Kustard_Lemon_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["100ml"]        
+        },
+        "strengths": {
+            "eliquid": ["0mg","3mg", "6mg"]        
+        },
+        "main_text": "Take a refreshing dive into our signature Killer Kustard flavor finished with a delightful hint of crisp tangy lemon.",
+        "hero_txt": "Killer Kustard Lemon E-Liquid by Vapetasia is a lemony version of a kold killin’ classic…",
+        "sub_txt": "Killer Kustard Lemon by Vapetasia 100ml is a fusion of our signature rich creamy custard and tangy fresh lemon slices. The perfect lemon dessert for any occassion.",
+        "popup_txt": "Take a refreshing dive into our signature Killer Kustard flavor finished with a delightful hint of crisp tangy lemon.",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vapetasia-ejuice-killer-kustard-lemon", "https://vapesocietysupplies.com/products/killer-kustard-lemon-by-vapetasia-100ml/", "https://www.elementvape.com/killer-kustard-lemon-vapetasia"]
+            },   
+        "is_featured": 0,
+        "sort_order": 1
+            
+    },
+    {
+        "product_name": "Killer Kustard Honeydew",
+        "product_types": ["e-liquid"],
+        "product_slug": "killer-kustard-honeydew", 
+        "img_src": {
+            "100ml": "/img/100ml/Killer_Kustard_Honeydew_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["100ml"]         
+        },
+        "strengths": {
+            "eliquid": ["0mg","3mg", "6mg"]          
+        },
+        "main_text": "We’ve merged the best of both worlds with the creamy Killer Kustard ending with a light and luscious honeydew finish.",
+        "hero_txt": "Honeydew Killer Kustard E-Liquid by Vapetasia takes the one and only true vanilla custard and tops it with fresh honeydew slices.",
+        "sub_txt": "This mouth-watering treat has our signature Killer Kustard flavor with just the perfect amount of honeydew sweetness. The light honeydew scent will instantly tantalize your senses and refresh your taste buds at every exhale.",
+        "popup_txt": "We’ve merged the best of both worlds with the creamy Killer Kustard ending with a light and luscious honeydew finish.",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vapetasia-ejuice-killer-kustard-honeydew", "https://vapesocietysupplies.com/products/killer-kustard-honeydew-by-vapetasia-100ml/", "https://www.elementvape.com/killer-kustard-honeydew-vapetasia"]
+            },   
+        "is_featured": 0,
+        "sort_order": 1
+        
+    },
+    {
+        "product_name": "Pineapple Express",
+        "product_types": ["e-liquid", "salt"],
+        "product_slug": "pineapple-express", 
+        "img_src": {
+            "30ml": "/img/30ml/Vapetasia_Pineapple_Express_30ml_24mg.png",
+            "60ml": "/img/600ml/Vapetasia_Pineapple_Express_60ml_3mg.png",
+            "100ml": "/img/100ml/Vapetasia_Pineapple_Express_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["60ml", "100ml"],
+            "salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["0mg","3mg", "6mg"],
+            "salt": ["24mg", "48mg"]
+        },
+        "main_text": "A relaxing tropical trip with a big ripe juicy pineapple taste cruising with our trademark creaminess!",
+        "hero_txt": "A relaxing tropical trip with a big ripe juicy pineapple taste cruising with our trademark creaminess!",
+        "sub_txt": "Bold, juicy pineapple with subtle hints of marshmallow cream will take you on a flavorful journey to a tropical paradise. Let your worries melt away as fresh juicy pineapples, layered with a delicate hint of cream, transport you to your own private Hawaiian vacation. You’ll swear it’s the real thing. Tart, tangy, sweet, and utterly satisfying. If you’re a pineapple lover, this is the vape you’ve been looking for.",
+        "popup_txt": "A relaxing tropical trip with a big ripe juicy pineapple taste cruising with our trademark creaminess!",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vapetasia-ejuice-iced-pineapple-express", "https://vapesocietysupplies.com/products/pineapple-express-ejuice-100ml/", "https://www.elementvape.com/pineapple-express-by-vapetasia-100ml"],
+            "60ml": ["https://www.ejuices.com/products/vapetasia-pineapple-express", "https://vapesocietysupplies.com/products/pineapple-express-ejuice-100ml/", "https://www.elementvape.com/pineapple-express-by-vapetasia-100ml"],
+            "30ml": ["https://www.ejuices.com/products/vapetasia-ejuice-salts-pineapple-express", "https://vapesocietysupplies.com/products/pineapple-express-vapetasia-salts-30ml/", "https://www.elementvape.com/pineapple-express-vapetasia-salts"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1
+        
+    },
+    {
+        "product_name": "Rainbow Road",
+        "product_types": ["e-liquid", "salt"],
+        "product_slug": "rainbow-road", 
+        "img_src": {
+            "30ml": "/img/30ml/Vapetasia_Rainbow_Road_30ml_24mg.png",
+            "60ml": "/img/600ml/Vapetasia_Rainbow_Road_60ml_3mg.png",
+            "100ml": "/img/100ml/Vapetasia_Rainbow_Road_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["60ml", "100ml"],
+            "salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["0mg","3mg", "6mg"],
+            "salt": ["24mg", "48mg"]
+        },
+        "main_text": "Rainbow Road is a fruity fruit cereal that has been steeping in milk, but not long enough to get all soggy. The inhale will be a fruity cereal delight. The exhale will be a milky cream dream.",
+        "hero_txt": "Taste every color with Rainbow Road. The perfect combination of sweet berry cereal and fresh milk that will leave you wanting more!",
+        "sub_txt": "A classic combination of Saturday morning breakfast cereal and milk topped with fresh berries. True to its name this vape takes you on a colorful journey starting with the essence of iconic fruity breakfast cereal. Citrus and berries burst across your tongue finishing with a creamy cloud of sweetened milk as you exhale.",
+        "popup_txt": "Taste every color with Rainbow Road. The perfect combination of sweet berry cereal and fresh milk that will leave you wanting more!",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vapetasia-rainbow-road", "https://vapesocietysupplies.com/products/rainbow-road-vapetasia-100ml/", "https://www.elementvape.com/rainbow-road-vapetasia"],
+            "60ml": ["https://www.ejuices.com/products/vapetasia-rainbow-road", "https://vapesocietysupplies.com/products/rainbow-road-vapetasia-100ml/", "https://www.elementvape.com/rainbow-road-vapetasia"],
+            "30ml": ["https://www.ejuices.com/products/vapetasia-ejuice-salts-rainbow-road", "https://vapesocietysupplies.com/products/rainbow-road-vapetasia-salts-30ml/", "https://www.elementvape.com/rainbow-road-vapetasia-salts"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1        
+    },
+    {
+        "product_name": "Milk Of The Poppy",
+        "product_types": ["e-liquid", "salt"],
+        "product_slug": "milk-of-the-poppy", 
+        "img_src": {
+            "30ml": "/img/30ml/Vapetasia_Milk_Of_The_Poppy_30ml_24mg.png",
+            "60ml": "/img/600ml/Vapetasia_Milk_Of_The_Poppy_60ml_3mg.png",
+            "100ml": "/img/100ml/Vapetasia_Milk_Of_The_Poppy_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["60ml", "100ml"],
+            "salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["0mg","3mg", "6mg", "12mg"],
+            "salt": ["12mg", "24mg", "48mg"]
+        },
+        "main_text": "Milk Of The Poppy is a smooth mixture of strawberries and dragon fruit covered in sweet cream. The inhale will be a magical journey to strawberry land. The exhale will be a tongue magic carpet ride to dragon fruit cream land.",
+        "hero_txt": "Milk of the Poppy is an addictive mixture of sweet strawberries, a breath of dragon fruit, and a velvety cream.",
+        "sub_txt": "A velvety blend of strawberries and dragon fruit mixed with cream that can become highly addictive. Milk of the Poppy is a gourmet e-liquid that skillfully combines the bold sweetness of ripe strawberries, a subtle breath of dragon fruit, and our signature creaminess in every cloud that dances off the tongue.",
+        "popup_txt": "Milk of the Poppy is an addictive mixture of sweet strawberries, a breath of dragon fruit, and a velvety cream.",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vapetasia-milk-of-the-poppy", "https://vapesocietysupplies.com/products/milk-of-the-poppy-by-vapetasia-100ml/", "https://www.elementvape.com/milk-of-the-poppy-vapetasia"],
+            "60ml": ["https://www.ejuices.com/products/vapetasia-milk-of-the-poppy", "https://vapesocietysupplies.com/products/milk-of-the-poppy-by-vapetasia-100ml/", "https://www.elementvape.com/milk-of-the-poppy-vapetasia"],
+            "30ml": ["https://www.ejuices.com/products/vapetasia-ejuice-salts-milk-of-the-poppy", "https://vapesocietysupplies.com/products/milk-of-the-poppy-vapetasia-salts-30ml/", "https://www.elementvape.com/milk-of-the-poppy-vapetasia-salts"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1
+        
+    },
+    {
+        "product_name": "Royalty Two",
+        "product_types": ["e-liquid", "salt"],
+        "product_slug": "royalty-ii", 
+        "img_src": {
+            "30ml": "/img/30ml/Vapetasia_Royalty_ii_30ml_24mg.png",
+            "60ml": "/img/600ml/Vapetasia_Royalty_ii_60ml_3mg.png",
+            "100ml": "/img/100ml/Vapetasia_Royalty_ii_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["60ml", "100ml"],
+            "salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["0mg","3mg", "6mg", "12mg"],
+            "salt": ["12mg", "24mg", "48mg"]
+        },
+        "main_text": "Hints of rich custard, sweet hazelnuts, and creamy vanilla forged boldly with a mild tobacco flavor. Our Royalty II Gourmet E-Liquid is an exceptional flavor and favored above all others in our lineup.",
+        "hero_txt": "Enjoy one of our most unique flavors. Royalty Two has hints of rich custard, sweet nuts, and a creamy vanilla forged boldy with a mild tobacco flavor.",
+        "sub_txt": "Hints of rich custard, sweet hazelnuts, and creamy vanilla forged boldly with a mild tobacco flavor. Our Royalty Two Gourmet E-Liquid is an exceptional flavor and favored above all others in our lineup. With each dignified inhale you’ll find complex and unique notes of custard, hazelnuts, and vanilla melding together with a mild tobacco flavor, that is sure to please the most discerning of palates. Upon exhale, you’ll meet the most splendid creamy flavors. This magnificent blend is ideal for all vapers in the land.",
+        "popup_txt": "Enjoy one of our most unique flavors. Royalty Two has hints of rich custard, sweet nuts, and a creamy vanilla forged boldy with a mild tobacco flavor!",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vapetasia-royalty-ii", "https://vapesocietysupplies.com/products/royalty-ii-eliquid-by-vapetasia-ejuice-100ml/", "https://www.elementvape.com/royalty-ii-by-vapetasia-100ml"],
+            "60ml": ["https://www.ejuices.com/products/vapetasia-royalty-ii", "https://vapesocietysupplies.com/products/royalty-ii-eliquid-by-vapetasia-ejuice-100ml/", "https://www.elementvape.com/royalty-ii-by-vapetasia-100ml"],
+            "30ml": ["https://www.ejuices.com/products/vapetasia-ejuice-salts-royalty-ii", "https://vapesocietysupplies.com/products/royalty-ii-salt-vapetasia-salts-30ml/", "https://www.elementvape.com/royalty-ii-vapetasia-salts"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1        
+    },
+    {
+        "product_name": "Iced Pineapple Express",
+        "product_types": ["e-liquid", "salt"],
+        "product_slug": "iced-pineapple-express", 
+        "img_src": {
+            "30ml": "/img/30ml/Iced_Pineapple_Express_30ml_24mg.png",
+            "60ml": "/img/600ml/Iced_Pineapple_Express_60ml_3mg.png",
+            "100ml": "/img/100ml/Iced_Pineapple_Express_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["60ml", "100ml"],
+            "salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["0mg","3mg", "6mg"],
+            "salt": ["24mg", "48mg"]
+        },
+        "main_text": "Chill out with this relaxing tropical trip! A mix of ripe juicy pineapple and the chilling coolness of menthol combine for a flavor that will whisk you away to frozen paradise!.",
+        "hero_txt": "Chill out with this relaxing tropical trip! A mix of ripe juicy pineapple and the chilling coolness of menthol combine for a flavor that will whisk you away to frozen paradise!",
+        "sub_txt": "Chill out with this relaxing tropical trip! A mix of ripe juicy pineapple and the chilling coolness of menthol combine for a flavor that will whisk you away to frozen paradise!",
+        "popup_txt": "Chill out with this relaxing tropical trip! A mix of ripe juicy pineapple and the chilling coolness of menthol combine for a flavor that will whisk you away to frozen paradise!",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vapetasia-ejuice-iced-pineapple-express", "https://vapesocietysupplies.com/products/pineapple-express-iced-by-vapetasia-100ml/", "https://www.elementvape.com/iced-pineapple-express-vapetasia-100ml"],
+            "60ml": ["https://www.ejuices.com/products/vapetasia-ejuice-iced-pineapple-express", "https://vapesocietysupplies.com/products/pineapple-express-iced-by-vapetasia-100ml/", "https://www.elementvape.com/iced-pineapple-express-vapetasia-100ml"],
+            "30ml": ["https://www.ejuices.com/products/vapetasia-ejuice-iced-salts-pineapple-express", "https://vapesocietysupplies.com/products/pineapple-express-iced-by-vapetasia-salts-30ml/", "https://www.elementvape.com/iced-pineapple-express-vapetasia-salts"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1        
+    },
+    {
+        "product_name": "Iced Milk of the Poppy",
+        "product_types": ["e-liquid", "salt"],
+        "product_slug": "iced-milk-of-the-poppy", 
+        "img_src": {
+            "30ml": "/img/30ml/Iced_Milk_of_the_Poppy_30ml_24mg.png",
+            "60ml": "/img/600ml/Iced_Milk_of_the_Poppy_60ml_3mg.png",
+            "100ml": "/img/100ml/Iced_Milk_of_the_Poppy_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["60ml", "100ml"],
+            "salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["0mg","3mg", "6mg"],
+            "salt": ["24mg", "48mg"]
+        },
+        "main_text": "A unique combination of ice-cold strawberries blended with the chilling breath of dragon fruit for that perfect mix of fire and ice!",
+        "hero_txt": "A unique combination of ice-cold strawberries blended with the chilling breath of dragon fruit for that perfect mix of fire and ice!",
+        "sub_txt": "ICED Milk of the Poppy E-liquid 60ml by Vapetasia blends ripe strawberries and a chilling breath of dragon fruit with an ice-cold freeze. A chilling twist on the classic strawberry vape that unites a cooling tangy and sweet flavor profile into one amazing flavor profile! A smooth vape experience you won’t find anywhere else! ICED Milk of the Poppy E-liquid 60ml by Vapetasia is available in 0mg, 3mg, and 6mg nicotine options. 70VG / 30PG Blend.",
+        "popup_txt": "A unique combination of ice-cold strawberries blended with the chilling breath of dragon fruit for that perfect mix of fire and ice!",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vapetasia-ejuice-iced-milk-of-the-poppy", "https://vapesocietysupplies.com/products/milk-of-the-poppy-iced-by-vapetasia-100ml/", "https://www.elementvape.com/iced-milk-of-the-poppy-vapetasia"],
+            "60ml": ["https://www.ejuices.com/products/vapetasia-ejuice-iced-milk-of-the-poppy", "https://vapesocietysupplies.com/products/milk-of-the-poppy-iced-by-vapetasia-100ml/", "https://www.elementvape.com/iced-milk-of-the-poppy-vapetasia"],
+            "30ml": ["https://www.ejuices.com/products/vapetasia-ejuice-iced-salts-milk-of-the-poppy", "https://vapesocietysupplies.com/products/milk-of-the-poppy-iced-by-vapetasia-salts-30ml/", "https://www.elementvape.com/iced-milk-of-the-poppy-vapetasia-salts"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1
+        
+    },
+    {
+        "product_name": "Blackberry Lemonade",
+        "product_types": ["e-liquid", "salt"],
+        "product_slug": "blackberry-lemonade", 
+        "img_src": {
+            "30ml": "/img/30ml/Vape_Lemonade_Blackberry_Lemonade_30ml_24mg.png",
+            "60ml": "/img/600ml/Vape_Lemonade_Blackberry_Lemonade_60ml_3mg.png",
+            "100ml": "/img/100ml/Vape_Lemonade_Blackberry_Lemonade_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["60ml", "100ml"],
+            "salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["0mg","3mg", "6mg"],
+            "salt": ["24mg", "48mg"]
+        },
+        "main_text": "Vapetasia’s Blackberry Lemonade is a lively blend of sweet blackberries and tangy lemons. A winning combination that creates a delicious, refreshing, and unique lemonade flavor profile",
+        "hero_txt": "Vapetasia’s Blackberry Lemonade is a lively blend of sweet blackberries and tangy lemons. A winning combination that creates a delicious, refreshing, and unique lemonade flavor profile",
+        "sub_txt": "Vapetasia Blackberry Lemonade create a more complex sweet-tart flavor profile which is combined with the classic sweetness of lemonade that’s sure to refresh your senses. Just as the old adage says, darker berries result in a sweet-tart flavor profile. With this in mind we’ve made an invigorating blend of lemons and blackberries for a vibrantly tasty, tangy, yet smooth vaping experience. Succulent blackberries create a more complex lemonade with the perfect sweetness that’s sure to refresh your senses and revitalize the soul! Your all-time favorite drink now comes in an e-liquid form!",
+        "popup_txt": "Vapetasia’s Blackberry Lemonade is a lively blend of sweet blackberries and tangy lemons. A winning combination that creates a delicious, refreshing, and unique lemonade flavor profile",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vapetasia-lemonade-blackberry", "https://vapesocietysupplies.com/products/blackberry-lemonade-vapetasia-100ml/", "https://www.elementvape.com/blackberry-lemonade-by-vapetasia-60ml"],
+            "60ml": ["https://www.ejuices.com/products/vapetasia-lemonade-blackberry", "https://vapesocietysupplies.com/products/blackberry-lemonade-vapetasia-100ml/", "https://www.elementvape.com/blackberry-lemonade-by-vapetasia-60ml"],
+            "30ml": ["https://www.ejuices.com/products/vape-lemonade-e-liquid-salt-blackberry-lemonade", "https://vapesocietysupplies.com/products/blackberry-lemonade-by-vapetasia-salts-30ml/", "https://www.elementvape.com/blackberry-lemonade-vapetasia-salts"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1        
+    },
+    {
+        "product_name": "Iced Blackberry Lemonade",
+        "product_types": ["e-liquid", "salt"],
+        "product_slug": "iced-blackberry-lemonade", 
+        "img_src": {
+            "30ml": "/img/30ml/Iced_Blackberry_Lemonade_30ml_24mg.png",
+            "60ml": "/img/600ml/Iced_Blackberry_Lemonade_60ml_3mg.png",
+            "100ml": "/img/100ml/Iced_Blackberry_Lemonade_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["100ml"],
+            "salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["0mg","3mg", "6mg"],
+            "salt": ["24mg", "48mg"]
+        },
+        "main_text": "Refreshing lemonade and sweet blackberry puree combined with the icy chill of menthol for a satisfying cool breeze you just can’t put down!",
+        "hero_txt": "Refreshing lemonade and sweet blackberry puree combined with the icy chill of menthol for a satisfying cool breeze you just can’t put down!",
+        "sub_txt": "Refreshing lemonade and sweet blackberry puree combined with the icy chill of menthol for a satisfying cool breeze you just can’t put down!",
+        "popup_txt": "Refreshing lemonade and sweet blackberry puree combined with the icy chill of menthol for a satisfying cool breeze you just can’t put down!",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vapetasia-ejuice-iced-blackberry-lemonade", "https://vapesocietysupplies.com/products/blackberry-lemonade-iced-by-vapetasia-100ml/", "https://www.elementvape.com/iced-blackberry-lemonade-vapetasia-100ml"],        
+            "30ml": ["https://www.ejuices.com/products/vapetasia-ejuice-iced-salts-blackberry-lemonade", "https://vapesocietysupplies.com/products/blackberry-lemonade-iced-by-vapetasia-salts-30ml/", "https://www.elementvape.com/iced-blackberry-lemonade-vapetasia-salts"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1        
+    },
+    {
+        "product_name": "Pink Lemonade",
+        "product_types": ["e-liquid", "salt"],
+        "product_slug": "pink-lemonade", 
+        "img_src": {
+            "30ml": "/img/30ml/Vape_Lemonade_Pink_Lemonade_30ml_24mg.png",
+            "60ml": "/img/600ml/Vape_Lemonade_Pink_Lemonade_60ml_3mg.png",
+            "100ml": "/img/100ml/Vape_Lemonade_Pink_Lemonade_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["60ml", "100ml"],
+            "salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["0mg","3mg", "6mg"],
+            "salt": [ "24mg", "48mg"]
+        },
+        "main_text": "Vapetasia’s Pink Lemonade is a perfect blend of traditional lemonade with sweet, fresh raspberries. A refreshing lemonade ejuice flavor that hits the spot on those hot summer days.",
+        "hero_txt": "Vapetasia’s Pink Lemonade is a perfect blend of traditional lemonade with sweet, fresh raspberries. A refreshing lemonade ejuice flavor that hits the spot on those hot summer days.",
+        "sub_txt": "Vapetasia Pink Lemonade is tangy, tart and delightfully sweet that invigorates with each exhale of a juicy lemon. We specialize in flavors that never get old… The classics! Our Vapetasia Pink Lemonade is the flavor that’s tangy, tart and perfectly sweet. On inhale you’re met with a delightful sweetness that foreshadows the invigorating exhale of a robust, juicy lemon! So reach for Pink Lemonade after those long days, because your taste buds deserve it and so do you!",
+        "popup_txt": "Vapetasia Pink Lemonade is tangy, tart and delightfully sweet that invigorates with each exhale of a juicy lemon. We specialize in flavors that never get old… The classics! Our Vapetasia Pink Lemonade is the flavor that’s tangy, tart and perfectly sweet.",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vapetasia-lemonade-pink-lemonade", "https://vapesocietysupplies.com/products/pink-lemonade-vaptasia-100ml/", "https://www.elementvape.com/pink-lemonade-vapetasia"],
+            "60ml": ["https://www.ejuices.com/products/vapetasia-lemonade-pink-lemonade", "https://vapesocietysupplies.com/products/pink-lemonade-vaptasia-100ml/", "https://www.elementvape.com/pink-lemonade-vapetasia"],
+            "30ml": ["https://www.ejuices.com/products/vape-lemonade-e-liquid-salt-pink-lemonade", "https://vapesocietysupplies.com/products/pink-lemonade-by-vapetasia-salts-30ml/", "https://www.elementvape.com/pink-lemonade-vapetasia-salts"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1        
+    },
+    {
+        "product_name": "Killer Kustard Blueberry",
+        "product_types": ["e-liquid", "salt"],
+        "product_slug": "killer-kustard-blueberry", 
+        "img_src": {
+            "30ml": "/img/30ml/Killer_Kustard_Blueberry_30ml_24mg.png",
+            "60ml": "/img/600ml/Killer_Kustard_Blueberry_60ml_3mg.png",
+            "100ml": "/img/100ml/Killer_Kustard_Blueberry_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["60ml", "100ml"],
+            "salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["0mg","3mg", "6mg"],
+            "salt": ["24mg", "48mg"]
+        },
+        "main_text": "Crazy for the Killer Kustard Blueberry. Enjoy a pinch of ripe blueberry sweetness, complemented by our rich vanilla custard",
+        "hero_txt": "Crazy for the Killer Kustard Blueberry. Enjoy a pinch of ripe blueberry sweetness, complemented by our rich vanilla custard",
+        "sub_txt": "Vapetasia presents Blueberry Killer Kustard E-Liquid! Available in 60ml bottles, this blueberry custard elquid is pure bliss! If you are searching for the smoothest, richest and most delicious custard on the planet with that perfect kiss of blueberry… look no further!",
+        "popup_txt": "Crazy for the Killer Kustard Blueberry. Enjoy a pinch of ripe blueberry sweetness, complemented by our rich vanilla custard",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vapetasia-ejuice-killer-kustard-blueberry", "https://vapesocietysupplies.com/products/killer-kustard-blueberry-by-vapetasia-100ml/", "https://www.elementvape.com/killer-kustard-blueberry-vapetasia"],
+            "60ml": ["https://www.ejuices.com/products/vapetasia-ejuice-killer-kustard-blueberry", "https://vapesocietysupplies.com/products/killer-kustard-blueberry-by-vapetasia-100ml/", "https://www.elementvape.com/killer-kustard-blueberry-vapetasia"],
+            "30ml": ["https://www.ejuices.com/products/vapetasia-ejuice-salts-killer-kustard-blueberry", "https://vapesocietysupplies.com/products/killer-kustard-blueberry-by-vapetasia-salts-30ml/", "https://www.elementvape.com/killer-kustard-blueberry-vapetasia-salts"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1        
+    },
+    {
+        "product_name": "Killer Fruits Grape",
+        "product_types": ["e-liquid"],
+        "product_slug": "grape", 
+        "img_src": {
+			"30ml": "/img/30ml/Killer_Fruits_Grape_30ml_24mg.png",
+            "100ml": "/img/100ml/Killer_Fruits_Grape_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["100ml"],
+			"salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["3mg", "6mg"],
+            "salt": ["24mg", "48mg"]
+        },
+        "main_text": "Enjoy the ripe bursting experience and prepare to be blown away by the pop of refreshing grape flavor that will take over your tastebuds.",
+        "hero_txt": "New from Vapetasia! Our Killer Fruits lineup offers unique blends of succulent fruit flavors!",
+        "sub_txt": "Enjoy the ripe bursting experience and prepare to be blown away by the pop of refreshing grape flavor that will take over your tastebuds.",
+        "popup_txt": "Enjoy the ripe bursting experience and prepare to be blown away by the pop of refreshing grape flavor that will take over your tastebuds.",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-grape-100ml", "https://vape.com/products/killer-fruits-grape-by-vapetasia-e-liquid", "https://www.elementvape.com/grape-vapetasia"],
+            "30ml": ["https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-grape-100ml", "https://vape.com/products/killer-fruits-grape-by-vapetasia-salts-e-liquid", "https://www.elementvape.com/grape-vapetasia"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1        
+    },
+    {
+        "product_name": "Iced Pango",
+        "product_types": ["e-liquid"],
+        "product_slug": "iced-pango", 
+        "img_src": {
+			"30ml": "/img/30ml/Iced_Pango_30ml_24mg.png",
+            "100ml": "/img/100ml/Iced_Pango_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["100ml"],
+			"salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["3mg", "6mg"],
+            "salt": ["24mg", "48mg"]
+        },
+        "main_text": "Entering into the mix of perfect peaches and mouth watering mango, ice will take this combination to a flavorful freezing point!",
+        "hero_txt": "New from Vapetasia! Our Killer Fruits lineup offers unique blends of succulent fruit flavors!",
+        "sub_txt": "Entering into the mix of perfect peaches and mouth watering mango, ice will take this combination to a flavorful freezing point!",
+        "popup_txt": "Entering into the mix of perfect peaches and mouth watering mango, ice will take this combination to a flavorful freezing point!",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-iced-pango-100ml", "https://vape.com/products/killer-fruits-iced-pango-by-vapetasia-e-liquid", "https://www.elementvape.com/iced-pango-vapetasia"],
+            "30ml": ["https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-grape-100ml", "https://vape.com/products/killer-fruits-grape-by-vapetasia-salts-e-liquid", "https://www.elementvape.com/grape-vapetasia"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1        
+    },
+    {
+        "product_name": "Iced Grape",
+        "product_types": ["e-liquid"],
+        "product_slug": "iced-grape", 
+        "img_src": {
+			"30ml": "/img/30ml/Iced_Grape_30ml_24mg.png",
+            "100ml": "/img/100ml/Iced_Grape_100ml_3mg.png"
+        },
+        "sizes": {
+            "eliquid": ["100ml"],
+			"salt": ["30ml"]
+        },
+        "strengths": {
+            "eliquid": ["3mg", "6mg"],
+            "salt": ["24mg", "48mg"]
+        },
+        "main_text": "Bunches of ripe bursting grapes frozen by a cool wave of icy sweetness. This flavor might just freeze you over with euphoria",
+        "hero_txt": "New from Vapetasia! Our Killer Fruits lineup offers unique blends of succulent fruit flavors!",
+        "sub_txt": "Bunches of ripe bursting grapes frozen by a cool wave of icy sweetness. This flavor might just freeze you over with euphoria",
+        "popup_txt": "Bunches of ripe bursting grapes frozen by a cool wave of icy sweetness. This flavor might just freeze you over with euphoria",        
+        "buy_now": {
+            "100ml": ["https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-iced-grape-100ml", "https://vape.com/products/killer-fruits-iced-grape-by-vapetasia-e-liquid", "https://www.elementvape.com/iced-grape-vapetasia"],
+            "30ml": ["https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-grape-100ml", "https://vape.com/products/killer-fruits-grape-by-vapetasia-salts-e-liquid", "https://www.elementvape.com/grape-vapetasia"]
+        },   
+        "is_featured": 0,
+        "sort_order": 1        
+    },            
+    {
+        "product_name": "Vapetasia X Hyve Disposable Dragons Breath",
+        "product_types": "disposable",
+        "product_slug": "vapetasia-x-hyve-disposables", 
+        "img_src": {
+           "6ml": "/img/Disposables_Vapetasia_x_hyve_disposables_Dragons_Breath_6ml_50mg.png",
+           "10ml": "/img/Disposables_Vapetasia_x_hyve_disposables_Dragons_Breath_10ml_50mg.png"
+        },
+        "sizes": ["6ml", "10ml"],
+        "disposable_strengths": "50mg",
+        "main_text": "Embrace yourself! Dragon fruit, strawberry and honeydew create a firestorm of fruity flavor. Bring something to cool off, this flavor is HOT!",
+        "sub_txt": "Embrace yourself! Dragon fruit, strawberry and honeydew create a firestorm of fruity flavor. Bring something to cool off, this flavor is HOT!",
+        "popup_txt": "Embrace yourself! Dragon fruit, strawberry and honeydew create a firestorm of fruity flavor. Bring something to cool off, this flavor is HOT!",        
+        "buy_now": {
+            "6ml": ["COMING SOON", "COMING SOON", "COMING SOON"],
+            "10ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
+        },
+        "is_featured": 0,
+        "sort_order": 1
+    },
+    {
+        "product_name": "Killer Disposables Blueberry Ice",
+        "product_types": "disposable",
+        "product_slug": "killer-disposables", 
+        "10ml_img_src": "/img/Disposables_Killer_Disposables_Blueberry_Ice_50mg.png",
+        "sizes": "10ml",
+        "disposable_strengths": "50mg",
+        "main_text": "Frozen blueberries ride a brisk winter breeze to cool your taste buds with a popping burst of berry flavor and an icy touch!",
+        "sub_txt": "Frozen blueberries ride a brisk winter breeze to cool your taste buds with a popping burst of berry flavor and an icy touch!",
+        "popup_txt": "Frozen blueberries ride a brisk winter breeze to cool your taste buds with a popping burst of berry flavor and an icy touch!",        
+        "buy_now": ["https://www.flawlessvapeshop.com/products/vapetasia-killer-fruits-disposable-3500-puffs-10ml", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/vapetasia-killer-disposable-vape"],
+        "is_featured": 0,
+        "sort_order": 1
+    },
+	{
+        "product_name": "Vapetasia X Hyve Disposable Trapple",
+        "product_types": "disposable",
+        "product_slug": "vapetasia-x-hyve-disposables", 
+        "img_src": {
+           "6ml": "/img/Disposables_Vapetasia_x_hyve_disposables_Trapple_6ml_50mg.png",
+           "10ml": "/img/Disposables_Vapetasia_x_hyve_disposables_Trapple_10ml_50mg.png"
+        },
+        "sizes": ["6ml", "10ml"],
+        "disposable_strengths": "50mg",
+        "main_text": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
+        "sub_txt": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
+        "popup_txt": "A smooth inhale of vanilla flavor will leave you wanting to get cozy and rest on a light cloud of rich sweetness.",        
+        "buy_now": {
+            "6ml": ["COMING SOON", "COMING SOON", "COMING SOON"],
+            "10ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
+        },
+        "is_featured": 0,
+        "sort_order": 1
+    },
+	{
+        "product_name": "Vapetasia X Hyve Disposable Honeydew Kream",
+        "product_types": "disposable",
+        "product_slug": "vapetasia-x-hyve-disposables", 
+        "img_src": {
+           "6ml": "/img/Disposables_Vapetasia_x_hyve_disposables_Honeydew_Kream_6ml_50mg.png",
+           "10ml": "/img/Disposables_Vapetasia_x_hyve_disposables_Honeydew_Kream_10ml_50mg.png"
+        },
+        "sizes": ["6ml", "10ml"],
+        "disposable_strengths": "50mg",
+        "main_text": "A smooth vanilla cream topped with ripe chunks of honeydew melons create a juicy blend of ripe flavor to take over your world.",
+        "sub_txt": "A smooth vanilla cream topped with ripe chunks of honeydew melons create a juicy blend of ripe flavor to take over your world.",
+        "popup_txt": "A smooth vanilla cream topped with ripe chunks of honeydew melons create a juicy blend of ripe flavor to take over your world.",        
+        "buy_now": {
+            "6ml": ["COMING SOON", "COMING SOON", "COMING SOON"],
+            "10ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
+        },
+        "is_featured": 0,
+        "sort_order": 1
+    },
+	{
+        "product_name": "Vapetasia X Hyve Disposable VNLA",
+        "product_types": "disposable",
+        "product_slug": "vapetasia-x-hyve-disposables", 
+        "img_src": {
+           "6ml": "/img/Disposables_Vapetasia_x_hyve_disposables_VNLA_6ml_50mg.png",
+           "10ml": "/img/Disposables_Vapetasia_x_hyve_disposables_VNLA_10ml_50mg.png"
+        },
+        "sizes": ["6ml", "10ml"],
+        "disposable_strengths": "50mg",
+        "main_text": "A smooth inhale of vanilla flavor will leave you wanting to get cozy and rest on a light cloud of rich sweetness.",
+        "sub_txt": "A smooth inhale of vanilla flavor will leave you wanting to get cozy and rest on a light cloud of rich sweetness.",
+        "popup_txt": "A smooth inhale of vanilla flavor will leave you wanting to get cozy and rest on a light cloud of rich sweetness.",        
+        "buy_now": {
+            "6ml": ["COMING SOON", "COMING SOON", "COMING SOON"],
+            "10ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
+        },
+        "is_featured": 0,
+        "sort_order": 1
+    },
+	{
+        "product_name": "Killer Disposables Blue Razz",
+        "product_types": "disposable",
+        "product_slug": "killer-disposables", 
+        "10ml_img_src": "/img/Disposables_Killer_Disposables_Blue_Razz_Ice_50mg.png",
+        "sizes": "10ml",
+        "disposable_strengths": "50mg",
+        "main_text": "A burst of tart flavor perfectly curated to exceed your expectations. A smooth flavorful inhale of blue raspberry will captivate your tastebuds, you may not want to let it out!",
+        "sub_txt": "A burst of tart flavor perfectly curated to exceed your expectations. A smooth flavorful inhale of blue raspberry will captivate your tastebuds, you may not want to let it out!",
+        "popup_txt": "A burst of tart flavor perfectly curated to exceed your expectations. A smooth flavorful inhale of blue raspberry will captivate your tastebuds, you may not want to let it out!",        
+        "buy_now": ["https://www.flawlessvapeshop.com/products/vapetasia-killer-fruits-disposable-3500-puffs-10ml", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/vapetasia-killer-disposable-vape"],
+        "is_featured": 0,
+        "sort_order": 1
+    },
+	{
+        "product_name": "Killer Disposables Straw Guaw",
+        "product_types": "disposable",
+        "product_slug": "killer-disposables", 
+        "10ml_img_src": "/img/Disposables_Killer_Disposables_Straw_Guaw_Ice_50mg.png",
+        "sizes": "10ml",
+        "disposable_strengths": "50mg",
+        "main_text": "Allow your taste buds to dance to the medley of sweet strawberries coupled with exotic guava as they create a harmonizing blend of flavor.",
+        "sub_txt": "Allow your taste buds to dance to the medley of sweet strawberries coupled with exotic guava as they create a harmonizing blend of flavor.",
+        "popup_txt": "Allow your taste buds to dance to the medley of sweet strawberries coupled with exotic guava as they create a harmonizing blend of flavor.",        
+        "buy_now": ["https://www.flawlessvapeshop.com/collections/disposable-vape-pens", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/catalogsearch/result/?q=killer"],
+        "is_featured": 0,
+        "sort_order": 1
+    },
+	{
+        "product_name": "Killer Disposables Trapple",
+        "product_types": "disposable",
+        "product_slug": "killer-disposables", 
+        "10ml_img_src": "/img/Disposables_Killer_Disposables_Trapple_Ice_50mg.png",
+        "sizes": "10ml",
+        "disposable_strengths": "50mg",
+        "main_text": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
+        "sub_txt": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
+        "popup_txt": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",        
+        "buy_now": ["https://www.flawlessvapeshop.com/products/vapetasia-killer-fruits-disposable-3500-puffs-10ml", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/vapetasia-killer-disposable-vape"],
+        "is_featured": 0,
+        "sort_order": 1
+    },
+	{
+        "product_name": "Killer Disposables Cherry Peacheade",
+        "product_types": "disposable",
+        "product_slug": "killer-disposables", 
+        "10ml_img_src": "/img/Disposables_Killer_Disposables_Cherry_Peachade_Ice_50mg.png",
+        "sizes": "10ml",
+        "disposable_strengths": "50mg",
+        "main_text": "Quench your thirst with the sweetness of ripened peach stirred into a cup of iced lemonade with plump cherries splashed into every puff!",
+        "sub_txt": "One of our most refreshing and popular flavors!",
+        "popup_txt": "Quench your thirst with the sweetness of ripened peach stirred into a cup of iced lemonade with plump cherries splashed into every puff!",        
+        "buy_now": ["https://www.flawlessvapeshop.com/products/vapetasia-killer-fruits-disposable-3500-puffs-10ml", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/vapetasia-killer-disposable-vape"],
+        "is_featured": 0,
+        "sort_order": 1
+    },
+	{
+        "product_name": "Killer Disposables Grape Aloe",
+        "product_types": "disposable",
+        "product_slug": "killer-disposables", 
+        "10ml_img_src": "/img/Disposables_Killer_Disposables_Grape_Aloe_Ice_50mg.png",
+        "sizes": "10ml",
+        "disposable_strengths": "50mg",
+        "main_text": "The refreshing addition of aloe seamlessly blends the frozen grapes to take you on a vacation of flavor you might not want to end.",
+        "sub_txt": "One of our most refreshing and popular flavors!",
+        "popup_txt": "The refreshing addition of aloe seamlessly blends the frozen grapes to take you on a vacation of flavor you might not want to end.",        
+        "buy_now": ["https://www.flawlessvapeshop.com/products/vapetasia-killer-fruits-disposable-3500-puffs-10ml", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/vapetasia-killer-disposable-vape"],
+        "is_featured": 0,
+        "sort_order": 1
+    },
+	{
+        "product_name": "Killer Disposables Nana Berry",
+        "product_types": "disposable",
+        "product_slug": "killer-disposables", 
+        "10ml_img_src": "/img/Disposables_Killer_Disposables_Nana_Berry__Ice_50mg.png",
+        "sizes": "10ml",
+        "disposable_strengths": "50mg",
+        "main_text": "The classic blend of mouth-watering strawberries and perfectly ripe bananas will put your taste buds on the brink of an overload!",
+        "sub_txt": "The classic blend of mouth-watering strawberries and perfectly ripe bananas will put your taste buds on the brink of an overload!",
+        "popup_txt": "The classic blend of mouth-watering strawberries and perfectly ripe bananas will put your taste buds on the brink of an overload!",        
+        "buy_now": ["https://www.flawlessvapeshop.com/products/vapetasia-killer-fruits-disposable-3500-puffs-10ml", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/vapetasia-killer-disposable-vape"],
+        "is_featured": 0,
+        "sort_order": 1
+    },
+	{
+        "product_name": "Killer Disposables Energy",
+        "product_types": "disposable",
+        "product_slug": "killer-disposables", 
+        "10ml_img_src": "/img/Disposables_Killer_Disposables_Energy__Ice_50mg.png",
+        "sizes": "10ml",
+        "disposable_strengths": "50mg",
+        "main_text": "Shock your taste buds full of energy and jumpstart your day with a surge of electrifying energy drink flavor.",
+        "sub_txt": "Shock your taste buds full of energy and jumpstart your day with a surge of electrifying energy drink flavor.",
+        "popup_txt": "Shock your taste buds full of energy and jumpstart your day with a surge of electrifying energy drink flavor.",        
+        "buy_now": ["https://www.flawlessvapeshop.com/products/vapetasia-killer-fruits-disposable-3500-puffs-10ml", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/vapetasia-killer-disposable-vape"],
+        "is_featured": 0,
+        "sort_order": 1
+    },
+	{
+        "product_name": "Killer Disposables Straw Bae",
+        "product_types": "disposable",
+        "product_slug": "killer-disposables", 
+        "10ml_img_src": "/img/Disposables_Killer_Disposables_Straw_Bae__Ice_50mg.png",
+        "sizes": "10ml",
+        "disposable_strengths": "50mg",
+        "main_text": "Sometimes dessert for dinner is the way to go! Indulge in the soft creamy flavor of strawberry ice cream.",
+        "sub_txt": "Sometimes dessert for dinner is the way to go! Indulge in the soft creamy flavor of strawberry ice cream.",
+        "popup_txt": "Sometimes dessert for dinner is the way to go! Indulge in the soft creamy flavor of strawberry ice cream.",        
+        "buy_now": ["https://www.flawlessvapeshop.com/products/vapetasia-killer-fruits-disposable-3500-puffs-10ml", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/vapetasia-killer-disposable-vape"],
+        "is_featured": 0,
+        "sort_order": 1
     }
 ]

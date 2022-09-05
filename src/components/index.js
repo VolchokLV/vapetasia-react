@@ -15,3 +15,5 @@ export { default as MediaReqquestForm } from './mediaRequestForm/MediaRequestFor
 export { default as PromotionalRequest} from './promotionalRequest/PromotionalRequest';
 export { default as WholesaleRegistration} from './wholesaleRegistration/WholesaleRegistration';
 export { default as ContactSupport } from './contactSupport/ContactSupport';
+export { default as ProductShowcase } from './productShowcase/ProductShowcase';
+export { default as ProductGridItem } from './productGridItem/ProductGridItem';

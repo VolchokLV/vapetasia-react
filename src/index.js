@@ -12,6 +12,8 @@ import './styles/vapetasia-global.css';
 import './styles/vapetasia-custom.css';
 /* Warning Bar Styles and other */
 import './styles/warning-bar-plus-other-custom.css';
+/* VAPE FONT */
+import './styles/vape-font.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -3,7 +3,9 @@ import styles from './promotionalRequest.css'
 
 const PromotionalRequest = () => {
   return (
-    <div>PromotionalRequest</div>
+    <>
+    
+    </>
   )
 }
 

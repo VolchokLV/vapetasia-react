@@ -10,3 +10,5 @@ export { default as Wholesale } from './wholesale/Wholesale';
 export { default as Eliquid100ml } from './eliquid100ml/Eliquid100ml';
 export { default as Eliquid60ml } from './eliquid60ml/Eliquid60ml';
 export { default as Eliquid30ml } from './eLiquid30ml/Eliquid30ml';
+export { default as Product } from './product/Product';
+export { default as ProductGrid } from './productGrid/ProductGrid';

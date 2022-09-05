@@ -4,3 +4,9 @@
   display: block;
   background: none;
 }
+
+.menu-item:hover .sub-menu {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}

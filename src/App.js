@@ -4,7 +4,7 @@ import './App.css';
 import "./index.css"
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import { AboutUs, Advocacy, Blog, ContactUs, Disposables, Eliquid100ml, Eliquid60ml, Eliquid30ml, Home, Pact, StoreLocator, Wholesale } from './pages';
+import { AboutUs, Advocacy, Blog, ContactUs, Product, ProductGrid, Home, Pact, StoreLocator, Wholesale } from './pages';
 import { ContactSupport, MediaReqquestForm, PromotionalRequest, WholesaleRegistration, Navigation, Warning, Footer } from './components';
 import { Nav } from 'react-bootstrap';
 
@@ -15,11 +15,11 @@ function App() {
   /*
   PREPARE PRODUCTS FOR PAGES
   */
- let featured = []
- let disposables = []
- let e30 = []
- let e60 = []
- let e100 = []
+  let featured = []
+  let disposables = []
+  let e30 = []
+  let e60 = []
+  let e100 = []
   for (let i = 0; i < products.default.length; i++) {
     switch (products.default[i].product_type) {
       case 'disposable':
@@ -50,25 +50,35 @@ function App() {
           <div id="content-wrap" class="clr">
             <div id="primary" class="content-area clr">
               <div id="content" class="site-content clr">
-                  <Routes>
-                    <Route path="/" element={<Home products={featured} />} />
-                    <Route path="/about-us" element={<AboutUs />} /> 
-                    <Route path="/advocacy" element={<Advocacy />} /> 
-                    <Route path="/blog" element={<Blog />} /> 
-                    <Route path="/contact" element={<ContactUs />} /> 
-                    <Route path="/media-reqest-form" element={<MediaReqquestForm />} /> 
-                    <Route path="/promotional-reqest" element={<PromotionalRequest />} /> 
-                    <Route path="/wholesale-registration" element={<WholesaleRegistration />} /> 
-                    <Route path="/contact-support" element={<ContactSupport />} /> 
-                    <Route path="/contact" element={<ContactUs />} /> 
-                    <Route path="/disposables" element={<Disposables products={disposables} />} /> 
-                    <Route path="/flavors/e-liquid-100ml" element={<Eliquid100ml products={e100} />} /> 
-                    <Route path="/flavors/e-liquid-60ml" element={<Eliquid60ml products={e60} />} /> 
-                    <Route path="/flavors/e-liquid-30ml" element={<Eliquid30ml products={e30} />} /> 
-                    <Route path="/store-locator" element={<StoreLocator />} /> 
-                    <Route path="/pact" element={<Pact />} /> 
-                    <Route path="/wholesale" element={<Wholesale />} /> 
-                  </Routes>
+                <article className="single-page-article clr">
+                  <div className="entry clr" itemprop="text">
+                    <div data-vapetasia-type="wp-page" data-vapetasia-id="191" className="vapetasia vapetasia-191">
+                      <div className="vapetasia-inner">
+                        <div className="vapetasia-section-wrap">
+                            <Routes>
+                              <Route path="/" element={<Home featured={featured} />} />
+                              <Route path="/about-us" element={<AboutUs />} /> 
+                              <Route path="/advocacy" element={<Advocacy />} /> 
+                              <Route path="/blog" element={<Blog />} /> 
+                              <Route path="/contact" element={<ContactUs />} /> 
+                              <Route path="/media-reqest-form" element={<MediaReqquestForm />} /> 
+                              <Route path="/promotional-reqest" element={<PromotionalRequest />} /> 
+                              <Route path="/wholesale-registration" element={<WholesaleRegistration />} /> 
+                              <Route path="/contact-support" element={<ContactSupport />} /> 
+                              <Route path="/contact" element={<ContactUs />} /> 
+
+                              <Route path="/category/:type/:topic/:value" element={<ProductGrid products={products.default} />} /> 
+                              <Route path="/product/:slug/:size" element={<Product products={products.default} featured={featured} />} />
+                              
+                              <Route path="/store-locator" element={<StoreLocator />} /> 
+                              <Route path="/pact" element={<Pact />} /> 
+                              <Route path="/wholesale" element={<Wholesale />} /> 
+                            </Routes>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
               </div>
             </div>
           </div>

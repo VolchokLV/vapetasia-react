@@ -125,7 +125,7 @@
  }*/
  /*remove parallax overlay when screen is XL*/
  @media screen and (min-width: 2600px) {
-  .elementor-background-overlay {
+  .vapetasia-background-overlay {
   display: none;
   }
   #hero-description {

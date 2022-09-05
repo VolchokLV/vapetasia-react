@@ -1,7 +1,7 @@
 [
     {
         "product_name": "Killer Kustard",
-        "product_types": ["e-liquid", "salt"],
+        "product_types": ["eliquid", "salt"],
         "product_slug": "killer-kustard", 
         "img_src": {
             "30ml": "/img/30ml/Killer_Kustard_30ml_24mg.png",
@@ -25,12 +25,12 @@
             "60ml": ["https://www.ejuices.com/products/vapetasia-killer-kustard", "https://vapesocietysupplies.com/products/killer-kustard-ejuice-100ml-vapetasia/", "https://www.elementvape.com/killer-kustard-vapetasia"],
             "30ml": ["https://www.ejuices.com/products/vapetasia-ejuice-salts-killer-kustard", "https://vapesocietysupplies.com/products/killer-kustard-salt-vapetasia-salts-30ml/", "https://www.elementvape.com/killer-kustard-vapetasia-salts"]
         },   
-        "is_featured": 0,
+        "is_featured": 1,
         "sort_order": 1            
     },
     {
         "product_name": "Killer Kustard Strawberry",
-        "product_types": ["e-liquid", "salt"],
+        "product_types": ["eliquid", "salt"],
         "product_slug": "killer-kustard-strawberry", 
         "img_src": {
             "30ml": "/img/30ml/Killer_Kustard_Strawberry_30ml_24mg.png",
@@ -54,12 +54,12 @@
             "60ml": ["https://www.ejuices.com/products/killer-kustard-by-vapetasia-killer-kustard-strawberry", "https://vapesocietysupplies.com/products/killer-kustard-strawberry-100ml-vapetasia/", "https://www.elementvape.com/killer-kustard-strawberry-vapetasia"],
             "30ml": ["https://www.ejuices.com/products/vapetasia-ejuice-salts-killer-kustard-strawberry", "https://vapesocietysupplies.com/products/killer-kustard-strawberry-vapetasia-salts-30ml/", "https://www.elementvape.com/killer-kustard-strawberry-vapetasia-salts"]
         },   
-        "is_featured": 0,
+        "is_featured": 1,
         "sort_order": 1            
     },    
     {
         "product_name": "White Gummy",
-        "product_types": ["e-liquid", "salt"],
+        "product_types": ["eliquid", "salt"],
         "product_slug": "white-gummy", 
         "img_src": {
             "30ml": "/img/30ml/Killer_Sweets_White_Gummy_30ml_24mg.png",
@@ -81,12 +81,12 @@
             "100ml": ["https://www.ejuices.com/products/vapetasia-killer-sweets-ntn-iced-white-gummy", "https://vape.com/products/iced-killer-sweets-white-gummy-by-vapetasia-synthetic-100ml", "https://www.elementvape.com/iced-white-gummy-vapetasia"],       
             "30ml": ["https://www.ejuices.com/products/vapetasia-killer-sweets-ntn-salts-white-gummy", "https://vape.com/products/killer-sweets-white-gummy-by-vapetasia-synthetic-salt-30ml", "https://www.elementvape.com/iced-white-gummy-vapetasia-salts"]
         },   
-        "is_featured": 0,
+        "is_featured": 1,
         "sort_order": 1        
     }, 	
     {
         "product_name": "Rain Bops",
-        "product_types": ["e-liquid", "salt"],
+        "product_types": ["eliquid", "salt"],
         "product_slug": "Rain-Bops", 
         "img_src": {
             "30ml": "/img/30ml/Killer_Sweets_Rain_Bops_30ml_24mg.png",
@@ -108,13 +108,13 @@
             "100ml": ["https://www.ejuices.com/products/vapetasia-killer-sweets-ntn-rain-bops", "https://vape.com/products/killer-sweets-rain-bops-by-vapetasia-synthetic-100ml", "https://www.elementvape.com/rain-bops-vapetasia"],       
             "30ml": ["https://www.elementvape.com/rain-bops-vapetasia", "https://vape.com/products/killer-sweets-rain-bops-by-vapetasia-synthetic-salt-30ml", "https://www.elementvape.com/rain-bops-vapetasia-salts"]
         },   
-        "is_featured": 0,
+        "is_featured": 1,
         "sort_order": 1
             
     }, 	
     {
         "product_name": "Blueberry Parfait",
-        "product_types": ["e-liquid", "salt"],
+        "product_types": ["eliquid", "salt"],
         "product_slug": "blueberry-parfait", 
         "img_src": {
             "30ml": "/img/30ml/Vape_Partfait_Blueberry_Parfait_30ml_24mg.png",
@@ -138,12 +138,12 @@
             "60ml": ["https://www.ejuices.com/products/vape-parfait-blueberry-parfait", "https://vapesocietysupplies.com/products/blueberry-parfait-by-vapetasia-100ml/", "https://www.elementvape.com/blueberry-parfait-vapetasia"],
             "30ml": ["https://www.ejuices.com/products/vape-parfait-salts-blueberry-parfait", "https://vapesocietysupplies.com/products/blueberry-parfait-by-vapetasia-salts-30ml/", "https://www.elementvape.com/blueberry-parfait-vapetasia-salts"]
         },   
-        "is_featured": 0,
+        "is_featured": 1,
         "sort_order": 1        
     },    
     {
         "product_name": "Iced White Gummy",
-        "product_types": ["e-liquid", "salt"],
+        "product_types": ["eliquid", "salt"],
         "product_slug": "iced-white-gummy", 
         "img_src": {
             "30ml": "/img/30ml/Iced_White_Gummy_30ml_24mg.png",
@@ -165,12 +165,12 @@
             "100ml": ["https://www.ejuices.com/products/vapetasia-killer-sweets-ntn-white-gummy", "https://vape.com/products/killer-sweets-white-gummy-by-vapetasia-synthetic-100ml", "https://www.elementvape.com/white-gummy-vapetasia"],
             "30ml": ["https://www.ejuices.com/products/vapetasia-killer-sweets-ntn-salts-iced-white-gummy", "https://vape.com/products/iced-killer-sweets-white-gummy-by-vapetasia-synthetic-salt-30ml", "https://www.elementvape.com/iced-white-gummy-vapetasia-salts"]
         },   
-        "is_featured": 0,
+        "is_featured": 1,
         "sort_order": 1        
     },    
     {
         "product_name": "Iced Rain Bops",
-        "product_types": ["e-liquid", "salt"],
+        "product_types": ["eliquid", "salt"],
         "product_slug": "iced-rain-bops", 
         "img_src": {
             "30ml": "/img/30ml/Iced_Rain_Bops_30ml_24mg.png",
@@ -192,12 +192,12 @@
             "100ml": ["https://www.ejuices.com/products/vapetasia-killer-sweets-ntn-iced-rain-bops", "https://vape.com/products/iced-killer-sweets-rain-bops-by-vapetasia-synthetic-100ml/", "https://www.elementvape.com/iced-rain-bops-vapetasia"],
             "30ml": ["https://www.ejuices.com/products/vapetasia-killer-sweets-ntn-iced-rain-bops", "https://vape.com/products/iced-killer-sweets-rain-bops-by-vapetasia-synthetic-salt-30ml", "https://www.elementvape.com/iced-rain-bops-vapetasia"]
         },   
-        "is_featured": 0,
+        "is_featured": 1,
         "sort_order": 1
     }, 
     {
         "product_name": "Strawberry Parfait",
-        "product_types": ["e-liquid", "salt"],
+        "product_types": ["eliquid", "salt"],
         "product_slug": "strawberry-parfait", 
         "img_src": {
             "30ml": "/img/30ml/Vape_Parfait_Strawberry_Parfait_30ml_24mg.png",
@@ -221,12 +221,12 @@
             "60ml": ["https://www.ejuices.com/products/vape-parfait-strawberry-parfait", "https://vapesocietysupplies.com/products/strawberry-parfait-by-vapetasia-100ml/", "https://www.elementvape.com/strawberry-parfait-vapetasia"],
             "30ml": ["https://www.ejuices.com/products/vape-parfait-salts-strawberry-parfait", "https://vape.com/products/strawberry-parfait-by-vapetasia-salts-30ml", "https://www.elementvape.com/strawberry-parfait-vapetasia-salts"]
         },   
-        "is_featured": 0,
+        "is_featured": 1,
         "sort_order": 1
     }, 
     {
             "product_name": "Killer Fruits Blue Razz",
-            "product_types": ["e-liquid", "salt"],
+            "product_types": ["eliquid", "salt"],
             "product_slug": "blue-razz", 
             "img_src": {
                 "30ml": "/img/30ml/Killer_Fruits_Blue_Razz_30ml_24mg.png",
@@ -253,7 +253,7 @@
     },
     {
         "product_name": "Killer Fruites Straw Guaw",
-        "product_types": ["e-liquid", "salt"],
+        "product_types": ["eliquid", "salt"],
         "product_slug": "straw-guaw", 
         "img_src": {
             "30ml": "/img/30ml/Killer_Fruits_Staw_Guaw_30ml_24mg.png",
@@ -280,7 +280,7 @@
     }, 
     {
         "product_name": "Killer Fruits Trapple",
-        "product_types": ["e-liquid", "salt"],
+        "product_types": ["eliquid", "salt"],
         "product_slug": "trapple", 
         "img_src": {
             "30ml": "/img/30ml/Killer_Fruits_Trapple_30ml_24mg.png",
@@ -307,7 +307,7 @@
     }, 
     {
         "product_name": "Iced Blue Razz",
-        "product_types": ["e-liquid", "salt"],
+        "product_types": ["eliquid", "salt"],
         "product_slug": "iced-blue-razz", 
         "img_src": {
             "30ml": "/img/30ml/Iced_Blue_Razz_30ml_24mg.png",
@@ -334,7 +334,7 @@
     },
     {
         "product_name": "Iced Straw Guaw",
-        "product_types": ["e-liquid", "salt"],
+        "product_types": ["eliquid", "salt"],
         "product_slug": "iced-straw-guaw", 
         "img_src": {
             "30ml": "/img/30ml/Iced_Straw_Guaw_30ml_24mg.png",
@@ -362,7 +362,7 @@
     },
     {
         "product_name": "Iced Trapple",
-        "product_types": ["e-liquid", "salt"],
+        "product_types": ["eliquid", "salt"],
         "product_slug": "iced-trapple", 
         "img_src": {
             "30ml": "/img/30ml/Iced_Trapple_30ml_24mg.png",
@@ -390,7 +390,7 @@
     },
     {
         "product_name": "Killer Fruits Pango",
-        "product_types": ["e-liquid"],
+        "product_types": ["eliquid"],
         "product_slug": "pango", 
         "img_src": {
 			"30ml": "/img/30ml/Pango_30ml_24mg.png",
@@ -419,7 +419,7 @@
     },
     {
         "product_name": "Killer Kustard Blueberry",
-        "product_types": ["e-liquid", "salt"],
+        "product_types": ["eliquid", "salt"],
         "product_slug": "killer-kustard-blueberry", 
         "img_src": {
             "30ml": "/img/30ml/Killer_Kustard_Blueberry_30ml_24mg.png",
@@ -449,7 +449,7 @@
     },
     {
         "product_name": "Killer Kustard Lemon",
-        "product_types": ["e-liquid"],
+        "product_types": ["eliquid"],
         "product_slug": "killer-kustard-lemon", 
         "img_src": {
             "100ml": "/img/100ml/Killer_Kustard_Lemon_100ml_3mg.png"
@@ -473,7 +473,7 @@
     },
     {
         "product_name": "Killer Kustard Honeydew",
-        "product_types": ["e-liquid"],
+        "product_types": ["eliquid"],
         "product_slug": "killer-kustard-honeydew", 
         "img_src": {
             "100ml": "/img/100ml/Killer_Kustard_Honeydew_100ml_3mg.png"
@@ -497,7 +497,7 @@
     },
     {
         "product_name": "Pineapple Express",
-        "product_types": ["e-liquid", "salt"],
+        "product_types": ["eliquid", "salt"],
         "product_slug": "pineapple-express", 
         "img_src": {
             "30ml": "/img/30ml/Vapetasia_Pineapple_Express_30ml_24mg.png",
@@ -527,7 +527,7 @@
     },
     {
         "product_name": "Rainbow Road",
-        "product_types": ["e-liquid", "salt"],
+        "product_types": ["eliquid", "salt"],
         "product_slug": "rainbow-road", 
         "img_src": {
             "30ml": "/img/30ml/Vapetasia_Rainbow_Road_30ml_24mg.png",
@@ -556,7 +556,7 @@
     },
     {
         "product_name": "Milk Of The Poppy",
-        "product_types": ["e-liquid", "salt"],
+        "product_types": ["eliquid", "salt"],
         "product_slug": "milk-of-the-poppy", 
         "img_src": {
             "30ml": "/img/30ml/Vapetasia_Milk_Of_The_Poppy_30ml_24mg.png",
@@ -586,7 +586,7 @@
     },
     {
         "product_name": "Royalty Two",
-        "product_types": ["e-liquid", "salt"],
+        "product_types": ["eliquid", "salt"],
         "product_slug": "royalty-ii", 
         "img_src": {
             "30ml": "/img/30ml/Vapetasia_Royalty_ii_30ml_24mg.png",
@@ -615,7 +615,7 @@
     },
     {
         "product_name": "Iced Pineapple Express",
-        "product_types": ["e-liquid", "salt"],
+        "product_types": ["eliquid", "salt"],
         "product_slug": "iced-pineapple-express", 
         "img_src": {
             "30ml": "/img/30ml/Iced_Pineapple_Express_30ml_24mg.png",
@@ -644,7 +644,7 @@
     },
     {
         "product_name": "Iced Milk of the Poppy",
-        "product_types": ["e-liquid", "salt"],
+        "product_types": ["eliquid", "salt"],
         "product_slug": "iced-milk-of-the-poppy", 
         "img_src": {
             "30ml": "/img/30ml/Iced_Milk_of_the_Poppy_30ml_24mg.png",
@@ -674,7 +674,7 @@
     },
     {
         "product_name": "Blackberry Lemonade",
-        "product_types": ["e-liquid", "salt"],
+        "product_types": ["eliquid", "salt"],
         "product_slug": "blackberry-lemonade", 
         "img_src": {
             "30ml": "/img/30ml/Vape_Lemonade_Blackberry_Lemonade_30ml_24mg.png",
@@ -703,7 +703,7 @@
     },
     {
         "product_name": "Iced Blackberry Lemonade",
-        "product_types": ["e-liquid", "salt"],
+        "product_types": ["eliquid", "salt"],
         "product_slug": "iced-blackberry-lemonade", 
         "img_src": {
             "30ml": "/img/30ml/Iced_Blackberry_Lemonade_30ml_24mg.png",
@@ -731,7 +731,7 @@
     },
     {
         "product_name": "Pink Lemonade",
-        "product_types": ["e-liquid", "salt"],
+        "product_types": ["eliquid", "salt"],
         "product_slug": "pink-lemonade", 
         "img_src": {
             "30ml": "/img/30ml/Vape_Lemonade_Pink_Lemonade_30ml_24mg.png",
@@ -760,7 +760,7 @@
     },
     {
         "product_name": "Killer Kustard Blueberry",
-        "product_types": ["e-liquid", "salt"],
+        "product_types": ["eliquid", "salt"],
         "product_slug": "killer-kustard-blueberry", 
         "img_src": {
             "30ml": "/img/30ml/Killer_Kustard_Blueberry_30ml_24mg.png",
@@ -789,7 +789,7 @@
     },
     {
         "product_name": "Killer Fruits Grape",
-        "product_types": ["e-liquid"],
+        "product_types": ["eliquid"],
         "product_slug": "grape", 
         "img_src": {
 			"30ml": "/img/30ml/Killer_Fruits_Grape_30ml_24mg.png",
@@ -816,7 +816,7 @@
     },
     {
         "product_name": "Iced Pango",
-        "product_types": ["e-liquid"],
+        "product_types": ["eliquid"],
         "product_slug": "iced-pango", 
         "img_src": {
 			"30ml": "/img/30ml/Iced_Pango_30ml_24mg.png",
@@ -843,7 +843,7 @@
     },
     {
         "product_name": "Iced Grape",
-        "product_types": ["e-liquid"],
+        "product_types": ["eliquid"],
         "product_slug": "iced-grape", 
         "img_src": {
 			"30ml": "/img/30ml/Iced_Grape_30ml_24mg.png",
@@ -870,14 +870,14 @@
     },            
     {
         "product_name": "Vapetasia X Hyve Disposable Dragons Breath",
-        "product_types": "disposable",
-        "product_slug": "vapetasia-x-hyve-disposables", 
+        "product_types": ["disposable"],
+        "product_slug": "vapetasia-x-hyve-disposables-dragons-breath", 
         "img_src": {
            "6ml": "/img/Disposables_Vapetasia_x_hyve_disposables_Dragons_Breath_6ml_50mg.png",
            "10ml": "/img/Disposables_Vapetasia_x_hyve_disposables_Dragons_Breath_10ml_50mg.png"
         },
         "sizes": ["6ml", "10ml"],
-        "disposable_strengths": "50mg",
+        "disposable_strengths": ["50mg"],
         "main_text": "Embrace yourself! Dragon fruit, strawberry and honeydew create a firestorm of fruity flavor. Bring something to cool off, this flavor is HOT!",
         "sub_txt": "Embrace yourself! Dragon fruit, strawberry and honeydew create a firestorm of fruity flavor. Bring something to cool off, this flavor is HOT!",
         "popup_txt": "Embrace yourself! Dragon fruit, strawberry and honeydew create a firestorm of fruity flavor. Bring something to cool off, this flavor is HOT!",        
@@ -890,11 +890,11 @@
     },
     {
         "product_name": "Killer Disposables Blueberry Ice",
-        "product_types": "disposable",
-        "product_slug": "killer-disposables", 
+        "product_types": ["disposable"],
+        "product_slug": "killer-disposables-blueberry-ice", 
         "10ml_img_src": "/img/Disposables_Killer_Disposables_Blueberry_Ice_50mg.png",
         "sizes": "10ml",
-        "disposable_strengths": "50mg",
+        "disposable_strengths": ["50mg"],
         "main_text": "Frozen blueberries ride a brisk winter breeze to cool your taste buds with a popping burst of berry flavor and an icy touch!",
         "sub_txt": "Frozen blueberries ride a brisk winter breeze to cool your taste buds with a popping burst of berry flavor and an icy touch!",
         "popup_txt": "Frozen blueberries ride a brisk winter breeze to cool your taste buds with a popping burst of berry flavor and an icy touch!",        
@@ -904,14 +904,14 @@
     },
 	{
         "product_name": "Vapetasia X Hyve Disposable Trapple",
-        "product_types": "disposable",
-        "product_slug": "vapetasia-x-hyve-disposables", 
+        "product_types": ["disposable"],
+        "product_slug": "vapetasia-x-hyve-disposables-trapple", 
         "img_src": {
            "6ml": "/img/Disposables_Vapetasia_x_hyve_disposables_Trapple_6ml_50mg.png",
            "10ml": "/img/Disposables_Vapetasia_x_hyve_disposables_Trapple_10ml_50mg.png"
         },
         "sizes": ["6ml", "10ml"],
-        "disposable_strengths": "50mg",
+        "disposable_strengths": ["50mg"],
         "main_text": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
         "sub_txt": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
         "popup_txt": "A smooth inhale of vanilla flavor will leave you wanting to get cozy and rest on a light cloud of rich sweetness.",        
@@ -924,14 +924,14 @@
     },
 	{
         "product_name": "Vapetasia X Hyve Disposable Honeydew Kream",
-        "product_types": "disposable",
-        "product_slug": "vapetasia-x-hyve-disposables", 
+        "product_types": ["disposable"],
+        "product_slug": "vapetasia-x-hyve-disposables-honeydew-kream", 
         "img_src": {
            "6ml": "/img/Disposables_Vapetasia_x_hyve_disposables_Honeydew_Kream_6ml_50mg.png",
            "10ml": "/img/Disposables_Vapetasia_x_hyve_disposables_Honeydew_Kream_10ml_50mg.png"
         },
         "sizes": ["6ml", "10ml"],
-        "disposable_strengths": "50mg",
+        "disposable_strengths": ["50mg"],
         "main_text": "A smooth vanilla cream topped with ripe chunks of honeydew melons create a juicy blend of ripe flavor to take over your world.",
         "sub_txt": "A smooth vanilla cream topped with ripe chunks of honeydew melons create a juicy blend of ripe flavor to take over your world.",
         "popup_txt": "A smooth vanilla cream topped with ripe chunks of honeydew melons create a juicy blend of ripe flavor to take over your world.",        
@@ -944,14 +944,14 @@
     },
 	{
         "product_name": "Vapetasia X Hyve Disposable VNLA",
-        "product_types": "disposable",
-        "product_slug": "vapetasia-x-hyve-disposables", 
+        "product_types": ["disposable"],
+        "product_slug": "vapetasia-x-hyve-disposables-vnla", 
         "img_src": {
            "6ml": "/img/Disposables_Vapetasia_x_hyve_disposables_VNLA_6ml_50mg.png",
            "10ml": "/img/Disposables_Vapetasia_x_hyve_disposables_VNLA_10ml_50mg.png"
         },
         "sizes": ["6ml", "10ml"],
-        "disposable_strengths": "50mg",
+        "disposable_strengths": ["50mg"],
         "main_text": "A smooth inhale of vanilla flavor will leave you wanting to get cozy and rest on a light cloud of rich sweetness.",
         "sub_txt": "A smooth inhale of vanilla flavor will leave you wanting to get cozy and rest on a light cloud of rich sweetness.",
         "popup_txt": "A smooth inhale of vanilla flavor will leave you wanting to get cozy and rest on a light cloud of rich sweetness.",        
@@ -964,11 +964,11 @@
     },
 	{
         "product_name": "Killer Disposables Blue Razz",
-        "product_types": "disposable",
-        "product_slug": "killer-disposables", 
+        "product_types": ["disposable"],
+        "product_slug": "killer-disposables-blue-razz", 
         "10ml_img_src": "/img/Disposables_Killer_Disposables_Blue_Razz_Ice_50mg.png",
         "sizes": "10ml",
-        "disposable_strengths": "50mg",
+        "disposable_strengths": ["50mg"],
         "main_text": "A burst of tart flavor perfectly curated to exceed your expectations. A smooth flavorful inhale of blue raspberry will captivate your tastebuds, you may not want to let it out!",
         "sub_txt": "A burst of tart flavor perfectly curated to exceed your expectations. A smooth flavorful inhale of blue raspberry will captivate your tastebuds, you may not want to let it out!",
         "popup_txt": "A burst of tart flavor perfectly curated to exceed your expectations. A smooth flavorful inhale of blue raspberry will captivate your tastebuds, you may not want to let it out!",        
@@ -978,11 +978,11 @@
     },
 	{
         "product_name": "Killer Disposables Straw Guaw",
-        "product_types": "disposable",
-        "product_slug": "killer-disposables", 
+        "product_types": ["disposable"],
+        "product_slug": "killer-disposables-straw-glue", 
         "10ml_img_src": "/img/Disposables_Killer_Disposables_Straw_Guaw_Ice_50mg.png",
         "sizes": "10ml",
-        "disposable_strengths": "50mg",
+        "disposable_strengths": ["50mg"],
         "main_text": "Allow your taste buds to dance to the medley of sweet strawberries coupled with exotic guava as they create a harmonizing blend of flavor.",
         "sub_txt": "Allow your taste buds to dance to the medley of sweet strawberries coupled with exotic guava as they create a harmonizing blend of flavor.",
         "popup_txt": "Allow your taste buds to dance to the medley of sweet strawberries coupled with exotic guava as they create a harmonizing blend of flavor.",        
@@ -992,11 +992,11 @@
     },
 	{
         "product_name": "Killer Disposables Trapple",
-        "product_types": "disposable",
-        "product_slug": "killer-disposables", 
+        "product_types": ["disposable"],
+        "product_slug": "killer-disposables-trapple", 
         "10ml_img_src": "/img/Disposables_Killer_Disposables_Trapple_Ice_50mg.png",
         "sizes": "10ml",
-        "disposable_strengths": "50mg",
+        "disposable_strengths": ["50mg"],
         "main_text": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
         "sub_txt": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
         "popup_txt": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",        
@@ -1006,11 +1006,11 @@
     },
 	{
         "product_name": "Killer Disposables Cherry Peacheade",
-        "product_types": "disposable",
-        "product_slug": "killer-disposables", 
+        "product_types": ["disposable"],
+        "product_slug": "killer-disposables-cherry-peaches", 
         "10ml_img_src": "/img/Disposables_Killer_Disposables_Cherry_Peachade_Ice_50mg.png",
         "sizes": "10ml",
-        "disposable_strengths": "50mg",
+        "disposable_strengths": ["50mg"],
         "main_text": "Quench your thirst with the sweetness of ripened peach stirred into a cup of iced lemonade with plump cherries splashed into every puff!",
         "sub_txt": "One of our most refreshing and popular flavors!",
         "popup_txt": "Quench your thirst with the sweetness of ripened peach stirred into a cup of iced lemonade with plump cherries splashed into every puff!",        
@@ -1020,11 +1020,11 @@
     },
 	{
         "product_name": "Killer Disposables Grape Aloe",
-        "product_types": "disposable",
-        "product_slug": "killer-disposables", 
+        "product_types": ["disposable"],
+        "product_slug": "killer-disposables-grape-aloe", 
         "10ml_img_src": "/img/Disposables_Killer_Disposables_Grape_Aloe_Ice_50mg.png",
         "sizes": "10ml",
-        "disposable_strengths": "50mg",
+        "disposable_strengths": ["50mg"],
         "main_text": "The refreshing addition of aloe seamlessly blends the frozen grapes to take you on a vacation of flavor you might not want to end.",
         "sub_txt": "One of our most refreshing and popular flavors!",
         "popup_txt": "The refreshing addition of aloe seamlessly blends the frozen grapes to take you on a vacation of flavor you might not want to end.",        
@@ -1034,11 +1034,11 @@
     },
 	{
         "product_name": "Killer Disposables Nana Berry",
-        "product_types": "disposable",
-        "product_slug": "killer-disposables", 
+        "product_types": ["disposable"],
+        "product_slug": "killer-disposables-nana-berry", 
         "10ml_img_src": "/img/Disposables_Killer_Disposables_Nana_Berry__Ice_50mg.png",
         "sizes": "10ml",
-        "disposable_strengths": "50mg",
+        "disposable_strengths": ["50mg"],
         "main_text": "The classic blend of mouth-watering strawberries and perfectly ripe bananas will put your taste buds on the brink of an overload!",
         "sub_txt": "The classic blend of mouth-watering strawberries and perfectly ripe bananas will put your taste buds on the brink of an overload!",
         "popup_txt": "The classic blend of mouth-watering strawberries and perfectly ripe bananas will put your taste buds on the brink of an overload!",        
@@ -1048,11 +1048,11 @@
     },
 	{
         "product_name": "Killer Disposables Energy",
-        "product_types": "disposable",
-        "product_slug": "killer-disposables", 
+        "product_types": ["disposable"],
+        "product_slug": "killer-disposables-energy", 
         "10ml_img_src": "/img/Disposables_Killer_Disposables_Energy__Ice_50mg.png",
         "sizes": "10ml",
-        "disposable_strengths": "50mg",
+        "disposable_strengths": ["50mg"],
         "main_text": "Shock your taste buds full of energy and jumpstart your day with a surge of electrifying energy drink flavor.",
         "sub_txt": "Shock your taste buds full of energy and jumpstart your day with a surge of electrifying energy drink flavor.",
         "popup_txt": "Shock your taste buds full of energy and jumpstart your day with a surge of electrifying energy drink flavor.",        
@@ -1062,11 +1062,11 @@
     },
 	{
         "product_name": "Killer Disposables Straw Bae",
-        "product_types": "disposable",
-        "product_slug": "killer-disposables", 
+        "product_types": ["disposable"],
+        "product_slug": "killer-disposables-straw-bae", 
         "10ml_img_src": "/img/Disposables_Killer_Disposables_Straw_Bae__Ice_50mg.png",
         "sizes": "10ml",
-        "disposable_strengths": "50mg",
+        "disposable_strengths": ["50mg"],
         "main_text": "Sometimes dessert for dinner is the way to go! Indulge in the soft creamy flavor of strawberry ice cream.",
         "sub_txt": "Sometimes dessert for dinner is the way to go! Indulge in the soft creamy flavor of strawberry ice cream.",
         "popup_txt": "Sometimes dessert for dinner is the way to go! Indulge in the soft creamy flavor of strawberry ice cream.",        

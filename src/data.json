@@ -422,13 +422,13 @@
         "product_types": ["eliquid", "salt"],
         "product_slug": "killer-kustard-blueberry", 
         "img_src": {
-            "30ml": "/img/30ml/Killer_Kustard_Blueberry_30ml_24mg.svg",
-            "60ml": "/img/600ml/Killer_Kustard_Blueberry_60ml_3mg.svg",
+
             "100ml": "/img/100ml/Killer_Kustard_Blueberry_100ml_3mg.svg"
         },
         "sizes": {
-            "eliquid": ["60ml", "100ml"],
-            "salt": ["30ml"]
+            "eliquid": [ "100ml", "60ml"],
+             "salt": ["30ml"]
+
         },
         "strengths": {
             "eliquid": ["0mg","3mg", "6mg"],
@@ -476,7 +476,9 @@
         "product_types": ["eliquid"],
         "product_slug": "killer-kustard-honeydew", 
         "img_src": {
-            "100ml": "/img/100ml/Killer_Kustard_Honeydew_100ml_3mg.svg"
+            "100ml": "/img/100ml/Killer_Kustard_Honeydew_100ml_3mg.svg",
+            "30ml": "/img/30ml/Killer_Kustard_Blueberry_30ml_24mg.svg",
+            "60ml": "/img/600ml/Killer_Kustard_Blueberry_60ml_3mg.svg"
         },
         "sizes": {
             "eliquid": ["100ml"]         
@@ -589,9 +591,9 @@
         "product_types": ["eliquid", "salt"],
         "product_slug": "royalty-ii", 
         "img_src": {
-            "30ml": "/img/30ml/Vapetasia_Royalty_ii_30ml_24mg.svg",
-            "60ml": "/img/600ml/Vapetasia_Royalty_ii_60ml_3mg.svg",
-            "100ml": "/img/100ml/Vapetasia_Royalty_ii_100ml_3mg.svg"
+            "30ml": "/img/30ml/Vapetasia_Royalty_Two_30ml_24mg.svg",
+            "60ml": "/img/600ml/Vapetasia_Royalty_Two_60ml_3mg.svg",
+            "100ml": "/img/100ml/Vapetasia_Royalty_Two_100ml_3mg.svg"
         },
         "sizes": {
             "eliquid": ["60ml", "100ml"],

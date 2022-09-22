@@ -1,5 +1,5 @@
 import React from 'react'
-import {Hero} from '../../components';
+import {Hero, ProductImage} from '../../components';
 
 const ProductShowcase = (props) => {
 
@@ -21,11 +21,8 @@ const ProductShowcase = (props) => {
                   <div class="vapetasia-widget-wrap">
                     <div class="vapetasia-element vapetasia-element-fea488e product-toggle-main-image vapetasia-widget vapetasia-widget-image" data-id="fea488e" data-element_type="widget" data-widget_type="image.default">
                       <div class="vapetasia-widget-container">
-                        <div class="vapetasia-image"> 
-                        <img width="1000" height="1000" src="https://cdn.vapetasia.com/wp-content/uploads/20201202190143/USA_Iced_Milk_of_the_Poppy_60ml_3mg.png" data-src="https://cdn.vapetasia.com/wp-content/uploads/20201202190143/USA_Iced_Milk_of_the_Poppy_60ml_3mg.png" class="attachment-large size-large ls-is-cached lazyloaded" alt="" data-srcset="https://cdn.vapetasia.com/wp-content/uploads/20201202190143/USA_Iced_Milk_of_the_Poppy_60ml_3mg.png 1000w, https://cdn.vapetasia.com/wp-content/uploads/20201202190143/USA_Iced_Milk_of_the_Poppy_60ml_3mg-300x300.png 300w, https://cdn.vapetasia.com/wp-content/uploads/20201202190143/USA_Iced_Milk_of_the_Poppy_60ml_3mg-150x150.png 150w, https://cdn.vapetasia.com/wp-content/uploads/20201202190143/USA_Iced_Milk_of_the_Poppy_60ml_3mg-768x768.png 768w, https://cdn.vapetasia.com/wp-content/uploads/20201202190143/USA_Iced_Milk_of_the_Poppy_60ml_3mg-700x700.png 700w" sizes="(max-width: 1000px) 100vw, 1000px" srcset="https://cdn.vapetasia.com/wp-content/uploads/20201202190143/USA_Iced_Milk_of_the_Poppy_60ml_3mg.png 1000w, https://cdn.vapetasia.com/wp-content/uploads/20201202190143/USA_Iced_Milk_of_the_Poppy_60ml_3mg-300x300.png 300w, https://cdn.vapetasia.com/wp-content/uploads/20201202190143/USA_Iced_Milk_of_the_Poppy_60ml_3mg-150x150.png 150w, https://cdn.vapetasia.com/wp-content/uploads/20201202190143/USA_Iced_Milk_of_the_Poppy_60ml_3mg-768x768.png 768w, https://cdn.vapetasia.com/wp-content/uploads/20201202190143/USA_Iced_Milk_of_the_Poppy_60ml_3mg-700x700.png 700w" />
-                          <noscript>
-                            <img width="1000" height="1000" src="https://cdn.vapetasia.com/wp-content/uploads/20201202190143/USA_Iced_Milk_of_the_Poppy_60ml_3mg.png" class="attachment-large size-large lazyload" alt="" srcset="https://cdn.vapetasia.com/wp-content/uploads/20201202190143/USA_Iced_Milk_of_the_Poppy_60ml_3mg.png 1000w, https://cdn.vapetasia.com/wp-content/uploads/20201202190143/USA_Iced_Milk_of_the_Poppy_60ml_3mg-300x300.png 300w, https://cdn.vapetasia.com/wp-content/uploads/20201202190143/USA_Iced_Milk_of_the_Poppy_60ml_3mg-150x150.png 150w, https://cdn.vapetasia.com/wp-content/uploads/20201202190143/USA_Iced_Milk_of_the_Poppy_60ml_3mg-768x768.png 768w, https://cdn.vapetasia.com/wp-content/uploads/20201202190143/USA_Iced_Milk_of_the_Poppy_60ml_3mg-700x700.png 700w" sizes="(max-width: 1000px) 100vw, 1000px" />
-                          </noscript>
+                        <div class="vapetasia-image">
+                            <ProductImage src={props.product.default_image}></ProductImage>
                         </div>
                       </div>
                     </div>

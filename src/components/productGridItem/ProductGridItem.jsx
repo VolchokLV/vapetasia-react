@@ -1,6 +1,6 @@
 import React from 'react'
 import './productGridItem.css'
-import {Hero} from '../../components'
+import {Hero, ProductImage} from '../../components'
 
 const ProductGridItem = (props) => {
 
@@ -10,10 +10,7 @@ const ProductGridItem = (props) => {
         <div className="vapetasia-widget-container">
           <div className="vapetasia-image">
             <a href={ '/product/' + props.product.product_slug + '/_' }>
-              <img width="300" height="300" src="https://cdn.vapetasia.com/wp-content/uploads/2022/06/30185257/White-Gummy-3mg-Mock-Up-300x300.png" data-src="https://cdn.vapetasia.com/wp-content/uploads/2022/06/30185257/White-Gummy-3mg-Mock-Up-300x300.png" className="attachment-medium size-medium ls-is-cached lazyloaded" alt="" data-srcset="https://cdn.vapetasia.com/wp-content/uploads/2022/06/30185257/White-Gummy-3mg-Mock-Up-300x300.png 300w, https://cdn.vapetasia.com/wp-content/uploads/2022/06/30185257/White-Gummy-3mg-Mock-Up-150x150.png 150w, https://cdn.vapetasia.com/wp-content/uploads/2022/06/30185257/White-Gummy-3mg-Mock-Up-768x768.png 768w, https://cdn.vapetasia.com/wp-content/uploads/2022/06/30185257/White-Gummy-3mg-Mock-Up-600x600.png 600w, https://cdn.vapetasia.com/wp-content/uploads/2022/06/30185257/White-Gummy-3mg-Mock-Up.png 1000w" sizes="(max-width: 300px) 100vw, 300px" srcset="https://cdn.vapetasia.com/wp-content/uploads/2022/06/30185257/White-Gummy-3mg-Mock-Up-300x300.png 300w, https://cdn.vapetasia.com/wp-content/uploads/2022/06/30185257/White-Gummy-3mg-Mock-Up-150x150.png 150w, https://cdn.vapetasia.com/wp-content/uploads/2022/06/30185257/White-Gummy-3mg-Mock-Up-768x768.png 768w, https://cdn.vapetasia.com/wp-content/uploads/2022/06/30185257/White-Gummy-3mg-Mock-Up-600x600.png 600w, https://cdn.vapetasia.com/wp-content/uploads/2022/06/30185257/White-Gummy-3mg-Mock-Up.png 1000w" />
-              <noscript>
-                <img width="300" height="300" src="https://cdn.vapetasia.com/wp-content/uploads/2022/06/30185257/White-Gummy-3mg-Mock-Up-300x300.png" className="attachment-medium size-medium lazyload" alt="" srcset="https://cdn.vapetasia.com/wp-content/uploads/2022/06/30185257/White-Gummy-3mg-Mock-Up-300x300.png 300w, https://cdn.vapetasia.com/wp-content/uploads/2022/06/30185257/White-Gummy-3mg-Mock-Up-150x150.png 150w, https://cdn.vapetasia.com/wp-content/uploads/2022/06/30185257/White-Gummy-3mg-Mock-Up-768x768.png 768w, https://cdn.vapetasia.com/wp-content/uploads/2022/06/30185257/White-Gummy-3mg-Mock-Up-600x600.png 600w, https://cdn.vapetasia.com/wp-content/uploads/2022/06/30185257/White-Gummy-3mg-Mock-Up.png 1000w" sizes="(max-width: 300px) 100vw, 300px" />
-              </noscript>
+              <ProductImage src={props.product.default_image}></ProductImage>
             </a>
           </div>
         </div>

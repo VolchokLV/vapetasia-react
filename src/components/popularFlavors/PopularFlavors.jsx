@@ -1,4 +1,5 @@
 import React from 'react'
+import {ProductImage} from './../../components';
 
 const PopularFlavors = (props) => {
   return (
@@ -66,7 +67,7 @@ const PopularFlavors = (props) => {
                                               <div className="vapetasia-element vapetasia-element-1afe63e vapetasia-widget vapetasia-widget-image" data-id="1afe63e" data-element_type="widget" data-widget_type="image.default">
                                                 <div className="vapetasia-widget-container">
                                                   <div className="vapetasia-image">
-                                                    <img width="300" height="300" src={'https://cdn.vapetasia.com/wp-content/uploads/20200815010135/USA_Killer_Kustard_Blueberry_100ml_3mg-300x300.png'} />
+                                                    <ProductImage src={p.default_image}></ProductImage>
                                                   </div>
                                                 </div>
                                               </div>

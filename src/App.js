@@ -21,6 +21,11 @@ function App() {
   let e60 = []
   let e100 = []
   for (let i = 0; i < products.default.length; i++) {
+    let srcs = products.default[i].img_src;
+    if (srcs) {
+      let keys = Object.keys(srcs);
+      products.default[i]['default_image'] = products.default[i].img_src[keys[0]];
+    }
     switch (products.default[i].product_type) {
       case 'disposable':
         disposables.push(products.default[i])

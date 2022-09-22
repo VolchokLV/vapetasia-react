@@ -6,10 +6,12 @@ import {Hero, ProductGridItem} from '../../components'
 
 const text = {
   'eliquid': 'Enjoy our great Vapetasia flavors in your favorite vaporizers. Vapetasia offers its flavors in 0mg, 3mg, 6mg, and 12mg options in 100ml bottles.',
+  'eliquid-30ml': 'Enjoy our great Vapetasia flavors in your favorite vaporizers. Vapetasia offers its flavors in 0mg, 3mg, 6mg, and 12mg options in 100ml bottles.',
+  'eliquid-60ml': 'Enjoy our great Vapetasia flavors in your favorite vaporizers. Vapetasia offers its flavors in 0mg, 3mg, 6mg, and 12mg options in 100ml bottles.',
+  'eliquid-100ml': 'Enjoy our great Vapetasia flavors in your favorite vaporizers. Vapetasia offers its flavors in 0mg, 3mg, 6mg, and 12mg options in 100ml bottles.',
   'disposable-killer': 'Enjoy Vapetasia flavors in convenient disposables. Vapetasia offers unique flavors in 10ml 3500 puff, 5% Nicotine, 1.5 Ohm rechargeable disposables.',
   'disposable-vapetasia-x-hyve': 'Vapetaisa and Hyve collaborated to bring the best of our flavors together with one of the most popular devices in 2500 and 4000 puff counts.',
   'disposable': 'Vapetasia has many disposable choices - Need to update the text here',
-  'eliquid': 'Enjoy our great Vapetasia flavors in your favorite vaporizers. Vapetasia offers its flavors in 0mg, 3mg, 6mg, and 12mg options in 100ml bottles.',
   'salt': 'Experience the same great Vapetasia flavors in your favorite salt nicotine device. Vapetasia offers salt options in nicotine strengths of 12mg, 24mg and 48mg in 30ml bottles.'
 }
 
@@ -18,8 +20,23 @@ const ProductGrid = (props) => {
   const { type, topic, value } = useParams()
 
   let matches = 0
-  let textKey = topic == '_' ? type : type + '-' + value
-  let bottomText = topic == '_' ? 'Disposable' : value.replace('-', ' ').replace('-', ' ') + ' disposables'
+  let textKey = '';
+  let bottomText = '';
+  if (topic == '_') {
+    bottomText = 'Disposable';
+    textKey = type;
+  } else if (topic == 'brand') {
+    bottomText = value.replace('-', ' ').replace('-', ' ') + ' disposables';
+    textKey = type + '-' + value;
+  } else if (topic == 'size') {
+    if (type == 'eliquid') {
+      bottomText = 'E-Liquid ' + value;
+      textKey = type + '-' + value;
+    } else {
+      bottomText = 'Salt ' + value;
+      textKey = type;
+    }
+  }
 
   return (
     <>

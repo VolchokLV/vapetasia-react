@@ -8,7 +8,9 @@ const text = {
   'eliquid': 'Enjoy our great Vapetasia flavors in your favorite vaporizers. Vapetasia offers its flavors in 0mg, 3mg, 6mg, and 12mg options in 100ml bottles.',
   'disposable-killer': 'Enjoy Vapetasia flavors in convenient disposables. Vapetasia offers unique flavors in 10ml 3500 puff, 5% Nicotine, 1.5 Ohm rechargeable disposables.',
   'disposable-vapetasia-x-hyve': 'Vapetaisa and Hyve collaborated to bring the best of our flavors together with one of the most popular devices in 2500 and 4000 puff counts.',
-  'disposable': 'Vapetasia has many disposable choices - Need to update the text here'
+  'disposable': 'Vapetasia has many disposable choices - Need to update the text here',
+  'eliquid': 'Enjoy our great Vapetasia flavors in your favorite vaporizers. Vapetasia offers its flavors in 0mg, 3mg, 6mg, and 12mg options in 100ml bottles.',
+  'salt': 'Experience the same great Vapetasia flavors in your favorite salt nicotine device. Vapetasia offers salt options in nicotine strengths of 12mg, 24mg and 48mg in 30ml bottles.'
 }
 
 const ProductGrid = (props) => {

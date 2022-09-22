@@ -4,7 +4,7 @@ import './productImage.css'
 const ProductImage = (props) => {
 
   return (
-    <object data={'https://cdn.mojoverse.io/asdfasdfdf334343sdfadsf' + props.src} />
+    <object data={'https://cdn2.vapetasia.com' + props.src} />
   )
 }
 

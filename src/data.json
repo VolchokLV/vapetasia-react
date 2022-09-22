@@ -54,7 +54,7 @@
             "60ml": ["https://www.ejuices.com/products/killer-kustard-by-vapetasia-killer-kustard-strawberry", "https://vapesocietysupplies.com/products/killer-kustard-strawberry-100ml-vapetasia/", "https://www.elementvape.com/killer-kustard-strawberry-vapetasia"],
             "30ml": ["https://www.ejuices.com/products/vapetasia-ejuice-salts-killer-kustard-strawberry", "https://vapesocietysupplies.com/products/killer-kustard-strawberry-vapetasia-salts-30ml/", "https://www.elementvape.com/killer-kustard-strawberry-vapetasia-salts"]
         },   
-        "is_featured": 1,
+        "is_featured": 0,
         "sort_order": 1            
     },    
     {
@@ -63,7 +63,7 @@
         "product_slug": "white-gummy", 
         "img_src": {
             "30ml": "/img/30ml/Killer_Sweets_White_Gummy_30ml_24mg.svg",
-            "100ml": "/img/100ml/Killer_Sweets_White Gummy_100ml_3mg.svg"
+            "100ml": "/img/100ml/Killer_Sweets_White_Gummy_100ml_3mg.svg"
         },
         "sizes": {
             "eliquid": ["100ml"],
@@ -138,7 +138,7 @@
             "60ml": ["https://www.ejuices.com/products/vape-parfait-blueberry-parfait", "https://vapesocietysupplies.com/products/blueberry-parfait-by-vapetasia-100ml/", "https://www.elementvape.com/blueberry-parfait-vapetasia"],
             "30ml": ["https://www.ejuices.com/products/vape-parfait-salts-blueberry-parfait", "https://vapesocietysupplies.com/products/blueberry-parfait-by-vapetasia-salts-30ml/", "https://www.elementvape.com/blueberry-parfait-vapetasia-salts"]
         },   
-        "is_featured": 1,
+        "is_featured": 0,
         "sort_order": 1        
     },    
     {
@@ -221,7 +221,7 @@
             "60ml": ["https://www.ejuices.com/products/vape-parfait-strawberry-parfait", "https://vapesocietysupplies.com/products/strawberry-parfait-by-vapetasia-100ml/", "https://www.elementvape.com/strawberry-parfait-vapetasia"],
             "30ml": ["https://www.ejuices.com/products/vape-parfait-salts-strawberry-parfait", "https://vape.com/products/strawberry-parfait-by-vapetasia-salts-30ml", "https://www.elementvape.com/strawberry-parfait-vapetasia-salts"]
         },   
-        "is_featured": 1,
+        "is_featured": 0,
         "sort_order": 1
     }, 
     {

@@ -63,7 +63,7 @@
         "product_slug": "white-gummy", 
         "img_src": {
             "30ml": "/img/30ml/Killer_Sweets_White_Gummy_30ml_24mg.svg",
-            "100ml": "/img/100ml/Killer_Sweets_White_Gummy_100ml_3mg.svg"
+            "100ml": "/img/100ml/Killer_Sweets_White Gummy_100ml_3mg.svg"
         },
         "sizes": {
             "eliquid": ["100ml"],

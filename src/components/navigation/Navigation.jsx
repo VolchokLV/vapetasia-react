@@ -227,7 +227,7 @@ const Navigation = () => {
               </li>
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-652">
                 <a href={ process.env.REACT_APP_BASE_URL + '/flavors/' }>
-                  FLAVORS<span className="dropdown-toggle" tabindex="0"></span>
+                  FLAVORS<span className="dropdown-toggle" tabIndex="0"></span>
                 </a>
                 <ul className="sub-menu">
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-619">
@@ -250,7 +250,7 @@ const Navigation = () => {
               
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4893">
                 <a href={ process.env.REACT_APP_BASE_URL + '/killer-disposables/' }>
-                  DISPOSABLES<span className="dropdown-toggle" tabindex="0"></span>
+                  DISPOSABLES<span className="dropdown-toggle" tabIndex="0"></span>
                 </a>
                 <ul className="sub-menu">
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-6022">
@@ -284,7 +284,7 @@ const Navigation = () => {
 
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-336">
                 <a href={ process.env.REACT_APP_BASE_URL + '/contact/' }>
-                  CONTACT US<span className="dropdown-toggle" tabindex="0"></span>
+                  CONTACT US<span className="dropdown-toggle" tabIndex="0"></span>
                 </a>
                 <ul className="sub-menu">
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1980">

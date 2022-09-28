@@ -21,3 +21,4 @@ export { default as ProductImage } from './productImage/ProductImage';
 export { default as ProductPopUp } from './productPopUp/ProductPopUp';
 export { default as Newsletter } from './newsletter/Newsletter'
 export { default as AdvocacyHero} from './hero/AdvocacyHero'
+export { default as StoreLocatorHero} from './hero/StoreLocatorHero'

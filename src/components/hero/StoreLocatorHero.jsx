@@ -3,11 +3,11 @@ import React from 'react';
 
 
 
-const AdvocacyHero = (props) => {
+const StoreLocatorHero = (props) => {
     
   return (
     <>
-      <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-AdvocacyHero6ba8ee0 vapetasia-hidden-tablet vapetasia-hidden-phone vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="AdvocacyHero6ba8ee0" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+      <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-StoreLocatorHero vapetasia-hidden-tablet vapetasia-hidden-phone vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="StoreLocatorHero" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
         <div className="vapetasia-background-overlay">
         </div>
         <div className="vapetasia-container vapetasia-column-gap-no">
@@ -54,7 +54,7 @@ const AdvocacyHero = (props) => {
                     </div>
                   </div>
 
-                  <section className="vapetasia-section vapetasia-inner-section vapetasia-element vapetasia-element-AdvocacyHero339b7fd vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="AdvocacyHero339b7fd" data-element_type="section">
+                  <section className="vapetasia-section vapetasia-inner-section vapetasia-element vapetasia-element-SoteLocatorHero339b7fd vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="SoteLocatorHero339b7fd" data-element_type="section">
                     <div className="vapetasia-container vapetasia-column-gap-default">
                       <div className="vapetasia-row">
                         <div className="vapetasia-column vapetasia-col-33 vapetasia-inner-column vapetasia-element vapetasia-element-1a9de7d" data-id="1a9de7d" data-element_type="column">
@@ -103,4 +103,4 @@ const AdvocacyHero = (props) => {
   )
 }
 
-export default AdvocacyHero
+export default StoreLocatorHero

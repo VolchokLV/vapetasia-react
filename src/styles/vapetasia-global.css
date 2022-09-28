@@ -45055,6 +45055,7 @@ ol.vapetasia-toc__list-wrapper .vapetasia-toc__list-item-text-wrapper:before {
     --spacer-size: 50px;
 }
 
+/* Home Page Hero */
 .vapetasia-191 .vapetasia-element.vapetasia-element-6ba8ee0:not(.vapetasia-motion-effects-element-type-background), .vapetasia-191 .vapetasia-element.vapetasia-element-6ba8ee0 > .vapetasia-motion-effects-container > .vapetasia-motion-effects-layer {
     background-image: url("https://vapetasia.com/wp-content/uploads/2020/08/Home-1.jpg");
     background-position: center center;
@@ -45063,7 +45064,7 @@ ol.vapetasia-toc__list-wrapper .vapetasia-toc__list-item-text-wrapper:before {
 }
 
 .vapetasia-191 .vapetasia-element.vapetasia-element-6ba8ee0 > .vapetasia-background-overlay {
-    background-image: url("http://www.vapetasia.co/wp-content/uploads/2020/05/IMGS-NEW-1.png");
+    background-image: url("https://cdn2.vapetasia.com/img/hero/gash.png");
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -45072,6 +45073,50 @@ ol.vapetasia-toc__list-wrapper .vapetasia-toc__list-item-text-wrapper:before {
 }
 
 .vapetasia-191 .vapetasia-element.vapetasia-element-6ba8ee0 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 0px 0px 199px 0px;
+}
+
+/* Advocacy Hero */
+.vapetasia-191 .vapetasia-element.vapetasia-element-AdvocacyHero6ba8ee0:not(.vapetasia-motion-effects-element-type-background), .vapetasia-191 .vapetasia-element.vapetasia-element-6ba8ee0 > .vapetasia-motion-effects-container > .vapetasia-motion-effects-layer {
+    background-image: url("https://cdn2.vapetasia.com/img/hero/Advocacy.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vapetasia-191 .vapetasia-element.vapetasia-element-AdvocacyHero6ba8ee0 > .vapetasia-background-overlay {
+    background-image: url("https://cdn2.vapetasia.com/img/hero/gash.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.vapetasia-191 .vapetasia-element.vapetasia-element-AdvocacyHero6ba8ee0 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 0px 0px 199px 0px;
+}
+
+/* Store Locator Hero */
+.vapetasia-191 .vapetasia-element.vapetasia-element-StoreLocatorHero:not(.vapetasia-motion-effects-element-type-background), .vapetasia-191 .vapetasia-element.vapetasia-element-6ba8ee0 > .vapetasia-motion-effects-container > .vapetasia-motion-effects-layer {
+    background-image: url("https://cdn2.vapetasia.com/img/hero/StoreLocator.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vapetasia-191 .vapetasia-element.vapetasia-element-StoreLocatorHero > .vapetasia-background-overlay {
+    background-image: url("https://cdn2.vapetasia.com/img/hero/gash.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.vapetasia-191 .vapetasia-element.vapetasia-element-StoreLocatorHero {
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     padding: 0px 0px 199px 0px;
 }
@@ -45119,8 +45164,20 @@ ol.vapetasia-toc__list-wrapper .vapetasia-toc__list-item-text-wrapper:before {
 
 .vapetasia-191 .vapetasia-element.vapetasia-element-339b7fd {
     margin-top: 0px;
-    margin-bottom: -155px;
-    padding: 111px 0px 0px 0px;
+    margin-bottom: -205px;
+    padding: 151px 0px 0px 0px;
+}
+/* Advocacy Hero Text */
+.vapetasia-191 .vapetasia-element.vapetasia-element-AdvocacyHero339b7fd {
+    margin-top: 0px;
+    margin-bottom: -300px;
+    padding: 200px 0px 0px 0px;
+}
+/* Store Locator Hero Text */
+.vapetasia-191 .vapetasia-element.vapetasia-element-StoreLocatorHero {
+    margin-top: 0px;
+    margin-bottom: -300px;
+    padding: 200px 0px 0px 0px;
 }
 
 .vapetasia-191 .vapetasia-element.vapetasia-element-986625f {    

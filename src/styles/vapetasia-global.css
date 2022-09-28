@@ -11324,17 +11324,17 @@ img[class*="align"],img[class*="attachment-"] {
     height: auto
 }
 
-.wp-caption {
+.vt-caption {
     max-width: 100%;
     margin-bottom: 24px
 }
 
-.wp-caption img[class*="wp-image-"] {
+.vt-caption img[class*="wp-image-"] {
     display: block;
     margin-bottom: 5px
 }
 
-.wp-caption-text {
+.vt-caption-text {
     font-size: 14px;
     font-style: italic;
     color: #999

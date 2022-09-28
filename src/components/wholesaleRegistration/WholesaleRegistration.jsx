@@ -3,7 +3,10 @@ import styles from './wholesaleRegistration.css'
 
 const WholesaleRegistration = () => {
   return (
-    <h1>Wholesale Registration</h1>
+   // <h1>Wholesale Registration</h1>
+   <>
+   
+   </>
   )
 }
 

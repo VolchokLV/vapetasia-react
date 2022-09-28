@@ -1,12 +1,9 @@
-import React, { useState, useEffect} from 'react';
-import './hero.css';
-import { Parallax, Background  } from 'react-parallax';
-import heroImg from '../../img/hero/Home-1.jpg'
-import gash from '../../img/hero/gash.png'
-// style={ {trasform: 'translateY(${ offsetY * 0.5}px)'}}>
+import React from 'react';
+//import './hero.css';
 
 
-const Hero = (props) => {
+
+const AdvocacyHero = (props) => {
     
   return (
     <>
@@ -106,4 +103,4 @@ const Hero = (props) => {
   )
 }
 
-export default Hero
+export default AdvocacyHero

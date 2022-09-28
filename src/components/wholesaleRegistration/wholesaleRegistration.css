@@ -1,0 +1,18 @@
+#crmWebToEntityForm tr , #crmWebToEntityForm td { 
+    padding:6px;
+    border-spacing:0px;
+    border-width:0px;
+    display: block;
+    width: 100%;
+    }
+@media screen and (max-width: 600px) {
+  #crmWebToEntityForm tr , #crmWebToEntityForm td { 
+    box-sizing: border-box;
+    padding-left: 20px;
+    width: 100% !important;
+    }
+    #crmWebToEntityForm table {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    }
+}

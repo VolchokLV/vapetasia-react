@@ -4,9 +4,10 @@
         "product_types": ["eliquid", "salt"],
         "product_slug": "killer-kustard", 
         "img_src": {
+            "100ml": "/img/100ml/Killer_Kustard_100ml_3mg.svg",
             "30ml": "/img/30ml/Killer_Kustard_30ml_24mg.svg",
-            "60ml": "/img/600ml/Killer_Kustard_60ml_3mg.svg",
-            "100ml": "/img/100ml/Killer_Kustard_100ml_3mg.svg"
+            "60ml": "/img/600ml/Killer_Kustard_60ml_3mg.svg"
+
         },
         "sizes": {
             "eliquid": ["60ml", "100ml"],
@@ -33,9 +34,9 @@
         "product_types": ["eliquid", "salt"],
         "product_slug": "killer-kustard-strawberry", 
         "img_src": {
+            "100ml": "/img/100ml/Killer_Kustard_Strawberry_100ml_3mg.svg",
             "30ml": "/img/30ml/Killer_Kustard_Strawberry_30ml_24mg.svg",
-            "60ml": "/img/600ml/Killer_Kustard_Strawberry_60ml_3mg.svg",
-            "100ml": "/img/100ml/Killer_Kustard_Strawberry_100ml_3mg.svg"
+            "60ml": "/img/600ml/Killer_Kustard_Strawberry_60ml_3mg.svg"
         },
         "sizes": {
             "eliquid": ["60ml", "100ml"],
@@ -62,8 +63,9 @@
         "product_types": ["eliquid", "salt"],
         "product_slug": "white-gummy", 
         "img_src": {
-            "30ml": "/img/30ml/Killer_Sweets_White_Gummy_30ml_24mg.svg",
-            "100ml": "/img/100ml/Killer_Sweets_White_Gummy_100ml_3mg.png"
+            "100ml": "/img/100ml/Killer_Sweets_White_Gummy_100ml_3mg.png",
+            "30ml": "/img/30ml/Killer_Sweets_White_Gummy_30ml_24mg.svg"
+
         },
         "sizes": {
             "eliquid": ["100ml"],
@@ -89,8 +91,8 @@
         "product_types": ["eliquid", "salt"],
         "product_slug": "Rain-Bops", 
         "img_src": {
-            "30ml": "/img/30ml/Killer_Sweets_Rain_Bops_30ml_24mg.svg",
-            "100ml": "/img/100ml/Killer_Sweets_Rain_Bops_100ml_3mg.svg"
+            "100ml": "/img/100ml/Killer_Sweets_Rain_Bops_100ml_3mg.svg",
+            "30ml": "/img/30ml/Killer_Sweets_Rain_Bops_30ml_24mg.svg"
         },
         "sizes": {
             "eliquid": ["100ml"],
@@ -117,9 +119,9 @@
         "product_types": ["eliquid", "salt"],
         "product_slug": "blueberry-parfait", 
         "img_src": {
-            "30ml": "/img/30ml/Vape_Parfait_Blueberry_Parfait_30ml_24mg.svg",
+            "100ml": "/img/100ml/Vape_Parfait_Blueberry_Parfait_100ml_3mg.svg",
             "60ml": "/img/600ml/Vape_Parfait_Blueberry_Parfait_60ml_3mg.svg",
-            "100ml": "/img/100ml/Vape_Parfait_Blueberry_Parfait_100ml_3mg.svg"
+            "30ml": "/img/30ml/Vape_Parfait_Blueberry_Parfait_30ml_24mg.svg"
         },
         "sizes": {
             "eliquid": ["60ml", "100ml"],
@@ -146,8 +148,8 @@
         "product_types": ["eliquid", "salt"],
         "product_slug": "iced-white-gummy", 
         "img_src": {
-            "30ml": "/img/30ml/Iced_White_Gummy_30ml_24mg.svg",
-            "100ml": "/img/100ml/Iced_White_Gummy_100ml_3mg.svg"
+            "100ml": "/img/100ml/Iced_White_Gummy_100ml_3mg.svg",
+            "30ml": "/img/30ml/Iced_White_Gummy_30ml_24mg.svg"
         },
         "sizes": {
             "eliquid": ["60ml", "100ml"],
@@ -173,8 +175,8 @@
         "product_types": ["eliquid", "salt"],
         "product_slug": "iced-rain-bops", 
         "img_src": {
-            "30ml": "/img/30ml/Iced_Rain_Bops_30ml_24mg.svg",
-            "100ml": "/img/100ml/Iced_Rain_Bops_100ml_3mg.svg"
+            "100ml": "/img/100ml/Iced_Rain_Bops_100ml_3mg.svg",
+            "30ml": "/img/30ml/Iced_Rain_Bops_30ml_24mg.svg"
         },
         "sizes": {
             "eliquid": ["100ml"],
@@ -200,9 +202,9 @@
         "product_types": ["eliquid", "salt"],
         "product_slug": "strawberry-parfait", 
         "img_src": {
+            "100ml": "/img/100ml/Vape_Parfait_Strawberry_Parfait_100ml_3mg.svg",
             "30ml": "/img/30ml/Vape_Parfait_Strawberry_Parfait_30ml_24mg.svg",
-            "60ml": "/img/600ml/Vape_Parfait_Strawberry_Parfait_60ml_3mg.svg",
-            "100ml": "/img/100ml/Vape_Parfait_Strawberry_Parfait_100ml_3mg.svg"
+            "60ml": "/img/600ml/Vape_Parfait_Strawberry_Parfait_60ml_3mg.svg"
         },
         "sizes": {
             "eliquid": ["60ml", "100ml"],
@@ -229,8 +231,8 @@
             "product_types": ["eliquid", "salt"],
             "product_slug": "blue-razz", 
             "img_src": {
-                "30ml": "/img/30ml/Killer_Fruits_Blue_Razz_30ml_24mg.svg",
-                "100ml": "/img/100ml/Killer_Fruits_Blue_Razz_100ml_3mg.svg"
+                "100ml": "/img/100ml/Killer_Fruits_Blue_Razz_100ml_3mg.svg",
+                "30ml": "/img/30ml/Killer_Fruits_Blue_Razz_30ml_24mg.svg"
             },
             "sizes": {
                 "eliquid": ["100ml"],
@@ -256,8 +258,8 @@
         "product_types": ["eliquid", "salt"],
         "product_slug": "straw-guaw", 
         "img_src": {
-            "30ml": "/img/30ml/Killer_Fruits_Straw_Guaw_30ml_24mg.svg",
-            "100ml": "/img/100ml/Killer_Fruits_Straw_Guaw_100ml_3mg.svg"
+            "100ml": "/img/100ml/Killer_Fruits_Straw_Guaw_100ml_3mg.svg",
+            "30ml": "/img/30ml/Killer_Fruits_Straw_Guaw_30ml_24mg.svg"
         },
         "sizes": {
             "eliquid": ["60ml", "100ml"],
@@ -283,8 +285,8 @@
         "product_types": ["eliquid", "salt"],
         "product_slug": "trapple", 
         "img_src": {
-            "30ml": "/img/30ml/Killer_Fruits_Trapple_30ml_24mg.svg",
-            "100ml": "/img/100ml/Killer_Fruits_Trapple_100ml_3mg.svg"
+            "100ml": "/img/100ml/Killer_Fruits_Trapple_100ml_3mg.svg",
+            "30ml": "/img/30ml/Killer_Fruits_Trapple_30ml_24mg.svg"
         },
         "sizes": {
             "eliquid": ["60ml", "100ml"],
@@ -310,8 +312,8 @@
         "product_types": ["eliquid", "salt"],
         "product_slug": "iced-blue-razz", 
         "img_src": {
-            "30ml": "/img/30ml/Iced_Blue_Razz_30ml_24mg.svg",
-            "100ml": "/img/100ml/Iced_Blue_Razz_100ml_3mg.svg"
+            "100ml": "/img/100ml/Iced_Blue_Razz_100ml_3mg.svg",
+            "30ml": "/img/30ml/Iced_Blue_Razz_30ml_24mg.svg"
         },
         "sizes": {
             "eliquid": ["60ml", "100ml"],
@@ -337,8 +339,8 @@
         "product_types": ["eliquid", "salt"],
         "product_slug": "iced-straw-guaw", 
         "img_src": {
-            "30ml": "/img/30ml/Iced_Straw_Guaw_30ml_24mg.svg",
-            "100ml": "/img/100ml/Iced_Straw_Guaw_100ml_3mg.svg"
+            "100ml": "/img/100ml/Iced_Straw_Guaw_100ml_3mg.svg",
+            "30ml": "/img/30ml/Iced_Straw_Guaw_30ml_24mg.svg"
         },
         "sizes": {
             "eliquid": ["100ml"],
@@ -365,8 +367,8 @@
         "product_types": ["eliquid", "salt"],
         "product_slug": "iced-trapple", 
         "img_src": {
-            "30ml": "/img/30ml/Iced_Trapple_30ml_24mg.svg",
-            "100ml": "/img/100ml/Iced_Trapple_100ml_3mg.svg"
+            "100ml": "/img/100ml/Iced_Trapple_100ml_3mg.svg",
+            "30ml": "/img/30ml/Iced_Trapple_30ml_24mg.svg"
         },
         "sizes": {
             "eliquid": ["100ml"],
@@ -393,8 +395,8 @@
         "product_types": ["eliquid"],
         "product_slug": "pango", 
         "img_src": {
-			"30ml": "/img/30ml/Killer_Fruits_Pango_30ml_24mg.svg",
-            "100ml": "/img/100ml/Killer_Fruits_Pango_100ml_3mg.svg"
+            "100ml": "/img/100ml/Killer_Fruits_Pango_100ml_3mg.svg",
+			"30ml": "/img/30ml/Killer_Fruits_Pango_30ml_24mg.svg"
         },
         "sizes": {
             "eliquid": ["100ml"],
@@ -423,7 +425,9 @@
         "product_slug": "killer-kustard-blueberry", 
         "img_src": {
 
-            "100ml": "/img/100ml/Killer_Kustard_Blueberry_100ml_3mg.svg"
+            "100ml": "/img/100ml/Killer_Kustard_Blueberry_100ml_3mg.svg",
+            "60ml": "/img/60ml/Killer_Kustard_Blueberry_100ml_3mg.svg",
+            "30ml": "/img/30ml/Killer_Kustard_Blueberry_30ml_24mg.svg"       
         },
         "sizes": {
             "eliquid": [ "100ml", "60ml"],
@@ -476,9 +480,7 @@
         "product_types": ["eliquid"],
         "product_slug": "killer-kustard-honeydew", 
         "img_src": {
-            "100ml": "/img/100ml/Killer_Kustard_Honeydew_100ml_3mg.svg",
-            "30ml": "/img/30ml/Killer_Kustard_Blueberry_30ml_24mg.svg",
-            "60ml": "/img/600ml/Killer_Kustard_Blueberry_60ml_3mg.svg"
+            "100ml": "/img/100ml/Killer_Kustard_Honeydew_100ml_3mg.svg"
         },
         "sizes": {
             "eliquid": ["100ml"]         
@@ -502,9 +504,9 @@
         "product_types": ["eliquid", "salt"],
         "product_slug": "pineapple-express", 
         "img_src": {
-            "30ml": "/img/30ml/Vapetasia_Pineapple_Express_30ml_24mg.svg",
+            "100ml": "/img/100ml/Vapetasia_Pineapple_Express_100ml_3mg.svg",
             "60ml": "/img/600ml/Vapetasia_Pineapple_Express_60ml_3mg.svg",
-            "100ml": "/img/100ml/Vapetasia_Pineapple_Express_100ml_3mg.svg"
+            "30ml": "/img/30ml/Vapetasia_Pineapple_Express_30ml_24mg.svg"
         },
         "sizes": {
             "eliquid": ["60ml", "100ml"],
@@ -532,9 +534,9 @@
         "product_types": ["eliquid", "salt"],
         "product_slug": "rainbow-road", 
         "img_src": {
-            "30ml": "/img/30ml/Vapetasia_Rainbow_Road_30ml_24mg.svg",
+            "100ml": "/img/100ml/Vapetasia_Rainbow_Road_100ml_3mg.svg",
             "60ml": "/img/600ml/Vapetasia_Rainbow_Road_60ml_3mg.svg",
-            "100ml": "/img/100ml/Vapetasia_Rainbow_Road_100ml_3mg.svg"
+            "30ml": "/img/30ml/Vapetasia_Rainbow_Road_30ml_24mg.svg"
         },
         "sizes": {
             "eliquid": ["60ml", "100ml"],
@@ -561,9 +563,9 @@
         "product_types": ["eliquid", "salt"],
         "product_slug": "milk-of-the-poppy", 
         "img_src": {
-            "30ml": "/img/30ml/Vapetasia_Milk_Of_The_Poppy_30ml_24mg.svg",
+            "100ml": "/img/100ml/Vapetasia_Milk_Of_The_Poppy_100ml_3mg.svg",
             "60ml": "/img/600ml/Vapetasia_Milk_Of_The_Poppy_60ml_3mg.svg",
-            "100ml": "/img/100ml/Vapetasia_Milk_Of_The_Poppy_100ml_3mg.svg"
+            "30ml": "/img/30ml/Vapetasia_Milk_Of_The_Poppy_30ml_24mg.svg"
         },
         "sizes": {
             "eliquid": ["60ml", "100ml"],
@@ -591,9 +593,9 @@
         "product_types": ["eliquid", "salt"],
         "product_slug": "royalty-ii", 
         "img_src": {
-            "30ml": "/img/30ml/Vapetasia_Royalty_Two_30ml_24mg.svg",
+            "100ml": "/img/100ml/Vapetasia_Royalty_Two_100ml_3mg.svg",
             "60ml": "/img/600ml/Vapetasia_Royalty_Two_60ml_3mg.svg",
-            "100ml": "/img/100ml/Vapetasia_Royalty_Two_100ml_3mg.svg"
+            "30ml": "/img/30ml/Vapetasia_Royalty_Two_30ml_24mg.svg"
         },
         "sizes": {
             "eliquid": ["60ml", "100ml"],
@@ -620,9 +622,9 @@
         "product_types": ["eliquid", "salt"],
         "product_slug": "iced-pineapple-express", 
         "img_src": {
-            "30ml": "/img/30ml/Iced_Pineapple_Express_30ml_24mg.svg",
+            "100ml": "/img/100ml/Iced_Pineapple_Express_100ml_3mg.svg",
             "60ml": "/img/600ml/Iced_Pineapple_Express_60ml_3mg.svg",
-            "100ml": "/img/100ml/Iced_Pineapple_Express_100ml_3mg.svg"
+            "30ml": "/img/30ml/Iced_Pineapple_Express_30ml_24mg.svg"
         },
         "sizes": {
             "eliquid": ["60ml", "100ml"],
@@ -649,9 +651,9 @@
         "product_types": ["eliquid", "salt"],
         "product_slug": "iced-milk-of-the-poppy", 
         "img_src": {
-            "30ml": "/img/30ml/Iced_Milk_of_the_Poppy_30ml_24mg.svg",
+            "100ml": "/img/100ml/Iced_Milk_of_the_Poppy_100ml_3mg.svg",
             "60ml": "/img/600ml/Iced_Milk_of_the_Poppy_60ml_3mg.svg",
-            "100ml": "/img/100ml/Iced_Milk_of_the_Poppy_100ml_3mg.svg"
+            "30ml": "/img/30ml/Iced_Milk_of_the_Poppy_30ml_24mg.svg"
         },
         "sizes": {
             "eliquid": ["60ml", "100ml"],
@@ -679,9 +681,9 @@
         "product_types": ["eliquid", "salt"],
         "product_slug": "blackberry-lemonade", 
         "img_src": {
-            "30ml": "/img/30ml/Vape_Lemonade_Blackberry_Lemonade_30ml_24mg.svg",
+            "100ml": "/img/100ml/Vape_Lemonade_Blackberry_Lemonade_100ml_3mg.svg",
             "60ml": "/img/600ml/Vape_Lemonade_Blackberry_Lemonade_60ml_3mg.svg",
-            "100ml": "/img/100ml/Vape_Lemonade_Blackberry_Lemonade_100ml_3mg.svg"
+            "30ml": "/img/30ml/Vape_Lemonade_Blackberry_Lemonade_30ml_24mg.svg"
         },
         "sizes": {
             "eliquid": ["60ml", "100ml"],
@@ -708,9 +710,9 @@
         "product_types": ["eliquid", "salt"],
         "product_slug": "iced-blackberry-lemonade", 
         "img_src": {
-            "30ml": "/img/30ml/Iced_Blackberry_Lemonade_30ml_24mg.svg",
+            "100ml": "/img/100ml/Iced_Blackberry_Lemonade_100ml_3mg.svg",
             "60ml": "/img/600ml/Iced_Blackberry_Lemonade_60ml_3mg.svg",
-            "100ml": "/img/100ml/Iced_Blackberry_Lemonade_100ml_3mg.svg"
+            "30ml": "/img/30ml/Iced_Blackberry_Lemonade_30ml_24mg.svg"
         },
         "sizes": {
             "eliquid": ["100ml"],
@@ -736,9 +738,9 @@
         "product_types": ["eliquid", "salt"],
         "product_slug": "pink-lemonade", 
         "img_src": {
-            "30ml": "/img/30ml/Vape_Lemonade_Pink_Lemonade_30ml_24mg.svg",
+            "100ml": "/img/100ml/Vape_Lemonade_Pink_Lemonade_100ml_3mg.svg",
             "60ml": "/img/600ml/Vape_Lemonade_Pink_Lemonade_60ml_3mg.svg",
-            "100ml": "/img/100ml/Vape_Lemonade_Pink_Lemonade_100ml_3mg.svg"
+            "30ml": "/img/30ml/Vape_Lemonade_Pink_Lemonade_30ml_24mg.svg"
         },
         "sizes": {
             "eliquid": ["60ml", "100ml"],
@@ -765,9 +767,9 @@
         "product_types": ["eliquid", "salt"],
         "product_slug": "killer-kustard-blueberry", 
         "img_src": {
-            "30ml": "/img/30ml/Killer_Kustard_Blueberry_30ml_24mg.svg",
+            "100ml": "/img/100ml/Killer_Kustard_Blueberry_100ml_3mg.svg",
             "60ml": "/img/600ml/Killer_Kustard_Blueberry_60ml_3mg.svg",
-            "100ml": "/img/100ml/Killer_Kustard_Blueberry_100ml_3mg.svg"
+            "30ml": "/img/30ml/Killer_Kustard_Blueberry_30ml_24mg.svg"
         },
         "sizes": {
             "eliquid": ["60ml", "100ml"],
@@ -794,8 +796,8 @@
         "product_types": ["eliquid"],
         "product_slug": "grape", 
         "img_src": {
-			"30ml": "/img/30ml/Killer_Fruits_Grape_30ml_24mg.svg",
-            "100ml": "/img/100ml/Killer_Fruits_Grape_100ml_3mg.svg"
+            "100ml": "/img/100ml/Killer_Fruits_Grape_100ml_3mg.svg",
+			"30ml": "/img/30ml/Killer_Fruits_Grape_30ml_24mg.svg"
         },
         "sizes": {
             "eliquid": ["100ml"],
@@ -821,8 +823,8 @@
         "product_types": ["eliquid"],
         "product_slug": "iced-pango", 
         "img_src": {
-			"30ml": "/img/30ml/Iced_Pango_30ml_24mg.svg",
-            "100ml": "/img/100ml/Iced_Pango_100ml_3mg.svg"
+            "100ml": "/img/100ml/Iced_Pango_100ml_3mg.svg",
+			"30ml": "/img/30ml/Iced_Pango_30ml_24mg.svg"
         },
         "sizes": {
             "eliquid": ["100ml"],
@@ -848,8 +850,8 @@
         "product_types": ["eliquid"],
         "product_slug": "iced-grape", 
         "img_src": {
-			"30ml": "/img/30ml/Iced_Grape_30ml_24mg.svg",
-            "100ml": "/img/100ml/Iced_Grape_100ml_3mg.svg"
+            "100ml": "/img/100ml/Iced_Grape_100ml_3mg.svg",
+			"30ml": "/img/30ml/Iced_Grape_30ml_24mg.svg"
         },
         "sizes": {
             "eliquid": ["100ml"],

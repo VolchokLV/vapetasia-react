@@ -1,5 +1,5 @@
 import React from 'react';
-import {AuthorizedRetailers, BuyOnline, Hero, IndustryUpdate, LetsGetSocial, PopularFlavors, PromotingVapetasia, SeeWhatWeAreAbout} from '../../components';
+import {AuthorizedRetailers, BuyOnline, Hero, IndustryUpdate, LetsGetSocial, Newsletter, PopularFlavors, PromotingVapetasia, SeeWhatWeAreAbout} from '../../components';
 import './home.css';
 
 
@@ -13,6 +13,7 @@ const Home = (props) => {
       <AuthorizedRetailers></AuthorizedRetailers>
       <BuyOnline></BuyOnline>
       <LetsGetSocial></LetsGetSocial>
+      <Newsletter></Newsletter>
       <PromotingVapetasia></PromotingVapetasia>
     </>
   );

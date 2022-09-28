@@ -182,13 +182,13 @@ const Navigation = () => {
             </li>
 
 
-            <li id="menu-item-3994" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3994">
+            {/* <li id="menu-item-3994" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3994">
               <a href={ process.env.REACT_APP_BASE_URL + '/pact/' } className="menu-link">
                 <span className="text-wrap">
                   PACT
                 </span>
               </a>
-            </li>
+            </li> */}
 
 
             <li className="search-toggle-li">
@@ -316,9 +316,9 @@ const Navigation = () => {
               </li>
 
 
-              <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3994">
+              {/* <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3994">
                 <a href={ process.env.REACT_APP_BASE_URL + '/pact/' }>PACT</a>
-              </li>
+              </li> */}
             </ul>
           </div>
 

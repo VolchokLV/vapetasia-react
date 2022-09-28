@@ -19,3 +19,4 @@ export { default as ProductShowcase } from './productShowcase/ProductShowcase';
 export { default as ProductGridItem } from './productGridItem/ProductGridItem';
 export { default as ProductImage } from './productImage/ProductImage';
 export { default as ProductPopUp } from './productPopUp/ProductPopUp';
+export { default as Newsletter } from './newsletter/Newsletter'

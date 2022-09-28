@@ -22,7 +22,7 @@ const Navbar = () => {
             <a href="/contactus">CONTACT US</a>
             <a href="/wholesale">WHOLESALE</a>
             <a href="/storelocator">STORE LOCATOR</a>
-            <a href="/pact">PACT</a>
+            {/* <a href="/pact">PACT</a> */}
             <AiOutlineSearch size={25} style={{marginTop: '6px', color: 'white'}} />                   
         </nav>
     </div>  

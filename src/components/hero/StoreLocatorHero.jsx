@@ -7,7 +7,7 @@ const StoreLocatorHero = (props) => {
     
   return (
     <>
-      <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-StoreLocatorHero vapetasia-hidden-tablet vapetasia-hidden-phone vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="StoreLocatorHero" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+      <section className={ `vapetasia-element-${props.heroClass} vapetasia-section vapetasia-top-section vapetasia-element vapetasia-hidden-tablet vapetasia-hidden-phone vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default`} data-id="StoreLocatorHero" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
         <div className="vapetasia-background-overlay">
         </div>
         <div className="vapetasia-container vapetasia-column-gap-no">

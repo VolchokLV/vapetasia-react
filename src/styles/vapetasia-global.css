@@ -45057,7 +45057,7 @@ ol.vapetasia-toc__list-wrapper .vapetasia-toc__list-item-text-wrapper:before {
 
 /* Home Page Hero */
 .vapetasia-191 .vapetasia-element.vapetasia-element-6ba8ee0:not(.vapetasia-motion-effects-element-type-background), .vapetasia-191 .vapetasia-element.vapetasia-element-6ba8ee0 > .vapetasia-motion-effects-container > .vapetasia-motion-effects-layer {
-    background-image: url("https://vapetasia.com/wp-content/uploads/2020/08/Home-1.jpg");
+    background-image: url("https://cdn2.vapetasia.com/img/hero/Home-1.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45078,14 +45078,14 @@ ol.vapetasia-toc__list-wrapper .vapetasia-toc__list-item-text-wrapper:before {
 }
 
 /* Advocacy Hero */
-.vapetasia-191 .vapetasia-element.vapetasia-element-AdvocacyHero6ba8ee0:not(.vapetasia-motion-effects-element-type-background), .vapetasia-191 .vapetasia-element.vapetasia-element-6ba8ee0 > .vapetasia-motion-effects-container > .vapetasia-motion-effects-layer {
+.vapetasia-191 .vapetasia-element.vapetasia-element-AdvocacyHero:not(.vapetasia-motion-effects-element-type-background), .vapetasia-191 .vapetasia-element.vapetasia-element-6ba8ee0 > .vapetasia-motion-effects-container > .vapetasia-motion-effects-layer {
     background-image: url("https://cdn2.vapetasia.com/img/hero/Advocacy.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.vapetasia-191 .vapetasia-element.vapetasia-element-AdvocacyHero6ba8ee0 > .vapetasia-background-overlay {
+.vapetasia-191 .vapetasia-element.vapetasia-element-AdvocacyHero > .vapetasia-background-overlay {
     background-image: url("https://cdn2.vapetasia.com/img/hero/gash.png");
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -45094,7 +45094,7 @@ ol.vapetasia-toc__list-wrapper .vapetasia-toc__list-item-text-wrapper:before {
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
-.vapetasia-191 .vapetasia-element.vapetasia-element-AdvocacyHero6ba8ee0 {
+.vapetasia-191 .vapetasia-element.vapetasia-element-AdvocacyHero {
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     padding: 0px 0px 199px 0px;
 }

@@ -36,7 +36,7 @@ const Navigation = () => {
 
 
               <li id="menu-item-652" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-652 nav-no-click">
-                <a href={ process.env.REACT_APP_BASE_URL + '/flavors' } className="menu-link">
+                <a>
                   <span className="text-wrap">
                     FLAVORS<i className="nav-arrow fa fa-angle-down" aria-hidden="true" role="img"></i>
                   </span>
@@ -68,7 +68,7 @@ const Navigation = () => {
 
 
               <li id="menu-item-4893" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-4893 nav-no-click">
-                <a href={ process.env.REACT_APP_BASE_URL + '/category/disposable/_/_' } className="menu-link">
+                <a>
                   <span className="text-wrap">
                     DISPOSABLES<i className="nav-arrow fa fa-angle-down" aria-hidden="true" role="img"></i>
                   </span>

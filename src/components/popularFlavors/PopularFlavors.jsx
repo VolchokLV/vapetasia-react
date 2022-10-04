@@ -59,7 +59,7 @@ const PopularFlavors = (props) => {
 
 
                                     {props.featured.map(p => (
-                                      <div className="vapetasia-column vapetasia-col-20 vapetasia-top-column vapetasia-element vapetasia-element-2554927" data-id="2554927" data-element_type="column">
+                                      <div key={p.product_slug} className="vapetasia-column vapetasia-col-20 vapetasia-top-column vapetasia-element vapetasia-element-2554927" data-id="2554927" data-element_type="column">
                                         <div className="vapetasia-column-wrap vapetasia-element-populated">
 
                                           <a href={'/product/' + p.product_slug + '/' + p.sizes.eliquid[0]}>

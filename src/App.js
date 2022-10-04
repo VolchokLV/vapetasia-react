@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 import './App.css';
 import "./index.css"
@@ -51,12 +51,12 @@ function App() {
         <a className="skip-link screen-reader-text" href="#main">Skip to content</a>
         <div id="wrap" className="clr">
         <Navigation />
-        <main id="main" class="site-main clr" role="main">
-          <div id="content-wrap" class="clr">
-            <div id="primary" class="content-area clr">
-              <div id="content" class="site-content clr">
+        <main id="main" className="site-main clr" role="main">
+          <div id="content-wrap" className="clr">
+            <div id="primary" className="content-area clr">
+              <div id="content" className="site-content clr">
                 <article className="single-page-article clr">
-                  <div className="entry clr" itemprop="text">
+                  <div className="entry clr" itemProp="text">
                     <div data-vapetasia-type="wp-page" data-vapetasia-id="191" className="vapetasia vapetasia-191">
                       <div className="vapetasia-inner">
                         <div className="vapetasia-section-wrap">

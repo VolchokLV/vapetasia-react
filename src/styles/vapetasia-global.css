@@ -9507,40 +9507,40 @@ form.submitting .wpcf7-spinner {
     width: auto
 }
 
-@font-face {
+/*@font-face {
     font-family: "Font Awesome 5 Brands";
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(https://www.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-brands-400.eot);
-    src: url(https://www.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(https://www.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-brands-400.woff2) format("woff2"),url(https://www.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-brands-400.woff) format("woff"),url(https://www.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-brands-400.ttf) format("truetype"),url(https://www.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-brands-400.svg#fontawesome) format("svg")
-}
+    src: url(https://cdn.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-brands-400.eot);
+    src: url(https://cdn.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(https://cdn.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-brands-400.woff2) format("woff2"),url(https://cdn.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-brands-400.woff) format("woff"),url(https://cdn.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-brands-400.ttf) format("truetype"),url(https://cdn.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-brands-400.svg#fontawesome) format("svg")
+}*/
 
 .fab {
     font-family: "Font Awesome 5 Brands"
 }
 
-@font-face {
+/*@font-face {
     font-family: "Font Awesome 5 Free";
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(https://www.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-regular-400.eot);
-    src: url(https://www.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(https://www.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-regular-400.woff2) format("woff2"),url(https://www.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-regular-400.woff) format("woff"),url(https://www.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-regular-400.ttf) format("truetype"),url(https://www.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-regular-400.svg#fontawesome) format("svg")
-}
+    src: url(https://cdn.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-regular-400.eot);
+    src: url(https://cdn.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(https://cdn.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-regular-400.woff2) format("woff2"),url(https://cdn.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-regular-400.woff) format("woff"),url(https://cdn.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-regular-400.ttf) format("truetype"),url(https://cdn.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-regular-400.svg#fontawesome) format("svg")
+}*/
 
 .fab,.far {
     font-weight: 400
 }
 
-@font-face {
+/*@font-face {
     font-family: "Font Awesome 5 Free";
     font-style: normal;
     font-weight: 900;
     font-display: swap;
-    src: url(https://www.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-solid-900.eot);
-    src: url(https://www.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(https://www.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-solid-900.woff2) format("woff2"),url(https://www.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-solid-900.woff) format("woff"),url(https://www.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-solid-900.ttf) format("truetype"),url(https://www.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-solid-900.svg#fontawesome) format("svg")
-}
+    src: url(https://cdn.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-solid-900.eot);
+    src: url(https://cdn.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(https://cdn.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-solid-900.woff2) format("woff2"),url(https://cdn.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-solid-900.woff) format("woff"),url(https://cdn.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-solid-900.ttf) format("truetype"),url(https://cdn.vapetasia.com/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/../webfonts/fa-solid-900.svg#fontawesome) format("svg")
+}*/
 
 .fa,.far,.fas {
     font-family: "Font Awesome 5 Free"
@@ -9550,14 +9550,14 @@ form.submitting .wpcf7-spinner {
     font-weight: 900
 }
 
-@font-face {
+/*@font-face {
     font-family: 'simple-line-icons';
-    src: url('https://www.vapetasia.com/wp-content/themes/oceanwp/assets/css/third/../../fonts/simple-line-icons/Simple-Line-Icons.eot?v=2.4.0');
-    src: url('https://www.vapetasia.com/wp-content/themes/oceanwp/assets/css/third/../../fonts/simple-line-icons/Simple-Line-Icons.eot?v=2.4.0#iefix')format('embedded-opentype'),url('https://www.vapetasia.com/wp-content/themes/oceanwp/assets/css/third/../../fonts/simple-line-icons/Simple-Line-Icons.woff2?v=2.4.0')format('woff2'),url('https://www.vapetasia.com/wp-content/themes/oceanwp/assets/css/third/../../fonts/simple-line-icons/Simple-Line-Icons.ttf?v=2.4.0')format('truetype'),url('https://www.vapetasia.com/wp-content/themes/oceanwp/assets/css/third/../../fonts/simple-line-icons/Simple-Line-Icons.woff?v=2.4.0')format('woff'),url('https://www.vapetasia.com/wp-content/themes/oceanwp/assets/css/third/../../fonts/simple-line-icons/Simple-Line-Icons.svg?v=2.4.0#simple-line-icons')format('svg');
+    src: url('https://cdn.vapetasia.com/wp-content/themes/oceanwp/assets/css/third/../../fonts/simple-line-icons/Simple-Line-Icons.eot?v=2.4.0');
+    src: url('https://cdn.vapetasia.com/wp-content/themes/oceanwp/assets/css/third/../../fonts/simple-line-icons/Simple-Line-Icons.eot?v=2.4.0#iefix')format('embedded-opentype'),url('https://cdn.vapetasia.com/wp-content/themes/oceanwp/assets/css/third/../../fonts/simple-line-icons/Simple-Line-Icons.woff2?v=2.4.0')format('woff2'),url('https://cdn.vapetasia.com/wp-content/themes/oceanwp/assets/css/third/../../fonts/simple-line-icons/Simple-Line-Icons.ttf?v=2.4.0')format('truetype'),url('https://cdn.vapetasia.com/wp-content/themes/oceanwp/assets/css/third/../../fonts/simple-line-icons/Simple-Line-Icons.woff?v=2.4.0')format('woff'),url('https://cdn.vapetasia.com/wp-content/themes/oceanwp/assets/css/third/../../fonts/simple-line-icons/Simple-Line-Icons.svg?v=2.4.0#simple-line-icons')format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap
-}
+}*/
 
 .icon-user,.icon-people,.icon-user-female,.icon-user-follow,.icon-user-following,.icon-user-unfollow,.icon-login,.icon-logout,.icon-emotsmile,.icon-phone,.icon-call-end,.icon-call-in,.icon-call-out,.icon-map,.icon-location-pin,.icon-direction,.icon-directions,.icon-compass,.icon-layers,.icon-menu,.icon-list,.icon-options-vertical,.icon-options,.icon-arrow-down,.icon-arrow-left,.icon-arrow-right,.icon-arrow-up,.icon-arrow-up-circle,.icon-arrow-left-circle,.icon-arrow-right-circle,.icon-arrow-down-circle,.icon-check,.icon-clock,.icon-plus,.icon-minus,.icon-close,.icon-exclamation,.icon-organization,.icon-trophy,.icon-screen-smartphone,.icon-screen-desktop,.icon-plane,.icon-notebook,.icon-mustache,.icon-mouse,.icon-magnet,.icon-energy,.icon-disc,.icon-cursor,.icon-cursor-move,.icon-crop,.icon-chemistry,.icon-speedometer,.icon-shield,.icon-screen-tablet,.icon-magic-wand,.icon-hourglass,.icon-graduation,.icon-ghost,.icon-game-controller,.icon-fire,.icon-eyeglass,.icon-envelope-open,.icon-envelope-letter,.icon-bell,.icon-badge,.icon-anchor,.icon-wallet,.icon-vector,.icon-speech,.icon-puzzle,.icon-printer,.icon-present,.icon-playlist,.icon-pin,.icon-picture,.icon-handbag,.icon-globe-alt,.icon-globe,.icon-folder-alt,.icon-folder,.icon-film,.icon-feed,.icon-drop,.icon-drawer,.icon-docs,.icon-doc,.icon-diamond,.icon-cup,.icon-calculator,.icon-bubbles,.icon-briefcase,.icon-book-open,.icon-basket-loaded,.icon-basket,.icon-bag,.icon-action-undo,.icon-action-redo,.icon-wrench,.icon-umbrella,.icon-trash,.icon-tag,.icon-support,.icon-frame,.icon-size-fullscreen,.icon-size-actual,.icon-shuffle,.icon-share-alt,.icon-share,.icon-rocket,.icon-question,.icon-pie-chart,.icon-pencil,.icon-note,.icon-loop,.icon-home,.icon-grid,.icon-graph,.icon-microphone,.icon-music-tone-alt,.icon-music-tone,.icon-earphones-alt,.icon-earphones,.icon-equalizer,.icon-like,.icon-dislike,.icon-control-start,.icon-control-rewind,.icon-control-play,.icon-control-pause,.icon-control-forward,.icon-control-end,.icon-volume-1,.icon-volume-2,.icon-volume-off,.icon-calendar,.icon-bulb,.icon-chart,.icon-ban,.icon-bubble,.icon-camrecorder,.icon-camera,.icon-cloud-download,.icon-cloud-upload,.icon-envelope,.icon-eye,.icon-flag,.icon-heart,.icon-info,.icon-key,.icon-link,.icon-lock,.icon-lock-open,.icon-magnifier,.icon-magnifier-add,.icon-magnifier-remove,.icon-paper-clip,.icon-paper-plane,.icon-power,.icon-refresh,.icon-reload,.icon-settings,.icon-star,.icon-symbol-female,.icon-symbol-male,.icon-target,.icon-credit-card,.icon-paypal,.icon-social-tumblr,.icon-social-twitter,.icon-social-facebook,.icon-social-instagram,.icon-social-linkedin,.icon-social-pinterest,.icon-social-github,.icon-social-google,.icon-social-reddit,.icon-social-skype,.icon-social-dribbble,.icon-social-behance,.icon-social-foursqare,.icon-social-soundcloud,.icon-social-spotify,.icon-social-stumbleupon,.icon-social-youtube,.icon-social-dropbox {
     font-family: 'simple-line-icons';
@@ -21465,14 +21465,14 @@ div.asl_s.searchsettings fieldset legend {
 }
 
 /*! vapetasia-icons - v5.16.0 - 12-07-2022 */
-@font-face {
+/*@font-face {
     font-family: eicons;
-    src: url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/eicons/css/../fonts/eicons.eot?5.16.0);
-    src: url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/eicons/css/../fonts/eicons.eot?5.16.0#iefix) format("embedded-opentype"),url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/eicons/css/../fonts/eicons.woff2?5.16.0) format("woff2"),url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/eicons/css/../fonts/eicons.woff?5.16.0) format("woff"),url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/eicons/css/../fonts/eicons.ttf?5.16.0) format("truetype"),url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/eicons/css/../fonts/eicons.svg?5.16.0#eicon) format("svg");
+    src: url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/eicons/css/../fonts/eicons.eot?5.16.0);
+    src: url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/eicons/css/../fonts/eicons.eot?5.16.0#iefix) format("embedded-opentype"),url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/eicons/css/../fonts/eicons.woff2?5.16.0) format("woff2"),url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/eicons/css/../fonts/eicons.woff?5.16.0) format("woff"),url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/eicons/css/../fonts/eicons.ttf?5.16.0) format("truetype"),url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/eicons/css/../fonts/eicons.svg?5.16.0#eicon) format("svg");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
-}
+}*/
 
 [class*=" eicon-"],[class^=eicon] {
     display: inline-block;
@@ -59301,7 +59301,7 @@ a.easy-notification-bar__close:hover,a.easy-notification-bar__close:focus {
     margin: 8px auto 6px;
     width: 96px;
     height: 29px;
-    background: url(https://www.vapetasia.com/wp-content/plugins/ocean-extra/assets/css/../../assets/img/instagram-logo.png)no-repeat
+    background: url(https://cdn.vapetasia.com/wp-content/plugins/ocean-extra/assets/css/../../assets/img/instagram-logo.png)no-repeat
 }
 
 .oceanwp-style-four-wrap .oceanwp-instagram-header {
@@ -59458,7 +59458,7 @@ p.flickr_stream_wrap {
 
 p.flickr_stream_wrap a {
     display: inline-block;
-    background-image: url(https://www.vapetasia.com/wp-content/plugins/ocean-extra/assets/css/../../assets/img/flickr.png);
+    background-image: url(https://cdn.vapetasia.com/wp-content/plugins/ocean-extra/assets/css/../../assets/img/flickr.png);
     background-repeat: no-repeat;
     background-position: 0;
     padding-left: 25px
@@ -66816,14 +66816,14 @@ body.woocommerce .oceanwp-newsletter-form-wrap button {
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
-@font-face {
+/*@font-face {
     font-family: "Font Awesome 5 Brands";
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.eot);
-    src: url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.woff2) format("woff2"),url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.woff) format("woff"),url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.ttf) format("truetype"),url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.svg#fontawesome) format("svg")
-}
+    src: url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.eot);
+    src: url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.woff2) format("woff2"),url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.woff) format("woff"),url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.ttf) format("truetype"),url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.svg#fontawesome) format("svg")
+}*/
 
 .fab {
     font-family: "Font Awesome 5 Brands";
@@ -73752,40 +73752,40 @@ body.woocommerce .oceanwp-newsletter-form-wrap button {
     width: auto
 }
 
-@font-face {
+/*@font-face {
     font-family: "Font Awesome 5 Brands";
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.eot);
-    src: url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.woff2) format("woff2"),url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.woff) format("woff"),url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.ttf) format("truetype"),url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.svg#fontawesome) format("svg")
-}
+    src: url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.eot);
+    src: url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.woff2) format("woff2"),url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.woff) format("woff"),url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.ttf) format("truetype"),url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-brands-400.svg#fontawesome) format("svg")
+}*/
 
 .fab {
     font-family: "Font Awesome 5 Brands"
 }
 
-@font-face {
+/*@font-face {
     font-family: "Font Awesome 5 Free";
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-regular-400.eot);
-    src: url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-regular-400.woff2) format("woff2"),url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-regular-400.woff) format("woff"),url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-regular-400.ttf) format("truetype"),url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-regular-400.svg#fontawesome) format("svg")
-}
+    src: url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-regular-400.eot);
+    src: url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-regular-400.woff2) format("woff2"),url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-regular-400.woff) format("woff"),url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-regular-400.ttf) format("truetype"),url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-regular-400.svg#fontawesome) format("svg")
+}*/
 
 .fab,.far {
     font-weight: 400
 }
 
-@font-face {
+/*@font-face {
     font-family: "Font Awesome 5 Free";
     font-style: normal;
     font-weight: 900;
     font-display: swap;
-    src: url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-solid-900.eot);
-    src: url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-solid-900.woff2) format("woff2"),url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-solid-900.woff) format("woff"),url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-solid-900.ttf) format("truetype"),url(https://www.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-solid-900.svg#fontawesome) format("svg")
-}
+    src: url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-solid-900.eot);
+    src: url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-solid-900.woff2) format("woff2"),url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-solid-900.woff) format("woff"),url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-solid-900.ttf) format("truetype"),url(https://cdn.vapetasia.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/../webfonts/fa-solid-900.svg#fontawesome) format("svg")
+}*/
 
 .fa,.far,.fas {
     font-family: "Font Awesome 5 Free"
@@ -74005,8 +74005,8 @@ ul.slick-dots li {
 
 @charset "UTF-8";@font-face {
     font-family: pa-elements;
-    src: url(https://www.vapetasia.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/../../editor/fonts/pa-elements.eot?vcwy2s);
-    src: url(https://www.vapetasia.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/../../editor/fonts/pa-elements.eot?vcwy2s#iefix) format("embedded-opentype"),url(https://www.vapetasia.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/../../editor/fonts/pa-elements.ttf?vcwy2s) format("truetype"),url(https://www.vapetasia.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/../../editor/fonts/pa-elements.woff?vcwy2s) format("woff"),url(https://www.vapetasia.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/../../editor/fonts/pa-elements.svg?vcwy2s#pa-elements) format("svg");
+    src: url(https://cdn.vapetasia.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/../../editor/fonts/pa-elements.eot?vcwy2s);
+    src: url(https://cdn.vapetasia.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/../../editor/fonts/pa-elements.eot?vcwy2s#iefix) format("embedded-opentype"),url(https://cdn.vapetasia.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/../../editor/fonts/pa-elements.ttf?vcwy2s) format("truetype"),url(https://cdn.vapetasia.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/../../editor/fonts/pa-elements.woff?vcwy2s) format("woff"),url(https://cdn.vapetasia.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/../../editor/fonts/pa-elements.svg?vcwy2s#pa-elements) format("svg");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -78313,8 +78313,8 @@ ul[data-list-animation*=animated-] .premium-bullet-list-content,ul[data-list-ani
 
 @font-face {
     font-family: pa-elements;
-    src: url(https://www.vapetasia.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/../../plugins/premium-addons-for-elementor/assets/editor/fonts/pa-elements.eot?vcwy2s);
-    src: url(https://www.vapetasia.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/../../plugins/premium-addons-for-elementor/assets/editor/fonts/pa-elements.eot?vcwy2s#iefix) format("embedded-opentype"),url(https://www.vapetasia.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/../../plugins/premium-addons-for-elementor/assets/editor/fonts/pa-elements.ttf?vcwy2s) format("truetype"),url(https://www.vapetasia.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/../../plugins/premium-addons-for-elementor/assets/editor/fonts/pa-elements.woff?vcwy2s) format("woff"),url(https://www.vapetasia.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/../../plugins/premium-addons-for-elementor/assets/editor/fonts/pa-elements.svg?vcwy2s#pa-elements) format("svg");
+    src: url(https://cdn.vapetasia.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/../../plugins/premium-addons-for-elementor/assets/editor/fonts/pa-elements.eot?vcwy2s);
+    src: url(https://cdn.vapetasia.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/../../plugins/premium-addons-for-elementor/assets/editor/fonts/pa-elements.eot?vcwy2s#iefix) format("embedded-opentype"),url(https://cdn.vapetasia.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/../../plugins/premium-addons-for-elementor/assets/editor/fonts/pa-elements.ttf?vcwy2s) format("truetype"),url(https://cdn.vapetasia.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/../../plugins/premium-addons-for-elementor/assets/editor/fonts/pa-elements.woff?vcwy2s) format("woff"),url(https://cdn.vapetasia.com/wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-css/../../plugins/premium-addons-for-elementor/assets/editor/fonts/pa-elements.svg?vcwy2s#pa-elements) format("svg");
     font-weight: 400;
     font-style: normal;
     font-display: swap;

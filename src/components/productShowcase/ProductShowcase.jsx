@@ -6,10 +6,22 @@ const ProductShowcase = (props) => {
   console.log('product showcase rec prod');
   console.log(props);
 
+  const flavors = {
+    'killer-kustard': 'FlavorKillerKustard',
+    'killer-sweets': 'FlavorKillerSweets',
+    'killer-fruits': 'FlavorKillerFruits',
+    'parfait': 'FlavorParfait',
+    'iced': 'FlavorIced',
+    'vapetasia': 'FlavorVapetasia',
+    'lemonade': 'FlavorLemonade',
+    'hyve-disposables': 'FlavorHyveDisposables',
+    'killer-disposables': 'FlavorKillerDisposables' 
+  }
+
   return (
     <>
       <Hero 
-      heroClass={'Product'}
+      heroClass={flavors[props.product.flavor_line[0]]}
       top={'Vapetasia'} 
       bottom={props.product.product_name} 
       paragraph={props.product.hero_txt} />

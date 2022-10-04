@@ -61,7 +61,7 @@ const ProductGrid = (props) => {
                     (topic == 'brand' && p.product_slug.includes(value))
                   ) 
                 ) {
-                  return (<ProductGridItem product={p} />)
+                  return (<ProductGridItem key={p.product_slug} product={p} />)
                 }
               })}
 

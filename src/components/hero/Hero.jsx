@@ -20,7 +20,17 @@ const heroes = {
   'MediaRequest': 'Media-Request-Form.jpg',
   'PromotionalRequest': 'Promotional-Request-Form.jpg',
   'StoreLocator': 'StoreLocator.png',
-  'Wholesale': 'Wholesale-Inquiry.jpg'
+  'Wholesale': 'Wholesale-Inquiry.jpg',
+  //FLAVOR LINES
+  'FlavorKillerKustard': 'Killer-Kustard.jpg',
+  'FlavorKillerSweets': 'Killer-Sweets.jpg',
+  'FlavorKillerFruits': 'Killer-Fruits.png',
+  'FlavorParfait': 'Parfait.jpg',
+  'FlavorIced': 'Iced.jpg',
+  'FlavorVapetasia': 'Vapetasia.jpg',
+  'FlavorLemonade': 'Lemonade.jpg',
+  'FlavorHyveDisposables': 'Hyve-Disposables.png',
+  'FlavorKillerDisposables': 'Killer-Disposables.png'
 }
 
 

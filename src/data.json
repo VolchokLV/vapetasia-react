@@ -25,9 +25,10 @@
             "100ml": ["https://www.ejuices.com/products/vapetasia-killer-kustard", "https://vapesocietysupplies.com/products/killer-kustard-ejuice-100ml-vapetasia/", "https://www.elementvape.com/killer-kustard-vapetasia"],
             "60ml": ["https://www.ejuices.com/products/vapetasia-killer-kustard", "https://vapesocietysupplies.com/products/killer-kustard-ejuice-100ml-vapetasia/", "https://www.elementvape.com/killer-kustard-vapetasia"],
             "30ml": ["https://www.ejuices.com/products/vapetasia-ejuice-salts-killer-kustard", "https://vapesocietysupplies.com/products/killer-kustard-salt-vapetasia-salts-30ml/", "https://www.elementvape.com/killer-kustard-vapetasia-salts"]
-        },   
-        "is_featured": 1,
-        "sort_order": 1            
+        },
+        "is_featured": 0,   
+        "sort_order": 1,
+        "featured": {"display":1, "key":"eliquid", "strength":"3mg", "size":"100ml" }            
     },
     {
         "product_name": "Killer Kustard Strawberry",
@@ -111,7 +112,8 @@
             "30ml": ["https://www.elementvape.com/rain-bops-vapetasia", "https://vape.com/products/killer-sweets-rain-bops-by-vapetasia-synthetic-salt-30ml", "https://www.elementvape.com/rain-bops-vapetasia-salts"]
         },   
         "is_featured": 1,
-        "sort_order": 1
+        "sort_order": 1,
+        "featured": {"display":1, "key":"eliquid", "strength":"3mg", "size":"100ml" }
             
     }, 	
     {
@@ -168,7 +170,8 @@
             "30ml": ["https://www.ejuices.com/products/vapetasia-killer-sweets-ntn-salts-iced-white-gummy", "https://vape.com/products/iced-killer-sweets-white-gummy-by-vapetasia-synthetic-salt-30ml", "https://www.elementvape.com/iced-white-gummy-vapetasia-salts"]
         },   
         "is_featured": 1,
-        "sort_order": 1        
+        "sort_order": 1,
+        "featured": {"display":1, "key":"eliquid", "strength":"3mg", "size":"100ml" }    
     },    
     {
         "product_name": "Iced Rain Bops",
@@ -251,7 +254,8 @@
                 "30ml": ["https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-blue-razz-100ml", "https://vape.com/products/killer-fruits-blue-razz-by-vapetasia-synthetic-series-e-liquid", "https://www.elementvape.com/blue-razz-vapetasia"]
             },   
             "is_featured": 0,
-            "sort_order": 1            
+            "sort_order": 1,
+            "featured": {"display":1, "key":"eliquid", "strength":"3mg", "size":"100ml" }            
     },
     {
         "product_name": "Killer Fruites Straw Guaw",
@@ -305,7 +309,8 @@
             "30ml": ["https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-salts-trapple-30ml", "https://vape.com/collections/all/products/killer-fruits-trapple-by-vapetasia-synthetic-salts-30ml", "https://www.elementvape.com/trapple-vapetasia-salts"]
         },   
         "is_featured": 0,
-        "sort_order": 1
+        "sort_order": 1,
+        "featured": {"display":1, "key":"eliquid", "strength":"3mg", "size":"100ml" }
     }, 
     {
         "product_name": "Iced Blue Razz",
@@ -332,7 +337,8 @@
             "30ml": ["https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-salts-iced-blue-razz-30ml", "https://vapesocietysupplies.com/products/killer-kustard-salt-vapetasia-salts-30ml/", "https://www.elementvape.com/iced-blue-razz-vapetasia-synthetic"]
         },   
         "is_featured": 0,
-        "sort_order": 1        
+        "sort_order": 1,
+        "featured": {"display":1, "key":"eliquid", "strength":"3mg", "size":"100ml" }        
     },
     {
         "product_name": "Iced Straw Guaw",
@@ -556,7 +562,8 @@
             "30ml": ["https://www.ejuices.com/products/vapetasia-ejuice-salts-rainbow-road", "https://vapesocietysupplies.com/products/rainbow-road-vapetasia-salts-30ml/", "https://www.elementvape.com/rainbow-road-vapetasia-salts"]
         },   
         "is_featured": 0,
-        "sort_order": 1        
+        "sort_order": 1,
+        "featured": {"display":1, "key":"salt", "strength":"24mg", "size":"30ml" }        
     },
     {
         "product_name": "Milk Of The Poppy",
@@ -614,8 +621,9 @@
             "60ml": ["https://www.ejuices.com/products/vapetasia-royalty-ii", "https://vapesocietysupplies.com/products/royalty-ii-eliquid-by-vapetasia-ejuice-100ml/", "https://www.elementvape.com/royalty-ii-by-vapetasia-100ml"],
             "30ml": ["https://www.ejuices.com/products/vapetasia-ejuice-salts-royalty-ii", "https://vapesocietysupplies.com/products/royalty-ii-salt-vapetasia-salts-30ml/", "https://www.elementvape.com/royalty-ii-vapetasia-salts"]
         },   
-        "is_featured": 0,
-        "sort_order": 1        
+        "is_featured": 1,
+        "sort_order": 1,
+        "featured": {"display":1, "key":"eliquid", "strength":"3mg", "size":"100ml" }
     },
     {
         "product_name": "Iced Pineapple Express",
@@ -673,7 +681,8 @@
             "30ml": ["https://www.ejuices.com/products/vapetasia-ejuice-iced-salts-milk-of-the-poppy", "https://vapesocietysupplies.com/products/milk-of-the-poppy-iced-by-vapetasia-salts-30ml/", "https://www.elementvape.com/iced-milk-of-the-poppy-vapetasia-salts"]
         },   
         "is_featured": 0,
-        "sort_order": 1
+        "sort_order": 1,
+        "featured": {"display":1, "key":"salt", "strength":"48mg", "size":"30ml" }
         
     },
     {
@@ -870,7 +879,7 @@
             "30ml": ["https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-grape-100ml", "https://vape.com/products/killer-fruits-grape-by-vapetasia-salts-e-liquid", "https://www.elementvape.com/grape-vapetasia"]
         },   
         "is_featured": 0,
-        "sort_order": 1        
+        "sort_order": 1      
     },            
     {
         "product_name": "Vapetasia X Hyve Disposable Dragons Breath",
@@ -1075,7 +1084,8 @@
         "sub_txt": "Sometimes dessert for dinner is the way to go! Indulge in the soft creamy flavor of strawberry ice cream.",
         "popup_txt": "Sometimes dessert for dinner is the way to go! Indulge in the soft creamy flavor of strawberry ice cream.",        
         "buy_now": ["https://www.flawlessvapeshop.com/products/vapetasia-killer-fruits-disposable-3500-puffs-10ml", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/vapetasia-killer-disposable-vape"],
-        "is_featured": 0,
+        "is_featured": 0, 
         "sort_order": 1
     }
+   
 ]

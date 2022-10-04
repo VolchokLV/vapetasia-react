@@ -54,7 +54,7 @@ const AdvocacyHero = (props) => {
                     </div>
                   </div>
 
-                  <section className="vapetasia-section vapetasia-inner-section vapetasia-element vapetasia-element-AdvocacyHero339b7fd vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="AdvocacyHero339b7fd" data-element_type="section">
+                  <section className="vapetasia-section vapetasia-inner-section vapetasia-element vapetasia-element-AdvocacyHero vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="AdvocacyHero" data-element_type="section">
                     <div className="vapetasia-container vapetasia-column-gap-default">
                       <div className="vapetasia-row">
                         <div className="vapetasia-column vapetasia-col-33 vapetasia-inner-column vapetasia-element vapetasia-element-1a9de7d" data-id="1a9de7d" data-element_type="column">

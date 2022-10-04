@@ -45056,14 +45056,14 @@ ol.vapetasia-toc__list-wrapper .vapetasia-toc__list-item-text-wrapper:before {
 }
 
 /* Home Page Hero */
-.vapetasia-191 .vapetasia-element.vapetasia-element-6ba8ee0:not(.vapetasia-motion-effects-element-type-background), .vapetasia-191 .vapetasia-element.vapetasia-element-6ba8ee0 > .vapetasia-motion-effects-container > .vapetasia-motion-effects-layer {
+.vapetasia-191 .vapetasia-element.vapetasia-element-HomeHero:not(.vapetasia-motion-effects-element-type-background), .vapetasia-191 .vapetasia-element.vapetasia-element-HomeHero > .vapetasia-motion-effects-container > .vapetasia-motion-effects-layer {
     background-image: url("https://cdn2.vapetasia.com/img/hero/Home-1.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.vapetasia-191 .vapetasia-element.vapetasia-element-6ba8ee0 > .vapetasia-background-overlay {
+.vapetasia-191 .vapetasia-element.vapetasia-element-HomeHero > .vapetasia-background-overlay {
     background-image: url("https://cdn2.vapetasia.com/img/hero/gash.png");
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -45072,13 +45072,13 @@ ol.vapetasia-toc__list-wrapper .vapetasia-toc__list-item-text-wrapper:before {
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 
-.vapetasia-191 .vapetasia-element.vapetasia-element-6ba8ee0 {
+.vapetasia-191 .vapetasia-element.vapetasia-element-HomeHero {
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     padding: 0px 0px 199px 0px;
 }
 
 /* Advocacy Hero */
-.vapetasia-191 .vapetasia-element.vapetasia-element-AdvocacyHero:not(.vapetasia-motion-effects-element-type-background), .vapetasia-191 .vapetasia-element.vapetasia-element-6ba8ee0 > .vapetasia-motion-effects-container > .vapetasia-motion-effects-layer {
+.vapetasia-191 .vapetasia-element.vapetasia-element-AdvocacyHero:not(.vapetasia-motion-effects-element-type-background), .vapetasia-191 .vapetasia-element.vapetasia-element-AdvocacyHero > .vapetasia-motion-effects-container > .vapetasia-motion-effects-layer {
     background-image: url("https://cdn2.vapetasia.com/img/hero/Advocacy.jpg");
     background-position: center center;
     background-repeat: no-repeat;
@@ -45100,7 +45100,7 @@ ol.vapetasia-toc__list-wrapper .vapetasia-toc__list-item-text-wrapper:before {
 }
 
 /* Store Locator Hero */
-.vapetasia-191 .vapetasia-element.vapetasia-element-StoreLocatorHero:not(.vapetasia-motion-effects-element-type-background), .vapetasia-191 .vapetasia-element.vapetasia-element-6ba8ee0 > .vapetasia-motion-effects-container > .vapetasia-motion-effects-layer {
+.vapetasia-191 .vapetasia-element.vapetasia-element-StoreLocatorHero:not(.vapetasia-motion-effects-element-type-background), .vapetasia-191 .vapetasia-element.vapetasia-element-HomeHero > .vapetasia-motion-effects-container > .vapetasia-motion-effects-layer {
     background-image: url("https://cdn2.vapetasia.com/img/hero/StoreLocator.png");
     background-position: center center;
     background-repeat: no-repeat;
@@ -45162,13 +45162,13 @@ ol.vapetasia-toc__list-wrapper .vapetasia-toc__list-item-text-wrapper:before {
     --spacer-size: 150px;
 }
 
-.vapetasia-191 .vapetasia-element.vapetasia-element-339b7fd {
+.vapetasia-191 .vapetasia-element.vapetasia-element-AdvocacyHero {
     margin-top: 0px;
     margin-bottom: -205px;
     padding: 151px 0px 0px 0px;
 }
 /* Advocacy Hero Text */
-.vapetasia-191 .vapetasia-element.vapetasia-element-AdvocacyHero339b7fd {
+.vapetasia-191 .vapetasia-element.vapetasia-element-AdvocacyHero {
     margin-top: 0px;
     margin-bottom: -300px;
     padding: 200px 0px 0px 0px;
@@ -45178,15 +45178,22 @@ ol.vapetasia-toc__list-wrapper .vapetasia-toc__list-item-text-wrapper:before {
     margin-top: 0px;
     margin-bottom: -300px;
     padding: 200px 0px 0px 0px;
-}
+} 
 
-.vapetasia-191 .vapetasia-element.vapetasia-element-986625f {    
+ .vapetasia-191 .vapetasia-element.vapetasia-element-986625f {    
     color: #252525;
     font-family: "Montserrat", Montserrat;
     font-size: 28px;
 }
 
-.vapetasia-191 .vapetasia-element.vapetasia-element-986625f > .vapetasia-widget-container {
+/* Store Locator Hero */
+.vapetasia-191 .vapetasia-element.vapetasia-element-StoreLocatorHero {    
+    color: #252525;
+    font-family: "Montserrat", Montserrat;
+    font-size: 28px;
+}
+
+.vapetasia-191 .vapetasia-element.vapetasia-element-StoreLocatorHero > .vapetasia-widget-container {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
@@ -45856,11 +45863,11 @@ body .vapetasia-191 .vapetasia-element.vapetasia-element-7e2f1dd .vapetasia-labe
         background-attachment: fixed;
     }
 
-    .vapetasia-191 .vapetasia-element.vapetasia-element-6ba8ee0:not(.vapetasia-motion-effects-element-type-background), .vapetasia-191 .vapetasia-element.vapetasia-element-6ba8ee0 > .vapetasia-motion-effects-container > .vapetasia-motion-effects-layer {
+    .vapetasia-191 .vapetasia-element.vapetasia-element-HomeHero:not(.vapetasia-motion-effects-element-type-background), .vapetasia-191 .vapetasia-element.vapetasia-element-HomeHero > .vapetasia-motion-effects-container > .vapetasia-motion-effects-layer {
         background-attachment: fixed;
     }
 
-    .vapetasia-191 .vapetasia-element.vapetasia-element-6ba8ee0 > .vapetasia-background-overlay {
+    .vapetasia-191 .vapetasia-element.vapetasia-element-HomeHero > .vapetasia-background-overlay {
         background-attachment: scroll;
     }
 }

@@ -8,4 +8,24 @@
     width: 100%;
   }
   
+/* Home Page Hero */
+/* .vapetasia-191 .vapetasia-element.vapetasia-element-HomeHero:not(.vapetasia-motion-effects-element-type-background), .vapetasia-191 .vapetasia-element.vapetasia-element-HomeHero > .vapetasia-motion-effects-container > .vapetasia-motion-effects-layer {
+  background-image: url("https://cdn2.vapetasia.com/img/hero/Home-1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.vapetasia-191 .vapetasia-element.vapetasia-element-HomeHero > .vapetasia-background-overlay {
+  background-image: url("https://cdn2.vapetasia.com/img/hero/gash.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 1;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.vapetasia-191 .vapetasia-element.vapetasia-element-HomeHero {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 0px 0px 199px 0px;
+} */

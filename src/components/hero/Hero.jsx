@@ -3,14 +3,32 @@ import './hero.css';
 import { Parallax, Background  } from 'react-parallax';
 import heroImg from '../../img/hero/Home-1.jpg'
 import gash from '../../img/hero/gash.png'
-// style={ {trasform: 'translateY(${ offsetY * 0.5}px)'}}>
+
+
+const baseUrl = 'https://cdn2.vapetasia.com/img/hero/';
+
+const heroes = {
+  '100ml': '100ml.jpg',
+  '30ml': '30ml.jpg',
+  '60ml': '60ml.jpg',
+  'KillerDisposables': 'Killer-Disposables.png',
+  'HyveDisposables': 'Hyve-Disposables.png',
+  'About': 'About-Us.jpg',
+  'Advocacy': 'Advocacy.jpg',
+  'Support': 'contact-support.jpg',
+  'Home': 'Home-1.jpg',
+  'MediaRequest': 'Media-Request-Form.jpg',
+  'PromotionalRequest': 'Promotional-Request-Form.jpg',
+  'StoreLocator': 'StoreLocator.png',
+  'Wholesale': 'Wholesale-Inquiry.jpg'
+}
 
 
 const Hero = (props) => {
     
   return (
     <>
-      <section className={`vapetasia-element-${props.heroClass}  vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-HomeHero vapetasia-hidden-tablet vapetasia-hidden-phone vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default` } data-id="HomeHero" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+      <section style={{'backgroundImage': 'url(' + baseUrl + heroes[props.heroClass] }} className={`vapetasia-element-page-hero vapetasia-section vapetasia-top-section vapetasia-element vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default` } data-id="HomeHero" data-element_type="section">
         <div className="vapetasia-background-overlay">
         </div>
         <div className="vapetasia-container vapetasia-column-gap-no">
@@ -51,7 +69,7 @@ const Hero = (props) => {
                   <div className="vapetasia-element vapetasia-element-c611a82 vapetasia-widget vapetasia-widget-spacer" data-id="c611a82" data-element_type="widget" data-widget_type="spacer.default">
                     <div className="vapetasia-widget-container">
                       <div className="vapetasia-spacer">
-                        <div className="vapetasia-spacer-inner">
+                        <div className="vapetasia-spacer-inner hero-height-gap">
                         </div>
                       </div>
                     </div>
@@ -60,12 +78,13 @@ const Hero = (props) => {
                   <section className="vapetasia-section vapetasia-inner-section vapetasia-element vapetasia-element-339b7fd vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="339b7fd" data-element_type="section">
                     <div className="vapetasia-container vapetasia-column-gap-default">
                       <div className="vapetasia-row">
-                        <div className="vapetasia-column vapetasia-col-33 vapetasia-inner-column vapetasia-element vapetasia-element-1a9de7d" data-id="1a9de7d" data-element_type="column">
+                        <div className="vapetasia-column vapetasia-col-33 vapetasia-inner-column vapetasia-element vapetasia-element-1a9de7d hero-paragraph-detail" data-id="1a9de7d" data-element_type="column">
                           <div className="vapetasia-column-wrap vapetasia-element-populated">
                             <div className="vapetasia-widget-wrap">
                               <div className="vapetasia-element vapetasia-element-a6dbbf1 vapetasia-widget vapetasia-widget-image" data-id="a6dbbf1" data-element_type="widget" data-widget_type="image.default">
                                 <div className="vapetasia-widget-container">
-                                  <div className="vapetasia-image"> <img width="18" height="300" src="https://cdn.vapetasia.com/wp-content/uploads/2020/05/11155755/IMG-1-18x300.png" className="attachment-medium size-medium lazyload" alt="" data-srcset="https://cdn.vapetasia.com/wp-content/uploads/2020/05/11155755/IMG-1-18x300.png 18w, https://cdn.vapetasia.com/wp-content/uploads/2020/05/11155755/IMG-1.png 40w" sizes="(max-width: 18px) 100vw, 18px" /><noscript><img width="18" height="300" src="https://cdn.vapetasia.com/wp-content/uploads/2020/05/11155755/IMG-1-18x300.png" className="attachment-medium size-medium lazyload" alt="" srcset="https://cdn.vapetasia.com/wp-content/uploads/2020/05/11155755/IMG-1-18x300.png 18w, https://cdn.vapetasia.com/wp-content/uploads/2020/05/11155755/IMG-1.png 40w" sizes="(max-width: 18px) 100vw, 18px" /></noscript>
+                                  <div className="vapetasia-image"> 
+                                    <img width="18" height="300" src="https://cdn.vapetasia.com/wp-content/uploads/2020/05/11155755/IMG-1-18x300.png" className="attachment-medium size-medium lazyload" alt="" />
                                   </div>
                                 </div>
                               </div>
@@ -78,18 +97,12 @@ const Hero = (props) => {
                               <div className="vapetasia-element vapetasia-element-986625f vapetasia-widget vapetasia-widget-text-editor" data-id="986625f" data-element_type="widget" id="hero-description" data-widget_type="text-editor.default">
                                 <div className="vapetasia-widget-container">
                                   <div className="vapetasia-text-editor vapetasia-clearfix">
-                                    <p>
+                                    <p className="hero-paragraph-text">
                                       {props.paragraph}
                                     </p>
                                   </div>
                                 </div>
                               </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="vapetasia-column vapetasia-col-33 vapetasia-inner-column vapetasia-element vapetasia-element-ea8e55c" data-id="ea8e55c" data-element_type="column">
-                          <div className="vapetasia-column-wrap">
-                            <div className="vapetasia-widget-wrap">
                             </div>
                           </div>
                         </div>

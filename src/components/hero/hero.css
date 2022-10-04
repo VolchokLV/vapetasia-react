@@ -1,19 +1,108 @@
-.container {
-    display: flexbox;
-    height: 400px;
-    position: relative;
-  }
+/*UNTIL WE HAVE ANIMATING HERO TEXT, FORCE TO DISPLAY*/
+.force-visible {
+  visibility: visible !important;
+}
+.hero-paragraph-text {
+  min-height: 250px;
+}
 
-  /* .gash {
-    z-index: 15;
-  } */
-
-  .hero-text {
-    margin-top: -50px;
-    margin-bottom: 200px;
-    overflow: hidden;
+/*
+ADJUST HERO SPACER AT VARYING SIZES
+*/
+.vapetasia-background-overlay {
+  border-bottom: 20px solid white;
+}
+@media screen and (max-width: 1300px) {
+  .vapetasia-background-overlay {
+    border-bottom: 60px solid white;
   }
-
-  .force-visible {
-    visibility: visible !important;
+}
+@media screen and (max-width: 1200px) {
+  .vapetasia-background-overlay {
+    border-bottom: 100px solid white;
   }
+}
+@media screen and (max-width: 1000px) {
+  .vapetasia-background-overlay {
+    border-bottom: 100px solid white;
+  }
+}
+@media screen and (max-width: 900px) {
+  .hero-height-gap {
+    height: 80px !important;
+  }
+  .vapetasia-background-overlay {
+    border-bottom: 120px solid white;
+  }
+}
+@media screen and (max-width: 800px) {
+  .hero-height-gap {
+    height: 60px !important;
+  }
+  .vapetasia-background-overlay {
+    border-bottom: 140px solid white;
+  }
+  /*hide the sidebar*/
+  .hero-paragraph-detail {
+    display: none !important;
+  }
+  /*shrink the paragraph*/
+  .hero-paragraph-text {
+    font-size: 22px;
+    min-height: 225px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hero-height-gap {
+    height: 30px !important;
+  }
+  .vapetasia-background-overlay {
+    border-bottom: 160px solid white;
+  }
+}
+@media screen and (max-width: 300px) {
+  .hero-height-gap {
+    height: 0 !important;
+  }
+  .vapetasia-background-overlay {
+    border-bottom: 250px solid white;
+  }
+}
+
+
+
+ /*remove parallax overlay when screen is XL*/
+ @media screen and (min-width: 1600px) {
+  .vapetasia-background-overlay, .hero-paragraph-detail {
+    display: none !important;
+  }
+  #hero-description {
+    color: #FFFFFF;
+  }
+ }
+ .widget-title {
+  border-color: #FAA500;
+ }
+
+ /*RELEVANT HERO CLASSES*/
+
+.vapetasia-191 .vapetasia-element.vapetasia-element-page-hero:not(.vapetasia-motion-effects-element-type-background), .vapetasia-191 .vapetasia-element.vapetasia-element-HomeHero > .vapetasia-motion-effects-container > .vapetasia-motion-effects-layer {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.vapetasia-191 .vapetasia-element.vapetasia-element-page-hero > .vapetasia-background-overlay {
+  background-image: url("https://cdn2.vapetasia.com/img/hero/gash.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 1;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.vapetasia-191 .vapetasia-element.vapetasia-element-StoreLocatorHero {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 0px 0px 199px 0px;
+}

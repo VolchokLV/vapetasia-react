@@ -9,6 +9,7 @@ const ProductShowcase = (props) => {
   return (
     <>
       <Hero 
+      heroClass={'Product'}
       top={'Vapetasia'} 
       bottom={props.product.product_name} 
       paragraph={props.product.hero_txt} />

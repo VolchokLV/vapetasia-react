@@ -21,12 +21,15 @@ const ProductGrid = (props) => {
   let matches = 0
   let textKey = '';
   let bottomText = '';
+  let heroKey = '';
   if (topic == '_') {
     bottomText = 'Disposable';
     textKey = type;
+    heroKey = 'Disposable';
   } else if (topic == 'brand') {
     bottomText = value.replace('-', ' ').replace('-', ' ') + ' disposables';
     textKey = type + '-' + value;
+    heroKey = value === 'killer' ? 'KillerDisposables' : 'HyveDisposables'
   } else if (topic == 'size') {
     if (type == 'eliquid') {
       bottomText = 'E-Liquid ' + value;
@@ -35,11 +38,13 @@ const ProductGrid = (props) => {
       bottomText = 'Salt ' + value;
       textKey = type;
     }
+    heroKey = value;
   }
 
   return (
     <>
       <Hero 
+        heroClass={heroKey}
         top={'Vapetasia'} 
         bottom={bottomText} 
         paragraph={text[textKey]} />

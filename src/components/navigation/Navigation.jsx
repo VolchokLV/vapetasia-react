@@ -1,11 +1,17 @@
-// import {React, useState}  from 'react';
-import React  from 'react';
+import React, { useState } from 'react';
 import logo from '../../img/Vapetasia_Logo_2_small.png'
 import { AiOutlineMenu, AiOutlineClose, AiOutlineSearch} from 'react-icons/ai';
 import './navigation.css';
 
+const goTo = ((url) => {
+  window.location.href = url;
+});
+
 
 const Navigation = () => {
+
+  const [searchVal, setSearchVal] = useState('');
+
   return (
 
     <header id="site-header" className="minimal-header search-overlay left-menu effect-one clr" data-height="74" itemScope="itemscope" itemType="https://schema.org/WPHeader" role="banner">
@@ -192,7 +198,7 @@ const Navigation = () => {
 
 
             <li className="search-toggle-li">
-              <a href="javascript:void(0)" className="site-search-toggle search-overlay-toggle" aria-label="Search website">
+              <a onClick={() => { return false }} className="site-search-toggle search-overlay-toggle" aria-label="Search website">
                 <i className=" icon-magnifier" aria-hidden="true" role="img"></i>
               </a>
             </li>
@@ -324,7 +330,7 @@ const Navigation = () => {
 
           <div id="mobile-menu-search" className="clr">
             <form aria-label="Search this website" method="get" action={ process.env.REACT_APP_BASE_URL + '/' } className="mobile-searchform" role="search"> 
-              <input aria-label="Insert search query" value="" className="field" id="ocean-mobile-search-1" type="search" name="s" autoComplete="off" placeholder="Search" /> 
+              <input aria-label="Insert search query" value={searchVal} onChange={() => setSearchVal} className="field" id="ocean-mobile-search-1" type="search" name="s" autoComplete="off" placeholder="Search" /> 
               <button aria-label="Submit search" type="submit" className="searchform-submit"> 
                 <i className=" icon-magnifier" aria-hidden="true" role="img"></i> 
               </button>

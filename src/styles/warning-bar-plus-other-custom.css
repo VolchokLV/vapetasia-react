@@ -123,15 +123,3 @@
  div[class*="btn-strength-0"] {
   display: block;
  }*/
- /*remove parallax overlay when screen is XL*/
- @media screen and (min-width: 2600px) {
-  .vapetasia-background-overlay {
-  display: none;
-  }
-  #hero-description {
-  color: #FFFFFF;
-  }
- }
- .widget-title {
-  border-color: #FAA500;
- }

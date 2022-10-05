@@ -799,36 +799,6 @@
         "sort_order": 1        
     },
     {
-        "product_name": "Killer Kustard Blueberry",
-        "product_types": ["eliquid", "salt"],
-        "product_slug": "killer-kustard-blueberry", 
-        "flavor_line": ["killer-kustard"],
-        "img_src": {
-            "100ml": "/img/100ml/Killer_Kustard_Blueberry_100ml_3mg.svg",
-            "60ml": "/img/600ml/Killer_Kustard_Blueberry_60ml_3mg.svg",
-            "30ml": "/img/30ml/Killer_Kustard_Blueberry_30ml_24mg.svg"
-        },
-        "sizes": {
-            "eliquid": ["60ml", "100ml"],
-            "salt": ["30ml"]
-        },
-        "strengths": {
-            "eliquid": ["0mg","3mg", "6mg"],
-            "salt": ["24mg", "48mg"]
-        },
-        "main_text": "Crazy for the Killer Kustard Blueberry. Enjoy a pinch of ripe blueberry sweetness, complemented by our rich vanilla custard",
-        "hero_txt": "Crazy for the Killer Kustard Blueberry. Enjoy a pinch of ripe blueberry sweetness, complemented by our rich vanilla custard",
-        "sub_txt": "Vapetasia presents Blueberry Killer Kustard E-Liquid! Available in 60ml bottles, this blueberry custard elquid is pure bliss! If you are searching for the smoothest, richest and most delicious custard on the planet with that perfect kiss of blueberry… look no further!",
-        "popup_txt": "Crazy for the Killer Kustard Blueberry. Enjoy a pinch of ripe blueberry sweetness, complemented by our rich vanilla custard",        
-        "buy_now": {
-            "100ml": ["https://www.ejuices.com/products/vapetasia-ejuice-killer-kustard-blueberry", "https://vapesocietysupplies.com/products/killer-kustard-blueberry-by-vapetasia-100ml/", "https://www.elementvape.com/killer-kustard-blueberry-vapetasia"],
-            "60ml": ["https://www.ejuices.com/products/vapetasia-ejuice-killer-kustard-blueberry", "https://vapesocietysupplies.com/products/killer-kustard-blueberry-by-vapetasia-100ml/", "https://www.elementvape.com/killer-kustard-blueberry-vapetasia"],
-            "30ml": ["https://www.ejuices.com/products/vapetasia-ejuice-salts-killer-kustard-blueberry", "https://vapesocietysupplies.com/products/killer-kustard-blueberry-by-vapetasia-salts-30ml/", "https://www.elementvape.com/killer-kustard-blueberry-vapetasia-salts"]
-        },   
-        "is_featured": 0,
-        "sort_order": 1        
-    },
-    {
         "product_name": "Killer Fruits Grape",
         "product_types": ["eliquid"],
         "product_slug": "grape", 

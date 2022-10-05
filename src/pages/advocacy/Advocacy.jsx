@@ -5,12 +5,7 @@ import './advocacy.css';
 const Advocacy = () => {
   return (
     <>
-      <Hero heroClass="Advocacy" top={''} bottom={'Advocacy '} paragraph={'In an ever changing political environment, at Vapetasia we find it essential to give our attention to both state and federal regualtions that effect our industry. Vapetasia is proud to be a platinum member of the VTA and actively promoting CASAA.'}></Hero>
-      <div>
-        <br />
-        <br />
-        <br />
-      </div>
+      <Hero heroClass="Advocacy" top={''} bottom={'Advocacy '} paragraph={'In an ever changing political environment, at Vapetasia we find it essential to give our attention to both state and federal regualtions that effect our industry.'}></Hero>
       <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-9872422 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="9872422" data-element_type="section">
         <div className="vapetasia-container vapetasia-column-gap-default">
           <div className="vapetasia-row">

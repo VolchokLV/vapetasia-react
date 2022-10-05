@@ -1,3 +1,8 @@
 .vapetasia-custom-grid-item {
     text-align: center;
 }
+
+.vapetasia-image-object {
+    width: 300px;
+    height: 300px;
+}

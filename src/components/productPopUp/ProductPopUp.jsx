@@ -1,6 +1,6 @@
 import React from 'react'
 import {ProductImage } from '../../components';
-//import './productPopUp.css'
+import './productPopUp.css'
 
 const ProductPopUp = (props) => {
   let stores = {
@@ -8,14 +8,26 @@ const ProductPopUp = (props) => {
       "name": "EJUICES",
       "img_url": "https://cdn2.vapetasia.com/img/stores/ejc.png" 
     }, 
-    "vape.com": {
-      "name": "VAPE.COM",
-      "img_url": "https://cdn2.vapetasia.com/img/stores/element.png"
-    }, 
     "elementvape.com": {
       "name": "ELEMENT",
+      "img_url": "https://cdn2.vapetasia.com/img/stores/element.png"
+    }, 
+    "vape.com": {
+      "name": "VAPE.COM",
       "img_url": "https://cdn2.vapetasia.com/img/stores/vapecom.png" 
     }, 
+  }
+  const storeFromURL = (url) => {
+    if (url.indexOf('ejuices.com') > -1) {
+      return stores['ejuices.com'];
+    } else if (url.indexOf('elementvape.com') > -1) {
+      return stores['elementvape.com'];
+    } else if (url.indexOf('vape.com') > -1) {
+      return stores['vape.com'];
+    } else if (url.indexOf('vapesocietysupplies.com' > -1)) {
+      /*TODO: add store data for above ^*/
+      return stores['vape.com'];
+    }
   }
   return (
     <div className={`${props.show ? "showProductModal" : "hideProductModal"} dialog-widget dialog-lightbox-widget dialog-type-buttons dialog-type-lightbox vapetasia-popup-modal`} id="vapetasia-popup-modal-5469">
@@ -54,7 +66,7 @@ const ProductPopUp = (props) => {
                           <div className="vapetasia-element vapetasia-element-2ade2736 vapetasia-widget vapetasia-widget-heading" data-id="2ade2736" data-element_type="widget" data-widget_type="heading.default">
                             <div className="vapetasia-widget-container">
                               <h2 className="vapetasia-heading-title vapetasia-size-default">
-                                {props.product.product_name}<br />{'size...'}
+                                {props.product.product_name}<br />
                               </h2>
                             </div>
                           </div>
@@ -107,7 +119,7 @@ const ProductPopUp = (props) => {
                               <div className="vapetasia-widget-container">
                                 <div className="vapetasia-image"> 
                                   <a href={retailerLink}> 
-                                    <img width="240" height="240" src="https://cdn.vapetasia.com/wp-content/uploads/2020/06/10214529/ejc.png" className="attachment-large size-large" alt="" /> 
+                                    <img width="240" height="240" src={storeFromURL(retailerLink)['img_url']} className="attachment-large size-large" alt="" /> 
                                   </a>
                                 </div>
                               </div>
@@ -115,7 +127,7 @@ const ProductPopUp = (props) => {
                             <div className="vapetasia-element vapetasia-element-e91ca4a vapetasia-widget vapetasia-widget-heading" data-id="e91ca4a" data-element_type="widget" data-widget_type="heading.default">
                               <div className="vapetasia-widget-container">
                                 <h2 className="vapetasia-heading-title vapetasia-size-default">
-                                  <a href={retailerLink}>EJUICES</a>
+                                  <a href={retailerLink}>{storeFromURL(retailerLink)['name']}</a>
                                 </h2>
                               </div>
                             </div>
@@ -142,9 +154,7 @@ const ProductPopUp = (props) => {
         </div>
         <a onClick={() => props.setShow(false)}>
           <div className="dialog-buttons-wrapper dialog-lightbox-buttons-wrapper"></div>
-          <div className="dialog-close-button dialog-lightbox-close-button">
-            <i className="eicon-close"></i>
-          </div>
+          <div className="dialog-close-button dialog-lightbox-close-button fa fa-times"></div>
         </a>
       </div>
     </div>

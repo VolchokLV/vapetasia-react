@@ -1,16 +1,48 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import logo from '../../img/Vapetasia_Logo_2_small.png'
 import { AiOutlineMenu, AiOutlineClose, AiOutlineSearch} from 'react-icons/ai';
 import './navigation.css';
 
-const goTo = ((url) => {
-  window.location.href = url;
-});
-
+const getTop = el => el.offsetTop + (el.offsetParent && getTop(el.offsetParent));
 
 const Navigation = () => {
-
   const [searchVal, setSearchVal] = useState('');
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    if (menuOpen) {
+      setMenuOpen(false);
+      document.getElementById('mobile-dropdown').style.height = '0';
+    } else {
+      setMenuOpen(true);
+      document.getElementById('mobile-dropdown').style.height = '400px';
+    }
+  }
+
+  const resizeNav = () => {
+    const start = document.querySelector('.last-to-falloff');
+    const end = document.querySelector('.first-to-falloff');
+    const startTop = getTop(start);
+    const endTop = getTop(end);
+
+    if (startTop < endTop) {
+      document.getElementById('site-navigation-wrap').style.height = '160px';
+    } else {
+      document.getElementById('site-navigation-wrap').style.height = '80px';
+    }
+  }
+
+  useEffect(() => {
+    resizeNav();
+
+    window.addEventListener('resize', () => {
+      resizeNav();
+      /*also when resizing need to close the mobile menu if it's left open*/
+      if (window.innerWidth <= 776) {
+        document.getElementById('mobile-dropdown').style.height = '0';
+      }
+    })
+  })
 
   return (
 
@@ -26,13 +58,11 @@ const Navigation = () => {
           </div>
         </div>
 
-
         <div id="site-navigation-wrap" className="clr">
           <nav id="site-navigation" className="navigation main-navigation clr" itemScope="itemscope" itemType="https://schema.org/SiteNavigationElement" role="navigation">
+            
             <ul id="menu-main-nav-bar-menu" className="main-menu dropdown-menu sf-menu">
-
-
-              <li id="menu-item-293" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-191 current_page_item menu-item-293">
+              <li id="menu-item-293" className="last-to-falloff menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-191 current_page_item menu-item-293">
                 <a href={ process.env.REACT_APP_BASE_URL + '/'} className="menu-link">
                   <span className="text-wrap">
                     HOME
@@ -197,17 +227,15 @@ const Navigation = () => {
             </li> */}
 
 
-            <li className="search-toggle-li">
-              <a onClick={() => { return false }} className="site-search-toggle search-overlay-toggle" aria-label="Search website">
-                <i className=" icon-magnifier" aria-hidden="true" role="img"></i>
-              </a>
+            <li className="first-to-falloff search-toggle-li">
+              <a onClick={() => { return false }} className="site-search-toggle search-overlay-toggle fa fa-search" aria-label="Search website"></a>
             </li>
 
           </ul>
         </nav>
       </div>
                   
-      <div className="oceanwp-mobile-menu-icon clr mobile-right"> 
+      <div id="mobile-menu-trigger" className="oceanwp-mobile-menu-icon clr mobile-right" onClick={() => toggleMenu()}> 
         <a href="#" className="mobile-menu" aria-label="Mobile Menu">
           <div className="hamburger hamburger--squeeze" aria-expanded="false" role="navigation">
             <div className="hamburger-box">

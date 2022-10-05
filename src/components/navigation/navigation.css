@@ -10,3 +10,18 @@
   visibility: visible;
   opacity: 1;
 }
+
+#mobile-dropdown {
+  height: 0;
+  display: block !important;
+  transition: height .2s !important;
+}
+
+@media screen and (max-width: 776px) {
+  #site-navigation-wrap {
+    display: none;
+  }
+  #mobile-menu-trigger {
+    display: inline-block;
+  }
+}

@@ -3,42 +3,15 @@ import './hero.css';
 import { Parallax, Background  } from 'react-parallax';
 import heroImg from '../../img/hero/Home-1.jpg'
 import gash from '../../img/hero/gash.png'
-
+import * as heroes from '../../data/heroes.json'
 
 const baseUrl = 'https://cdn2.vapetasia.com/img/hero/';
-
-const heroes = {
-  '100ml': '100ml.jpg',
-  '30ml': '30ml.jpg',
-  '60ml': '60ml.jpg',
-  'KillerDisposables': 'Killer-Disposables.png',
-  'HyveDisposables': 'Hyve-Disposables.png',
-  'About': 'About-Us.jpg',
-  'Advocacy': 'Advocacy.jpg',
-  'Support': 'contact-support.jpg',
-  'Home': 'Home-1.jpg',
-  'MediaRequest': 'Media-Request-Form.jpg',
-  'PromotionalRequest': 'Promotional-Request-Form.jpg',
-  'StoreLocator': 'StoreLocator.png',
-  'Wholesale': 'Wholesale-Inquiry.jpg',
-  //FLAVOR LINES
-  'FlavorKillerKustard': 'Killer-Kustard.jpg',
-  'FlavorKillerSweets': 'Killer-Sweets.jpg',
-  'FlavorKillerFruits': 'Killer-Fruits.png',
-  'FlavorParfait': 'Parfait.jpg',
-  'FlavorIced': 'Iced.jpg',
-  'FlavorVapetasia': 'Vapetasia.jpg',
-  'FlavorLemonade': 'Lemonade.jpg',
-  'FlavorHyveDisposables': 'Hyve-Disposables.png',
-  'FlavorKillerDisposables': 'Killer-Disposables.png'
-}
-
 
 const Hero = (props) => {
     
   return (
     <>
-      <section style={{'backgroundImage': 'url(' + baseUrl + heroes[props.heroClass] }} className={`vapetasia-element-page-hero vapetasia-section vapetasia-top-section vapetasia-element vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default` } data-id="HomeHero" data-element_type="section">
+      <section style={{'backgroundImage': 'url(' + baseUrl + heroes.default[0]['images'][props.heroClass] }} className={`vapetasia-element-page-hero vapetasia-section vapetasia-top-section vapetasia-element vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default` } data-id="HomeHero" data-element_type="section">
         <div className="vapetasia-background-overlay">
         </div>
         <div className="vapetasia-container vapetasia-column-gap-no">

@@ -1,0 +1,6 @@
+.showProductModal {
+    display: flex;
+}
+.hideProductModal {
+    display: none !important;
+}

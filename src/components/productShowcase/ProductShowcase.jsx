@@ -1,27 +1,16 @@
-import React from 'react'
-import {Hero, ProductImage} from '../../components';
+import React, {useState} from 'react'
+import {Hero, ProductImage, ProductPopUp} from '../../components';
+import './productShowcase.css';
+import * as heroes from '../../data/heroes.json'
 
 const ProductShowcase = (props) => {
 
-  console.log('product showcase rec prod');
-  console.log(props);
-
-  const flavors = {
-    'killer-kustard': 'FlavorKillerKustard',
-    'killer-sweets': 'FlavorKillerSweets',
-    'killer-fruits': 'FlavorKillerFruits',
-    'parfait': 'FlavorParfait',
-    'iced': 'FlavorIced',
-    'vapetasia': 'FlavorVapetasia',
-    'lemonade': 'FlavorLemonade',
-    'hyve-disposables': 'FlavorHyveDisposables',
-    'killer-disposables': 'FlavorKillerDisposables' 
-  }
+  const [show, setShow] = useState(false)
 
   return (
     <>
       <Hero 
-      heroClass={flavors[props.product.flavor_line[0]]}
+      heroClass={heroes.default[0]['flavors'][props.product.flavor_line[0]]}
       top={'Vapetasia'} 
       bottom={props.product.product_name} 
       paragraph={props.product.hero_txt} />
@@ -147,7 +136,7 @@ const ProductShowcase = (props) => {
                                 <div class="vapetasia-element vapetasia-element-f33a760 vapetasia-align-left btn-strength-0 vapetasia-widget vapetasia-widget-button" data-id="f33a760" data-element_type="widget" data-widget_type="button.default">
                                   <div class="vapetasia-widget-container">
                                     <div class="vapetasia-button-wrapper"> 
-                                      <a href="#vapetasia-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjExNjEiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D" class="vapetasia-button-link vapetasia-button vapetasia-size-sm" role="button"> 
+                                      <a onClick={() => setShow(true)} class="vapetasia-orange vapetasia-button-link vapetasia-button vapetasia-size-sm" role="button"> 
                                         <span class="vapetasia-button-content-wrapper"> 
                                           <span class="vapetasia-button-text">BUY ONLINE</span> 
                                         </span> 
@@ -176,6 +165,12 @@ const ProductShowcase = (props) => {
             </div>
           </div>
         </section>
+
+        <ProductPopUp 
+          show={show} 
+          setShow={setShow}
+          product={props.product} 
+          buy_now_slug={'100ml'}></ProductPopUp>
     </>
   )
 }

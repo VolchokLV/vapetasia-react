@@ -9,7 +9,7 @@ const ProductGridItem = (props) => {
       <div className="vapetasia-element vapetasia-element-f80e103 vapetasia-widget vapetasia-widget-image" data-id="f80e103" data-element_type="widget" data-widget_type="image.default">
         <div className="vapetasia-widget-container">
           <div className="vapetasia-image">
-            <a href={ '/product/' + props.product.product_slug + '/_' }>
+            <a href={ '/product/' + props.product.product_slug + '/_' } onClick={() => { console.log('clicked') }}>
               <ProductImage src={props.product.default_image}></ProductImage>
             </a>
           </div>

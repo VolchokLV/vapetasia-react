@@ -4,6 +4,7 @@ import './productImage.css'
 const ProductImage = (props) => {
 
   const typeFromSrc = (src) => {
+    if (!src) return '';
     if (src.indexOf('.jpg') > -1 || src.indexOf('.jpeg') > -1) {
       return 'image/jpeg';
     } else if (src.indexOf('.png') > -1) {

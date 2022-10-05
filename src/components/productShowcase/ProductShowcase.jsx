@@ -1,30 +1,16 @@
 import React, {useState} from 'react'
 import {Hero, ProductImage, ProductPopUp} from '../../components';
 import './productShowcase.css';
+import * as heroes from '../../data/heroes.json'
 
 const ProductShowcase = (props) => {
-
-  console.log('product showcase rec prod');
-  console.log(props);
-
-  const flavors = {
-    'killer-kustard': 'FlavorKillerKustard',
-    'killer-sweets': 'FlavorKillerSweets',
-    'killer-fruits': 'FlavorKillerFruits',
-    'parfait': 'FlavorParfait',
-    'iced': 'FlavorIced',
-    'vapetasia': 'FlavorVapetasia',
-    'lemonade': 'FlavorLemonade',
-    'hyve-disposables': 'FlavorHyveDisposables',
-    'killer-disposables': 'FlavorKillerDisposables' 
-  }
 
   const [show, setShow] = useState(false)
 
   return (
     <>
       <Hero 
-      heroClass={flavors[props.product.flavor_line[0]]}
+      heroClass={heroes.default[0]['flavors'][props.product.flavor_line[0]]}
       top={'Vapetasia'} 
       bottom={props.product.product_name} 
       paragraph={props.product.hero_txt} />

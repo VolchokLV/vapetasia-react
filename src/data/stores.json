@@ -1,0 +1,18 @@
+[
+    {
+        "stores": {
+            "ejuices.com": {
+              "name": "EJUICES",
+              "img_url": "https://cdn2.vapetasia.com/img/stores/ejc.png" 
+            }, 
+            "elementvape.com": {
+              "name": "ELEMENT",
+              "img_url": "https://cdn2.vapetasia.com/img/stores/element.png"
+            }, 
+            "vape.com": {
+              "name": "VAPE.COM",
+              "img_url": "https://cdn2.vapetasia.com/img/stores/vapecom.png" 
+            }
+        }
+    }
+]

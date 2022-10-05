@@ -8,7 +8,7 @@ import { AboutUs, Advocacy, Blog, ContactUs, Product, ProductGrid, Home, StoreLo
 import { ContactSupport, MediaRequestForm, PromotionalRequest, WholesaleRegistration, Navigation, Warning, Footer } from './components';
 import { Nav } from 'react-bootstrap';
 
-import * as products from './data.json';
+import * as products from './data/products.json';
 
 function App() {
 

@@ -1,32 +1,19 @@
 import React from 'react'
 import {ProductImage } from '../../components';
 import './productPopUp.css'
+import * as stores from '../../data/stores.json'
 
 const ProductPopUp = (props) => {
-  let stores = {
-    "ejuices.com": {
-      "name": "EJUICES",
-      "img_url": "https://cdn2.vapetasia.com/img/stores/ejc.png" 
-    }, 
-    "elementvape.com": {
-      "name": "ELEMENT",
-      "img_url": "https://cdn2.vapetasia.com/img/stores/element.png"
-    }, 
-    "vape.com": {
-      "name": "VAPE.COM",
-      "img_url": "https://cdn2.vapetasia.com/img/stores/vapecom.png" 
-    }, 
-  }
   const storeFromURL = (url) => {
     if (url.indexOf('ejuices.com') > -1) {
-      return stores['ejuices.com'];
+      return stores.default[0]['stores']['ejuices.com'];
     } else if (url.indexOf('elementvape.com') > -1) {
-      return stores['elementvape.com'];
+      return stores.default[0]['stores']['elementvape.com'];
     } else if (url.indexOf('vape.com') > -1) {
-      return stores['vape.com'];
+      return stores.default[0]['stores']['vape.com'];
     } else if (url.indexOf('vapesocietysupplies.com' > -1)) {
       /*TODO: add store data for above ^*/
-      return stores['vape.com'];
+      return stores.default[0]['stores']['vape.com'];
     }
   }
   return (

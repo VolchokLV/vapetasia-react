@@ -12,6 +12,10 @@
             "vape.com": {
               "name": "VAPE.COM",
               "img_url": "https://cdn2.vapetasia.com/img/stores/vapecom.png" 
+            },
+            "vapesocietysupplies.com": {
+              "name": "VAPE SOCIETY",
+              "img_url": "https://cdn2.vapetasia.com/img/stores/VapeSociety.png" 
             }
         }
     }

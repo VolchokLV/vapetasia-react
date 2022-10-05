@@ -12,8 +12,7 @@ const ProductPopUp = (props) => {
     } else if (url.indexOf('vape.com') > -1) {
       return stores.default[0]['stores']['vape.com'];
     } else if (url.indexOf('vapesocietysupplies.com' > -1)) {
-      /*TODO: add store data for above ^*/
-      return stores.default[0]['stores']['vape.com'];
+      return stores.default[0]['stores']['vapesocietysupplies.com'];
     }
   }
   return (

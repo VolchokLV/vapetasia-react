@@ -1,8 +1,5 @@
-import React, { useState, useEffect} from 'react';
+import React from 'react';
 import './hero.css';
-import { Parallax, Background  } from 'react-parallax';
-import heroImg from '../../img/hero/Home-1.jpg'
-import gash from '../../img/hero/gash.png'
 import * as heroes from '../../data/heroes.json'
 
 const baseUrl = 'https://cdn2.vapetasia.com/img/hero/';

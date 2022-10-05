@@ -903,21 +903,6 @@
         "is_featured": 0,
         "sort_order": 1
     },
-    {
-        "product_name": "Killer Disposables Blueberry Ice",
-        "product_types": ["disposable"],
-        "product_slug": "killer-disposables-blueberry-ice", 
-        "flavor_line": ["killer-disposables"],
-        "10ml_img_src": "/img/Disposables_Killer_Disposables_Blueberry_Ice_50mg.svg",
-        "sizes": "10ml",
-        "disposable_strengths": ["50mg"],
-        "main_text": "Frozen blueberries ride a brisk winter breeze to cool your taste buds with a popping burst of berry flavor and an icy touch!",
-        "sub_txt": "Frozen blueberries ride a brisk winter breeze to cool your taste buds with a popping burst of berry flavor and an icy touch!",
-        "popup_txt": "Frozen blueberries ride a brisk winter breeze to cool your taste buds with a popping burst of berry flavor and an icy touch!",        
-        "buy_now": ["https://www.flawlessvapeshop.com/products/vapetasia-killer-fruits-disposable-3500-puffs-10ml", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/vapetasia-killer-disposable-vape"],
-        "is_featured": 0,
-        "sort_order": 1
-    },
 	{
         "product_name": "Vapetasia X Hyve Disposable Trapple",
         "product_types": ["disposable"],
@@ -981,6 +966,23 @@
         "is_featured": 0,
         "sort_order": 1
     },
+    {
+        "product_name": "Killer Disposables Blueberry Ice",
+        "product_types": ["disposable"],
+        "product_slug": "killer-disposables-blueberry-ice", 
+        "flavor_line": ["killer-disposables"],
+        "10ml_img_src": "/img/Disposables_Killer_Disposables_Blueberry_Ice_50mg.svg",
+        "sizes": "10ml",
+        "disposable_strengths": ["50mg"],
+        "main_text": "Frozen blueberries ride a brisk winter breeze to cool your taste buds with a popping burst of berry flavor and an icy touch!",
+        "sub_txt": "Frozen blueberries ride a brisk winter breeze to cool your taste buds with a popping burst of berry flavor and an icy touch!",
+        "popup_txt": "Frozen blueberries ride a brisk winter breeze to cool your taste buds with a popping burst of berry flavor and an icy touch!",        
+        "buy_now": {
+            "10ml": ["https://www.flawlessvapeshop.com/products/vapetasia-killer-fruits-disposable-3500-puffs-10ml", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/vapetasia-killer-disposable-vape"]
+        },
+        "is_featured": 0,
+        "sort_order": 1
+    },
 	{
         "product_name": "Killer Disposables Blue Razz",
         "product_types": ["disposable"],
@@ -992,7 +994,9 @@
         "main_text": "A burst of tart flavor perfectly curated to exceed your expectations. A smooth flavorful inhale of blue raspberry will captivate your tastebuds, you may not want to let it out!",
         "sub_txt": "A burst of tart flavor perfectly curated to exceed your expectations. A smooth flavorful inhale of blue raspberry will captivate your tastebuds, you may not want to let it out!",
         "popup_txt": "A burst of tart flavor perfectly curated to exceed your expectations. A smooth flavorful inhale of blue raspberry will captivate your tastebuds, you may not want to let it out!",        
-        "buy_now": ["https://www.flawlessvapeshop.com/products/vapetasia-killer-fruits-disposable-3500-puffs-10ml", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/vapetasia-killer-disposable-vape"],
+        "buy_now": {
+            "10ml": ["https://www.flawlessvapeshop.com/products/vapetasia-killer-fruits-disposable-3500-puffs-10ml", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/vapetasia-killer-disposable-vape"]
+    },
         "is_featured": 0,
         "sort_order": 1
     },
@@ -1007,7 +1011,9 @@
         "main_text": "Allow your taste buds to dance to the medley of sweet strawberries coupled with exotic guava as they create a harmonizing blend of flavor.",
         "sub_txt": "Allow your taste buds to dance to the medley of sweet strawberries coupled with exotic guava as they create a harmonizing blend of flavor.",
         "popup_txt": "Allow your taste buds to dance to the medley of sweet strawberries coupled with exotic guava as they create a harmonizing blend of flavor.",        
-        "buy_now": ["https://www.flawlessvapeshop.com/collections/disposable-vape-pens", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/catalogsearch/result/?q=killer"],
+        "buy_now": {
+            "10ml": ["https://www.flawlessvapeshop.com/collections/disposable-vape-pens", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/catalogsearch/result/?q=killer"]
+    },
         "is_featured": 0,
         "sort_order": 1
     },
@@ -1022,7 +1028,9 @@
         "main_text": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
         "sub_txt": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
         "popup_txt": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",        
-        "buy_now": ["https://www.flawlessvapeshop.com/products/vapetasia-killer-fruits-disposable-3500-puffs-10ml", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/vapetasia-killer-disposable-vape"],
+        "buy_now": {
+           "10ml": ["https://www.flawlessvapeshop.com/products/vapetasia-killer-fruits-disposable-3500-puffs-10ml", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/vapetasia-killer-disposable-vape"]
+    },
         "is_featured": 0,
         "sort_order": 1
     },
@@ -1037,7 +1045,9 @@
         "main_text": "Quench your thirst with the sweetness of ripened peach stirred into a cup of iced lemonade with plump cherries splashed into every puff!",
         "sub_txt": "One of our most refreshing and popular flavors!",
         "popup_txt": "Quench your thirst with the sweetness of ripened peach stirred into a cup of iced lemonade with plump cherries splashed into every puff!",        
-        "buy_now": ["https://www.flawlessvapeshop.com/products/vapetasia-killer-fruits-disposable-3500-puffs-10ml", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/vapetasia-killer-disposable-vape"],
+        "buy_now": {
+           "10ml": ["https://www.flawlessvapeshop.com/products/vapetasia-killer-fruits-disposable-3500-puffs-10ml", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/vapetasia-killer-disposable-vape"]
+    },
         "is_featured": 0,
         "sort_order": 1
     },
@@ -1052,7 +1062,9 @@
         "main_text": "The refreshing addition of aloe seamlessly blends the frozen grapes to take you on a vacation of flavor you might not want to end.",
         "sub_txt": "One of our most refreshing and popular flavors!",
         "popup_txt": "The refreshing addition of aloe seamlessly blends the frozen grapes to take you on a vacation of flavor you might not want to end.",        
-        "buy_now": ["https://www.flawlessvapeshop.com/products/vapetasia-killer-fruits-disposable-3500-puffs-10ml", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/vapetasia-killer-disposable-vape"],
+        "buy_now": {
+           "10ml": ["https://www.flawlessvapeshop.com/products/vapetasia-killer-fruits-disposable-3500-puffs-10ml", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/vapetasia-killer-disposable-vape"]
+    },
         "is_featured": 0,
         "sort_order": 1
     },
@@ -1067,7 +1079,9 @@
         "main_text": "The classic blend of mouth-watering strawberries and perfectly ripe bananas will put your taste buds on the brink of an overload!",
         "sub_txt": "The classic blend of mouth-watering strawberries and perfectly ripe bananas will put your taste buds on the brink of an overload!",
         "popup_txt": "The classic blend of mouth-watering strawberries and perfectly ripe bananas will put your taste buds on the brink of an overload!",        
-        "buy_now": ["https://www.flawlessvapeshop.com/products/vapetasia-killer-fruits-disposable-3500-puffs-10ml", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/vapetasia-killer-disposable-vape"],
+        "buy_now": {
+           "10ml": ["https://www.flawlessvapeshop.com/products/vapetasia-killer-fruits-disposable-3500-puffs-10ml", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/vapetasia-killer-disposable-vape"]
+        },
         "is_featured": 0,
         "sort_order": 1
     },
@@ -1082,7 +1096,9 @@
         "main_text": "Shock your taste buds full of energy and jumpstart your day with a surge of electrifying energy drink flavor.",
         "sub_txt": "Shock your taste buds full of energy and jumpstart your day with a surge of electrifying energy drink flavor.",
         "popup_txt": "Shock your taste buds full of energy and jumpstart your day with a surge of electrifying energy drink flavor.",        
-        "buy_now": ["https://www.flawlessvapeshop.com/products/vapetasia-killer-fruits-disposable-3500-puffs-10ml", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/vapetasia-killer-disposable-vape"],
+        "buy_now": {
+           "10ml": ["https://www.flawlessvapeshop.com/products/vapetasia-killer-fruits-disposable-3500-puffs-10ml", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/vapetasia-killer-disposable-vape"]
+        },
         "is_featured": 0,
         "sort_order": 1
     },
@@ -1097,7 +1113,9 @@
         "main_text": "Sometimes dessert for dinner is the way to go! Indulge in the soft creamy flavor of strawberry ice cream.",
         "sub_txt": "Sometimes dessert for dinner is the way to go! Indulge in the soft creamy flavor of strawberry ice cream.",
         "popup_txt": "Sometimes dessert for dinner is the way to go! Indulge in the soft creamy flavor of strawberry ice cream.",        
-        "buy_now": ["https://www.flawlessvapeshop.com/products/vapetasia-killer-fruits-disposable-3500-puffs-10ml", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/vapetasia-killer-disposable-vape"],
+        "buy_now": {
+           "10ml": ["https://www.flawlessvapeshop.com/products/vapetasia-killer-fruits-disposable-3500-puffs-10ml", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/vapetasia-killer-disposable-vape"]
+    },
         "is_featured": 0, 
         "sort_order": 1
     }

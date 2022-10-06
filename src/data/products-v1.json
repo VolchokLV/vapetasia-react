@@ -888,10 +888,9 @@
         "product_slug": "vapetasia-x-hyve-disposables-dragons-breath-4000-puff", 
         "flavor_line": ["hyve-disposables"],
         "img_src": {
-            "only": "/img/Disposables/Vapetasia_x_Hyve_Dragons_Breath_10ml_50mg.svg",
-            "10ml": "/img/Disposables/Vapetasia_x_Hyve_Dragons_Breath_10ml_50mg.svg"
+            "product": "/img/Disposables/Vapetasia_x_Hyve_Dragons_Breath_10ml_50mg.svg",
+            "display": "/img/Disposables/Vapetasia_x_Hyve_Dragons_Breath_Display_4000_50mg.svg"
         },
-        "display_img": "",
         "sizes": ["10ml"],
         "disposable_strengths": ["50mg"],
         "hero_txt": " Embrace yourself! Dragon fruit, strawberry and honeydew create a firestorm of fruity flavor. Bring something to cool off, this flavor is HOT!",
@@ -911,8 +910,8 @@
         "product_slug": "vapetasia-x-hyve-disposables-dragons-breath-2500-puff", 
         "flavor_line": ["hyve-disposables"],
         "img_src": {
-            "only": "/img/Disposables/Vapetasia_x_Hyve_Dragons_Breath_6ml_50mg.svg",
-            "6ml": "/img/Disposables/Vapetasia_x_Hyve_Dragons_Breath_6ml_50mg.svg"
+            "product": "/img/Disposables/Vapetasia_x_Hyve_Dragons_Breath_6ml_50mg.svg",
+            "display": "/img/Disposables/Vapetasia_x_Hyve_Dragons_Breath_Display_2500_50mg.svg"
         },
         "display_img": "",
         "sizes": ["6ml"],
@@ -934,8 +933,8 @@
         "product_slug": "vapetasia-x-hyve-disposables-trapple-4000-puff",
         "flavor_line": ["hyve-disposables"], 
         "img_src": {
-            "only": "/img/Disposables/Vapetasia_x_Hyve_Trapple_10ml_50mg.svg",
-            "10ml": "/img/Disposables/Vapetasia_x_Hyve_Trapple_10ml_50mg.svg"
+            "product": "/img/Disposables/Vapetasia_x_Hyve_Trapple_10ml_50mg.svg",
+            "display": "/img/Disposables/Vapetasia_x_Hyve_Trapple_Display_4000_50mg.svg"
         },
         "display_img": "",
         "sizes": ["10ml"],
@@ -957,8 +956,8 @@
         "product_slug": "vapetasia-x-hyve-disposables-trapple-2500-puff",
         "flavor_line": ["hyve-disposables"], 
         "img_src": {
-            "only": "/img/Disposables/Vapetasia_x_Hyve_Trapple_6ml_50mg.svg",
-            "6ml": "/img/Disposables/Vapetasia_x_Hyve_Trapple_6ml_50mg.svg"
+            "product": "/img/Disposables/Vapetasia_x_Hyve_Trapple_6ml_50mg.svg",
+            "display": "/img/Disposables/Vapetasia_x_Hyve_Trapple_Display_2500_50mg.svg"
         },
         "display_img": "",
         "sizes": ["6ml"],
@@ -980,8 +979,8 @@
         "product_slug": "vapetasia-x-hyve-disposables-honeydew-kream-4000-puff", 
         "flavor_line": ["hyve-disposables"],
         "img_src": {
-            "only": "/img/Disposables/Vapetasia_x_Hyve_Honeydew_Kream_10ml_50mg.svg",
-            "10ml": "/img/Disposables/Vapetasia_x_Hyve_Honeydew_Kream_10ml_50mg.svg"
+            "product": "/img/Disposables/Vapetasia_x_Hyve_Honeydew_Kream_10ml_50mg.svg",
+            "display": "/img/Disposables/Vapetasia_x_Hyve_Honeydew_Kream_Display_4000_50mg.svg"
         },
         "display_img": "",
         "sizes": ["10ml"],
@@ -1003,9 +1002,8 @@
         "product_slug": "vapetasia-x-hyve-disposables-honeydew-kream-2500-puff", 
         "flavor_line": ["hyve-disposables"],
         "img_src": {
-            "only": "/img/Disposables/Vapetasia_x_Hyve_Honeydew_Kream_6ml_50mg.svg",
-            "6ml": "/img/Disposables/Vapetasia_x_Hyve_Honeydew_Kream_6ml_50mg.svg",
-            "10ml": "/img/Disposables/Vapetasia_x_Hyve_Honeydew_Kream_10ml_50mg.svg"
+            "product": "/img/Disposables/Vapetasia_x_Hyve_Honeydew_Kream_6ml_50mg.svg",
+            "display": "/img/Vapetasia_x_Hyve_Honeydew_Kream_Display_2500_50mg.svg"
         },
         "display_img": "",
         "sizes": ["6ml"],
@@ -1027,8 +1025,8 @@
         "product_slug": "vapetasia-x-hyve-disposables-vnla-4000-puff", 
         "flavor_line": ["hyve-disposables"],
         "img_src": {
-            "only": "/img/Disposables/Vapetasia_x_Hyve_VNLA_10ml_50mg.svg",
-            "10ml": "/img/Disposables/Vapetasia_x_Hyve_VNLA_10ml_50mg.svg"
+            "product": "/img/Disposables/Vapetasia_x_Hyve_VNLA_10ml_50mg.svg",
+            "display": "/img/Disposables/Vapetasia_x_Hyve_VNLA_Display_4000_50mg.svg"
         },
         "display_img": "",
         "sizes": ["10ml"],
@@ -1050,8 +1048,8 @@
         "product_slug": "vapetasia-x-hyve-disposables-vnla-2500-puff", 
         "flavor_line": ["hyve-disposables"],
         "img_src": {
-            "only": "/img/Disposables/Vapetasia_x_Hyve_VNLA_6ml_50mg.svg",
-            "10ml": "/img/Disposables/Vapetasia_x_Hyve_VNLA_6ml_50mg.svg"
+            "product": "/img/Disposables/Vapetasia_x_Hyve_VNLA_6ml_50mg.svg",
+            "display": "/img/Disposables/Vapetasia_x_Hyve_VNLA_Display_2500_50mg.svg"
         },
         "display_img": "",
         "sizes": ["6ml"],

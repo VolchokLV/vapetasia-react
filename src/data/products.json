@@ -160,7 +160,7 @@
             "30ml": "/img/30ml/Iced_White_Gummy_30ml_24mg.svg"
         },
         "sizes": {
-            "eliquid": ["60ml", "100ml"],
+            "eliquid": ["100ml"],
             "salt": ["30ml"]
         },
         "strengths": {
@@ -267,7 +267,7 @@
             "featured": {"display":1, "key":"eliquid", "strength":"3mg", "size":"100ml" }            
     },
     {
-        "product_name": "Killer Fruites Straw Guaw",
+        "product_name": "Killer Fruits Straw Guaw",
         "product_types": ["eliquid", "salt"],
         "product_slug": "straw-guaw", 
         "flavor_line": ["killer-fruits"],
@@ -276,7 +276,7 @@
             "30ml": "/img/30ml/Killer_Fruits_Straw_Guaw_30ml_24mg.svg"
         },
         "sizes": {
-            "eliquid": ["60ml", "100ml"],
+            "eliquid": ["100ml"],
             "salt": ["30ml"]
         },
         "strengths": {
@@ -304,7 +304,7 @@
             "30ml": "/img/30ml/Killer_Fruits_Trapple_30ml_24mg.svg"
         },
         "sizes": {
-            "eliquid": ["60ml", "100ml"],
+            "eliquid": ["100ml"],
             "salt": ["30ml"]
         },
         "strengths": {
@@ -448,7 +448,7 @@
         "img_src": {
 
             "100ml": "/img/100ml/Killer_Kustard_Blueberry_100ml_3mg.svg",
-            "60ml": "/img/60ml/Killer_Kustard_Blueberry_100ml_3mg.svg",
+            "60ml": "/img/60ml/Killer_Kustard_Blueberry_60ml_3mg.svg",
             "30ml": "/img/30ml/Killer_Kustard_Blueberry_30ml_24mg.svg"       
         },
         "sizes": {

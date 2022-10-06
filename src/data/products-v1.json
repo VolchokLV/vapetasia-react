@@ -888,9 +888,9 @@
         "product_slug": "vapetasia-x-hyve-disposables-dragons-breath", 
         "flavor_line": ["hyve-disposables"],
         "img_src": {
-            "only": "/img/Disposables_Vapetasia_x_hyve_disposables_Dragons_Breath_6ml_50mg.svg",
-            "6ml": "/img/Disposables_Vapetasia_x_hyve_disposables_Dragons_Breath_6ml_50mg.svg",
-            "10ml": "/img/Disposables_Vapetasia_x_hyve_disposables_Dragons_Breath_10ml_50mg.svg"
+            "only": "/img/Disposables/Vapetasia_x_Hyve_Dragons_Breath_10ml_50mg.svg",
+            "6ml": "/img/Disposables/Vapetasia_x_Hyve_Dragons_Breath_6ml_50mg.svg",
+            "10ml": "/img/Disposables/Vapetasia_x_Hyve_Dragons_Breath_10ml_50mg.svg"
         },
         "sizes": ["6ml", "10ml"],
         "disposable_strengths": ["50mg"],
@@ -911,9 +911,9 @@
         "product_slug": "vapetasia-x-hyve-disposables-trapple",
         "flavor_line": ["hyve-disposables"], 
         "img_src": {
-            "only": "/img/Disposables_Vapetasia_x_hyve_disposables_Trapple_6ml_50mg.svg",
-            "6ml": "/img/Disposables_Vapetasia_x_hyve_disposables_Trapple_6ml_50mg.svg",
-            "10ml": "/img/Disposables_Vapetasia_x_hyve_disposables_Trapple_10ml_50mg.svg"
+            "only": "/img/Disposables/Vapetasia_x_Hyve_Trapple_10ml_50mg.svg",
+            "6ml": "/img/Disposables/Vapetasia_x_Hyve_Trapple_6ml_50mg.svg",
+            "10ml": "/img/Disposables/Vapetasia_x_Hyve_Trapple_10ml_50mg.svg"
         },
         "sizes": ["6ml", "10ml"],
         "disposable_strengths": ["50mg"],
@@ -934,9 +934,9 @@
         "product_slug": "vapetasia-x-hyve-disposables-honeydew-kream", 
         "flavor_line": ["hyve-disposables"],
         "img_src": {
-            "only": "/img/Disposables_Vapetasia_x_hyve_disposables_Honeydew_Kream_6ml_50mg.svg",
-            "6ml": "/img/Disposables_Vapetasia_x_hyve_disposables_Honeydew_Kream_6ml_50mg.svg",
-            "10ml": "/img/Disposables_Vapetasia_x_hyve_disposables_Honeydew_Kream_10ml_50mg.svg"
+            "only": "/img/Disposables/Vapetasia_x_Hyve_Honeydew_Kream_10ml_50mg.svg",
+            "6ml": "/img/Disposables/Vapetasia_x_Hyve_Honeydew_Kream_6ml_50mg.svg",
+            "10ml": "/img/Disposables/Vapetasia_x_Hyve_Honeydew_Kream_10ml_50mg.svg"
         },
         "sizes": ["6ml", "10ml"],
         "disposable_strengths": ["50mg"],
@@ -956,9 +956,9 @@
         "product_slug": "vapetasia-x-hyve-disposables-vnla", 
         "flavor_line": ["hyve-disposables"],
         "img_src": {
-            "only": "/img/Disposables_Vapetasia_x_hyve_disposables_VNLA_6ml_50mg.svg",
-            "6ml": "/img/Disposables_Vapetasia_x_hyve_disposables_VNLA_6ml_50mg.svg",
-            "10ml": "/img/Disposables_Vapetasia_x_hyve_disposables_VNLA_10ml_50mg.svg"
+            "only": "/img/Disposables/Vapetasia_x_Hyve_VNLA_10ml_50mg.svg",
+            "6ml": "/img/Disposables/Vapetasia_x_Hyve_VNLA_6ml_50mg.svg",
+            "10ml": "/img/Disposables/Vapetasia_x_Hyve_VNLA_10ml_50mg.svg"
         },
         "sizes": ["6ml", "10ml"],
         "disposable_strengths": ["50mg"],
@@ -978,7 +978,7 @@
         "product_slug": "killer-disposables-blueberry-ice", 
         "flavor_line": ["killer-disposables"],
         "img_src": {
-            "10ml": "/img/Disposables_Killer_Disposables_Blueberry_Ice_50mg.svg"
+            "10ml": "/img/Disposables/Killer_3500_Disposables_Blueberry_Ice_50mg.svg"
         },
         "sizes": "10ml",
         "disposable_strengths": ["50mg"],
@@ -997,7 +997,7 @@
         "product_slug": "killer-disposables-blue-razz", 
         "flavor_line": ["killer-disposables"],
         "img_src": {
-            "10ml": "/img/Disposables_Killer_Disposables_Blue_Razz_Ice_50mg.svg"
+            "10ml": "/img/Disposables/Killer_3500_Disposables_Blue_Razz_50mg.svg"
         },
         "sizes": "10ml",
         "disposable_strengths": ["50mg"],
@@ -1016,7 +1016,7 @@
         "product_slug": "killer-disposables-straw-guaw", 
         "flavor_line": ["killer-disposables"],
         "img_src": {
-            "10ml": "/img/Disposables_Killer_Disposables_Straw_Guaw_Ice_50mg.svg"
+            "10ml": "/img/Disposables/Killer_3500_Disposables_Straw_Guaw_50mg.svg"
         },
         "sizes": "10ml",
         "disposable_strengths": ["50mg"],
@@ -1035,7 +1035,7 @@
         "product_slug": "killer-disposables-trapple", 
         "flavor_line": ["killer-disposables"],
         "img_src": {
-            "10ml": "/img/Disposables_Killer_Disposables_Trapple_Ice_50mg.svg"
+            "10ml": "/img/Disposables/Killer_3500_Disposables_Trapple_50mg.svg"
         },
         "sizes": "10ml",
         "disposable_strengths": ["50mg"],
@@ -1054,7 +1054,7 @@
         "product_slug": "killer-disposables-cherry-peachade", 
         "flavor_line": ["killer-disposables"],
         "img_src": {
-            "10ml": "/img/Disposables_Killer_Disposables_Cherry_Peachade_Ice_50mg.svg"
+            "10ml": "/img/Disposables/Killer_3500_Disposables_Cherry_Peachade_50mg.svg"
         },
         "sizes": "10ml",
         "disposable_strengths": ["50mg"],
@@ -1073,7 +1073,7 @@
         "product_slug": "killer-disposables-grape-aloe", 
         "flavor_line": ["killer-disposables"],
         "img_src": {
-            "10ml": "/img/Disposables_Killer_Disposables_Grape_Aloe_Ice_50mg.svg"
+            "10ml": "/img/Disposables/Killer_3500_Disposables_Grape_Aloe_50mg.svg"
         },
         "sizes": "10ml",
         "disposable_strengths": ["50mg"],
@@ -1092,7 +1092,7 @@
         "product_slug": "killer-disposables-nana-berry", 
         "flavor_line": ["killer-disposables"],
         "img_src": {
-            "10ml": "/img/Disposables_Killer_Disposables_Nana_Berry__Ice_50mg.svg"
+            "10ml": "/img/Disposables/Killer_3500_Disposables_Nana_Berry_50mg.svg"
         },
         "sizes": "10ml",
         "disposable_strengths": ["50mg"],
@@ -1111,7 +1111,7 @@
         "product_slug": "killer-disposables-energy", 
         "flavor_line": ["killer-disposables"],
         "img_src": {
-            "10ml": "/img/Disposables_Killer_Disposables_Energy__Ice_50mg.svg"
+            "10ml": "/img/Disposables/Killer_3500_Disposables_Energy_50mg.svg"
         },
         "sizes": "10ml",
         "disposable_strengths": ["50mg"],
@@ -1130,7 +1130,7 @@
         "product_slug": "killer-disposables-straw-bae", 
         "flavor_line": ["killer-disposables"],
         "img_src": {
-            "10ml": "/img/Disposables_Killer_Disposables_Straw_Bae__Ice_50mg.svg"
+            "10ml": "/img/Disposables/Killer_3500_Disposables_Straw_Bae_50mg.svg"
         },
         "sizes": "10ml",
         "disposable_strengths": ["50mg"],

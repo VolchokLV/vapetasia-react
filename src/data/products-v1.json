@@ -883,16 +883,16 @@
         "sort_order": 1      
     },            
     {
-        "product_name": "Vapetasia X Hyve Disposable Dragons Breath",
+        "product_name": "Vapetasia X Hyve Disposable Dragons Breath 4000 Puff",
         "product_types": ["disposable"],
-        "product_slug": "vapetasia-x-hyve-disposables-dragons-breath", 
+        "product_slug": "vapetasia-x-hyve-disposables-dragons-breath-4000-puff", 
         "flavor_line": ["hyve-disposables"],
         "img_src": {
             "only": "/img/Disposables/Vapetasia_x_Hyve_Dragons_Breath_10ml_50mg.svg",
-            "6ml": "/img/Disposables/Vapetasia_x_Hyve_Dragons_Breath_6ml_50mg.svg",
             "10ml": "/img/Disposables/Vapetasia_x_Hyve_Dragons_Breath_10ml_50mg.svg"
         },
-        "sizes": ["6ml", "10ml"],
+        "display_img": "",
+        "sizes": ["10ml"],
         "disposable_strengths": ["50mg"],
         "hero_txt": " Embrace yourself! Dragon fruit, strawberry and honeydew create a firestorm of fruity flavor. Bring something to cool off, this flavor is HOT!",
         "main_text": "Embrace yourself! Dragon fruit, strawberry and honeydew create a firestorm of fruity flavor. Bring something to cool off, this flavor is HOT!",
@@ -900,23 +900,45 @@
         "popup_txt": "Embrace yourself! Dragon fruit, strawberry and honeydew create a firestorm of fruity flavor. Bring something to cool off, this flavor is HOT!",        
         "buy_now": {
             "only": ["COMING SOON", "COMING SOON", "COMING SOON"],
-            "6ml": ["COMING SOON", "COMING SOON", "COMING SOON"],
             "10ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
         },
         "is_featured": 0,
         "sort_order": 1
     },
-	{
-        "product_name": "Vapetasia X Hyve Disposable Trapple",
+    {
+        "product_name": "Vapetasia X Hyve Disposable Dragons Breath 2500 Puff",
         "product_types": ["disposable"],
-        "product_slug": "vapetasia-x-hyve-disposables-trapple",
+        "product_slug": "vapetasia-x-hyve-disposables-dragons-breath-2500-puff", 
+        "flavor_line": ["hyve-disposables"],
+        "img_src": {
+            "only": "/img/Disposables/Vapetasia_x_Hyve_Dragons_Breath_6ml_50mg.svg",
+            "6ml": "/img/Disposables/Vapetasia_x_Hyve_Dragons_Breath_6ml_50mg.svg"
+        },
+        "display_img": "",
+        "sizes": ["6ml"],
+        "disposable_strengths": ["50mg"],
+        "hero_txt": " Embrace yourself! Dragon fruit, strawberry and honeydew create a firestorm of fruity flavor. Bring something to cool off, this flavor is HOT!",
+        "main_text": "Embrace yourself! Dragon fruit, strawberry and honeydew create a firestorm of fruity flavor. Bring something to cool off, this flavor is HOT!",
+        "sub_txt": "Embrace yourself! Dragon fruit, strawberry and honeydew create a firestorm of fruity flavor. Bring something to cool off, this flavor is HOT!",
+        "popup_txt": "Embrace yourself! Dragon fruit, strawberry and honeydew create a firestorm of fruity flavor. Bring something to cool off, this flavor is HOT!",        
+        "buy_now": {
+            "only": ["COMING SOON", "COMING SOON", "COMING SOON"],
+            "6ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
+        },
+        "is_featured": 0,
+        "sort_order": 1
+    },    
+	{
+        "product_name": "Vapetasia X Hyve Disposable Trapple 4000 Puff",
+        "product_types": ["disposable"],
+        "product_slug": "vapetasia-x-hyve-disposables-trapple-4000-puff",
         "flavor_line": ["hyve-disposables"], 
         "img_src": {
             "only": "/img/Disposables/Vapetasia_x_Hyve_Trapple_10ml_50mg.svg",
-            "6ml": "/img/Disposables/Vapetasia_x_Hyve_Trapple_6ml_50mg.svg",
             "10ml": "/img/Disposables/Vapetasia_x_Hyve_Trapple_10ml_50mg.svg"
         },
-        "sizes": ["6ml", "10ml"],
+        "display_img": "",
+        "sizes": ["10ml"],
         "disposable_strengths": ["50mg"],
         "hero_txt": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
         "main_text": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
@@ -924,54 +946,123 @@
         "popup_txt": "A smooth inhale of vanilla flavor will leave you wanting to get cozy and rest on a light cloud of rich sweetness.",        
         "buy_now": {
             "only": ["COMING SOON", "COMING SOON", "COMING SOON"],
-            "6ml": ["COMING SOON", "COMING SOON", "COMING SOON"],
             "10ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
         },
         "is_featured": 0,
         "sort_order": 1
     },
-	{
-        "product_name": "Vapetasia X Hyve Disposable Honeydew Kream",
+    {
+        "product_name": "Vapetasia X Hyve Disposable Trapple 2500 Puff",
         "product_types": ["disposable"],
-        "product_slug": "vapetasia-x-hyve-disposables-honeydew-kream", 
+        "product_slug": "vapetasia-x-hyve-disposables-trapple-2500-puff",
+        "flavor_line": ["hyve-disposables"], 
+        "img_src": {
+            "only": "/img/Disposables/Vapetasia_x_Hyve_Trapple_6ml_50mg.svg",
+            "6ml": "/img/Disposables/Vapetasia_x_Hyve_Trapple_6ml_50mg.svg"
+        },
+        "display_img": "",
+        "sizes": ["6ml"],
+        "disposable_strengths": ["50mg"],
+        "hero_txt": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
+        "main_text": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
+        "sub_txt": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
+        "popup_txt": "A smooth inhale of vanilla flavor will leave you wanting to get cozy and rest on a light cloud of rich sweetness.",        
+        "buy_now": {
+            "only": ["COMING SOON", "COMING SOON", "COMING SOON"],
+            "6ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
+        },
+        "is_featured": 0,
+        "sort_order": 1
+    },
+    {
+        "product_name": "Vapetasia X Hyve Disposable Honeydew Kream 4000 Puff",
+        "product_types": ["disposable"],
+        "product_slug": "vapetasia-x-hyve-disposables-honeydew-kream-4000-puff", 
         "flavor_line": ["hyve-disposables"],
         "img_src": {
             "only": "/img/Disposables/Vapetasia_x_Hyve_Honeydew_Kream_10ml_50mg.svg",
-            "6ml": "/img/Disposables/Vapetasia_x_Hyve_Honeydew_Kream_6ml_50mg.svg",
             "10ml": "/img/Disposables/Vapetasia_x_Hyve_Honeydew_Kream_10ml_50mg.svg"
         },
-        "sizes": ["6ml", "10ml"],
+        "display_img": "",
+        "sizes": ["10ml"],
         "disposable_strengths": ["50mg"],
         "hero_txt": "A smooth vanilla cream topped with ripe chunks of honeydew melons create a juicy blend of ripe flavor to take over your world.",
         "main_text": "A smooth vanilla cream topped with ripe chunks of honeydew melons create a juicy blend of ripe flavor to take over your world.",
         "sub_txt": "A smooth vanilla cream topped with ripe chunks of honeydew melons create a juicy blend of ripe flavor to take over your world.",
         "popup_txt": "A smooth vanilla cream topped with ripe chunks of honeydew melons create a juicy blend of ripe flavor to take over your world.",        
         "buy_now": {
-            "6ml": ["COMING SOON", "COMING SOON", "COMING SOON"],
+            "only": ["COMING SOON", "COMING SOON", "COMING SOON"],
             "10ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
         },
         "is_featured": 0,
         "sort_order": 1
     },
 	{
-        "product_name": "Vapetasia X Hyve Disposable VNLA",
+        "product_name": "Vapetasia X Hyve Disposable Honeydew Kream 2500 Puff",
         "product_types": ["disposable"],
-        "product_slug": "vapetasia-x-hyve-disposables-vnla", 
+        "product_slug": "vapetasia-x-hyve-disposables-honeydew-kream-2500-puff", 
+        "flavor_line": ["hyve-disposables"],
+        "img_src": {
+            "only": "/img/Disposables/Vapetasia_x_Hyve_Honeydew_Kream_6ml_50mg.svg",
+            "6ml": "/img/Disposables/Vapetasia_x_Hyve_Honeydew_Kream_6ml_50mg.svg",
+            "10ml": "/img/Disposables/Vapetasia_x_Hyve_Honeydew_Kream_10ml_50mg.svg"
+        },
+        "display_img": "",
+        "sizes": ["6ml"],
+        "disposable_strengths": ["50mg"],
+        "hero_txt": "A smooth vanilla cream topped with ripe chunks of honeydew melons create a juicy blend of ripe flavor to take over your world.",
+        "main_text": "A smooth vanilla cream topped with ripe chunks of honeydew melons create a juicy blend of ripe flavor to take over your world.",
+        "sub_txt": "A smooth vanilla cream topped with ripe chunks of honeydew melons create a juicy blend of ripe flavor to take over your world.",
+        "popup_txt": "A smooth vanilla cream topped with ripe chunks of honeydew melons create a juicy blend of ripe flavor to take over your world.",        
+        "buy_now": {
+            "only": ["COMING SOON", "COMING SOON", "COMING SOON"],
+            "6ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
+        },
+        "is_featured": 0,
+        "sort_order": 1
+    },
+	{
+        "product_name": "Vapetasia X Hyve Disposable VNLA 4000 Puff",
+        "product_types": ["disposable"],
+        "product_slug": "vapetasia-x-hyve-disposables-vnla-4000-puff", 
         "flavor_line": ["hyve-disposables"],
         "img_src": {
             "only": "/img/Disposables/Vapetasia_x_Hyve_VNLA_10ml_50mg.svg",
-            "6ml": "/img/Disposables/Vapetasia_x_Hyve_VNLA_6ml_50mg.svg",
             "10ml": "/img/Disposables/Vapetasia_x_Hyve_VNLA_10ml_50mg.svg"
         },
-        "sizes": ["6ml", "10ml"],
+        "display_img": "",
+        "sizes": ["10ml"],
         "disposable_strengths": ["50mg"],
         "hero_txt": "A smooth inhale of vanilla flavor will leave you wanting to get cozy and rest on a light cloud of rich sweetness.",
         "main_text": "A smooth inhale of vanilla flavor will leave you wanting to get cozy and rest on a light cloud of rich sweetness.",
         "sub_txt": "A smooth inhale of vanilla flavor will leave you wanting to get cozy and rest on a light cloud of rich sweetness.",
         "popup_txt": "A smooth inhale of vanilla flavor will leave you wanting to get cozy and rest on a light cloud of rich sweetness.",        
         "buy_now": {
-            "6ml": ["COMING SOON", "COMING SOON", "COMING SOON"],
+            "only": ["COMING SOON", "COMING SOON", "COMING SOON"],
             "10ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
+        },
+        "is_featured": 0,
+        "sort_order": 1
+    },
+    {
+        "product_name": "Vapetasia X Hyve Disposable VNLA 2500 Puff",
+        "product_types": ["disposable"],
+        "product_slug": "vapetasia-x-hyve-disposables-vnla-2500-puff", 
+        "flavor_line": ["hyve-disposables"],
+        "img_src": {
+            "only": "/img/Disposables/Vapetasia_x_Hyve_VNLA_6ml_50mg.svg",
+            "10ml": "/img/Disposables/Vapetasia_x_Hyve_VNLA_6ml_50mg.svg"
+        },
+        "display_img": "",
+        "sizes": ["6ml"],
+        "disposable_strengths": ["50mg"],
+        "hero_txt": "A smooth inhale of vanilla flavor will leave you wanting to get cozy and rest on a light cloud of rich sweetness.",
+        "main_text": "A smooth inhale of vanilla flavor will leave you wanting to get cozy and rest on a light cloud of rich sweetness.",
+        "sub_txt": "A smooth inhale of vanilla flavor will leave you wanting to get cozy and rest on a light cloud of rich sweetness.",
+        "popup_txt": "A smooth inhale of vanilla flavor will leave you wanting to get cozy and rest on a light cloud of rich sweetness.",        
+        "buy_now": {
+            "only": ["COMING SOON", "COMING SOON", "COMING SOON"],
+            "6ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
         },
         "is_featured": 0,
         "sort_order": 1
@@ -984,6 +1075,7 @@
         "img_src": {
             "10ml": "/img/Disposables/Killer_3500_Disposables_Blueberry_Ice_50mg.svg"
         },
+        "display_img": "",
         "sizes": "10ml",
         "disposable_strengths": ["50mg"],
         "hero_txt": "Frozen blueberries ride a brisk winter breeze to cool your taste buds with a popping burst of berry flavor and an icy touch!",
@@ -1004,6 +1096,7 @@
         "img_src": {
             "10ml": "/img/Disposables/Killer_3500_Disposables_Blue_Razz_50mg.svg"
         },
+        "display_img": "",
         "sizes": "10ml",
         "disposable_strengths": ["50mg"],
         "hero_txt": "A burst of tart flavor perfectly curated to exceed your expectations. A smooth flavorful inhale of blue raspberry will captivate your tastebuds, you may not want to let it out!",
@@ -1024,6 +1117,7 @@
         "img_src": {
             "10ml": "/img/Disposables/Killer_3500_Disposables_Straw_Guaw_50mg.svg"
         },
+        "display_img": "",
         "sizes": "10ml",
         "disposable_strengths": ["50mg"],
         "hero_txt": "Allow your taste buds to dance to the medley of sweet strawberries coupled with exotic guava as they create a harmonizing blend of flavor.",
@@ -1044,6 +1138,7 @@
         "img_src": {
             "10ml": "/img/Disposables/Killer_3500_Disposables_Trapple_50mg.svg"
         },
+        "display_img": "",
         "sizes": "10ml",
         "disposable_strengths": ["50mg"],
         "hero_text": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
@@ -1064,6 +1159,7 @@
         "img_src": {
             "10ml": "/img/Disposables/Killer_3500_Disposables_Cherry_Peachade_50mg.svg"
         },
+        "display_img": "",
         "sizes": "10ml",
         "disposable_strengths": ["50mg"],
         "hero_txt": "Quench your thirst with the sweetness of ripened peach stirred into a cup of iced lemonade with plump cherries splashed into every puff!",
@@ -1084,6 +1180,7 @@
         "img_src": {
             "10ml": "/img/Disposables/Killer_3500_Disposables_Grape_Aloe_50mg.svg"
         },
+        "display_img": "",
         "sizes": "10ml",
         "disposable_strengths": ["50mg"],
         "hero_text": "The refreshing addition of aloe seamlessly blends the frozen grapes to take you on a vacation of flavor you might not want to end.",
@@ -1104,6 +1201,7 @@
         "img_src": {
             "10ml": "/img/Disposables/Killer_3500_Disposables_Nana_Berry_50mg.svg"
         },
+        "display_img": "",
         "sizes": "10ml",
         "disposable_strengths": ["50mg"],
         "hero_text": "The classic blend of mouth-watering strawberries and perfectly ripe bananas will put your taste buds on the brink of an overload!",
@@ -1124,6 +1222,7 @@
         "img_src": {
             "10ml": "/img/Disposables/Killer_3500_Disposables_Energy_50mg.svg"
         },
+        "display_img": "",
         "sizes": "10ml",
         "disposable_strengths": ["50mg"],
         "hero_txt": "Shock your taste buds full of energy and jumpstart your day with a surge of electrifying energy drink flavor.",
@@ -1144,6 +1243,7 @@
         "img_src": {
             "10ml": "/img/Disposables/Killer_3500_Disposables_Straw_Bae_50mg.svg"
         },
+        "display_img": "",
         "sizes": "10ml",
         "disposable_strengths": ["50mg"],
         "hero_text": "Sometimes dessert for dinner is the way to go! Indulge in the soft creamy flavor of strawberry ice cream.",

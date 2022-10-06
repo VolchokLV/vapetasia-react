@@ -5,7 +5,7 @@ import "./index.css"
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import { AboutUs, Advocacy, Blog, ContactUs, Product, ProductGrid, Home, StoreLocator, Wholesale } from './pages';
-import { ContactSupport, MediaRequestForm, PromotionalRequest, WholesaleRegistration, Navigation, Warning, Footer } from './components';
+import { ContactSupport, MediaRequestForm, PromotionalRequestForm, WholesaleRegistration, Navigation, Warning, Footer } from './components';
 import { Nav } from 'react-bootstrap';
 
 import * as products from './data/products-v1.json';
@@ -51,7 +51,7 @@ function App() {
                               <Route path="/blog" element={<Blog />} /> 
                               <Route path="/contact" element={<ContactUs />} /> 
                               <Route path="/media-reqest-form" element={<MediaRequestForm />} /> 
-                              <Route path="/promotional-reqest" element={<PromotionalRequest />} /> 
+                              <Route path="/promotional-reqest" element={<PromotionalRequestForm />} /> 
                               <Route path="/wholesale-registration" element={<WholesaleRegistration />} /> 
                               <Route path="/contact-support" element={<ContactSupport />} /> 
                               <Route path="/contact" element={<ContactUs />} /> 

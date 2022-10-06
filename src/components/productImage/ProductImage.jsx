@@ -15,7 +15,7 @@ const ProductImage = (props) => {
   }
 
   return (
-    <object class="vapetasia-image-object" type={typeFromSrc(props.src)} data={'https://cdn2.vapetasia.com' + props.src} alt="Product Image" onClick={() => {console.log('clicked')}}/>
+    <object className="vapetasia-image-object" type={typeFromSrc(props.src)} data={'https://cdn2.vapetasia.com' + props.src} alt="Product Image" onClick={() => {console.log('clicked')}}/>
   )
 }
 

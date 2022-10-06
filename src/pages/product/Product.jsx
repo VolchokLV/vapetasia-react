@@ -9,7 +9,7 @@ const Product = (props) => {
 
   return (
     <>
-      <ProductShowcase product={props.products.find(p => p.product_slug == slug)} />
+      <ProductShowcase product={props.products.find(p => p.product_slug == slug)} size={size} />
       <PopularFlavors featured={props.featured}></PopularFlavors>
     </>
   )

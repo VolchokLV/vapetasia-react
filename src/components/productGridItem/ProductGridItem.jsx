@@ -4,13 +4,20 @@ import {Hero, ProductImage} from '../../components'
 
 const ProductGridItem = (props) => {
 
+  let imgSrc = ''; //TODO: set default/fallback image here
+  if (props.topicValue === 'killer' || props.topicValue === 'vapetasia-x-hyve') {
+    imgSrc = props.product['default_image'];
+  } else {
+    imgSrc = props.product.img_src[props.topicValue];
+  }
+
   return (
     <div className="vapetasia-custom-grid-item">
       <div className="vapetasia-element vapetasia-element-f80e103 vapetasia-widget vapetasia-widget-image" data-id="f80e103" data-element_type="widget" data-widget_type="image.default">
         <div className="vapetasia-widget-container">
           <div className="vapetasia-image">
-            <a href={ '/product/' + props.product.product_slug + '/_' } onClick={() => { console.log('clicked') }}>
-              <ProductImage src={props.product.default_image}></ProductImage>
+            <a href={ '/product/' + props.product.product_slug + '/' + props.topicValue } onClick={() => { console.log('clicked') }}>
+              <ProductImage src={imgSrc}></ProductImage>
             </a>
           </div>
         </div>
@@ -18,7 +25,7 @@ const ProductGridItem = (props) => {
       <div className="vapetasia-element vapetasia-element-f371ea7 vapetasia-widget vapetasia-widget-heading" data-id="f371ea7" data-element_type="widget" data-widget_type="heading.default">
         <div className="vapetasia-widget-container">
           <h2 className="vapetasia-heading-title vapetasia-size-default">
-            <a className="vape-font h-2" href={ '/product/' + props.product.product_slug + '/_' }>
+            <a className="vape-font h-2" href={ '/product/' + props.product.product_slug + '/' + props.topicValue }>
               {props.product.product_name}
             </a>
           </h2>

@@ -32,7 +32,7 @@ const ProductPopUp = (props) => {
                             <div className="vapetasia-element vapetasia-element-2ec666de vapetasia-widget vapetasia-widget-image" data-id="2ec666de" data-element_type="widget" data-widget_type="image.default">
                               <div className="vapetasia-widget-container">
                                 <div className="vapetasia-image"> 
-                                  <ProductImage src={props.product.default_image}></ProductImage>
+                                  <ProductImage src={props.imgSrc}></ProductImage>
                                 </div>
                               </div>
                             </div>
@@ -97,8 +97,8 @@ const ProductPopUp = (props) => {
               <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-2d92b12d vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="2d92b12d" data-element_type="section">
                 <div className="vapetasia-container vapetasia-column-gap-default">
                   <div className="vapetasia-row">
-                    {props.product.buy_now[props.buy_now_slug].map(retailerLink => (
-                      <div className="vapetasia-column vapetasia-col-33 vapetasia-top-column vapetasia-element vapetasia-element-4dc8305d" data-id="4dc8305d" data-element_type="column">
+                    {props.product.buy_now[props.buyNowSlug].map(retailerLink => (
+                      <div key={retailerLink} className="vapetasia-column vapetasia-col-33 vapetasia-top-column vapetasia-element vapetasia-element-4dc8305d" data-id="4dc8305d" data-element_type="column">
                         <div className="vapetasia-column-wrap vapetasia-element-populated">
                           <div className="vapetasia-widget-wrap">
                             <div className="vapetasia-element vapetasia-element-6c50dac4 vapetasia-widget vapetasia-widget-image" data-id="6c50dac4" data-element_type="widget" data-widget_type="image.default">

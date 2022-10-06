@@ -8,7 +8,7 @@ import { AboutUs, Advocacy, Blog, ContactUs, Product, ProductGrid, Home, StoreLo
 import { ContactSupport, MediaRequestForm, PromotionalRequest, WholesaleRegistration, Navigation, Warning, Footer } from './components';
 import { Nav } from 'react-bootstrap';
 
-import * as products from './data/products.json';
+import * as products from './data/products-v1.json';
 
 function App() {
 
@@ -16,29 +16,13 @@ function App() {
   PREPARE PRODUCTS FOR PAGES
   */
   let featured = []
-  let disposables = []
-  let e30 = []
-  let e60 = []
-  let e100 = []
   for (let i = 0; i < products.default.length; i++) {
     let srcs = products.default[i].img_src;
     if (srcs) {
       let keys = Object.keys(srcs);
       products.default[i]['default_image'] = products.default[i].img_src[keys[0]];
-    }
-    switch (products.default[i].product_type) {
-      case 'disposable':
-        disposables.push(products.default[i])
-        break
-      case 'e-liquid-30ml':
-        e30.push(products.default[i])
-        break
-      case 'e-liquid-60ml':
-        e60.push(products.default[i])
-        break
-      case 'e-liquid-100ml':
-        e100.push(products.default[i])
-        break
+    } else {
+      console.log("no default")
     }
     if (products.default[i].is_featured == 1) {
       featured.push(products.default[i])

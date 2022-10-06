@@ -7,27 +7,28 @@ import * as heroes from '../../data/heroes.json'
 
 const ProductGrid = (props) => {
 
-  const { type, topic, value } = useParams()
+  const { type, topic, value } = useParams() //url params
 
-  let matches = 0
-  let textKey = '';
-  let bottomText = '';
-  let heroKey = '';
-  if (topic == '_') {
-    bottomText = 'Disposable';
-    textKey = type;
-    heroKey = 'Disposable';
-  } else if (topic == 'brand') {
-    bottomText = value.replace('-', ' ').replace('-', ' ') + ' disposables';
-    textKey = type + '-' + value;
+  /**
+   * SORT OUT THE HERO CONTENT BASED ON PAGE ROUTE
+   */
+  let heroKey = ''; // defines which hero image and settings to apply to the hero
+  let bottomText = ''; // defines what comes below "vapetasia" in the hero
+  let paragraphKey = ''; // defines which paragraph should be displayed in the hero
+  if (topic == 'brand') {
+    //looking for a brand of disposables
     heroKey = value === 'killer' ? 'KillerDisposables' : 'HyveDisposables'
+    bottomText = value.replace('-', ' ').replace('-', ' ') + ' disposables';
+    paragraphKey = type + '-' + value;
   } else if (topic == 'size') {
     if (type == 'eliquid') {
+      //looking for a size of eliquid
       bottomText = 'E-Liquid ' + value;
-      textKey = type + '-' + value;
+      paragraphKey = type + '-' + value;
     } else {
+      //looking for a size of salt
       bottomText = 'Salt ' + value;
-      textKey = type;
+      paragraphKey = type;
     }
     heroKey = value;
   }
@@ -38,7 +39,7 @@ const ProductGrid = (props) => {
         heroClass={heroKey}
         top={'Vapetasia'} 
         bottom={bottomText} 
-        paragraph={heroes.default[0]['paragraphs'][textKey]} />
+        paragraph={heroes.default[0]['paragraphs'][paragraphKey]} />
 
         <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-d4932c3 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="d4932c3" data-element_type="section">
           
@@ -47,12 +48,11 @@ const ProductGrid = (props) => {
               {props.products.map(p => {
                 if (p.product_types.includes(type) && 
                   (
-                    topic == '_' ||
-                    (topic == 'size' && p.sizes[type].includes(value)) ||
-                    (topic == 'brand' && p.product_slug.includes(value))
+                    (topic == 'size' && p.sizes[type].includes(value)) || // display only products with specified size
+                    (topic == 'brand' && p.product_slug.includes(value)) // display only products with specified brand
                   ) 
                 ) {
-                  return (<ProductGridItem key={p.product_slug} product={p} />)
+                  return (<ProductGridItem key={p.product_slug} product={p} type={type} topic={topic} topicValue={value} />)
                 }
               })}
 

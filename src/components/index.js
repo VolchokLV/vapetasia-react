@@ -13,7 +13,7 @@ export { default as Warning } from './warning/Warning';
 export { default as MediaRequestForm } from './mediaRequestForm/MediaRequestForm';
 export { default as PromotionalRequestForm } from './promotionalRequestForm/PromotionalRequestForm';
 export { default as WholesaleRegistration} from './wholesaleRegistration/WholesaleRegistration';
-export { default as ContactSupport } from './contactSupport/ContactSupport';
+export { default as ContactSupportForm } from './contactSupportForm/ContactSupportForm';
 export { default as ProductShowcase } from './productShowcase/ProductShowcase';
 export { default as ProductGridItem } from './productGridItem/ProductGridItem';
 export { default as ProductImage } from './productImage/ProductImage';

@@ -4,8 +4,8 @@ import './App.css';
 import "./index.css"
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import { AboutUs, Advocacy, Blog, ContactUs, MediaRequest, Product, ProductGrid, Home, StoreLocator, Wholesale } from './pages';
-import { ContactSupport, MediaRequestForm, PromotionalRequestForm, WholesaleRegistration, Navigation, Warning, Footer } from './components';
+import { AboutUs, Advocacy, Blog, ContactUs, ContactSupport, MediaRequest, Product, ProductGrid, PromotionalRequest, Home, StoreLocator, Wholesale } from './pages';
+import { ContactSupportForm, WholesaleRegistration, Navigation, Warning, Footer } from './components';
 import { Nav } from 'react-bootstrap';
 
 import * as products from './data/products-v1.json';
@@ -50,8 +50,8 @@ function App() {
                               <Route path="/advocacy" element={<Advocacy />} /> 
                               <Route path="/blog" element={<Blog />} /> 
                               <Route path="/contact" element={<ContactUs />} /> 
-                              <Route path="/media-reqest" element={<MediaRequest />} /> 
-                              <Route path="/promotional-reqest" element={<PromotionalRequestForm />} /> 
+                              <Route path="/media-request" element={<MediaRequest/>} /> 
+                              <Route path="/promotional-request" element={<PromotionalRequest />} /> 
                               <Route path="/wholesale-registration" element={<WholesaleRegistration />} /> 
                               <Route path="/contact-support" element={<ContactSupport />} /> 
                               <Route path="/category/:type/:topic/:value" element={<ProductGrid products={products.default} />} /> 

@@ -169,7 +169,7 @@ const Navigation = () => {
                     </a>
                   </li>
                   <li id="menu-item-1978" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1978">
-                    <a href={ process.env.REACT_APP_BASE_URL + '/media-request-form/' } className="menu-link">
+                    <a href={ process.env.REACT_APP_BASE_URL + '/media-request/' } className="menu-link">
                       <span className="text-wrap">
                         MEDIA REQUEST
                       </span>

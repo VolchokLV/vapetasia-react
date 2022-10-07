@@ -71,10 +71,11 @@ ADJUST HERO SPACER AT VARYING SIZES
 
 
 
- /*remove parallax overlay when screen is XL*/
+ /*dim the gash overlay when screen is XL*/
  @media screen and (min-width: 1600px) {
   .vapetasia-background-overlay, .hero-paragraph-detail {
-    display: none !important;
+    opacity: .2 !important;
+    border-bottom: 0 !important;
   }
   #hero-description {
     color: #FFFFFF;

@@ -117,24 +117,6 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
    .dropdown-menu .sub-menu {
     border-top: 3px solid #FFA500;
    }
-   /*div[class*="btn-strength-"]  {
-    display: none;
-   }
-   div[class*="btn-strength-0"] {
-    display: block;
-   }*/
-   /*remove parallax overlay when screen is XL*/
-   @media screen and (min-width: 2600px) {
-    .vapetasia-background-overlay {
-    display: none;
-    }
-    #hero-description {
-    color: #FFFFFF;
-    }
-   }
-   .widget-title {
-    border-color: #FAA500;
-   }
 
 .verify-modal{font-family:"rift",Sans-serif !important;position:fixed;top:0;left:0;z-index:10000;width:100%;height:100%;background-image:url('https://vapetasia.com/wp-content/uploads/2020/08/Age_Verify_Page_Background.png');background-size:cover;background-repeat:no-repeat;text-align:center;opacity:0;background-color:#FFFFFF;transition:all ease-in-out .5s;display:none}.verify-modal-box{background-color:#FFFFFF;box-shadow:3px 2px 1px 0 #CCCCCC;border-radius:30px;padding:30px;margin:100px auto 0 auto;display:inline-block;max-width:500px;min-width:350px;width:30%}.verify-modal-logo{width:100%;height:70px;background-image:url('https://vapetasia.com/wp-content/uploads/2020/05/Vapetasia_Logo_2_small.png');background-size:contain;background-position:center;background-repeat:no-repeat}.verify-modal-title{font-size:48px;color:#000000;font-weight:bold;font-style:italic;margin:20px 0 10px 0;text-align:center;line-height:1 !important;text-transform:uppercase}.verify-modal-desc{font-size:18px;color:#000000;font-weight:normal;text-align:center;text-transform:none !important;line-height:1 !important}.verify-modal-buttons{display:flex;flex-wrap:nowrap;justify-content:space-around;margin:20px auto}.age-verify-button{display:inline-block;margin:0 10px;background-color:#F9A704;padding:6px 10px;font-weight:bold;line-height:1;color:#FFFFFF;text-align:center;font-style:italic;transition:all ease-in-out .3s;cursor:pointer}.age-verify-button:hover{transform:scale(1.1)}.verify-locale-button{width:50px;height:50px;box-sizing:border-box;border-radius:50%;line-height:50px;font-size:28px;text-transform:uppercase;color:#FFFFFF;text-align:center;margin:0 5px;transition:all ease-in-out .3s;cursor:pointer}.verify-locale-button:hover{transform:scale(1.1)}.btn-us{background-color:#074097}.btn-eu{background-color:#679705}.btn-ca{background-color:#980605}.btn-as{background-color:#7902AA}.btn-au{background-color:#FB8A02}.active-strength{background-color:#FFA500 !important}.dropdown-menu .sub-menu{border-top:3px solid #FFA500}/*div[class*="btn-strength-"]{display:none}div[class*="btn-strength-0"]{display:block}*//*remove parallax overlay when screen is XL*/@media screen and (min-width:2000px){.vapetasia-background-overlay{display:none}#hero-description{color:#FFFFFF !important}.vapetasia-597 .vapetasia-element.vapetasia-element-21957b3{color:#FFFFFF;font-size:28px}.vapetasia-2274 .vapetasia-element.vapetasia-element-94df9ed{color:#FFFFFF;font-size:28px}.vapetasia-621 .vapetasia-element.vapetasia-element-21957b3{color:#FFFFFF;font-size:28px}.vapetasia-523 .vapetasia-element.vapetasia-element-6ec93f8{color:#FFFFFF;font-size:28px}.vapetasia-523 .vapetasia-element-7078927{color:#FFFFFF}}.easy-notification-bar-message{font-family:"rift",Sans-serif !important}.vapetasia{padding-top:0 !important}
 

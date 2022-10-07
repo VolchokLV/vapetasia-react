@@ -5,8 +5,6 @@ import * as heroes from '../../data/heroes.json'
 
 const ProductShowcase = (props) => {
 
-  console.log(props);
-
   /**
    * SORT OUT IMAGE LOGIC FOR DISPLAY AND UNIT (MODAL)
    */

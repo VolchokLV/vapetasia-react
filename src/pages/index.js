@@ -8,3 +8,4 @@ export { default as StoreLocator } from './storeLocator/StoreLocator';
 export { default as Wholesale } from './wholesale/Wholesale';
 export { default as Product } from './product/Product';
 export { default as ProductGrid } from './productGrid/ProductGrid';
+export { default as MediaRequest } from './mediaRequest/MediaRequest';

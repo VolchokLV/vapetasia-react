@@ -1066,7 +1066,7 @@
         "flavor_line": ["killer-disposables"],
         "img_src": {
             "product": "/img/Disposables/Killer_3500_Disposables_Blueberry_Ice_50mg.svg",
-            "display": "/img/Disposables/Killer_3500_Disposables_Blueberry_Ice_50mg.svg"
+            "display": "/img/Disposables/Killer_3500_Disposables_Display_Blueberry_Ice_50mg.svg"
         },
         "sizes": "10ml",
         "disposable_strengths": ["50mg"],
@@ -1087,7 +1087,7 @@
         "flavor_line": ["killer-disposables"],
         "img_src": {
             "product": "/img/Disposables/Killer_3500_Disposables_Blue_Razz_50mg.svg",
-            "display": "/img/Disposables/Killer_3500_Disposables_Blue_Razz_50mg.svg"
+            "display": "/img/Disposables/Killer_3500_Disposables_Display_Blue_Razz_50mg.svg"
         },
         "sizes": "10ml",
         "disposable_strengths": ["50mg"],
@@ -1108,7 +1108,7 @@
         "flavor_line": ["killer-disposables"],
         "img_src": {
             "product": "/img/Disposables/Killer_3500_Disposables_Straw_Guaw_50mg.svg",
-            "display": "/img/Disposables/Killer_3500_Disposables_Straw_Guaw_50mg.svg"
+            "display": "/img/Disposables/Killer_3500_Disposables_Display_Straw_Guaw_50mg.svg"
         },
         "sizes": "10ml",
         "disposable_strengths": ["50mg"],
@@ -1129,11 +1129,11 @@
         "flavor_line": ["killer-disposables"],
         "img_src": {
             "product": "/img/Disposables/Killer_3500_Disposables_Trapple_50mg.svg",
-            "display": "/img/Disposables/Killer_3500_Disposables_Trapple_50mg.svg"
+            "display": "/img/Disposables/Killer_3500_Disposables_Display_Trapple_50mg.svg"
         },
         "sizes": "10ml",
         "disposable_strengths": ["50mg"],
-        "hero_text": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
+        "hero_txt": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
         "main_text": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
         "sub_txt": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
         "popup_txt": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",        
@@ -1150,7 +1150,7 @@
         "flavor_line": ["killer-disposables"],
         "img_src": {
             "product": "/img/Disposables/Killer_3500_Disposables_Cherry_Peachade_50mg.svg",
-            "display": "/img/Disposables/Killer_3500_Disposables_Cherry_Peachade_50mg.svg"
+            "display": "/img/Disposables/Killer_3500_Disposables_Display_Cherry_Peachade_50mg.svg"
         },
         "sizes": "10ml",
         "disposable_strengths": ["50mg"],
@@ -1171,11 +1171,11 @@
         "flavor_line": ["killer-disposables"],
         "img_src": {
             "product": "/img/Disposables/Killer_3500_Disposables_Grape_Aloe_50mg.svg",
-            "display": "/img/Disposables/Killer_3500_Disposables_Grape_Aloe_50mg.svg"
+            "display": "/img/Disposables/Killer_3500_Disposables_Display_Grape_Aloe_50mg.svg"
         },
         "sizes": "10ml",
         "disposable_strengths": ["50mg"],
-        "hero_text": "The refreshing addition of aloe seamlessly blends the frozen grapes to take you on a vacation of flavor you might not want to end.",
+        "hero_txt": "The refreshing addition of aloe seamlessly blends the frozen grapes to take you on a vacation of flavor you might not want to end.",
         "main_text": "The refreshing addition of aloe seamlessly blends the frozen grapes to take you on a vacation of flavor you might not want to end.",
         "sub_txt": "One of our most refreshing and popular flavors!",
         "popup_txt": "The refreshing addition of aloe seamlessly blends the frozen grapes to take you on a vacation of flavor you might not want to end.",        
@@ -1192,11 +1192,11 @@
         "flavor_line": ["killer-disposables"],
         "img_src": {
             "product": "/img/Disposables/Killer_3500_Disposables_Nana_Berry_50mg.svg",
-            "display": "/img/Disposables/Killer_3500_Disposables_Nana_Berry_50mg.svg"
+            "display": "/img/Disposables/Killer_3500_Disposables_Display_Nana_Berry_50mg.svg"
         },
         "sizes": "10ml",
         "disposable_strengths": ["50mg"],
-        "hero_text": "The classic blend of mouth-watering strawberries and perfectly ripe bananas will put your taste buds on the brink of an overload!",
+        "hero_txt": "The classic blend of mouth-watering strawberries and perfectly ripe bananas will put your taste buds on the brink of an overload!",
         "main_text": "The classic blend of mouth-watering strawberries and perfectly ripe bananas will put your taste buds on the brink of an overload!",
         "sub_txt": "The classic blend of mouth-watering strawberries and perfectly ripe bananas will put your taste buds on the brink of an overload!",
         "popup_txt": "The classic blend of mouth-watering strawberries and perfectly ripe bananas will put your taste buds on the brink of an overload!",        
@@ -1213,7 +1213,7 @@
         "flavor_line": ["killer-disposables"],
         "img_src": {
             "product": "/img/Disposables/Killer_3500_Disposables_Energy_50mg.svg",
-            "display": "/img/Disposables/Killer_3500_Disposables_Energy_50mg.svg"
+            "display": "/img/Disposables/Killer_3500_Disposables_Display_Energy_50mg.svg"
         },
         "sizes": "10ml",
         "disposable_strengths": ["50mg"],
@@ -1234,11 +1234,11 @@
         "flavor_line": ["killer-disposables"],
         "img_src": {
             "product": "/img/Disposables/Killer_3500_Disposables_Straw_Bae_50mg.svg",
-            "display": "/img/Disposables/Killer_3500_Disposables_Straw_Bae_50mg.svg"
+            "display": "/img/Disposables/Killer_3500_Disposables_Display_Straw_Bae_50mg.svg"
         },
         "sizes": "10ml",
         "disposable_strengths": ["50mg"],
-        "hero_text": "Sometimes dessert for dinner is the way to go! Indulge in the soft creamy flavor of strawberry ice cream.",
+        "hero_txt": "Sometimes dessert for dinner is the way to go! Indulge in the soft creamy flavor of strawberry ice cream.",
         "main_text": "Sometimes dessert for dinner is the way to go! Indulge in the soft creamy flavor of strawberry ice cream.",
         "sub_txt": "Sometimes dessert for dinner is the way to go! Indulge in the soft creamy flavor of strawberry ice cream.",
         "popup_txt": "Sometimes dessert for dinner is the way to go! Indulge in the soft creamy flavor of strawberry ice cream.",        

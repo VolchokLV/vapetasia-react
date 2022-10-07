@@ -1,7 +1,7 @@
 import React from 'react'
 import { Hero } from '../../components'
 
-const ContactUs = () => {
+const MediaRequest = () => {
   return (
     <>
     <Hero heroClass="Support" top={'Vapetasia'} bottom={'CONTACT FORM'} paragraph={'Don’t hesitate to contact us with any questions or concerns. We pride ourselves on giving the best customer service possible!'}></Hero>
@@ -19,9 +19,9 @@ const ContactUs = () => {
         </div>
       </div>
     </section>
-    <iframe src={process.env.PUBLIC_URL +'/contact.html'} height="700px"></iframe>
+    <iframe src={process.env.PUBLIC_URL +'/media-request.html'} height="700px"></iframe>
     </>
   )
 }
 
-export default ContactUs
+export default MediaRequest

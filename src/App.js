@@ -4,7 +4,7 @@ import './App.css';
 import "./index.css"
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import { AboutUs, Advocacy, Blog, ContactUs, Product, ProductGrid, Home, StoreLocator, Wholesale } from './pages';
+import { AboutUs, Advocacy, Blog, ContactUs, MediaRequest, Product, ProductGrid, Home, StoreLocator, Wholesale } from './pages';
 import { ContactSupport, MediaRequestForm, PromotionalRequestForm, WholesaleRegistration, Navigation, Warning, Footer } from './components';
 import { Nav } from 'react-bootstrap';
 
@@ -50,11 +50,10 @@ function App() {
                               <Route path="/advocacy" element={<Advocacy />} /> 
                               <Route path="/blog" element={<Blog />} /> 
                               <Route path="/contact" element={<ContactUs />} /> 
-                              <Route path="/media-reqest-form" element={<MediaRequestForm />} /> 
+                              <Route path="/media-reqest" element={<MediaRequest />} /> 
                               <Route path="/promotional-reqest" element={<PromotionalRequestForm />} /> 
                               <Route path="/wholesale-registration" element={<WholesaleRegistration />} /> 
                               <Route path="/contact-support" element={<ContactSupport />} /> 
-                              <Route path="/contact" element={<ContactUs />} /> 
                               <Route path="/category/:type/:topic/:value" element={<ProductGrid products={products.default} />} /> 
                               <Route path="/product/:slug/:sizeOrBrand" element={<Product products={products.default} featured={featured} />} />                              
                               <Route path="/store-locator" element={<StoreLocator />} /> 

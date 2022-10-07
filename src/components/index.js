@@ -12,7 +12,7 @@ export { default as PromotingVapetasia } from './promotingVapetasia/PromotingVap
 export { default as Warning } from './warning/Warning';
 export { default as MediaRequestForm } from './mediaRequestForm/MediaRequestForm';
 export { default as PromotionalRequestForm } from './promotionalRequestForm/PromotionalRequestForm';
-export { default as WholesaleRegistration} from './wholesaleRegistration/WholesaleRegistration';
+export { default as WholesaleRegistrationForm } from './wholesaleRegistrationForm/WholesaleRegistrationForm';
 export { default as ContactSupportForm } from './contactSupportForm/ContactSupportForm';
 export { default as ProductShowcase } from './productShowcase/ProductShowcase';
 export { default as ProductGridItem } from './productGridItem/ProductGridItem';

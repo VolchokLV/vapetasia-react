@@ -4,8 +4,8 @@ import './App.css';
 import "./index.css"
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import { AboutUs, Advocacy, Blog, ContactUs, ContactSupport, MediaRequest, Product, ProductGrid, PromotionalRequest, Home, StoreLocator, Wholesale } from './pages';
-import { ContactSupportForm, WholesaleRegistration, Navigation, Warning, Footer } from './components';
+import { AboutUs, Advocacy, Blog, ContactUs, ContactSupport, MediaRequest, Product, ProductGrid, PromotionalRequest, Home, StoreLocator, Wholesale, WholesaleRegistration } from './pages';
+import { ContactSupportForm, WholesaleRegistrationForm, Navigation, Warning, Footer } from './components';
 import { Nav } from 'react-bootstrap';
 
 import * as products from './data/products-v1.json';

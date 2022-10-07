@@ -1071,7 +1071,8 @@
         "product_slug": "killer-disposables-blueberry-ice", 
         "flavor_line": ["killer-disposables"],
         "img_src": {
-            "10ml": "/img/Disposables/Killer_3500_Disposables_Blueberry_Ice_50mg.svg"
+            "product": "/img/Disposables/Killer_3500_Disposables_Blueberry_Ice_50mg.svg",
+            "display": "/img/Disposables/Killer_3500_Disposables_Blueberry_Ice_50mg.svg"
         },
         "display_img": "",
         "sizes": "10ml",
@@ -1092,7 +1093,8 @@
         "product_slug": "killer-disposables-blue-razz", 
         "flavor_line": ["killer-disposables"],
         "img_src": {
-            "10ml": "/img/Disposables/Killer_3500_Disposables_Blue_Razz_50mg.svg"
+            "product": "/img/Disposables/Killer_3500_Disposables_Blue_Razz_50mg.svg",
+            "display": "/img/Disposables/Killer_3500_Disposables_Blue_Razz_50mg.svg"
         },
         "display_img": "",
         "sizes": "10ml",
@@ -1113,7 +1115,8 @@
         "product_slug": "killer-disposables-straw-guaw", 
         "flavor_line": ["killer-disposables"],
         "img_src": {
-            "10ml": "/img/Disposables/Killer_3500_Disposables_Straw_Guaw_50mg.svg"
+            "product": "/img/Disposables/Killer_3500_Disposables_Straw_Guaw_50mg.svg",
+            "display": "/img/Disposables/Killer_3500_Disposables_Straw_Guaw_50mg.svg"
         },
         "display_img": "",
         "sizes": "10ml",
@@ -1134,7 +1137,8 @@
         "product_slug": "killer-disposables-trapple", 
         "flavor_line": ["killer-disposables"],
         "img_src": {
-            "10ml": "/img/Disposables/Killer_3500_Disposables_Trapple_50mg.svg"
+            "product": "/img/Disposables/Killer_3500_Disposables_Trapple_50mg.svg",
+            "display": "/img/Disposables/Killer_3500_Disposables_Trapple_50mg.svg"
         },
         "display_img": "",
         "sizes": "10ml",
@@ -1155,7 +1159,8 @@
         "product_slug": "killer-disposables-cherry-peachade", 
         "flavor_line": ["killer-disposables"],
         "img_src": {
-            "10ml": "/img/Disposables/Killer_3500_Disposables_Cherry_Peachade_50mg.svg"
+            "product": "/img/Disposables/Killer_3500_Disposables_Cherry_Peachade_50mg.svg",
+            "display": "/img/Disposables/Killer_3500_Disposables_Cherry_Peachade_50mg.svg"
         },
         "display_img": "",
         "sizes": "10ml",
@@ -1176,7 +1181,8 @@
         "product_slug": "killer-disposables-grape-aloe", 
         "flavor_line": ["killer-disposables"],
         "img_src": {
-            "10ml": "/img/Disposables/Killer_3500_Disposables_Grape_Aloe_50mg.svg"
+            "product": "/img/Disposables/Killer_3500_Disposables_Grape_Aloe_50mg.svg",
+            "display": "/img/Disposables/Killer_3500_Disposables_Grape_Aloe_50mg.svg"
         },
         "display_img": "",
         "sizes": "10ml",
@@ -1197,7 +1203,8 @@
         "product_slug": "killer-disposables-nana-berry", 
         "flavor_line": ["killer-disposables"],
         "img_src": {
-            "10ml": "/img/Disposables/Killer_3500_Disposables_Nana_Berry_50mg.svg"
+            "product": "/img/Disposables/Killer_3500_Disposables_Nana_Berry_50mg.svg",
+            "display": "/img/Disposables/Killer_3500_Disposables_Nana_Berry_50mg.svg"
         },
         "display_img": "",
         "sizes": "10ml",
@@ -1218,7 +1225,8 @@
         "product_slug": "killer-disposables-energy", 
         "flavor_line": ["killer-disposables"],
         "img_src": {
-            "10ml": "/img/Disposables/Killer_3500_Disposables_Energy_50mg.svg"
+            "product": "/img/Disposables/Killer_3500_Disposables_Energy_50mg.svg",
+            "display": "/img/Disposables/Killer_3500_Disposables_Energy_50mg.svg"
         },
         "display_img": "",
         "sizes": "10ml",
@@ -1239,7 +1247,8 @@
         "product_slug": "killer-disposables-straw-bae", 
         "flavor_line": ["killer-disposables"],
         "img_src": {
-            "10ml": "/img/Disposables/Killer_3500_Disposables_Straw_Bae_50mg.svg"
+            "product": "/img/Disposables/Killer_3500_Disposables_Straw_Bae_50mg.svg",
+            "display": "/img/Disposables/Killer_3500_Disposables_Straw_Bae_50mg.svg"
         },
         "display_img": "",
         "sizes": "10ml",

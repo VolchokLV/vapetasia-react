@@ -5,10 +5,14 @@ import {Hero, ProductImage} from '../../components'
 const ProductGridItem = (props) => {
 
   let imgSrc = ''; //TODO: set default/fallback image here
-  if (props.topicValue === 'killer' || props.topicValue === 'vapetasia-x-hyve') {
-    imgSrc = props.product['default_image'];
-  } else {
-    imgSrc = props.product.img_src[props.topicValue];
+  try {
+    if (props.topicValue === 'killer' || props.topicValue === 'vapetasia-x-hyve') {
+      imgSrc = props.product['img_src']['product'];
+    } else {
+      imgSrc = props.product.img_src[props.topicValue];
+    }
+  } catch (e) {
+    console.log(e);
   }
 
   return (

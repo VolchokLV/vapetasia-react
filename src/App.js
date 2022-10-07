@@ -56,7 +56,7 @@ function App() {
                               <Route path="/contact-support" element={<ContactSupport />} /> 
                               <Route path="/contact" element={<ContactUs />} /> 
                               <Route path="/category/:type/:topic/:value" element={<ProductGrid products={products.default} />} /> 
-                              <Route path="/product/:slug/:size" element={<Product products={products.default} featured={featured} />} />                              
+                              <Route path="/product/:slug/:sizeOrBrand" element={<Product products={products.default} featured={featured} />} />                              
                               <Route path="/store-locator" element={<StoreLocator />} /> 
                               {/* <Route path="/pact" element={<Pact />} />  */}
                               <Route path="/wholesale" element={<Wholesale />} /> 

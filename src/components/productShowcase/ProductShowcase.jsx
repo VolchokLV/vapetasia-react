@@ -5,13 +5,22 @@ import * as heroes from '../../data/heroes.json'
 
 const ProductShowcase = (props) => {
 
+  console.log(props);
+
+  /**
+   * SORT OUT IMAGE LOGIC FOR DISPLAY AND UNIT (MODAL)
+   */
   let imgSrc = ''; //TODO: set default image
-  let buyNowSlug = 'only';
-  if (props.size === 'killer' || props.size === 'vapetasia-x-hyve') {
-    imgSrc = props.product['default_image'];
+  let imgSrcDisplay = ''; //TODO ^^
+  let buyNowSlug = '';
+  if (props.product.product_types[0] === 'disposable') {
+    imgSrc = props.product['img_src']['product'];
+    imgSrcDisplay = props.product['img_src']['display'];
+    buyNowSlug = 'only';
   } else {
-    imgSrc = props.product.img_src[props.size];
-    buyNowSlug = props.size;
+    imgSrc = props.product.img_src[props.sizeOrBrand];
+    imgSrcDisplay = imgSrc;
+    buyNowSlug = props.sizeOrBrand; //in this case it's always size (not disposable)
   }
 
   const [show, setShow] = useState(false)
@@ -33,7 +42,7 @@ const ProductShowcase = (props) => {
                     <div className="vapetasia-element vapetasia-element-fea488e product-toggle-main-image vapetasia-widget vapetasia-widget-image" data-id="fea488e" data-element_type="widget" data-widget_type="image.default">
                       <div className="vapetasia-widget-container">
                         <div className="vapetasia-image">
-                            <ProductImage src={imgSrc}></ProductImage>
+                            <ProductImage src={imgSrcDisplay}></ProductImage>
                         </div>
                       </div>
                     </div>

@@ -5,11 +5,11 @@ import {ProductShowcase, PopularFlavors} from '../../components';
 
 const Product = (props) => {
 
-  const { slug, size } = useParams()
+  const { slug, sizeOrBrand } = useParams()
 
   return (
     <>
-      <ProductShowcase product={props.products.find(p => p.product_slug == slug)} size={size} />
+      <ProductShowcase product={props.products.find(p => p.product_slug == slug)} sizeOrBrand={sizeOrBrand} />
       <PopularFlavors featured={props.featured}></PopularFlavors>
     </>
   )

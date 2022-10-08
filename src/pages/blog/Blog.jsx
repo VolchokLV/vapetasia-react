@@ -66,7 +66,7 @@ const Blog = () => {
                   <div class="vapetasia-element vapetasia-element-cf3292e vapetasia-widget vapetasia-widget-image" data-id="cf3292e" data-element_type="widget" data-widget_type="image.default">
                      <div class="vapetasia-widget-container">
                         <div class="vapetasia-image">
-                           <a href="https://vapetasia.com/the_ban_on_vape_mail" class="no-lightbox">
+                           <a href={ process.env.REACT_APP_BASE_URL + '/blog/the-ban-on-vape-mail/'} class="no-lightbox">
                               <img width="360" height="360" src="https://cdn2.vapetasia.com/img/blog/Vape-Mail-Ban-Square.jpg" data-src="https://cdn2.vapetasia.com/img/blog/Vape-Mail-Ban-Square.jpg" class="attachment-large size-large lazyloaded" alt="Vape Mail Ban" data-srcset="https://cdn2.vapetasia.com/img/blog/Vape-Mail-Ban-Square.jpg 360w, https://cdn.vapetasia.com/wp-content/uploads/20210105005222/Vape-Mail-Ban-Square-300x300.jpg 300w, https://cdn.vapetasia.com/wp-content/uploads/20210105005222/Vape-Mail-Ban-Square-150x150.jpg 150w" sizes="(max-width: 360px) 100vw, 360px" srcset="https://cdn2.vapetasia.com/img/blog/Vape-Mail-Ban-Square.jpg 360w, https://cdn.vapetasia.com/wp-content/uploads/20210105005222/Vape-Mail-Ban-Square-300x300.jpg 300w, https://cdn.vapetasia.com/wp-content/uploads/20210105005222/Vape-Mail-Ban-Square-150x150.jpg 150w"></img>
                            </a>
                         </div>
@@ -100,7 +100,7 @@ const Blog = () => {
                   <div class="vapetasia-element vapetasia-element-c07aa5b vapetasia-align-center vapetasia-widget vapetasia-widget-button" data-id="c07aa5b" data-element_type="widget" data-widget_type="button.default">
                      <div class="vapetasia-widget-container">
                         <div class="vapetasia-button-wrapper">
-                           <a href="https://vapetasia.com/the_ban_on_vape_mail" class="vapetasia-button-link vapetasia-button vapetasia-size-sm" role="button">
+                           <a href={ process.env.REACT_APP_BASE_URL + '/blog/the-ban-on-vape-mail/'} class="vapetasia-button-link vapetasia-button vapetasia-size-sm" role="button">
                            <span class="vapetasia-button-content-wrapper">
                            <span class="vapetasia-button-text">READ MORE</span>
                            </span>

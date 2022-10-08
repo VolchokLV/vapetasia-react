@@ -4,7 +4,7 @@ import './App.css';
 import "./index.css"
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import { AboutUs, Advocacy, Blog, ContactUs, ContactSupport, MediaRequest, Product, ProductGrid, PromotionalRequest, Home, StoreLocator, Wholesale, WholesaleRegistration } from './pages';
+import { AboutUs, Advocacy, Blog, TheBanOnVapeMail, ContactUs, ContactSupport, MediaRequest, Product, ProductGrid, PromotionalRequest, Home, StoreLocator, Wholesale, WholesaleRegistration } from './pages';
 import { ContactSupportForm, WholesaleRegistrationForm, Navigation, Warning, Footer } from './components';
 import { Nav } from 'react-bootstrap';
 
@@ -49,6 +49,7 @@ function App() {
                               <Route path="/about-us" element={<AboutUs />} /> 
                               <Route path="/advocacy" element={<Advocacy />} /> 
                               <Route path="/blog" element={<Blog />} /> 
+                                <Route path="/blog/the-ban-on-vape-mail" element={<TheBanOnVapeMail />} /> 
                               <Route path="/contact" element={<ContactUs />} /> 
                               <Route path="/media-request" element={<MediaRequest/>} /> 
                               <Route path="/promotional-request" element={<PromotionalRequest />} /> 

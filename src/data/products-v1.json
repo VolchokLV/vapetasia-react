@@ -1257,14 +1257,203 @@
             "product": "/img/Disposables/Vapetasia_x_Air_Blue_Razz_6000_50mg.jpg",
             "display": "/img/Disposables/Vapetasia_x_Air_Blue_Razz_6000_50mg.jpg"
         },
-        "sizes": "10ml",
+        "sizes": "12ml",
         "disposable_strengths": ["50mg"],
         "hero_txt": "A burst of tart flavor perfectly curated to exceed your expectations. A smooth flavorful inhale of blue raspberry will captivate your tastebuds, you may not want to let it out!",
         "main_text": "A burst of tart flavor perfectly curated to exceed your expectations. A smooth flavorful inhale of blue raspberry will captivate your tastebuds, you may not want to let it out!",
         "sub_txt": "A burst of tart flavor perfectly curated to exceed your expectations. A smooth flavorful inhale of blue raspberry will captivate your tastebuds, you may not want to let it out!",
         "popup_txt": "A burst of tart flavor perfectly curated to exceed your expectations. A smooth flavorful inhale of blue raspberry will captivate your tastebuds, you may not want to let it out!",        
         "buy_now": {
-           "only": ["https://www.flawlessvapeshop.com/products/vapetasia-killer-fruits-disposable-3500-puffs-10ml", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/vapetasia-killer-disposable-vape"]
+           "only": ["COMING SOON", "COMING SOON", "COMING SOON"]
+        },
+        "is_featured": 0, 
+        "sort_order": 1
+    },
+    {
+        "product_name": "Vapetasia X Air Disposables Blueberry Ice",
+        "product_types": ["disposable"],
+        "product_slug": "vapetasia-x-air-disposables-blueberry-ice", 
+        "flavor_line": ["vapetasia-x-air"],
+        "img_src": {
+            "product": "/img/Disposables/Vapetasia_x_Air_Blueberry_Ice_6000_50mg.jpg",
+            "display": "/img/Disposables/Vapetasia_x_Air_Blueberry_Ice_6000_50mg.jpg"
+        },
+        "sizes": "12ml",
+        "disposable_strengths": ["50mg"],
+        "hero_txt": "Frozen blueberries ride a brisk winter breeze to cool your taste buds with a popping burst of berry flavor and an icy touch!",
+        "main_text": "Frozen blueberries ride a brisk winter breeze to cool your taste buds with a popping burst of berry flavor and an icy touch!",
+        "sub_txt": "Frozen blueberries ride a brisk winter breeze to cool your taste buds with a popping burst of berry flavor and an icy touch!",
+        "popup_txt": "Frozen blueberries ride a brisk winter breeze to cool your taste buds with a popping burst of berry flavor and an icy touch!",        
+        "buy_now": {
+            "only": ["COMING SOON", "COMING SOON", "COMING SOON"]
+        },
+        "is_featured": 0, 
+        "sort_order": 1
+    },
+    {
+        "product_name": "Vapetasia X Air Disposables Cherry Peachade",
+        "product_types": ["disposable"],
+        "product_slug": "vapetasia-x-air-disposables-cherry-peachade", 
+        "flavor_line": ["vapetasia-x-air"],
+        "img_src": {
+            "product": "/img/Disposables/Vapetasia_x_Air_Cherry_Peachade_6000_50mg.jpg",
+            "display": "/img/Disposables/Vapetasia_x_Air_Cherry_Peachade_6000_50mg.jpg"
+        },
+        "sizes": "12ml",
+        "disposable_strengths": ["50mg"],
+        "hero_txt": "Frozen blueberries ride a brisk winter breeze to cool your taste buds with a popping burst of berry flavor and an icy touch!",
+        "main_text": "Frozen blueberries ride a brisk winter breeze to cool your taste buds with a popping burst of berry flavor and an icy touch!",
+        "sub_txt": "Frozen blueberries ride a brisk winter breeze to cool your taste buds with a popping burst of berry flavor and an icy touch!",
+        "popup_txt": "Frozen blueberries ride a brisk winter breeze to cool your taste buds with a popping burst of berry flavor and an icy touch!",        
+        "buy_now": {
+            "only": ["COMING SOON", "COMING SOON", "COMING SOON"]
+        },
+        "is_featured": 0, 
+        "sort_order": 1
+    },
+    {
+        "product_name": "Vapetasia X Air Disposables Killer Kustard",
+        "product_types": ["disposable"],
+        "product_slug": "vapetasia-x-air-disposables-killer-kustard", 
+        "flavor_line": ["vapetasia-x-air"],
+        "img_src": {
+            "product": "/img/Disposables/Vapetasia_x_Air_Killer_Kustard_6000_50mg.jpg",
+            "display": "/img/Disposables/Vapetasia_x_Air_Killer_Kustard_6000_50mg.jpg"
+        },
+        "sizes": "12ml",
+        "disposable_strengths": ["50mg"],
+        "hero_txt": "Our award-winning Killer Kustard is globally known for its unmatched vanilla custard flavor. Fair warning, this one is hard to put down!",
+        "main_text": "Our award-winning Killer Kustard is globally known for its unmatched vanilla custard flavor. Fair warning, this one is hard to put down!",
+        "sub_txt": "Our award-winning Killer Kustard is globally known for its unmatched vanilla custard flavor. Fair warning, this one is hard to put down!",
+        "popup_txt": "Our award-winning Killer Kustard is globally known for its unmatched vanilla custard flavor. Fair warning, this one is hard to put down!",        
+        "buy_now": {
+            "only": ["COMING SOON", "COMING SOON", "COMING SOON"]
+        },
+        "is_featured": 0, 
+        "sort_order": 1
+    },
+    {
+        "product_name": "Vapetasia X Air Disposables Nana Berry",
+        "product_types": ["disposable"],
+        "product_slug": "vapetasia-x-air-disposables-nana-berry", 
+        "flavor_line": ["vapetasia-x-air"],
+        "img_src": {
+            "product": "/img/Disposables/Vapetasia_x_Air_Nana_Berry_6000_50mg.jpg",
+            "display": "/img/Disposables/Vapetasia_x_Air_Nana_Berry_6000_50mg.jpg"
+        },
+        "sizes": "12ml",
+        "disposable_strengths": ["50mg"],
+        "hero_txt": "The classic blend of mouth-watering strawberries and perfectly ripe bananas will put your taste buds on the brink of an overload!",
+        "main_text": "The classic blend of mouth-watering strawberries and perfectly ripe bananas will put your taste buds on the brink of an overload!",
+        "sub_txt": "The classic blend of mouth-watering strawberries and perfectly ripe bananas will put your taste buds on the brink of an overload!",
+        "popup_txt": "The classic blend of mouth-watering strawberries and perfectly ripe bananas will put your taste buds on the brink of an overload!",        
+        "buy_now": {
+            "only": ["COMING SOON", "COMING SOON", "COMING SOON"]
+        },
+        "is_featured": 0, 
+        "sort_order": 1
+    },
+    {
+        "product_name": "Vapetasia X Air Disposables Royalty Two",
+        "product_types": ["disposable"],
+        "product_slug": "vapetasia-x-air-disposables-royalty-two", 
+        "flavor_line": ["vapetasia-x-air"],
+        "img_src": {
+            "product": "/img/Disposables/Vapetasia_x_Air_Royalty_Two_6000_50mg.jpg",
+            "display": "/img/Disposables/Vapetasia_x_Air_Royalty_Two_6000_50mg.jpg"
+        },
+        "sizes": "12ml",
+        "disposable_strengths": ["50mg"],
+        "hero_txt": "Enjoy one of our most unique flavors. Royalty Two has hints of rich custard, sweet nuts, and a creamy vanilla forged boldy with a mild tobacco flavor.",
+        "main_text": "Enjoy one of our most unique flavors. Royalty Two has hints of rich custard, sweet nuts, and a creamy vanilla forged boldy with a mild tobacco flavor.",
+        "sub_txt": "Enjoy one of our most unique flavors. Royalty Two has hints of rich custard, sweet nuts, and a creamy vanilla forged boldy with a mild tobacco flavor.",
+        "popup_txt": "Enjoy one of our most unique flavors. Royalty Two has hints of rich custard, sweet nuts, and a creamy vanilla forged boldy with a mild tobacco flavor.",        
+        "buy_now": {
+            "only": ["COMING SOON", "COMING SOON", "COMING SOON"]
+        },
+        "is_featured": 0, 
+        "sort_order": 1
+    },
+    {
+        "product_name": "Vapetasia X Air Disposables Straw Bae",
+        "product_types": ["disposable"],
+        "product_slug": "vapetasia-x-air-disposables-traw-bae", 
+        "flavor_line": ["vapetasia-x-air"],
+        "img_src": {
+            "product": "/img/Disposables/Vapetasia_x_Air_Straw_Bae_6000_50mg.jpg",
+            "display": "/img/Disposables/Vapetasia_x_Air_Straw_Bae_6000_50mg.jpg"
+        },
+        "sizes": "12ml",
+        "disposable_strengths": ["50mg"],
+        "hero_txt": "Sometimes dessert for dinner is the way to go! Indulge in the soft creamy flavor of strawberry ice cream.",
+        "main_text": "Sometimes dessert for dinner is the way to go! Indulge in the soft creamy flavor of strawberry ice cream.",
+        "sub_txt": "Sometimes dessert for dinner is the way to go! Indulge in the soft creamy flavor of strawberry ice cream.",
+        "popup_txt": "Sometimes dessert for dinner is the way to go! Indulge in the soft creamy flavor of strawberry ice cream.",        
+        "buy_now": {
+            "only": ["COMING SOON", "COMING SOON", "COMING SOON"]
+        },
+        "is_featured": 0, 
+        "sort_order": 1
+    },
+    {
+        "product_name": "Vapetasia X Air Disposables Straw Guaw",
+        "product_types": ["disposable"],
+        "product_slug": "vapetasia-x-air-disposables-straw-guaw", 
+        "flavor_line": ["vapetasia-x-air"],
+        "img_src": {
+            "product": "/img/Disposables/Vapetasia_x_Air_Straw_Guaw_6000_50mg.jpg",
+            "display": "/img/Disposables/Vapetasia_x_Air_Straw_Guaw_6000_50mg.jpg"
+        },
+        "sizes": "12ml",
+        "disposable_strengths": ["50mg"],
+        "hero_txt": "Allow your taste buds to dance to the medley of sweet strawberries coupled with exotic guava as they create a harmonizing blend of flavor.",
+        "main_text": "Allow your taste buds to dance to the medley of sweet strawberries coupled with exotic guava as they create a harmonizing blend of flavor.",
+        "sub_txt": "Allow your taste buds to dance to the medley of sweet strawberries coupled with exotic guava as they create a harmonizing blend of flavor.",
+        "popup_txt": "Allow your taste buds to dance to the medley of sweet strawberries coupled with exotic guava as they create a harmonizing blend of flavor.",        
+        "buy_now": {
+            "only": ["COMING SOON", "COMING SOON", "COMING SOON"]
+        },
+        "is_featured": 0, 
+        "sort_order": 1
+    },
+    {
+        "product_name": "Vapetasia X Air Disposables Trapple",
+        "product_types": ["disposable"],
+        "product_slug": "vapetasia-x-air-disposables-trapple", 
+        "flavor_line": ["vapetasia-x-air"],
+        "img_src": {
+            "product": "/img/Disposables/Vapetasia_x_Air_Trapple_6000_50mg.jpg",
+            "display": "/img/Disposables/Vapetasia_x_Air_Trapple_6000_50mg.jpg"
+        },
+        "sizes": "12ml",
+        "disposable_strengths": ["50mg"],
+        "hero_txt": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
+        "main_text": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
+        "sub_txt": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
+        "popup_txt": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",        
+        "buy_now": {
+            "only": ["COMING SOON", "COMING SOON", "COMING SOON"]
+        },
+        "is_featured": 0, 
+        "sort_order": 1
+    },
+    {
+        "product_name": "Vapetasia X Air Disposables White Gummy",
+        "product_types": ["disposable"],
+        "product_slug": "vapetasia-x-air-disposables-white-gummy", 
+        "flavor_line": ["vapetasia-x-air"],
+        "img_src": {
+            "product": "/img/Disposables/Vapetasia_x_Air_White_Gummy_6000_50mg.jpg",
+            "display": "/img/Disposables/Vapetasia_x_Air_White_Gummy_6000_50mg.jpg"
+        },
+        "sizes": "12ml",
+        "disposable_strengths": ["50mg"],
+        "hero_txt": "This bear is straight chilling! Get ready for a cool breeze on your tropical pineapple expedition. This gummy is hard to put down!",
+        "main_text": "This bear is straight chilling! Get ready for a cool breeze on your tropical pineapple expedition. This gummy is hard to put down!",
+        "sub_txt": "This bear is straight chilling! Get ready for a cool breeze on your tropical pineapple expedition. This gummy is hard to put down!",
+        "popup_txt": "This bear is straight chilling! Get ready for a cool breeze on your tropical pineapple expedition. This gummy is hard to put down!",        
+        "buy_now": {
+            "only": ["COMING SOON", "COMING SOON", "COMING SOON"]
         },
         "is_featured": 0, 
         "sort_order": 1

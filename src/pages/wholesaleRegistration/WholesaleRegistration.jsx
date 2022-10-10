@@ -1,6 +1,6 @@
 import React from 'react'
 import { Hero, WholesaleRegistrationForm } from '../../components';
-import './wholesaleregistration.css';
+//import './wholesaleregistration.css';
 
 
 const WholesaleRegistration = () => {

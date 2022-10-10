@@ -7,6 +7,7 @@
             "eliquid-100ml": "Enjoy our great Vapetasia flavors in your favorite vaporizers. Vapetasia offers its flavors in 0mg, 3mg, 6mg, and 12mg options in 100ml bottles.",
             "disposable-killer": "Enjoy Vapetasia flavors in convenient disposables. Vapetasia offers unique flavors in 10ml 3500 puff, 5% Nicotine, 1.5 Ohm rechargeable disposables.",
             "disposable-vapetasia-x-hyve": "Vapetaisa and Hyve collaborated to bring the best of our flavors together with one of the most popular devices in 2500 and 4000 puff counts.",
+            "disposable-vapetasia-x-air": "Vapetaisa and Air collaborated to bring the best of our flavors together with one of the most popular devices in 6000 puff counts.",
             "disposable": "Vapetasia has many disposable choices - Need to update the text here"  
         },
         "images": {
@@ -14,7 +15,8 @@
             "30ml": "30ml.jpg",
             "60ml": "60ml.jpg",
             "KillerDisposables": "Killer-Disposables.png",
-            "HyveDisposables": "Hyve-Disposables.png",
+            "HyveDisposables": "Hyve-Disposables.png",            
+            "AirDisposables": "Hyve-Disposables.png",            
             "About": "About-Us.jpg",
             "Advocacy": "Advocacy.jpg",
             "Blog": "Blog.png",
@@ -33,7 +35,8 @@
             "FlavorVapetasia": "Vapetasia.jpg",
             "FlavorLemonade": "Lemonade.jpg",
             "FlavorHyveDisposables": "Hyve-Disposables.png",
-            "FlavorKillerDisposables": "Killer-Disposables.png"
+            "FlavorKillerDisposables": "Killer-Disposables.png",
+            "FlavorAirDisposables": "Hyve-Disposables.png"
         },
         "flavors": {
             "killer-kustard": "FlavorKillerKustard",
@@ -44,7 +47,8 @@
             "vapetasia": "FlavorVapetasia",
             "lemonade": "FlavorLemonade",
             "hyve-disposables": "FlavorHyveDisposables",
-            "killer-disposables": "FlavorKillerDisposables" 
+            "killer-disposables": "FlavorKillerDisposables",
+            "air-disposables": "FlavorKillerDisposables"
         }
     }
 ]

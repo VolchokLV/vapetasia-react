@@ -1247,6 +1247,27 @@
         },
         "is_featured": 0, 
         "sort_order": 1
+    },
+    {
+        "product_name": "Vapetasia X Air Disposables Blue Razz",
+        "product_types": ["disposable"],
+        "product_slug": "vapetasia-x-air-disposables-blue-razz", 
+        "flavor_line": ["vapetasia-x-air"],
+        "img_src": {
+            "product": "/img/Disposables/Vapetasia_x_Air_Blue_Razz_6000_50mg.jpg",
+            "display": "/img/Disposables/Vapetasia_x_Air_Blue_Razz_6000_50mg.jpg"
+        },
+        "sizes": "10ml",
+        "disposable_strengths": ["50mg"],
+        "hero_txt": "A burst of tart flavor perfectly curated to exceed your expectations. A smooth flavorful inhale of blue raspberry will captivate your tastebuds, you may not want to let it out!",
+        "main_text": "A burst of tart flavor perfectly curated to exceed your expectations. A smooth flavorful inhale of blue raspberry will captivate your tastebuds, you may not want to let it out!",
+        "sub_txt": "A burst of tart flavor perfectly curated to exceed your expectations. A smooth flavorful inhale of blue raspberry will captivate your tastebuds, you may not want to let it out!",
+        "popup_txt": "A burst of tart flavor perfectly curated to exceed your expectations. A smooth flavorful inhale of blue raspberry will captivate your tastebuds, you may not want to let it out!",        
+        "buy_now": {
+           "only": ["https://www.flawlessvapeshop.com/products/vapetasia-killer-fruits-disposable-3500-puffs-10ml", "https://www.ecigmafia.com/#/dffullscreen/query=killer&query_name=match_and", "https://www.elementvape.com/vapetasia-killer-disposable-vape"]
+        },
+        "is_featured": 0, 
+        "sort_order": 1
     }
    
 ]

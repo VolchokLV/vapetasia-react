@@ -124,6 +124,13 @@ const Navigation = () => {
                       </span>
                     </a>
                   </li>
+                  <li id="menu-item-6021" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-6021">
+                    <a href={ process.env.REACT_APP_BASE_URL + '/category/disposable/brand/vapetasia-x-air'} className="menu-link">
+                      <span className="text-wrap">
+                        Vapetasia X Air Disposables
+                      </span>
+                    </a>
+                  </li>
                 </ul>
               </li>
                   

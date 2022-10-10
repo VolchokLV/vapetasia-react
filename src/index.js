@@ -1,9 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
+//import { BrowserRouter, Routes, Route } from 'react-router-dom';
 /* Google Fonts */
 import './styles/google-fonts.css';
 /* Main Vapetasia CSS (ported) */

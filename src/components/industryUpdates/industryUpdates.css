@@ -1,3 +1,17 @@
 .first {
     background-image: url("https://cdn2.vapetasia.com/img/industry-updates/industry-updates-background.jpg");
 }
+
+.vt-custom-slider-item .swiper-slide-contents {
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.vt-custom-slider-item .vapetasia-slide-heading {
+    font-weight: 700;
+}
+.vt-custom-slider-item .vapetasia-slide-description {
+    color: #FFFFFF !important;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}

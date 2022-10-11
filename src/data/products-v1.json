@@ -1438,20 +1438,20 @@
         "sort_order": 1
     },
     {
-        "product_name": "Vapetasia X Air Disposables White Gummy",
+        "product_name": "Vapetasia X Air Disposables energy",
         "product_types": ["disposable"],
-        "product_slug": "vapetasia-x-air-disposables-white-gummy", 
+        "product_slug": "vapetasia-x-air-disposables-energy", 
         "flavor_line": ["vapetasia-x-air"],
         "img_src": {
-            "product": "/img/Disposables/Vapetasia_x_Air_White_Gummy_6000_50mg.jpg",
-            "display": "/img/Disposables/Vapetasia_x_Air_White_Gummy_6000_50mg.jpg"
+            "product": "/img/Disposables/Vapetasia_x_Air_Energy_6000_50mg.jpg",
+            "display": "/img/Disposables/Vapetasia_x_Air_Energy_6000_50mg.jpg"
         },
         "sizes": "12ml",
         "disposable_strengths": ["50mg"],
-        "hero_txt": "This bear is straight chilling! Get ready for a cool breeze on your tropical pineapple expedition. This gummy is hard to put down!",
-        "main_text": "This bear is straight chilling! Get ready for a cool breeze on your tropical pineapple expedition. This gummy is hard to put down!",
-        "sub_txt": "This bear is straight chilling! Get ready for a cool breeze on your tropical pineapple expedition. This gummy is hard to put down!",
-        "popup_txt": "This bear is straight chilling! Get ready for a cool breeze on your tropical pineapple expedition. This gummy is hard to put down!",        
+        "hero_txt": "Shock your taste buds full of energy and jumpstart your day with a surge of electrifying energy drink flavor.",
+        "main_text": "Shock your taste buds full of energy and jumpstart your day with a surge of electrifying energy drink flavor.",
+        "sub_txt": "Shock your taste buds full of energy and jumpstart your day with a surge of electrifying energy drink flavor.",
+        "popup_txt": "Shock your taste buds full of energy and jumpstart your day with a surge of electrifying energy drink flavor.",        
         "buy_now": {
             "only": ["COMING SOON", "COMING SOON", "COMING SOON"]
         },

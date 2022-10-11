@@ -4,7 +4,7 @@ import './App.css';
 import "./index.css"
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import { AboutUs, Advocacy, Blog, TheBanOnVapeMail, ContactUs, ContactSupport, MediaRequest, Product, ProductGrid, PromotionalRequest, Home, StoreLocator, Wholesale, WholesaleRegistration } from './pages';
+import { AboutUs, Advocacy, Blog, TheBanOnVapeMail, ContactUs, ContactSupport, MediaRequest, Product, ProductGrid, PromotionalRequest, Home, StoreLocator, Wholesale, WholesaleRegistration, Carousel } from './pages';
 import { ContactSupportForm, WholesaleRegistrationForm, Navigation, Warning, Footer } from './components';
 import { Nav } from 'react-bootstrap';
 

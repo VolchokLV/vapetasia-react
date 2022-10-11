@@ -53,7 +53,7 @@ const Navigation = () => {
         <div id="site-logo" className="clr" itemScope="" itemType="https://schema.org/Brand">
           <div id="site-logo-inner" className="clr"> 
             <a href={ process.env.REACT_APP_BASE_URL } className="custom-logo-link" rel="home" aria-current="page">
-              <img width="247" height="70" src="https://cdn.vapetasia.com/wp-content/uploads/2020/05/11155756/Vapetasia_Logo_2_small.png" className="custom-logo" alt="Vapetasia" srcSet="https://cdn.vapetasia.com/wp-content/uploads/2020/05/11155756/Vapetasia_Logo_2_small.png 1x, https://vapetasia-wp.s3.us-west-2.amazonaws.com/wp-content/uploads/2020/05/11155756/Vapetasia_Logo_2_small.png 2x" />
+              <img width="247" height="70" src="https://cdn2.vapetasia.com/img/vapetasia-logo-small.png" className="custom-logo" alt="Vapetasia" srcSet="https://cdn2.vapetasia.com/img/vapetasia-logo-small.png 1x, https://cdn2.vapetasia.com/img/vapetasia-logo-small.png 2x" />
             </a>
           </div>
         </div>
@@ -302,6 +302,11 @@ const Navigation = () => {
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-6021">
                     <a href={ process.env.REACT_APP_BASE_URL + '/vapetasia-x-hyve-disposables/' }>
                       Vapetasia X Hyve Disposables
+                    </a>
+                  </li>
+                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-6021">
+                    <a href={ process.env.REACT_APP_BASE_URL + '/vapetasia-x-air-disposables/' }>
+                      Vapetasia X Air Disposables
                     </a>
                   </li>
                 </ul>

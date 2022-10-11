@@ -1,0 +1,60 @@
+.popular-section {
+    margin-top: 120px;
+}
+.vt-no-outline:focus {
+    outline: none !important;
+}
+
+/**
+CAROUSEL
+*/
+#vapetasia-carousel {
+    width: 100%;
+    overflow-x: scroll;
+    display: block;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    overscroll-behavior-x: none !important;
+}
+    #vapetasia-carousel::-webkit-scrollbar {
+        height: 20px;
+    }
+    #vapetasia-carousel::-webkit-scrollbar-track {
+        background: #F0F0F0;
+        border-radius: 10px;
+    }
+    #vapetasia-carousel::-webkit-scrollbar-thumb {
+        background-color: black;
+        border-radius: 10px;
+        opacity: .8;
+    }
+.vt-custom-carousel-wrapper::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 1px;
+    background-color: black;
+    margin: 30px auto;
+}
+    #vt-inner-carousel {
+        display: block;
+        width: 3000px;
+    }
+        .vt-custom-carousel-item {
+            display: inline-block;
+            width: 250px;
+            text-align: center !important;
+        }
+            .vt-custom-carousel-img img {
+                height: 125px !important;
+                width: 125px !important;
+            }
+            .vt-custom-carousel-title {
+                font-size: 38px !important;
+                box-sizing: border-box;
+                padding: 10px 15px !important;
+                min-height: 100px;
+            }
+            .vt-custom-carousel-button {
+                background-color: #FBB81F !important;
+            }

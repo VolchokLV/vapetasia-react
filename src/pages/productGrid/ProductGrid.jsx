@@ -19,13 +19,13 @@ const ProductGrid = (props) => {
     //looking for a brand of disposables
     if (value === 'killer-disposables') {
       heroKey = 'KillerDisposables'
-    } else if (value === 'vapetasia-x-hyve') {
+    } else if (value === 'hyve-disposables') {
       heroKey = 'HyveDisposables';
-    } else if (value === 'vapetasia-x-air') {
-      heroKey = 'AirDsiposables';
+    } else if (value === 'air-disposables') {
+      heroKey = 'AirDisposables';
     }
-    bottomText = value.replace('-', ' ').replace('-', ' ') + ' disposables';
-    paragraphKey = type + '-' + value;
+    bottomText = value.replace('-', ' ').replace('-', ' ');
+    paragraphKey = value;
   } else if (topic == 'size') {
     if (type == 'eliquid') {
       //looking for a size of eliquid

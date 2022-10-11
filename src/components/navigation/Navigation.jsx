@@ -118,14 +118,14 @@ const Navigation = () => {
                     </a>
                   </li>
                   <li id="menu-item-6021" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-6021">
-                    <a href={ process.env.REACT_APP_BASE_URL + '/category/disposable/brand/vapetasia-x-hyve'} className="menu-link">
+                    <a href={ process.env.REACT_APP_BASE_URL + '/category/disposable/brand/hyve-disposables'} className="menu-link">
                       <span className="text-wrap">
                         Vapetasia X Hyve Disposables
                       </span>
                     </a>
                   </li>
                   <li id="menu-item-6021" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-6021">
-                    <a href={ process.env.REACT_APP_BASE_URL + '/category/disposable/brand/vapetasia-x-air'} className="menu-link">
+                    <a href={ process.env.REACT_APP_BASE_URL + '/category/disposable/brand/air-disposables'} className="menu-link">
                       <span className="text-wrap">
                         Vapetasia X Air Disposables
                       </span>
@@ -290,22 +290,22 @@ const Navigation = () => {
               </li>
               
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4893">
-                <a href={ process.env.REACT_APP_BASE_URL + '/killer-disposables/' }>
+                <a href={ process.env.REACT_APP_BASE_URL + '/category/disposable/brand/killer-disposables' }>
                   DISPOSABLES<span className="dropdown-toggle" tabIndex="0"></span>
                 </a>
                 <ul className="sub-menu">
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-6022">
-                    <a href={ process.env.REACT_APP_BASE_URL + '/killer-disposables/'}>
+                    <a href={ process.env.REACT_APP_BASE_URL + '/category/disposable/brand/killer-disposables'}>
                       Killer Disposables
                     </a>
                   </li>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-6021">
-                    <a href={ process.env.REACT_APP_BASE_URL + '/vapetasia-x-hyve-disposables/' }>
+                    <a href={ process.env.REACT_APP_BASE_URL + '/category/disposable/brand/hyve-disposables' }>
                       Vapetasia X Hyve Disposables
                     </a>
                   </li>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-6021">
-                    <a href={ process.env.REACT_APP_BASE_URL + '/vapetasia-x-air-disposables/' }>
+                    <a href={ process.env.REACT_APP_BASE_URL + '/category/disposable/brand/air-disposables' }>
                       Vapetasia X Air Disposables
                     </a>
                   </li>

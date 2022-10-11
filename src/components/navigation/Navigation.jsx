@@ -111,7 +111,7 @@ const Navigation = () => {
                 </a>
                 <ul className="sub-menu">
                   <li id="menu-item-6022" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-6022">
-                    <a href={ process.env.REACT_APP_BASE_URL + '/category/disposable/brand/killer'} className="menu-link">
+                    <a href={ process.env.REACT_APP_BASE_URL + '/category/disposable/brand/killer-disposables'} className="menu-link">
                       <span className="text-wrap">
                         Killer Disposables
                       </span>

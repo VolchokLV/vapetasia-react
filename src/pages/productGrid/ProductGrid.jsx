@@ -12,12 +12,18 @@ const ProductGrid = (props) => {
   /**
    * SORT OUT THE HERO CONTENT BASED ON PAGE ROUTE
    */
-  let heroKey = ''; // defines which hero image and settings to apply to the hero
-  let bottomText = ''; // defines what comes below "vapetasia" in the hero
-  let paragraphKey = ''; // defines which paragraph should be displayed in the hero
+  let heroKey = 'Fallback'; // defines which hero image and settings to apply to the hero
+  let bottomText = '...'; // defines what comes below "vapetasia" in the hero
+  let paragraphKey = '...'; // defines which paragraph should be displayed in the hero
   if (topic == 'brand') {
     //looking for a brand of disposables
-    heroKey = value === 'killer' ? 'KillerDisposables' : 'HyveDisposables'
+    if (value === 'killer-disposables') {
+      heroKey = 'KillerDisposables'
+    } else if (value === 'vapetasia-x-hyve') {
+      heroKey = 'HyveDisposables';
+    } else if (value === 'vapetasia-x-air') {
+      heroKey = 'AirDsiposables';
+    }
     bottomText = value.replace('-', ' ').replace('-', ' ') + ' disposables';
     paragraphKey = type + '-' + value;
   } else if (topic == 'size') {
@@ -52,7 +58,12 @@ const ProductGrid = (props) => {
                     (topic == 'brand' && p.product_slug.includes(value)) // display only products with specified brand
                   ) 
                 ) {
-                  return (<ProductGridItem key={p.product_slug} product={p} type={type} topic={topic} topicValue={value} />)
+                  return (<ProductGridItem 
+                    key={p.product_slug} 
+                    product={p} 
+                    type={type} 
+                    topic={topic} 
+                    topicValue={value} />)
                 }
               })}
 

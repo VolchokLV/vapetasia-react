@@ -8,24 +8,25 @@ import { AboutUs, Advocacy, Blog, TheBanOnVapeMail, ContactUs, ContactSupport, M
 import { ContactSupportForm, WholesaleRegistrationForm, Navigation, Warning, Footer } from './components';
 import { Nav } from 'react-bootstrap';
 
-import * as products from './data/products-v1.json';
+import * as products from './data/products.json';
 
 function App() {
 
   /*
   PREPARE PRODUCTS FOR PAGES
   */
-  let featured = []
+  let featuredProducts = []
   for (let i = 0; i < products.default.length; i++) {
     let srcs = products.default[i].img_src;
     if (srcs) {
-      let keys = Object.keys(srcs);
-      products.default[i]['default_image'] = products.default[i].img_src[keys[0]];
+      let srcKeys = Object.keys(srcs);
+      products.default[i]['default_image'] = products.default[i].img_src[srcKeys[0]];
     } else {
       console.log("no default")
     }
-    if (products.default[i].is_featured == 1) {
-      featured.push(products.default[i])
+    let featured = products.default[i]['featured'];
+    if (featured && featured.display === 1) {
+      featuredProducts.push(products.default[i])
     }
   }
   return (
@@ -45,18 +46,22 @@ function App() {
                       <div className="vapetasia-inner">
                         <div className="vapetasia-section-wrap">
                             <Routes>
-                              <Route path="/" element={<Home featured={featured} />} />
+                              <Route path="/" element={<Home 
+                                featured={featuredProducts} />} />
                               <Route path="/about-us" element={<AboutUs />} /> 
                               <Route path="/advocacy" element={<Advocacy />} /> 
                               <Route path="/blog" element={<Blog />} /> 
-                                <Route path="/blog/the-ban-on-vape-mail" element={<TheBanOnVapeMail />} /> 
+                              <Route path="/blog/the-ban-on-vape-mail" element={<TheBanOnVapeMail />} /> 
                               <Route path="/contact" element={<ContactUs />} /> 
                               <Route path="/media-request" element={<MediaRequest/>} /> 
                               <Route path="/promotional-request" element={<PromotionalRequest />} /> 
                               <Route path="/wholesale-registration" element={<WholesaleRegistration />} /> 
                               <Route path="/contact-support" element={<ContactSupport />} /> 
-                              <Route path="/category/:type/:topic/:value" element={<ProductGrid products={products.default} />} /> 
-                              <Route path="/product/:slug/:sizeOrBrand" element={<Product products={products.default} featured={featured} />} />                              
+                              <Route path="/category/:type/:topic/:value" element={<ProductGrid 
+                                products={products.default} />} /> 
+                              <Route path="/product/:slug/:sizeOrBrand" element={<Product 
+                                products={products.default} 
+                                featured={featuredProducts} />} />                              
                               <Route path="/store-locator" element={<StoreLocator />} /> 
                               {/* <Route path="/pact" element={<Pact />} />  */}
                               <Route path="/wholesale" element={<Wholesale />} /> 

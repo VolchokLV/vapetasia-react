@@ -19,7 +19,7 @@ const ContactSupport = () => {
         </div>
       </div>
     </section>
-    <iframe src={process.env.PUBLIC_URL +'/contact-support.html'} height="700px"></iframe>
+    <iframe title="Contact Support" src={process.env.PUBLIC_URL +'/contact-support.html'} height="700px"></iframe>
     <LetsGetSocial />
     </>
   )

@@ -1252,7 +1252,7 @@
         "product_name": "Vapetasia X Air Disposables Blue Razz",
         "product_types": ["disposable"],
         "product_slug": "vapetasia-x-air-disposables-blue-razz", 
-        "flavor_line": ["vapetasia-x-air"],
+        "flavor_line": ["air-disposables"],
         "img_src": {
             "product": "/img/Disposables/Vapetasia_x_Air_Blue_Razz_6000_50mg.jpg",
             "display": "/img/Disposables/Vapetasia_x_Air_Blue_Razz_6000_50mg.jpg"
@@ -1273,7 +1273,7 @@
         "product_name": "Vapetasia X Air Disposables Blueberry Ice",
         "product_types": ["disposable"],
         "product_slug": "vapetasia-x-air-disposables-blueberry-ice", 
-        "flavor_line": ["vapetasia-x-air"],
+        "flavor_line": ["air-disposables"],
         "img_src": {
             "product": "/img/Disposables/Vapetasia_x_Air_Blueberry_Ice_6000_50mg.jpg",
             "display": "/img/Disposables/Vapetasia_x_Air_Blueberry_Ice_6000_50mg.jpg"
@@ -1294,7 +1294,7 @@
         "product_name": "Vapetasia X Air Disposables Cherry Peachade",
         "product_types": ["disposable"],
         "product_slug": "vapetasia-x-air-disposables-cherry-peachade", 
-        "flavor_line": ["vapetasia-x-air"],
+        "flavor_line": ["air-disposables"],
         "img_src": {
             "product": "/img/Disposables/Vapetasia_x_Air_Cherry_Peachade_6000_50mg.jpg",
             "display": "/img/Disposables/Vapetasia_x_Air_Cherry_Peachade_6000_50mg.jpg"
@@ -1315,7 +1315,7 @@
         "product_name": "Vapetasia X Air Disposables Killer Kustard",
         "product_types": ["disposable"],
         "product_slug": "vapetasia-x-air-disposables-killer-kustard", 
-        "flavor_line": ["vapetasia-x-air"],
+        "flavor_line": ["air-disposables"],
         "img_src": {
             "product": "/img/Disposables/Vapetasia_x_Air_Killer_Kustard_6000_50mg.jpg",
             "display": "/img/Disposables/Vapetasia_x_Air_Killer_Kustard_6000_50mg.jpg"
@@ -1336,7 +1336,7 @@
         "product_name": "Vapetasia X Air Disposables Nana Berry",
         "product_types": ["disposable"],
         "product_slug": "vapetasia-x-air-disposables-nana-berry", 
-        "flavor_line": ["vapetasia-x-air"],
+        "flavor_line": ["air-disposables"],
         "img_src": {
             "product": "/img/Disposables/Vapetasia_x_Air_Nana_Berry_6000_50mg.jpg",
             "display": "/img/Disposables/Vapetasia_x_Air_Nana_Berry_6000_50mg.jpg"
@@ -1357,7 +1357,7 @@
         "product_name": "Vapetasia X Air Disposables Royalty Two",
         "product_types": ["disposable"],
         "product_slug": "vapetasia-x-air-disposables-royalty-two", 
-        "flavor_line": ["vapetasia-x-air"],
+        "flavor_line": ["air-disposables"],
         "img_src": {
             "product": "/img/Disposables/Vapetasia_x_Air_Royalty_Two_6000_50mg.jpg",
             "display": "/img/Disposables/Vapetasia_x_Air_Royalty_Two_6000_50mg.jpg"
@@ -1378,7 +1378,7 @@
         "product_name": "Vapetasia X Air Disposables Straw Bae",
         "product_types": ["disposable"],
         "product_slug": "vapetasia-x-air-disposables-traw-bae", 
-        "flavor_line": ["vapetasia-x-air"],
+        "flavor_line": ["air-disposables"],
         "img_src": {
             "product": "/img/Disposables/Vapetasia_x_Air_Straw_Bae_6000_50mg.jpg",
             "display": "/img/Disposables/Vapetasia_x_Air_Straw_Bae_6000_50mg.jpg"
@@ -1399,7 +1399,7 @@
         "product_name": "Vapetasia X Air Disposables Straw Guaw",
         "product_types": ["disposable"],
         "product_slug": "vapetasia-x-air-disposables-straw-guaw", 
-        "flavor_line": ["vapetasia-x-air"],
+        "flavor_line": ["air-disposables"],
         "img_src": {
             "product": "/img/Disposables/Vapetasia_x_Air_Straw_Guaw_6000_50mg.jpg",
             "display": "/img/Disposables/Vapetasia_x_Air_Straw_Guaw_6000_50mg.jpg"
@@ -1420,7 +1420,7 @@
         "product_name": "Vapetasia X Air Disposables Trapple",
         "product_types": ["disposable"],
         "product_slug": "vapetasia-x-air-disposables-trapple", 
-        "flavor_line": ["vapetasia-x-air"],
+        "flavor_line": ["air-disposables"],
         "img_src": {
             "product": "/img/Disposables/Vapetasia_x_Air_Trapple_6000_50mg.jpg",
             "display": "/img/Disposables/Vapetasia_x_Air_Trapple_6000_50mg.jpg"
@@ -1440,8 +1440,8 @@
     {
         "product_name": "Vapetasia X Air Disposables Energy",
         "product_types": ["disposable"],
-        "product_slug": "vapetasia-x-air-disposables-energy", 
-        "flavor_line": ["vapetasia-x-air"],
+        "product_slug": "vapetasia-x-air-disposables-white-gummy", 
+        "flavor_line": ["air-disposables"],
         "img_src": {
             "product": "/img/Disposables/Vapetasia_x_Air_Energy_6000_50mg.jpg",
             "display": "/img/Disposables/Vapetasia_x_Air_Energy_6000_50mg.jpg"

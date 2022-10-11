@@ -7,8 +7,8 @@ const ProductGridItem = (props) => {
   let imgSrc = ''; //TODO: set default/fallback image here
   try {
     if (props.topicValue === 'killer-disposables' 
-    || props.topicValue === 'vapetasia-x-hyve' 
-    || props.topicValue === 'vapetasia-x-air') {
+    || props.topicValue === 'hyve-disposables' 
+    || props.topicValue === 'air-disposables') {
       
       imgSrc = props.product['img_src']['product'];
     } else {

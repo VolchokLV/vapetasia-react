@@ -7,14 +7,14 @@ const AdvocacyTestimonials = () => {
   return (
     <>
       <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-b250ce7 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="b250ce7" data-element_type="section">
-        <div className="vapetasia-container vapetasia-column-gap-default">
-            <div className="vapetasia-row">
+        <div className="vapetasia-container vapetasia-column-gap-default ">
+            <div className="vapetasia-row ">
               <div className="vapetasia-column vapetasia-col-100 vapetasia-top-column vapetasia-element vapetasia-element-d64ce97" data-id="d64ce97" data-element_type="column">
                   <div className="vapetasia-column-wrap vapetasia-element-populated">
                     <div className="vapetasia-widget-wrap">
                         <div className="vapetasia-element vapetasia-element-6a63206 vapetasia-widget vapetasia-widget-heading" data-id="6a63206" data-element_type="widget" data-widget_type="heading.default">
-                          <div className="vapetasia-widget-container">
-                              <h2 className="vapetasia-heading-title vapetasia-size-default">testimonials</h2>
+                          <div className="vapetasia-widget-container vt-testimonial">
+                              <h2 className="vapetasia-heading-title  vapetasia-size-default">testimonials</h2>
                           </div>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ const AdvocacyTestimonials = () => {
                               <div className="vapetasia-swiper">
                                 <div className="vapetasia-main-swiper swiper-container">
                                     <div className="swiper-wrapper vt-carousel">
-                                    <Carousel showStatus={false} autoPlay={true} interval={6000} showArrows={true} infiniteLoop={true} width={1100}  >
+                                    <Carousel emulateTouch={true} swipeable={true} showStatus={false} autoPlay={true} interval={6000} showArrows={true} showIndicators={false} infiniteLoop={true} width={1100}  >
                                       <div className="swiper-slide vt-custom-slider-item ">
                                           <div className="vapetasia-testimonial">
                                             <div className="vapetasia-testimonial__content">

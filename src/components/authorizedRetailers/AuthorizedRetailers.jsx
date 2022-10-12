@@ -4,7 +4,7 @@ import styles from './authorizedRetailers.css'
 const AuthorizedRetailers = () => {
   return (
     <>
-      <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-6475667 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="6475667" data-element_type="section">
+      {/* <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-6475667 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="6475667" data-element_type="section">
         <div className="vapetasia-container vapetasia-column-gap-default">
           <div className="vapetasia-row">
             <div className="vapetasia-column vapetasia-col-100 vapetasia-top-column vapetasia-element vapetasia-element-9deb8a0" data-id="9deb8a0" data-element_type="column">
@@ -21,7 +21,7 @@ const AuthorizedRetailers = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-1043a129 vapetasia-section-stretched vapetasia-section-full_width vapetasia-section-height-default vapetasia-section-height-default" data-id="1043a129" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
         <div className="vapetasia-container vapetasia-column-gap-default">
@@ -33,8 +33,8 @@ const AuthorizedRetailers = () => {
                     <div className="vapetasia-widget-container"> 
                       <a className="action-button-main locator" href="/store-locator" title="Find A Vapetasia-Authorized Retailer">
                         <div className="action-arrow locator"> 
-                          <img className="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://vapetasia-wp.s3-us-west-2.amazonaws.com/SVG/Store%2BLocator%2B1%2BArrow.svg" />
-                          <noscript><img className="lazyload" src="https://vapetasia-wp.s3-us-west-2.amazonaws.com/SVG/Store%2BLocator%2B1%2BArrow.svg" /></noscript>
+                          <img className="lazyload" src="https://cdn2.vapetasia.com/img/svg/Store-Locator-1-Arrow.svg" />
+                          <noscript><img className="lazyload" src="https://cdn2.vapetasia.com/img/svg/Store-Locator-1-Arrow.svg" /></noscript>
                         </div> 
                         <span className="action-content locator"> 
                           <span className="hide-on-hover"> 

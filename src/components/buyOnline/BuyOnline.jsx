@@ -18,8 +18,8 @@ const BuyOnline = () => {
                           <span className="show-on-hover">Online retailers</span> 
                         </span>
                         <div className="action-arrow buy"> 
-                          <img className="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://vapetasia-wp.s3-us-west-2.amazonaws.com/SVG/Store%2BLocator%2B1%2BArrow.svg" />
-                          <noscript><img className="lazyload" src="https://vapetasia-wp.s3-us-west-2.amazonaws.com/SVG/Store%2BLocator%2B1%2BArrow.svg" /></noscript>
+                          <img className="lazyload" src="https://cdn2.vapetasia.com/img/svg/Store-Locator-1-Arrow.svg" />
+                          <noscript><img className="lazyload" src="https://cdn2.vapetasia.com/img/svg/Store-Locator-1-Arrow.svg" /></noscript>
                         </div> 
                       </a>
                     </div>

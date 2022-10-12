@@ -1,9 +1,12 @@
 import React from 'react'
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import './advocacyTestimonials.css'
 
 const AdvocacyTestimonials = () => {
   return (
     <>
-          <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-b250ce7 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="b250ce7" data-element_type="section">
+      <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-b250ce7 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="b250ce7" data-element_type="section">
         <div className="vapetasia-container vapetasia-column-gap-default">
             <div className="vapetasia-row">
               <div className="vapetasia-column vapetasia-col-100 vapetasia-top-column vapetasia-element vapetasia-element-d64ce97" data-id="d64ce97" data-element_type="column">
@@ -21,8 +24,9 @@ const AdvocacyTestimonials = () => {
         </div>
       </section>
       <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-1c25a2ea vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="1c25a2ea" data-element_type="section">
-        <div className="vapetasia-container vapetasia-column-gap-default">
+          
             <div className="vapetasia-row">
+            
               <div className="vapetasia-column vapetasia-col-100 vapetasia-top-column vapetasia-element vapetasia-element-43fad7f1" data-id="43fad7f1" data-element_type="column">
                   <div className="vapetasia-column-wrap vapetasia-element-populated">
                     <div className="vapetasia-widget-wrap">
@@ -30,8 +34,9 @@ const AdvocacyTestimonials = () => {
                           <div className="vapetasia-widget-container">
                               <div className="vapetasia-swiper">
                                 <div className="vapetasia-main-swiper swiper-container">
-                                    <div className="swiper-wrapper">
-                                      <div className="swiper-slide">
+                                    <div className="swiper-wrapper vt-carousel">
+                                    <Carousel showStatus={false} autoPlay={true} interval={6000} showArrows={true} infiniteLoop={true} width={1100}  >
+                                      <div className="swiper-slide vt-custom-slider-item ">
                                           <div className="vapetasia-testimonial">
                                             <div className="vapetasia-testimonial__content">
                                                 <div className="vapetasia-testimonial__text">
@@ -40,7 +45,7 @@ const AdvocacyTestimonials = () => {
                                             </div>
                                             <div className="vapetasia-testimonial__footer">
                                                 <div className="vapetasia-testimonial__image">
-                                                  <img className="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://cdn.vapetasia.com/wp-content/uploads/20201119183423/Erick-Isaias-Guillen-Vasquez.jpg" alt="Erick Isaias Guillen Vasquez"></img>
+                                                  <img className="lazyload" src="https://cdn2.vapetasia.com/img/advocacy/testimonials/Erick-Isaias-Guillen-Vasquez.jpg" alt="Erick Isaias Guillen Vasquez"></img>
                                                 </div>
                                                 <cite className="vapetasia-testimonial__cite"><span className="vapetasia-testimonial__name">Erick Isaias Guillen Vasquez</span><span className="vapetasia-testimonial__title">San Jose, Costa Rica</span></cite>			
                                             </div>
@@ -55,7 +60,7 @@ const AdvocacyTestimonials = () => {
                                             </div>
                                             <div className="vapetasia-testimonial__footer">
                                                 <div className="vapetasia-testimonial__image">
-                                                  <img className="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://cdn.vapetasia.com/wp-content/uploads/20201119183425/Ryan-Miller.jpg" alt="Ryan Miller"></img>
+                                                  <img className="lazyload" src="https://cdn2.vapetasia.com/img/advocacy/testimonials/Ryan-Miller.jpg" alt="Ryan Miller"></img>
                                                 </div>
                                                 <cite className="vapetasia-testimonial__cite"><span className="vapetasia-testimonial__name">Ryan Miller</span></cite>			
                                             </div>
@@ -70,20 +75,21 @@ const AdvocacyTestimonials = () => {
                                             </div>
                                             <div className="vapetasia-testimonial__footer">
                                                 <div className="vapetasia-testimonial__image">
-                                                  <img className="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://cdn.vapetasia.com/wp-content/uploads/20201119183428/Daniel-Neddeau.jpg" alt="Daniel Neddeau"></img>
+                                                  <img className="lazyload" src="https://cdn2.vapetasia.com/img/advocacy/testimonials/Daniel-Neddeau.jpg" alt="Daniel Neddeau"></img>
                                                 </div>
                                                 <cite className="vapetasia-testimonial__cite"><span className="vapetasia-testimonial__name">Daniel Neddeau</span></cite>			
                                             </div>
                                           </div>
                                       </div>
+                                    </Carousel>
                                     </div>
-                                    <div className="swiper-pagination"></div>
+                                    {/* <div className="swiper-pagination"></div>
                                     <div className="vapetasia-swiper-button vapetasia-swiper-button-prev">
                                       <i aria-hidden="true" className="eicon-chevron-left"></i>							<span className="vapetasia-screen-only">Previous</span>
                                     </div>
                                     <div className="vapetasia-swiper-button vapetasia-swiper-button-next">
                                       <i aria-hidden="true" className="eicon-chevron-right"></i>							<span className="vapetasia-screen-only">Next</span>
-                                    </div>
+                                    </div> */}
                                 </div>
                               </div>
                           </div>
@@ -92,7 +98,8 @@ const AdvocacyTestimonials = () => {
                   </div>
               </div>
             </div>
-        </div>
+
+
       </section>
     </>
   )

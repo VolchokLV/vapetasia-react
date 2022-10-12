@@ -32,3 +32,21 @@
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     padding: 0px 0px 199px 0px;
 } */
+
+
+/* .vapetasia-section {
+    font-family:"monterrat",Sans-serif !important;
+    font-size: 1.2em;
+} */
+
+.vapetasia-button {
+    background-color: #FAA500 !important;
+    font-family:"rift",Sans-serif !important;
+    font-weight: bold !important;
+    font-style: italic !important;
+    font-size: 2em !important;
+}
+
+.vapetasia-button:hover {
+    transform: scale(1.1);
+}

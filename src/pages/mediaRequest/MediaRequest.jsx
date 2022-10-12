@@ -1,5 +1,6 @@
 import React from 'react'
 import { Hero, MediaRequestForm } from '../../components'
+import './mediaRequest.css'
 
 const MediaRequest = () => {
   return (

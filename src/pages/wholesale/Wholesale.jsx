@@ -7,23 +7,21 @@ const Wholesale = () => {
   return (
     <>
     <Hero heroClass="Wholesale" top={'Vapetasia'} bottom={'Wholesale Inquiry'} paragraph={'Interested in registering for a wholesale account to resell Vapetasia products? Click the link below to submit an inquiry and a brand ambassador will follow up with you soon! '}></Hero>
-    <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-9872422 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="9872422" data-element_type="section">
+    <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-3d7ced4 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="3d7ced4" data-element_type="section">
       <div className="vapetasia-container vapetasia-column-gap-default">
-        <div className="vapetasia-row">
-          <div className="vapetasia-column vapetasia-col-100 vapetasia-top-column vapetasia-element vapetasia-element-660bdd5" data-id="660bdd5" data-element_type="column">
-            <div className="vapetasia-column-wrap vapetasia-element-populated">
-              <div className="vapetasia-widget-wrap">
-                <div className="vapetasia-element vapetasia-element-7a977f0 vapetasia-widget-divider--view-line vapetasia-widget vapetasia-widget-divider" data-id="7a977f0" data-element_type="widget" data-widget_type="divider.default">
-                  <div className="vapetasia-widget-container">
-                  <div className="vapetasia-button vapetasia-slide-button vapetasia-size-lg"><a href='https://www.vapetasia.com/wholesale-registration/'>WHOLESALE REGISTRATION</a></div>
-                    <div className="vapetasia-divider"> <span className="vapetasia-divider-separator"> </span>
-                    </div>
+          <div className="vapetasia-row">
+            <div className="vapetasia-column vapetasia-col-100 vapetasia-top-column vapetasia-element vapetasia-element-8a8f43b" data-id="8a8f43b" data-element_type="column">
+                <div className="vapetasia-column-wrap vapetasia-element-populated">
+                  <div className="vapetasia-widget-wrap">
+                      <div className="vapetasia-element vapetasia-element-bff50e1 vapetasia-widget vapetasia-widget-heading" data-id="bff50e1" data-element_type="widget" data-widget_type="heading.default">
+                        <div className="vapetasia-widget-container">
+                        <div className="vapetasia-button vapetasia-button-wholesale vapetasia-slide-button vapetasia-size-lg"><a href={process.env.REACT_APP_BASE_URL + "/wholesale-registration/"}>WHOLESALE REGISTRATION</a></div>
+                        </div>
+                      </div>
                   </div>
                 </div>
-              </div>
             </div>
           </div>
-        </div>
       </div>
     </section>
     <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-3d7ced4 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="3d7ced4" data-element_type="section">
@@ -90,12 +88,12 @@ const Wholesale = () => {
                       </div>
                       <div className="vapetasia-element vapetasia-element-2b020cf vapetasia-widget vapetasia-widget-heading" data-id="2b020cf" data-element_type="widget" data-widget_type="heading.default">
                         <div className="vapetasia-widget-container">
-                            <h2 className="vapetasia-heading-title vapetasia-size-default"><a href="https://cloudsvapors.com/index.php">cloudsvapors.com</a></h2>
+                            <h2 className="wholesale-heading-url vapetasia-size-default"><a href="https://cloudsvapors.com/index.php">cloudsvapors.com</a></h2>
                         </div>
                       </div>
                       <div className="vapetasia-element vapetasia-element-05ceac2 vapetasia-widget vapetasia-widget-heading" data-id="05ceac2" data-element_type="widget" data-widget_type="heading.default">
                         <div className="vapetasia-widget-container">
-                            <h2 className="vapetasia-heading-title vapetasia-size-default">Central United States | 1-469-237-1526</h2>
+                            <h2 className="wholesale-heading-phone vapetasia-size-default">Central United States | 1-469-237-1526</h2>
                         </div>
                       </div>
                       <div className="vapetasia-element vapetasia-element-00c2da5 vapetasia-widget vapetasia-widget-text-editor" data-id="00c2da5" data-element_type="widget" data-widget_type="text-editor.default">
@@ -153,12 +151,12 @@ const Wholesale = () => {
                       </div>
                       <div className="vapetasia-element vapetasia-element-bb18c60 vapetasia-widget vapetasia-widget-heading" data-id="bb18c60" data-element_type="widget" data-widget_type="heading.default">
                         <div className="vapetasia-widget-container">
-                            <h2 className="vapetasia-heading-title vapetasia-size-default"><a href="https://demandvape.com/">demandvape.com</a></h2>
+                            <h2 className="wholesale-heading-url vapetasia-size-default"><a href="https://demandvape.com/">demandvape.com</a></h2>
                         </div>
                       </div>
                       <div className="vapetasia-element vapetasia-element-713f34e vapetasia-widget vapetasia-widget-heading" data-id="713f34e" data-element_type="widget" data-widget_type="heading.default">
                         <div className="vapetasia-widget-container">
-                            <h2 className="vapetasia-heading-title vapetasia-size-default">Eastern United States  |  1-844-513-1003  </h2>
+                            <h2 className="wholesale-heading-phone vapetasia-size-default">Eastern United States  |  1-844-513-1003  </h2>
                         </div>
                       </div>
                       <div className="vapetasia-element vapetasia-element-2c3219c vapetasia-widget vapetasia-widget-text-editor" data-id="2c3219c" data-element_type="widget" data-widget_type="text-editor.default">
@@ -217,12 +215,12 @@ const Wholesale = () => {
                       </div>
                       <div className="vapetasia-element vapetasia-element-e94342e vapetasia-widget vapetasia-widget-heading" data-id="e94342e" data-element_type="widget" data-widget_type="heading.default">
                         <div className="vapetasia-widget-container">
-                            <h2 className="vapetasia-heading-title vapetasia-size-default"><a href="https://eightcig.com&ZeroWidthSpace;/">eightcig.com</a></h2>
+                            <h2 className="wholesale-heading-url vapetasia-size-default"><a href="https://eightcig.com&ZeroWidthSpace;/">eightcig.com</a></h2>
                         </div>
                       </div>
                       <div className="vapetasia-element vapetasia-element-0427086 vapetasia-widget vapetasia-widget-heading" data-id="0427086" data-element_type="widget" data-widget_type="heading.default">
                         <div className="vapetasia-widget-container">
-                            <h2 className="vapetasia-heading-title vapetasia-size-default">Western United States  |  1-702-589-0333 </h2>
+                            <h2 className="wholesale-heading-phone vapetasia-size-default">Western United States  |  1-702-589-0333 </h2>
                         </div>
                       </div>
                       <div className="vapetasia-element vapetasia-element-5e295f6 vapetasia-widget vapetasia-widget-text-editor" data-id="5e295f6" data-element_type="widget" data-widget_type="text-editor.default">
@@ -281,12 +279,12 @@ const Wholesale = () => {
                       </div>
                       <div className="vapetasia-element vapetasia-element-f271700 vapetasia-widget vapetasia-widget-heading" data-id="f271700" data-element_type="widget" data-widget_type="heading.default">
                         <div className="vapetasia-widget-container">
-                            <h2 className="vapetasia-heading-title vapetasia-size-default"><a href="https://www.ejuices.co/">ejuices.co</a></h2>
+                            <h2 className="wholesale-heading-url vapetasia-size-default"><a href="https://www.ejuices.co/">ejuices.co</a></h2>
                         </div>
                       </div>
                       <div className="vapetasia-element vapetasia-element-43bf2a2 vapetasia-widget vapetasia-widget-heading" data-id="43bf2a2" data-element_type="widget" data-widget_type="heading.default">
                         <div className="vapetasia-widget-container">
-                            <h2 className="vapetasia-heading-title vapetasia-size-default">Western United States |  1-833-358-4237</h2>
+                            <h2 className="wholesale-heading-phone vapetasia-size-default">Western United States |  1-833-358-4237</h2>
                         </div>
                       </div>
                       <div className="vapetasia-element vapetasia-element-4a990df vapetasia-widget vapetasia-widget-text-editor" data-id="4a990df" data-element_type="widget" data-widget_type="text-editor.default">
@@ -345,12 +343,12 @@ const Wholesale = () => {
                       </div>
                       <div className="vapetasia-element vapetasia-element-4ca937d vapetasia-widget vapetasia-widget-heading" data-id="4ca937d" data-element_type="widget" data-widget_type="heading.default">
                         <div className="vapetasia-widget-container">
-                            <h2 className="vapetasia-heading-title vapetasia-size-default"><a href="https://www.eivape.com/">EIVAPE.com</a></h2>
+                            <h2 className="wholesale-heading-url vapetasia-size-default"><a href="https://www.eivape.com/">EIVAPE.com</a></h2>
                         </div>
                       </div>
                       <div className="vapetasia-element vapetasia-element-a2a9f56 vapetasia-widget vapetasia-widget-heading" data-id="a2a9f56" data-element_type="widget" data-widget_type="heading.default">
                         <div className="vapetasia-widget-container">
-                            <h2 className="vapetasia-heading-title vapetasia-size-default">Western United States |  1-909-930-5020   </h2>
+                            <h2 className="wholesale-heading-phone vapetasia-size-default">Western United States |  1-909-930-5020   </h2>
                         </div>
                       </div>
                       <div className="vapetasia-element vapetasia-element-f5e16e3 vapetasia-widget vapetasia-widget-text-editor" data-id="f5e16e3" data-element_type="widget" data-widget_type="text-editor.default">
@@ -409,12 +407,12 @@ const Wholesale = () => {
                       </div>
                       <div className="vapetasia-element vapetasia-element-7804e4f vapetasia-widget vapetasia-widget-heading" data-id="7804e4f" data-element_type="widget" data-widget_type="heading.default">
                         <div className="vapetasia-widget-container">
-                            <h2 className="vapetasia-heading-title vapetasia-size-default"><a href="https://hswsupply.com/vape-wholesale/">Hswsupply.com/vape-wholesale/</a></h2>
+                            <h2 className="wholesale-heading-url vapetasia-size-default"><a href="https://hswsupply.com/vape-wholesale/">Hswsupply.com/vape-wholesale/</a></h2>
                         </div>
                       </div>
                       <div className="vapetasia-element vapetasia-element-a49eff3 vapetasia-widget vapetasia-widget-heading" data-id="a49eff3" data-element_type="widget" data-widget_type="heading.default">
                         <div className="vapetasia-widget-container">
-                            <h2 className="vapetasia-heading-title vapetasia-size-default">Central United States |  1-630-882-2222    </h2>
+                            <h2 className="wholesale-heading-phone vapetasia-size-default">Central United States |  1-630-882-2222    </h2>
                         </div>
                       </div>
                       <div className="vapetasia-element vapetasia-element-71a7075 vapetasia-widget vapetasia-widget-text-editor" data-id="71a7075" data-element_type="widget" data-widget_type="text-editor.default">
@@ -473,12 +471,12 @@ const Wholesale = () => {
                       </div>
                       <div className="vapetasia-element vapetasia-element-faccf65 vapetasia-widget vapetasia-widget-heading" data-id="faccf65" data-element_type="widget" data-widget_type="heading.default">
                         <div className="vapetasia-widget-container">
-                            <h2 className="vapetasia-heading-title vapetasia-size-default"><a href="https://medusadistribution.com/">medusadistribution.com</a></h2>
+                            <h2 className="wholesale-heading-url vapetasia-size-default"><a href="https://medusadistribution.com/">medusadistribution.com</a></h2>
                         </div>
                       </div>
                       <div className="vapetasia-element vapetasia-element-65e1099 vapetasia-widget vapetasia-widget-heading" data-id="65e1099" data-element_type="widget" data-widget_type="heading.default">
                         <div className="vapetasia-widget-container">
-                            <h2 className="vapetasia-heading-title vapetasia-size-default">Eastern United States |  1-973-808-1101</h2>
+                            <h2 className="wholesale-heading-phone vapetasia-size-default">Eastern United States |  1-973-808-1101</h2>
                         </div>
                       </div>
                       <div className="vapetasia-element vapetasia-element-2d8a6b6 vapetasia-widget vapetasia-widget-text-editor" data-id="2d8a6b6" data-element_type="widget" data-widget_type="text-editor.default">
@@ -537,12 +535,12 @@ const Wholesale = () => {
                       </div>
                       <div className="vapetasia-element vapetasia-element-7702579 vapetasia-widget vapetasia-widget-heading" data-id="7702579" data-element_type="widget" data-widget_type="heading.default">
                         <div className="vapetasia-widget-container">
-                            <h2 className="vapetasia-heading-title vapetasia-size-default"><a href="https://tritondistribution.com/">tritondistribution.com</a></h2>
+                            <h2 className="wholesale-heading-url vapetasia-size-default"><a href="https://tritondistribution.com/">tritondistribution.com</a></h2>
                         </div>
                       </div>
                       <div className="vapetasia-element vapetasia-element-57b2b9d vapetasia-widget vapetasia-widget-heading" data-id="57b2b9d" data-element_type="widget" data-widget_type="heading.default">
                         <div className="vapetasia-widget-container">
-                            <h2 className="vapetasia-heading-title vapetasia-size-default">Central United States |  1-214-880-6440   </h2>
+                            <h2 className="wholesale-heading-phone vapetasia-size-default">Central United States |  1-214-880-6440   </h2>
                         </div>
                       </div>
                       <div className="vapetasia-element vapetasia-element-fb1b209 vapetasia-widget vapetasia-widget-text-editor" data-id="fb1b209" data-element_type="widget" data-widget_type="text-editor.default">

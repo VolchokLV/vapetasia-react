@@ -17,6 +17,41 @@
     }
 }
 
-.vapetasia-button {
+/* .vapetasia-button {
   background-color: #FAA500;
+} */
+
+.wholesale-heading-url {
+    color: #7A7A7A;
+    font-family: "rift", Montserrat;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.wholesale-heading-phone {
+  color: #FAA500; 
+  font-size: 2rem;
+}
+
+a:hover {
+  color: #7A7A7A!important;
+  transition: color 1s ease
+}
+
+.vapetasia-button-wholesale {
+  align-items: center;
+  justify-content: center;
+}
+
+.vapetasia-button {
+  background-color: #FAA500 !important;
+  font-family:"rift",Sans-serif !important;
+  font-weight: bold !important;
+  font-style: italic !important;
+  font-size: 2.2em;
+
+}
+
+.vapetasia-button:hover {
+  transform: scale(1.1);
 }

@@ -26,24 +26,26 @@ const Advocacy = () => {
         </section>
       <IndustryUpdate></IndustryUpdate>
       <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-3e35151 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="3e35151" data-element_type="section">
-        <div className="vapetasia-container vapetasia-column-gap-default">
+
+      <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-9872422 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="9872422" data-element_type="section">
+          <div className="vapetasia-container vapetasia-column-gap-default">
             <div className="vapetasia-row">
-              <div className="vapetasia-column vapetasia-col-100 vapetasia-top-column vapetasia-element vapetasia-element-76559f0" data-id="76559f0" data-element_type="column">
-                  <div className="vapetasia-column-wrap vapetasia-element-populated">
-                    <div className="vapetasia-widget-wrap">
-                        <div className="vapetasia-element vapetasia-element-efc5ed4 vapetasia-widget-divider--view-line vapetasia-widget vapetasia-widget-divider" data-id="efc5ed4" data-element_type="widget" data-widget_type="divider.default">
-                          <div className="vapetasia-widget-container">
-                              <div className="vapetasia-divider">
-                                <span className="vapetasia-divider-separator">
-                                </span>
-                              </div>
-                          </div>
+              <div className="vapetasia-column vapetasia-col-100 vapetasia-top-column vapetasia-element vapetasia-element-660bdd5" data-id="660bdd5" data-element_type="column">
+                <div className="vapetasia-column-wrap vapetasia-element-populated">
+                  <div className="vapetasia-widget-wrap">
+                    <div className="vapetasia-element vapetasia-element-7a977f0 vapetasia-widget-divider--view-line vapetasia-widget vapetasia-widget-divider" data-id="7a977f0" data-element_type="widget" data-widget_type="divider.default">
+                      <div className="vapetasia-widget-container">
+                        <div className="vapetasia-divider"> <span className="vapetasia-divider-separator"> </span>
                         </div>
+                      </div>
                     </div>
                   </div>
+                </div>
               </div>
             </div>
-        </div>
+          </div>
+      </section>
+
       </section>
       <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-6d795d8 vapetasia-hidden-tablet vapetasia-hidden-phone vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="6d795d8" data-element_type="section">
         <div className="vapetasia-container vapetasia-column-gap-default">
@@ -153,26 +155,42 @@ const Advocacy = () => {
             </div>
         </div>
       </section>
-      <AdvocacyTestimonials /> 
-      <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-914ce47 vapetasia-hidden-tablet vapetasia-hidden-phone vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="914ce47" data-element_type="section">
-        <div className="vapetasia-container vapetasia-column-gap-default">
+      <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-9872422 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="9872422" data-element_type="section">
+          <div className="vapetasia-container vapetasia-column-gap-default">
             <div className="vapetasia-row">
-              <div className="vapetasia-column vapetasia-col-100 vapetasia-top-column vapetasia-element vapetasia-element-385c0c5" data-id="385c0c5" data-element_type="column">
-                  <div className="vapetasia-column-wrap vapetasia-element-populated">
-                    <div className="vapetasia-widget-wrap">
-                        <div className="vapetasia-element vapetasia-element-22e5651 vapetasia-widget-divider--view-line vapetasia-widget vapetasia-widget-divider" data-id="22e5651" data-element_type="widget" data-widget_type="divider.default">
-                          <div className="vapetasia-widget-container">
-                              <div className="vapetasia-divider">
-                                <span className="vapetasia-divider-separator">
-                                </span>
-                              </div>
-                          </div>
+              <div className="vapetasia-column vapetasia-col-100 vapetasia-top-column vapetasia-element vapetasia-element-660bdd5" data-id="660bdd5" data-element_type="column">
+                <div className="vapetasia-column-wrap vapetasia-element-populated">
+                  <div className="vapetasia-widget-wrap">
+                    <div className="vapetasia-element vapetasia-element-7a977f0 vapetasia-widget-divider--view-line vapetasia-widget vapetasia-widget-divider" data-id="7a977f0" data-element_type="widget" data-widget_type="divider.default">
+                      <div className="vapetasia-widget-container">
+                        <div className="vapetasia-divider"> <span className="vapetasia-divider-separator"> </span>
                         </div>
+                      </div>
                     </div>
                   </div>
+                </div>
               </div>
             </div>
-        </div>
+          </div>
+      </section>
+      <AdvocacyTestimonials /> 
+      <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-9872422 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="9872422" data-element_type="section">
+          <div className="vapetasia-container vapetasia-column-gap-default">
+            <div className="vapetasia-row">
+              <div className="vapetasia-column vapetasia-col-100 vapetasia-top-column vapetasia-element vapetasia-element-660bdd5" data-id="660bdd5" data-element_type="column">
+                <div className="vapetasia-column-wrap vapetasia-element-populated">
+                  <div className="vapetasia-widget-wrap">
+                    <div className="vapetasia-element vapetasia-element-7a977f0 vapetasia-widget-divider--view-line vapetasia-widget vapetasia-widget-divider" data-id="7a977f0" data-element_type="widget" data-widget_type="divider.default">
+                      <div className="vapetasia-widget-container">
+                        <div className="vapetasia-divider"> <span className="vapetasia-divider-separator"> </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
       </section>
       <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-292d729 vapetasia-hidden-tablet vapetasia-hidden-phone vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="292d729" data-element_type="section">
         <div className="vapetasia-container vapetasia-column-gap-default">
@@ -216,6 +234,24 @@ const Advocacy = () => {
               </div>
             </div>
         </div>
+      </section>
+      <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-9872422 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="9872422" data-element_type="section">
+          <div className="vapetasia-container vapetasia-column-gap-default">
+            <div className="vapetasia-row">
+              <div className="vapetasia-column vapetasia-col-100 vapetasia-top-column vapetasia-element vapetasia-element-660bdd5" data-id="660bdd5" data-element_type="column">
+                <div className="vapetasia-column-wrap vapetasia-element-populated">
+                  <div className="vapetasia-widget-wrap">
+                    <div className="vapetasia-element vapetasia-element-7a977f0 vapetasia-widget-divider--view-line vapetasia-widget vapetasia-widget-divider" data-id="7a977f0" data-element_type="widget" data-widget_type="divider.default">
+                      <div className="vapetasia-widget-container">
+                        <div className="vapetasia-divider"> <span className="vapetasia-divider-separator"> </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
       </section>
       <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-914ce47 vapetasia-hidden-tablet vapetasia-hidden-phone vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="914ce47" data-element_type="section">
         <div className="vapetasia-container vapetasia-column-gap-default">

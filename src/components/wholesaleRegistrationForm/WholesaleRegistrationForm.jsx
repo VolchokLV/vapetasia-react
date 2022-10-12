@@ -5,7 +5,7 @@ const WholesaleRegistration = () => {
   return (
    // WHOLESALE REGISTRATION FORM GOES HERE
   <>
-    <iframe src={process.env.PUBLIC_URL + '/wholesale-registration.html'} height="800px" ></iframe>  
+    <iframe src={process.env.PUBLIC_URL + '/wholesale-registration.html'} height="900px" ></iframe>  
   </>
   )
 }

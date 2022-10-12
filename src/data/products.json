@@ -321,7 +321,7 @@
         },   
         "is_featured": 0,
         "sort_order": 1,
-        "featured": {"display":1, "key":"eliquid", "strength":"3mg", "size":"100ml" }
+        "featured": {"display":0, "key":"eliquid", "strength":"3mg", "size":"100ml" }
     }, 
     {
         "product_name": "Iced Blue Razz",

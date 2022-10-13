@@ -39,7 +39,7 @@
     font-size: 1.2em;
 } */
 
-.vapetasia-button {
+#advocacy-section .vapetasia-button {
     background-color: #FAA500 !important;
     font-family:"rift",Sans-serif !important;
     font-weight: bold !important;
@@ -47,6 +47,6 @@
     font-size: 2em !important;
 }
 
-.vapetasia-button:hover {
+#advocacy-section .vapetasia-button:hover {
     transform: scale(1.1);
 }

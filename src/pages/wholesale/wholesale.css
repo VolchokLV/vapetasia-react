@@ -39,11 +39,21 @@ a:hover {
 }
 
 .vapetasia-button-wholesale {
+  color: #FFF !important;
   align-items: center;
   justify-content: center;
+  background-color: #FAA500 !important;
 }
 
-.vapetasia-button {
+.vapetasia-button-wholesale a {
+  color: #FFF !important;
+  font-family:"rift",Sans-serif !important;
+  font-weight: bold !important;
+  font-style: italic !important;
+  font-size: 2em;
+}
+
+#wholesale-section .vapetasia-button {
   background-color: #FAA500 !important;
   font-family:"rift",Sans-serif !important;
   font-weight: bold !important;
@@ -52,6 +62,6 @@ a:hover {
 
 }
 
-.vapetasia-button:hover {
+.vapetasia-button-wholesale:hover {
   transform: scale(1.1);
 }

@@ -7,8 +7,8 @@ const Wholesale = () => {
   return (
     <>
     <Hero heroClass="Wholesale" top={'Vapetasia'} bottom={'Wholesale Inquiry'} paragraph={'Interested in registering for a wholesale account to resell Vapetasia products? Click the link below to submit an inquiry and a brand ambassador will follow up with you soon! '}></Hero>
-    <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-3d7ced4 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="3d7ced4" data-element_type="section">
-      <div className="vapetasia-container vapetasia-column-gap-default">
+    <section id="#wholesale-section" className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-3d7ced4 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="3d7ced4" data-element_type="section">
+      <div  className="vapetasia-container vapetasia-column-gap-default">
           <div className="vapetasia-row">
             <div className="vapetasia-column vapetasia-col-100 vapetasia-top-column vapetasia-element vapetasia-element-8a8f43b" data-id="8a8f43b" data-element_type="column">
                 <div className="vapetasia-column-wrap vapetasia-element-populated">

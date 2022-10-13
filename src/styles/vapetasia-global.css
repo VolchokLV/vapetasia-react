@@ -27037,7 +27037,9 @@ ul.vapetasia-icon-list-items.vapetasia-inline-items .vapetasia-inline-item {
     text-align: center;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
-    transition: all .3s
+    transition: all .3s;
+    font-family: Rift;
+    
 }
 
 .vapetasia-button:focus,.vapetasia-button:hover,.vapetasia-button:visited {

@@ -9,7 +9,7 @@ const Home = (props) => {
       <Hero heroClass="Home" top={'Vapetasia Handcrafted'} bottom={'Award Winning E-Liquid'} paragraph={'We invest our energy and commitment to produce delicious, flavorful alternatives to combustible cigarettes.'}></Hero>
       <SeeWhatWeAreAbout></SeeWhatWeAreAbout>
       <IndustryUpdate></IndustryUpdate>
-      <PopularFlavors featured={props.featured}></PopularFlavors>
+      <PopularFlavors  featured={props.featured} featured2={props.featured2}></PopularFlavors>
       <AuthorizedRetailers></AuthorizedRetailers>
       <BuyOnline></BuyOnline>
       <LetsGetSocial></LetsGetSocial>

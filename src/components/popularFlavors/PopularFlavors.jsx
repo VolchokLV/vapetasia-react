@@ -79,13 +79,13 @@ const PopularFlavors = (props) => {
               </div>
               <div className="vapetasia-container vapetasia-column-gap-default">
                 <div id="vapetasia-carousel">
-                  <div id="vt-inner-carousel" style={{width: 250*props.featured.length}}>
+                  <div id="vt-inner-carousel" style={{width: 250*props.featured2.length}}>
 
-                      {props.featured.map(p => (
+                      {props.featured2.map(p => (
                         <div key={p.product_slug} className="vt-custom-carousel-item">
                           <div className="vapetasia-column-wrap vapetasia-element-populated">
 
-                            <a href={'/product/' + p.product_slug + '/' + p.featured.size} className="vt-no-outline">
+                            <a href={'/product/' + p.product_slug + '/' + p.featured2.size} className="vt-no-outline">
                               <div className="vapetasia-widget-wrap">
                                 <div className="vapetasia-element vapetasia-element-1afe63e vapetasia-widget vapetasia-widget-image" data-id="1afe63e" data-element_type="widget" data-widget_type="image.default">
                                   <div className="vapetasia-widget-container">
@@ -104,7 +104,7 @@ const PopularFlavors = (props) => {
                                 <div className="vapetasia-element vapetasia-element-2df3c18 vapetasia-widget vapetasia-widget-text-editor" data-id="2df3c18" data-element_type="widget" data-widget_type="text-editor.default">
                                   <div className="vapetasia-widget-container">
                                     <div className="vapetasia-text-editor vapetasia-clearfix">
-                                      <p>{p.featured.size} | {p.featured.strength}</p>
+                                      <p>{p.featured2.size} | {p.featured2.strength}</p>
                                     </div>
                                   </div>
                                 </div>

@@ -49,7 +49,7 @@ const AboutUs = () => {
                     <div className="vapetasia-widget-wrap">
                       <div className="vapetasia-element vapetasia-element-5786aba vapetasia-widget vapetasia-widget-text-editor" data-id="5786aba" data-element_type="widget" data-widget_type="text-editor.default">
                           <div className="vapetasia-widget-container">
-                            <div className="vapetasia-text-editor vapetasia-clearfix">
+                            <div className="vapetasia-text-editor vapetasia-clearfix vapetasia-custom-paragraph">
                                 <p>
                                 At Vapetasia we manufacture only the highest quality eliquids for your e-cigarettes and
                                 vape devices. All our liquids are carefully crafted in a sterile and controlled environment,
@@ -140,7 +140,7 @@ const AboutUs = () => {
                         </div>
                         <div className="vapetasia-element vapetasia-element-60e5df9 vapetasia-widget vapetasia-widget-text-editor" data-id="60e5df9" data-element_type="widget" data-widget_type="text-editor.default">
                           <div className="vapetasia-widget-container">
-                              <div className="vapetasia-text-editor vapetasia-clearfix">
+                              <div className="vapetasia-text-editor vapetasia-clearfix vapetasia-our-flavors-text">
                                 <p>This inspired signature collection is highly recognized in the vaping industry for its uniquely crafted flavors. Favorites amongst beginners and connoisseurs alike.</p>
                               </div>
                           </div>
@@ -165,7 +165,7 @@ const AboutUs = () => {
                         </div>
                         <div className="vapetasia-element vapetasia-element-e13f2a1 vapetasia-widget vapetasia-widget-text-editor" data-id="e13f2a1" data-element_type="widget" data-widget_type="text-editor.default">
                           <div className="vapetasia-widget-container">
-                              <div className="vapetasia-text-editor vapetasia-clearfix">
+                              <div className="vapetasia-text-editor vapetasia-clearfix vapetasia-our-flavors-text">
                                 <p>Elevate your taste buds with the “Killer” flavors of creamy vanilla custard, which reaches the perfect harmony of sweet and savory.</p>
                               </div>
                           </div>
@@ -190,7 +190,7 @@ const AboutUs = () => {
                         </div>
                         <div className="vapetasia-element vapetasia-element-207e7a3 vapetasia-widget vapetasia-widget-text-editor" data-id="207e7a3" data-element_type="widget" data-widget_type="text-editor.default">
                           <div className="vapetasia-widget-container">
-                              <div className="vapetasia-text-editor vapetasia-clearfix">
+                              <div className="vapetasia-text-editor vapetasia-clearfix vapetasia-our-flavors-text">
                                 <p>This impressive collection is perfectly balanced with a hint of fruit flavors blended with a tart and tangy taste of good old-fashioned lemonade.</p>
                               </div>
                           </div>
@@ -221,7 +221,7 @@ const AboutUs = () => {
                         </div>
                         <div class="vapetasia-element vapetasia-element-92d44a2 vapetasia-widget vapetasia-widget-text-editor" data-id="92d44a2" data-element_type="widget" data-widget_type="text-editor.default">
                           <div class="vapetasia-widget-container">
-                              <div class="vapetasia-text-editor vapetasia-clearfix">
+                              <div class="vapetasia-text-editor vapetasia-clearfix vapetasia-our-flavors-text">
                                 <p>The quality and flavor of Vapetasia, with the convenience of a disposable device, our collection of disposables brings you a reliable device with flavors to match!</p>
                               </div>
                           </div>
@@ -246,7 +246,7 @@ const AboutUs = () => {
                         </div>
                         <div class="vapetasia-element vapetasia-element-fd457c8 vapetasia-widget vapetasia-widget-text-editor" data-id="fd457c8" data-element_type="widget" data-widget_type="text-editor.default">
                           <div class="vapetasia-widget-container">
-                              <div class="vapetasia-text-editor vapetasia-clearfix">
+                              <div class="vapetasia-text-editor vapetasia-clearfix vapetasia-our-flavors-text">
                                 <p>This fruit arrangement of flavors gets right in your face with juicy sweetness. Simple flavor profiles let this collection show off the stars of the show, FRUITS!</p>
                               </div>
                           </div>
@@ -271,7 +271,7 @@ const AboutUs = () => {
                         </div>
                         <div class="vapetasia-element vapetasia-element-6b4a358 vapetasia-widget vapetasia-widget-text-editor" data-id="6b4a358" data-element_type="widget" data-widget_type="text-editor.default">
                           <div class="vapetasia-widget-container">
-                              <div class="vapetasia-text-editor vapetasia-clearfix">
+                              <div class="vapetasia-text-editor vapetasia-clearfix vapetasia-our-flavors-text">
                                 <p>Experience a rainbow of candy delight and get a sugar rush of flavor, your sweet tooth cravings will disappear with this collection.</p>
                               </div>
                           </div>
@@ -302,7 +302,7 @@ const AboutUs = () => {
                         </div>
                         <div class="vapetasia-element vapetasia-element-076ae54 vapetasia-widget vapetasia-widget-text-editor" data-id="076ae54" data-element_type="widget" data-widget_type="text-editor.default">
                           <div class="vapetasia-widget-container">
-                              <div class="vapetasia-text-editor vapetasia-clearfix">
+                              <div class="vapetasia-text-editor vapetasia-clearfix vapetasia-our-flavors-text">
                                 <p>A refreshingly new take on a number of our popular flavors. The addition of a freezing chill revitalizes our fruity favorites to a whole new level of excellence.</p>
                               </div>
                           </div>
@@ -327,7 +327,7 @@ const AboutUs = () => {
                         </div>
                         <div class="vapetasia-element vapetasia-element-49f33e1 vapetasia-widget vapetasia-widget-text-editor" data-id="49f33e1" data-element_type="widget" data-widget_type="text-editor.default">
                           <div class="vapetasia-widget-container">
-                              <div class="vapetasia-text-editor vapetasia-clearfix">
+                              <div class="vapetasia-text-editor vapetasia-clearfix vapetasia-our-flavors-text">
                                 <p>A splendid combination of tart yogurt, honeyed granola, and sweet ripe fruit that is sure to satisfy all of your desires! A refreshing dessert line you will love!</p>
                               </div>
                           </div>
@@ -352,7 +352,7 @@ const AboutUs = () => {
                         </div>
                         <div class="vapetasia-element vapetasia-element-7341875 vapetasia-widget vapetasia-widget-text-editor" data-id="7341875" data-element_type="widget" data-widget_type="text-editor.default">
                           <div class="vapetasia-widget-container">
-                              <div class="vapetasia-text-editor vapetasia-clearfix">
+                              <div class="vapetasia-text-editor vapetasia-clearfix vapetasia-our-flavors-text">
                                 <p>By utilizing nicotine salts we are able to provide the same amazing flavor with a smoother hit. Perfect for those that use compact low wattage devices.</p>
                               </div>
                           </div>

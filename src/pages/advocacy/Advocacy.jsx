@@ -72,7 +72,7 @@ const Advocacy = () => {
                     <div className="vapetasia-widget-wrap">
                       <div className="vapetasia-element vapetasia-element-5786aba vapetasia-widget vapetasia-widget-text-editor" data-id="5786aba" data-element_type="widget" data-widget_type="text-editor.default">
                           <div className="vapetasia-widget-container">
-                            <div className="vapetasia-text-editor vapetasia-clearfix">
+                            <div className="vapetasia-text-editor vapetasia-clearfix vapetasia-custom-paragraph">
                                 <p>The main purpose of advocacy is to bring about and promote changes to the policies and regulations of our government. With combustible cigarette smoking being the leading cause of preventable death, it is important to have a variety of effective and reduced-harm alternatives such as vaping. This makes advocacy in support of vaping essential for the health of the masses.</p>
                                 <p>At Vapetasia we understand the importance of doing our part in the battle to save our industry and our rights. Knowing this, we opted into joining an organization that advocates and fights for adults to have a variety of choices in products to live a smoke-free lifestyle. Vapetasia is proud to be a Platinum member of the Vapor Technology Association (VTA). The VTA is an organization that represents manufacturers, wholesalers, small business owners, and entrepreneurs who have developed innovative and quality vapor products, and provide adult consumers with a better alternative to traditional combustible products.</p>
                             </div>
@@ -109,7 +109,7 @@ const Advocacy = () => {
                     <div className="vapetasia-widget-wrap">
                         <div className="vapetasia-element vapetasia-element-45677c5 vapetasia-widget vapetasia-widget-text-editor" data-id="45677c5" data-element_type="widget" data-widget_type="text-editor.default">
                           <div className="vapetasia-widget-container">
-                              <div className="vapetasia-text-editor vapetasia-clearfix">
+                              <div className="vapetasia-text-editor vapetasia-clearfix vapetasia-custom-paragraph">
                                 <p>As a consumer you can join the fight for free by signing up with Consumer Advocates for Smoke-free Alternatives Association (CASAA). CASAA is a non-profit organization dedicated to ensuring the availability of a variety of effective and affordable smoke-free alternatives. By tracking state and federal legislation, issuing calls to action alerts to members, and working to encourage responsible legislative policy designed to improve public health, CASAA is a great way to stay informed and up to date with the latest developments in vaping regulation.</p>
                               </div>
                           </div>
@@ -133,7 +133,7 @@ const Advocacy = () => {
                         </div>
                         <div className="vapetasia-element vapetasia-element-2cb255b vapetasia-widget vapetasia-widget-text-editor" data-id="2cb255b" data-element_type="widget" data-widget_type="text-editor.default">
                           <div className="vapetasia-widget-container">
-                              <div className="vapetasia-text-editor vapetasia-clearfix">
+                              <div className="vapetasia-text-editor vapetasia-clearfix vapetasia-custom-paragraph">
                                 <p>Click the icon to access graphics, social media content and useful information to help aid the fight to save vaping!</p>
                               </div>
                           </div>
@@ -213,7 +213,7 @@ const Advocacy = () => {
                     <div className="vapetasia-widget-wrap">
                         <div className="vapetasia-element vapetasia-element-2e8c6c2 vapetasia-widget vapetasia-widget-text-editor" data-id="2e8c6c2" data-element_type="widget" data-widget_type="text-editor.default">
                           <div className="vapetasia-widget-container">
-                              <div className="vapetasia-text-editor vapetasia-clearfix">
+                              <div className="vapetasia-text-editor vapetasia-clearfix vapetasia-custom-paragraph">
                                 <div>The Vapor Technology Association represents the manufacturers, wholesalers, small business owners and entrepreneurs who have developed innovative and quality vapor products, providing adult consumers with a better alternative to traditional combustible products.</div>
                               </div>
                           </div>
@@ -294,7 +294,7 @@ const Advocacy = () => {
                     <div className="vapetasia-widget-wrap">
                         <div className="vapetasia-element vapetasia-element-2e8c6c2 vapetasia-widget vapetasia-widget-text-editor" data-id="2e8c6c2" data-element_type="widget" data-widget_type="text-editor.default">
                           <div className="vapetasia-widget-container">
-                              <div className="vapetasia-text-editor vapetasia-clearfix">
+                              <div className="vapetasia-text-editor vapetasia-clearfix vapetasia-custom-paragraph">
                                 <div>The Consumer Advocates for Smoke-free Alternatives Association (CASAA) is a non-profit organization with an all-volunteer board and a grassroots membership of more than two hundred thousand individuals fighting to ensure the continued availability of reduced harm alternatives to smoking.</div>
                               </div>
                           </div>

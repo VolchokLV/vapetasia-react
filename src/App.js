@@ -29,6 +29,22 @@ function App() {
       featuredProducts.push(products.default[i])
     }
   }
+  let featuredProducts2 = []
+  for (let i = 0; i < products.default.length; i++) {
+    console.log(featuredProducts2)
+    let srcs = products.default[i].img_src;
+    if (srcs) {
+      let srcKeys = Object.keys(srcs);
+      products.default[i]['default_image'] = products.default[i].img_src[srcKeys[0]];
+    } else {
+      console.log("no default")
+    }
+    let featured2 = products.default[i]['featured2'];
+    if (featured2 && featured2.display === 1) {
+      featuredProducts2.push(products.default[i])
+    }
+  }
+
   return (
     <>
       <Warning />
@@ -47,7 +63,8 @@ function App() {
                         <div className="vapetasia-section-wrap">
                             <Routes>
                               <Route path="/" element={<Home 
-                                featured={featuredProducts} />} />
+                                featured={featuredProducts} 
+                                featured2={featuredProducts2} />} />
                               <Route path="/about-us" element={<AboutUs />} /> 
                               <Route path="/advocacy" element={<Advocacy />} /> 
                               <Route path="/blog" element={<Blog />} /> 
@@ -61,7 +78,8 @@ function App() {
                                 products={products.default} />} /> 
                               <Route path="/product/:slug/:sizeOrBrand" element={<Product 
                                 products={products.default} 
-                                featured={featuredProducts} />} />                              
+                                featured={featuredProducts}                               
+                                featured2={featuredProducts2} />} />                              
                               <Route path="/store-locator" element={<StoreLocator />} /> 
                               {/* <Route path="/pact" element={<Pact />} />  */}
                               <Route path="/wholesale" element={<Wholesale />} /> 

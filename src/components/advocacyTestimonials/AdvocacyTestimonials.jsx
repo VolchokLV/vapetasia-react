@@ -35,7 +35,7 @@ const AdvocacyTestimonials = () => {
                               <div className="vapetasia-swiper">
                                 <div className="vapetasia-main-swiper swiper-container">
                                     <div className="swiper-wrapper vt-carousel">
-                                    <Carousel emulateTouch={true} swipeable={true} showStatus={false} autoPlay={true} interval={6000} showArrows={true} showIndicators={false} infiniteLoop={true} width={1100}  >
+                                    <Carousel emulateTouch={true} swipeable={true} showStatus={false} showThumbs={false} autoPlay={true} interval={6000} showArrows={true} showIndicators={false} infiniteLoop={true} width={1100}  >
                                       <div className="swiper-slide vt-custom-slider-item ">
                                           <div className="vapetasia-testimonial">
                                             <div className="vapetasia-testimonial__content">

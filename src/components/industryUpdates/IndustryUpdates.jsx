@@ -42,7 +42,7 @@ const IndustryUpdates = () => {
                                                 <div className="vapetasia-widget-wrap">
                                                   <div className="vapetasia-element vapetasia-element-7709590 vapetasia--h-position-center vapetasia--v-position-middle vapetasia-arrows-position-inside vapetasia-pagination-position-inside vapetasia-widget vapetasia-widget-slides" data-id="7709590" data-element_type="widget">
                                                       <div className="vapetasia-widget-container">
-                                                        <Carousel showStatus={false} autoPlay={true} interval={6000} showArrows={true} infiniteLoop={true} >
+                                                        <Carousel showStatus={false} autoPlay={true} showThumbs={false} interval={6000} showArrows={true} infiniteLoop={true} >
                                                           <div className="vapetasia-repeater-item-cfeef4f swiper-slide vt-custom-slider-item">
                                                             <div className="swiper-slide-bg">
                                                             </div>

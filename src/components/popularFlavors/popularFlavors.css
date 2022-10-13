@@ -10,13 +10,13 @@ CAROUSEL
 */
 #vapetasia-carousel {
     width: 100%;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
     display: block;
     margin-bottom: 30px;
     padding-bottom: 30px;
-    overscroll-behavior-x: none !important;
+    /* overscroll-behavior-x: none !important; */
 }
-    #vapetasia-carousel::-webkit-scrollbar {
+    /* #vapetasia-carousel::-webkit-scrollbar {
         height: 20px;
     }
     #vapetasia-carousel::-webkit-scrollbar-track {
@@ -27,7 +27,7 @@ CAROUSEL
         background-color: black;
         border-radius: 10px;
         opacity: .8;
-    }
+    } */
 .vt-custom-carousel-wrapper::after {
     content: '';
     display: block;
@@ -44,6 +44,9 @@ CAROUSEL
             display: inline-block;
             width: 250px;
             text-align: center !important;
+            text-transform: uppercase !important;
+            font-family: Rift;
+            font-size: 2rem;
         }
             .vt-custom-carousel-img img {
                 height: 125px !important;
@@ -57,4 +60,5 @@ CAROUSEL
             }
             .vt-custom-carousel-button {
                 background-color: #FBB81F !important;
+
             }

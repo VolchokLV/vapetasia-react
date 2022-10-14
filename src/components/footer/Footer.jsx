@@ -15,7 +15,7 @@ const Footer = () => {
                               <div className="vapetasia-widget-container">
                                 <div className="vapetasia-image"> 
                                 <a href="https://www.vapetasia.com"> 
-                                  <img width="247" height="70" src="https://cdn.vapetasia.com/wp-content/uploads/2020/05/11155756/Vapetasia_Logo_2_small.png" className="attachment-full size-full" alt="" /> 
+                                  <img width="247" height="70" src="https://cdn2.vapetasia.com/img/vapetasia-logo-small.png" className="attachment-full size-full" alt="" /> 
                                 </a>
                               </div>
                             </div>
@@ -191,9 +191,9 @@ const Footer = () => {
                           <div className="vapetasia-widget-container">
                             <div className="vapetasia-text-editor vapetasia-clearfix">
                               <p>
-                                <img className=" lazyloaded" src="https://cdn.vapetasia.com/wp-content/uploads/20200925223500/yellow-triangle-warning-e1601073337827.png" data-src="https://cdn.vapetasia.com/wp-content/uploads/20200925223500/yellow-triangle-warning-e1601073337827.png" />
+                                <img className=" lazyloaded" src="https://cdn2.vapetasia.com/img/yellow-triangle-warning.png" data-src="https://cdn2.vapetasia.com/img/yellow-triangle-warning.png" />
                                 <noscript>
-                                  <img className="lazyload" src="https://cdn.vapetasia.com/wp-content/uploads/20200925223500/yellow-triangle-warning-e1601073337827.png" />
+                                  <img className="lazyload" src="https://cdn2.vapetasia.com/img/yellow-triangle-warning.png" />
                                 </noscript> 
                                 PROP 65 WARNING: This product can expose you to chemicals including formaldehyde, which is known to the State of California to cause cancer, and nicotine, which is known to the State of California to cause birth defects or reproductive harm: For more information, go to: P65WARNINGS.ca.gov
                               </p>

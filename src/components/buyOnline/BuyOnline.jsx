@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './buyOnline.css'
+import './buyOnline.css'
 
 const BuyOnline = () => {
   return (

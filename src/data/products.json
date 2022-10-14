@@ -903,7 +903,7 @@
         },   
         "sort_order": 30,
         "featured": {"display":0, "key":"eliquid", "strength":"3mg", "size":"100ml" },
-        "featured2": {"display":0, "key":"eliquid", "strength":"3mg", "size":"100ml" }       
+        "featured2": {"display":1, "key":"eliquid", "strength":"3mg", "size":"100ml" }       
     },            
     {
         "product_name": "Vapetasia X Hyve Disposable Dragons Breath 5000 Puff",
@@ -1065,7 +1065,7 @@
         },
         "sort_order": 7,
         "featured": {"display":0, "key":"disposable", "strength":"50mg", "size":"12ml" },
-        "featured2": {"display":1, "key":"disposable", "strength":"50mg", "size":"12ml" } 
+        "featured2": {"display":0, "key":"disposable", "strength":"50mg", "size":"12ml" } 
         
     },
     {
@@ -1375,7 +1375,7 @@
         },
         "sort_order": 2,
         "featured": {"display":0, "key":"disposable", "strength":"50mg", "size":"12ml" },
-        "featured2": {"display":1, "key":"disposable", "strength":"50mg", "size":"12ml" } 
+        "featured2": {"display":0, "key":"disposable", "strength":"50mg", "size":"12ml" } 
     },
     {
         "product_name": "Vapetasia X Air Disposables Nana Berry",

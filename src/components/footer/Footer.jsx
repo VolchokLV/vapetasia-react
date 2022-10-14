@@ -20,7 +20,7 @@ const Footer = () => {
                               </div>
                             </div>
                           </div>
-                          <div className="vapetasia-element vapetasia-element-e835f88 vapetasia-shape-circle vapetasia-grid-0 e-grid-align-center vapetasia-widget vapetasia-widget-social-icons" data-id="e835f88" data-element_type="widget" data-widget_type="social-icons.default">
+                          <div className="vapetasia-element vapetasia-element-e835f88 vapetasia-shape-circle vapetasia-grid-0 e-grid-align-center vapetasia-widget vapetasia-widget-social-icons vapetasia-footer-socials" data-id="e835f88" data-element_type="widget" data-widget_type="social-icons.default">
                             <div className="vapetasia-widget-container">
                               <div className="vapetasia-social-icons-wrapper vapetasia-grid"> 
                               <span className="vapetasia-grid-item"> 

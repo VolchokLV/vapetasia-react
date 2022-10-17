@@ -66,8 +66,8 @@ const Blog = () => {
                                  <div className="vapetasia-image">
                                     <a href={ process.env.REACT_APP_BASE_URL + '/blog/the-ban-on-vape-mail/'} className="no-lightbox">
                                        <img width="360" height="360" 
-                                       src="https://cdn2.vapetasia.com/img/blog/Vape-Mail-Ban-Square.jpg" 
-                                       data-src="https://cdn2.vapetasia.com/img/blog/Vape-Mail-Ban-Square.jpg" 
+                                       src="https://cdn2.vapetasia.com/img/blog/Vape-Mail-Ban.jpg" 
+                                       data-src="https://cdn2.vapetasia.com/img/blog/Vape-Mail-Ban.jpg" 
                                        className="attachment-large size-large lazyloaded" 
                                        alt="Vape Mail Ban">
                                        </img>
@@ -578,6 +578,322 @@ const Blog = () => {
                            <div className="vapetasia-element vapetasia-element-fee27b6 vapetasia-align-center vapetasia-widget vapetasia-widget-button" data-id="fee27b6" data-element_type="widget" data-widget_type="button.default">
                               <div className="vapetasia-widget-container">
                                  <div className="vapetasia-button-wrapper"> <a href={ process.env.REACT_APP_BASE_URL + '/colorado-vote-no-to-prop-ee-and-make-your-voice-heard/'} className="vapetasia-button-link vapetasia-button vapetasia-size-sm" role="button"> 
+                                    <span className="vapetasia-button-content-wrapper"> 
+                                    <span className="vapetasia-button-text">READ MORE</span> 
+                                    </span> 
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-9872422 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="9872422" data-element_type="section">
+            <div className="vapetasia-container vapetasia-column-gap-default">
+               <div className="vapetasia-row">
+               <div className="vapetasia-column vapetasia-col-100 vapetasia-top-column vapetasia-element vapetasia-element-660bdd5" data-id="660bdd5" data-element_type="column">
+                  <div className="vapetasia-column-wrap vapetasia-element-populated">
+                     <div className="vapetasia-widget-wrap">
+                     <div className="vapetasia-element vapetasia-element-7a977f0 vapetasia-widget-divider--view-line vapetasia-widget vapetasia-widget-divider" data-id="7a977f0" data-element_type="widget" data-widget_type="divider.default">
+                        <div className="vapetasia-widget-container">
+                           <div className="vapetasia-divider"> <span className="vapetasia-divider-separator"> </span>
+                           </div>
+                        </div>
+                     </div>
+                     </div>
+                  </div>
+               </div>
+               </div>
+            </div>
+         </section>
+         <section id="blog-section" className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-c5682bb vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="c5682bb" data-element_type="section">
+            <div className="vapetasia-container vapetasia-column-gap-default">
+               <div className="vapetasia-row">
+                  <div className="vapetasia-column vapetasia-col-33 vapetasia-top-column vapetasia-element vapetasia-element-fed1749" data-id="fed1749" data-element_type="column">
+                     <div className="vapetasia-column-wrap vapetasia-element-populated">
+                        <div className="vapetasia-widget-wrap">
+                           <div className="vapetasia-element vapetasia-element-9697175 vapetasia-widget vapetasia-widget-image" data-id="9697175" data-element_type="widget" data-widget_type="image.default">
+                              <div className="vapetasia-widget-container">
+                                 <div className="vapetasia-image">
+                                    <a href={ process.env.REACT_APP_BASE_URL + '/oregon-vote-no-on-measure-108/'} className="no-lightbox">
+                                       <img width="360" height="360" 
+                                       src="https://cdn2.vapetasia.com/img/blog/Oregon.jpg" 
+                                       data-src="https://cdn2.vapetasia.com/img/blog/Oregon.jpg" 
+                                       className="attachment-large size-large lazyloaded" 
+                                       alt="Oregon">
+                                       </img>
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div className="vapetasia-column vapetasia-col-66 vapetasia-top-column vapetasia-element vapetasia-element-a78af99" data-id="a78af99" data-element_type="column">
+                     <div className="vapetasia-column-wrap vapetasia-element-populated">
+                        <div className="vapetasia-widget-wrap">
+                           <div className="vapetasia-element vapetasia-element-251a8a2 vapetasia-widget vapetasia-widget-spacer" data-id="251a8a2" data-element_type="widget" data-widget_type="spacer.default">
+                              <div className="vapetasia-widget-container">
+                                 <div className="vapetasia-spacer">
+                                    <div className="vapetasia-spacer-inner"></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div className="vapetasia-element vapetasia-element-8b3e0c1 vapetasia-widget vapetasia-widget-heading" data-id="8b3e0c1" data-element_type="widget" data-widget_type="heading.default">
+                              <div className="vapetasia-widget-container">
+                                 <h2 className="vapetasia-heading-title vapetasia-size-default">Oregon Vote NO on Measure 108 this November</h2>
+                              </div>
+                           </div>
+                           <div className="vapetasia-element vapetasia-element-c3f8d0d vapetasia-widget vapetasia-widget-text-editor" data-id="c3f8d0d" data-element_type="widget" data-widget_type="text-editor.default">
+                              <div className="vapetasia-widget-container">
+                                 <div className="vapetasia-text-editor vapetasia-clearfix">
+                                    <p>A vape tax has been introduced in Oregon which would increase the tax on vape products by 65% of the wholesale price. </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div className="vapetasia-element vapetasia-element-fee27b6 vapetasia-align-center vapetasia-widget vapetasia-widget-button" data-id="fee27b6" data-element_type="widget" data-widget_type="button.default">
+                              <div className="vapetasia-widget-container">
+                                 <div className="vapetasia-button-wrapper"> <a href={ process.env.REACT_APP_BASE_URL + '/oregon-vote-no-on-measure-108/'} className="vapetasia-button-link vapetasia-button vapetasia-size-sm" role="button"> 
+                                    <span className="vapetasia-button-content-wrapper"> 
+                                    <span className="vapetasia-button-text">READ MORE</span> 
+                                    </span> 
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-9872422 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="9872422" data-element_type="section">
+            <div className="vapetasia-container vapetasia-column-gap-default">
+               <div className="vapetasia-row">
+               <div className="vapetasia-column vapetasia-col-100 vapetasia-top-column vapetasia-element vapetasia-element-660bdd5" data-id="660bdd5" data-element_type="column">
+                  <div className="vapetasia-column-wrap vapetasia-element-populated">
+                     <div className="vapetasia-widget-wrap">
+                     <div className="vapetasia-element vapetasia-element-7a977f0 vapetasia-widget-divider--view-line vapetasia-widget vapetasia-widget-divider" data-id="7a977f0" data-element_type="widget" data-widget_type="divider.default">
+                        <div className="vapetasia-widget-container">
+                           <div className="vapetasia-divider"> <span className="vapetasia-divider-separator"> </span>
+                           </div>
+                        </div>
+                     </div>
+                     </div>
+                  </div>
+               </div>
+               </div>
+            </div>
+         </section>
+         <section id="blog-section" className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-c5682bb vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="c5682bb" data-element_type="section">
+            <div className="vapetasia-container vapetasia-column-gap-default">
+               <div className="vapetasia-row">
+                  <div className="vapetasia-column vapetasia-col-33 vapetasia-top-column vapetasia-element vapetasia-element-fed1749" data-id="fed1749" data-element_type="column">
+                     <div className="vapetasia-column-wrap vapetasia-element-populated">
+                        <div className="vapetasia-widget-wrap">
+                           <div className="vapetasia-element vapetasia-element-9697175 vapetasia-widget vapetasia-widget-image" data-id="9697175" data-element_type="widget" data-widget_type="image.default">
+                              <div className="vapetasia-widget-container">
+                                 <div className="vapetasia-image">
+                                    <a href={ process.env.REACT_APP_BASE_URL + '/phoenix-flavor-ban/'} className="no-lightbox">
+                                       <img width="360" height="360" 
+                                       src="https://cdn2.vapetasia.com/img/blog/Arizona.jpg" 
+                                       data-src="https://cdn2.vapetasia.com/img/blog/Arizona.jpg" 
+                                       className="attachment-large size-large lazyloaded" 
+                                       alt="Arizona">
+                                       </img>
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div className="vapetasia-column vapetasia-col-66 vapetasia-top-column vapetasia-element vapetasia-element-a78af99" data-id="a78af99" data-element_type="column">
+                     <div className="vapetasia-column-wrap vapetasia-element-populated">
+                        <div className="vapetasia-widget-wrap">
+                           <div className="vapetasia-element vapetasia-element-251a8a2 vapetasia-widget vapetasia-widget-spacer" data-id="251a8a2" data-element_type="widget" data-widget_type="spacer.default">
+                              <div className="vapetasia-widget-container">
+                                 <div className="vapetasia-spacer">
+                                    <div className="vapetasia-spacer-inner"></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div className="vapetasia-element vapetasia-element-8b3e0c1 vapetasia-widget vapetasia-widget-heading" data-id="8b3e0c1" data-element_type="widget" data-widget_type="heading.default">
+                              <div className="vapetasia-widget-container">
+                                 <h2 className="vapetasia-heading-title vapetasia-size-default">Say No to a Flavor Ban in AZ</h2>
+                              </div>
+                           </div>
+                           <div className="vapetasia-element vapetasia-element-c3f8d0d vapetasia-widget vapetasia-widget-text-editor" data-id="c3f8d0d" data-element_type="widget" data-widget_type="text-editor.default">
+                              <div className="vapetasia-widget-container">
+                                 <div className="vapetasia-text-editor vapetasia-clearfix">
+                                    <p>With a flavor ban in Phoenix AZ being introduced to the Phoenix City Council, we need to make our voices heard.</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div className="vapetasia-element vapetasia-element-fee27b6 vapetasia-align-center vapetasia-widget vapetasia-widget-button" data-id="fee27b6" data-element_type="widget" data-widget_type="button.default">
+                              <div className="vapetasia-widget-container">
+                                 <div className="vapetasia-button-wrapper"> <a href={ process.env.REACT_APP_BASE_URL + '/phoenix-flavor-ban/'} className="vapetasia-button-link vapetasia-button vapetasia-size-sm" role="button"> 
+                                    <span className="vapetasia-button-content-wrapper"> 
+                                    <span className="vapetasia-button-text">READ MORE</span> 
+                                    </span> 
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-9872422 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="9872422" data-element_type="section">
+            <div className="vapetasia-container vapetasia-column-gap-default">
+               <div className="vapetasia-row">
+               <div className="vapetasia-column vapetasia-col-100 vapetasia-top-column vapetasia-element vapetasia-element-660bdd5" data-id="660bdd5" data-element_type="column">
+                  <div className="vapetasia-column-wrap vapetasia-element-populated">
+                     <div className="vapetasia-widget-wrap">
+                     <div className="vapetasia-element vapetasia-element-7a977f0 vapetasia-widget-divider--view-line vapetasia-widget vapetasia-widget-divider" data-id="7a977f0" data-element_type="widget" data-widget_type="divider.default">
+                        <div className="vapetasia-widget-container">
+                           <div className="vapetasia-divider"> <span className="vapetasia-divider-separator"> </span>
+                           </div>
+                        </div>
+                     </div>
+                     </div>
+                  </div>
+               </div>
+               </div>
+            </div>
+         </section>
+         <section id="blog-section" className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-c5682bb vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="c5682bb" data-element_type="section">
+            <div className="vapetasia-container vapetasia-column-gap-default">
+               <div className="vapetasia-row">
+                  <div className="vapetasia-column vapetasia-col-33 vapetasia-top-column vapetasia-element vapetasia-element-fed1749" data-id="fed1749" data-element_type="column">
+                     <div className="vapetasia-column-wrap vapetasia-element-populated">
+                        <div className="vapetasia-widget-wrap">
+                           <div className="vapetasia-element vapetasia-element-9697175 vapetasia-widget vapetasia-widget-image" data-id="9697175" data-element_type="widget" data-widget_type="image.default">
+                              <div className="vapetasia-widget-container">
+                                 <div className="vapetasia-image">
+                                    <a href={ process.env.REACT_APP_BASE_URL + '/vapetasia-pmta-update/'} className="no-lightbox">
+                                       <img width="360" height="360" 
+                                       src="https://cdn2.vapetasia.com/img/blog/PMTA.jpg" 
+                                       data-src="https://cdn2.vapetasia.com/img/blog/PMTA.jpg" 
+                                       className="attachment-large size-large lazyloaded" 
+                                       alt="PMTA">
+                                       </img>
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div className="vapetasia-column vapetasia-col-66 vapetasia-top-column vapetasia-element vapetasia-element-a78af99" data-id="a78af99" data-element_type="column">
+                     <div className="vapetasia-column-wrap vapetasia-element-populated">
+                        <div className="vapetasia-widget-wrap">
+                           <div className="vapetasia-element vapetasia-element-251a8a2 vapetasia-widget vapetasia-widget-spacer" data-id="251a8a2" data-element_type="widget" data-widget_type="spacer.default">
+                              <div className="vapetasia-widget-container">
+                                 <div className="vapetasia-spacer">
+                                    <div className="vapetasia-spacer-inner"></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div className="vapetasia-element vapetasia-element-8b3e0c1 vapetasia-widget vapetasia-widget-heading" data-id="8b3e0c1" data-element_type="widget" data-widget_type="heading.default">
+                              <div className="vapetasia-widget-container">
+                                 <h2 className="vapetasia-heading-title vapetasia-size-default">vapetasia pmta submitted</h2>
+                              </div>
+                           </div>
+                           <div className="vapetasia-element vapetasia-element-c3f8d0d vapetasia-widget vapetasia-widget-text-editor" data-id="c3f8d0d" data-element_type="widget" data-widget_type="text-editor.default">
+                              <div className="vapetasia-widget-container">
+                                 <div className="vapetasia-text-editor vapetasia-clearfix">
+                                    <p>Vapetasia would like to announce the successful submission of our extensive and thorough Pre-Market Tobacco Application.</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div className="vapetasia-element vapetasia-element-fee27b6 vapetasia-align-center vapetasia-widget vapetasia-widget-button" data-id="fee27b6" data-element_type="widget" data-widget_type="button.default">
+                              <div className="vapetasia-widget-container">
+                                 <div className="vapetasia-button-wrapper"> <a href={ process.env.REACT_APP_BASE_URL + '/vapetasia-pmta-update/'} className="vapetasia-button-link vapetasia-button vapetasia-size-sm" role="button"> 
+                                    <span className="vapetasia-button-content-wrapper"> 
+                                    <span className="vapetasia-button-text">READ MORE</span> 
+                                    </span> 
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-9872422 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="9872422" data-element_type="section">
+            <div className="vapetasia-container vapetasia-column-gap-default">
+               <div className="vapetasia-row">
+               <div className="vapetasia-column vapetasia-col-100 vapetasia-top-column vapetasia-element vapetasia-element-660bdd5" data-id="660bdd5" data-element_type="column">
+                  <div className="vapetasia-column-wrap vapetasia-element-populated">
+                     <div className="vapetasia-widget-wrap">
+                     <div className="vapetasia-element vapetasia-element-7a977f0 vapetasia-widget-divider--view-line vapetasia-widget vapetasia-widget-divider" data-id="7a977f0" data-element_type="widget" data-widget_type="divider.default">
+                        <div className="vapetasia-widget-container">
+                           <div className="vapetasia-divider"> <span className="vapetasia-divider-separator"> </span>
+                           </div>
+                        </div>
+                     </div>
+                     </div>
+                  </div>
+               </div>
+               </div>
+            </div>
+         </section>
+         <section id="blog-section" className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-c5682bb vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="c5682bb" data-element_type="section">
+            <div className="vapetasia-container vapetasia-column-gap-default">
+               <div className="vapetasia-row">
+                  <div className="vapetasia-column vapetasia-col-33 vapetasia-top-column vapetasia-element vapetasia-element-fed1749" data-id="fed1749" data-element_type="column">
+                     <div className="vapetasia-column-wrap vapetasia-element-populated">
+                        <div className="vapetasia-widget-wrap">
+                           <div className="vapetasia-element vapetasia-element-9697175 vapetasia-widget vapetasia-widget-image" data-id="9697175" data-element_type="widget" data-widget_type="image.default">
+                              <div className="vapetasia-widget-container">
+                                 <div className="vapetasia-image">
+                                    <a href={ process.env.REACT_APP_BASE_URL + '/keep-vape-mail-alive-say-no-to-s-1253/'} className="no-lightbox">
+                                       <img width="360" height="360" 
+                                       src="https://cdn2.vapetasia.com/img/blog/S1253.jpg" 
+                                       data-src="https://cdn2.vapetasia.com/img/blog/S1253.jpg" 
+                                       className="attachment-large size-large lazyloaded" 
+                                       alt="S1253">
+                                       </img>
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div className="vapetasia-column vapetasia-col-66 vapetasia-top-column vapetasia-element vapetasia-element-a78af99" data-id="a78af99" data-element_type="column">
+                     <div className="vapetasia-column-wrap vapetasia-element-populated">
+                        <div className="vapetasia-widget-wrap">
+                           <div className="vapetasia-element vapetasia-element-251a8a2 vapetasia-widget vapetasia-widget-spacer" data-id="251a8a2" data-element_type="widget" data-widget_type="spacer.default">
+                              <div className="vapetasia-widget-container">
+                                 <div className="vapetasia-spacer">
+                                    <div className="vapetasia-spacer-inner"></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div className="vapetasia-element vapetasia-element-8b3e0c1 vapetasia-widget vapetasia-widget-heading" data-id="8b3e0c1" data-element_type="widget" data-widget_type="heading.default">
+                              <div className="vapetasia-widget-container">
+                                 <h2 className="vapetasia-heading-title vapetasia-size-default">Keep Vape Mail Alive!</h2>
+                              </div>
+                           </div>
+                           <div className="vapetasia-element vapetasia-element-c3f8d0d vapetasia-widget vapetasia-widget-text-editor" data-id="c3f8d0d" data-element_type="widget" data-widget_type="text-editor.default">
+                              <div className="vapetasia-widget-container">
+                                 <div className="vapetasia-text-editor vapetasia-clearfix">
+                                    <p>Vape mail is a big thing for our industry especially for people who have disabilities, health issues, or live in rural areas that don’t have access to brick and mortar stores. </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div className="vapetasia-element vapetasia-element-fee27b6 vapetasia-align-center vapetasia-widget vapetasia-widget-button" data-id="fee27b6" data-element_type="widget" data-widget_type="button.default">
+                              <div className="vapetasia-widget-container">
+                                 <div className="vapetasia-button-wrapper"> <a href={ process.env.REACT_APP_BASE_URL + '/keep-vape-mail-alive-say-no-to-s-1253/'} className="vapetasia-button-link vapetasia-button vapetasia-size-sm" role="button"> 
                                     <span className="vapetasia-button-content-wrapper"> 
                                     <span className="vapetasia-button-text">READ MORE</span> 
                                     </span> 

@@ -13,3 +13,4 @@ export { default as ProductGrid } from './productGrid/ProductGrid';
 export { default as MediaRequest } from './mediaRequest/MediaRequest';
 export { default as PromotionalRequest } from './promotionalRequest/PromotionalRequest'
 export { default as WholesaleRegistration } from './wholesaleRegistration/WholesaleRegistration';
+export { default as Newsletter2 } from './newsletter2/Newsletter2'

@@ -24,3 +24,10 @@
   text-align: center;
 }
  
+#blog-section .vapetasia-button {
+  background-color: #FAA500 !important;
+  font-family:"rift",Sans-serif !important;
+  font-weight: bold !important;
+  font-style: italic !important;
+  font-size: 2em !important;
+}

@@ -141,7 +141,7 @@ const Advocacy = () => {
                         <div className="vapetasia-element vapetasia-element-ba50ca9 vapetasia-align-center vapetasia-widget vapetasia-widget-button" data-id="ba50ca9" data-element_type="widget" data-widget_type="button.default">
                           <div className="vapetasia-widget-container">
                               <div className="vapetasia-button-wrapper">
-                                <a href="https://vapetasia.com/media-request-form" className="vapetasia-button-link vapetasia-button vapetasia-size-sm" role="button">
+                                <a href={process.env.REACT_BASE_URL + 'media-request-form'} className="vapetasia-button-link vapetasia-button vapetasia-size-sm" role="button">
                                 <span className="vapetasia-button-content-wrapper">
                                 <span className="vapetasia-button-text">MEDIA REQUEST FORM</span>
                                 </span>

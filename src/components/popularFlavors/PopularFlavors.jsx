@@ -60,12 +60,12 @@ const PopularFlavors = (props) => {
                               </div>
                             </div>
                           </div>
-                          <div class="vapetasia-element vapetasia-element-135443f vapetasia-tablet-align-center vapetasia-align-center vapetasia-widget vapetasia-widget-button" data-id="135443f" data-element_type="widget" data-widget_type="button.default">
-                            <div class="vapetasia-widget-container">
-                              <div class="vapetasia-button-wrapper"> 
-                                <div class="vapetasia-button-link vapetasia-button vapetasia-size-sm vt-custom-carousel-button" role="button" tabindex="-1"> 
-                                  <span class="vapetasia-button-content-wrapper"> 
-                                    <span class="vapetasia-button-text">VIEW</span> 
+                          <div className="vapetasia-element vapetasia-element-135443f vapetasia-tablet-align-center vapetasia-align-center vapetasia-widget vapetasia-widget-button" data-id="135443f" data-element_type="widget" data-widget_type="button.default">
+                            <div className="vapetasia-widget-container">
+                              <div className="vapetasia-button-wrapper"> 
+                                <div className="vapetasia-button-link vapetasia-button vapetasia-size-sm vt-custom-carousel-button" role="button" tabIndex="-1"> 
+                                  <span className="vapetasia-button-content-wrapper"> 
+                                    <span className="vapetasia-button-text">VIEW</span> 
                                   </span> 
                                 </div>
                               </div>
@@ -108,12 +108,12 @@ const PopularFlavors = (props) => {
                                     </div>
                                   </div>
                                 </div>
-                                <div class="vapetasia-element vapetasia-element-135443f vapetasia-tablet-align-center vapetasia-align-center vapetasia-widget vapetasia-widget-button" data-id="135443f" data-element_type="widget" data-widget_type="button.default">
-                                  <div class="vapetasia-widget-container">
-                                    <div class="vapetasia-button-wrapper"> 
-                                      <div class="vapetasia-button-link vapetasia-button vapetasia-size-sm vt-custom-carousel-button" role="button" tabindex="-1"> 
-                                        <span class="vapetasia-button-content-wrapper"> 
-                                          <span class="vapetasia-button-text">VIEW</span> 
+                                <div className="vapetasia-element vapetasia-element-135443f vapetasia-tablet-align-center vapetasia-align-center vapetasia-widget vapetasia-widget-button" data-id="135443f" data-element_type="widget" data-widget_type="button.default">
+                                  <div className="vapetasia-widget-container">
+                                    <div className="vapetasia-button-wrapper"> 
+                                      <div className="vapetasia-button-link vapetasia-button vapetasia-size-sm vt-custom-carousel-button" role="button" tabIndex="-1"> 
+                                        <span className="vapetasia-button-content-wrapper"> 
+                                          <span className="vapetasia-button-text">VIEW</span> 
                                         </span> 
                                       </div>
                                     </div>
@@ -167,12 +167,12 @@ const PopularFlavors = (props) => {
                               </div>
                             </div>
                           </div>
-                          <div class="vapetasia-element vapetasia-element-135443f vapetasia-tablet-align-center vapetasia-align-center vapetasia-widget vapetasia-widget-button" data-id="135443f" data-element_type="widget" data-widget_type="button.default">
-                            <div class="vapetasia-widget-container">
-                              <div class="vapetasia-button-wrapper"> 
-                                <div class="vapetasia-button-link vapetasia-button vapetasia-size-sm vt-custom-carousel-button" role="button" tabindex="-1"> 
-                                  <span class="vapetasia-button-content-wrapper"> 
-                                    <span class="vapetasia-button-text">VIEW</span> 
+                          <div className="vapetasia-element vapetasia-element-135443f vapetasia-tablet-align-center vapetasia-align-center vapetasia-widget vapetasia-widget-button" data-id="135443f" data-element_type="widget" data-widget_type="button.default">
+                            <div className="vapetasia-widget-container">
+                              <div className="vapetasia-button-wrapper"> 
+                                <div className="vapetasia-button-link vapetasia-button vapetasia-size-sm vt-custom-carousel-button" role="button" tabIndex="-1"> 
+                                  <span className="vapetasia-button-content-wrapper"> 
+                                    <span className="vapetasia-button-text">VIEW</span> 
                                   </span> 
                                 </div>
                               </div>
@@ -221,12 +221,12 @@ const PopularFlavors = (props) => {
                               </div>
                             </div>
                           </div>
-                          <div class="vapetasia-element vapetasia-element-135443f vapetasia-tablet-align-center vapetasia-align-center vapetasia-widget vapetasia-widget-button" data-id="135443f" data-element_type="widget" data-widget_type="button.default">
-                            <div class="vapetasia-widget-container">
-                              <div class="vapetasia-button-wrapper"> 
-                                <div class="vapetasia-button-link vapetasia-button vapetasia-size-sm vt-custom-carousel-button" role="button" tabindex="-1"> 
-                                  <span class="vapetasia-button-content-wrapper"> 
-                                    <span class="vapetasia-button-text">VIEW</span> 
+                          <div className="vapetasia-element vapetasia-element-135443f vapetasia-tablet-align-center vapetasia-align-center vapetasia-widget vapetasia-widget-button" data-id="135443f" data-element_type="widget" data-widget_type="button.default">
+                            <div className="vapetasia-widget-container">
+                              <div className="vapetasia-button-wrapper"> 
+                                <div className="vapetasia-button-link vapetasia-button vapetasia-size-sm vt-custom-carousel-button" role="button" tabIndex="-1"> 
+                                  <span className="vapetasia-button-content-wrapper"> 
+                                    <span className="vapetasia-button-text">VIEW</span> 
                                   </span> 
                                 </div>
                               </div>

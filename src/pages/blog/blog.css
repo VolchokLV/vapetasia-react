@@ -1,0 +1,22 @@
+.blog-heading-container {
+    background-color: #FAA500 !important;
+    padding: 10px;
+}
+
+.blog-heading {
+    color: white !important;
+}
+
+#blog-section .vapetasia-button {
+    background-color: #FAA500 !important;
+    font-family:"rift",Sans-serif !important;
+    font-weight: bold !important;
+    font-style: italic !important;
+    font-size: 2em !important;
+}
+
+#blog-section .vapetasia-widget-text-editor {
+    text-align: center;
+    color: #000000;
+    font-size: 25px;
+}

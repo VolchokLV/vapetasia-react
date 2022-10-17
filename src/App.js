@@ -4,8 +4,8 @@ import './App.css';
 import "./index.css"
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import { AboutUs, Advocacy, Blog, TheBanOnVapeMail, ContactUs, ContactSupport, MediaRequest, Product, ProductGrid, PromotionalRequest, Home, StoreLocator, Wholesale, WholesaleRegistration, Carousel } from './pages';
-import { ContactSupportForm, WholesaleRegistrationForm, Navigation, Warning, Footer } from './components';
+import { AboutUs, Advocacy, Blog, TheBanOnVapeMail, ContactUs, ContactSupport, MediaRequest, Product, ProductGrid, PromotionalRequest, Home, StoreLocator, Wholesale, WholesaleRegistration, Newsletter2 } from './pages';
+import { ContactSupportForm, WholesaleRegistrationForm, Navigation, Warning, Footer, Newsletter } from './components';
 import { Nav } from 'react-bootstrap';
 
 import * as products from './data/products.json';
@@ -31,7 +31,7 @@ function App() {
   }
   let featuredProducts2 = []
   for (let i = 0; i < products.default.length; i++) {
-    console.log(featuredProducts2)
+    // console.log(featuredProducts2)
     let srcs = products.default[i].img_src;
     if (srcs) {
       let srcKeys = Object.keys(srcs);
@@ -83,6 +83,7 @@ function App() {
                               <Route path="/store-locator" element={<StoreLocator />} /> 
                               {/* <Route path="/pact" element={<Pact />} />  */}
                               <Route path="/wholesale" element={<Wholesale />} /> 
+                              <Route path="/newsletter" element={<Newsletter2 />} /> 
                             </Routes>
                         </div>
                       </div>

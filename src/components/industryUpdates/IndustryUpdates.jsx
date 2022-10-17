@@ -2,7 +2,7 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import style from './industryUpdates.css'
+import './industryUpdates.css'
 
 
 const IndustryUpdates = () => {
@@ -46,7 +46,7 @@ const IndustryUpdates = () => {
                                                           <div className="vapetasia-repeater-item-cfeef4f swiper-slide vt-custom-slider-item">
                                                             <div className="swiper-slide-bg">
                                                             </div>
-                                                            <a className="swiper-slide-inner" href="https://vapetasia.com/keep-vape-mail-alive-say-no-to-s-1253">
+                                                            <a className="swiper-slide-inner" href={process.env.REACT_BASE_URL + '/keep-vape-mail-alive-say-no-to-s-1253'}>
                                                                 <div className="swiper-slide-contents">
                                                                   <div className="vapetasia-slide-heading">United States - Reject S.1253</div>
                                                                   <div className="vapetasia-slide-description">If passed S.1253 will prohibit the shipping of vapor products through USPS. This would increase costs to consumers and add new barriers to access for law-abiding adults.</div>
@@ -68,7 +68,7 @@ const IndustryUpdates = () => {
                                                           <div className="vapetasia-repeater-item-440ec32 swiper-slide vt-custom-slider-item">
                                                             <div className="swiper-slide-bg">
                                                             </div>
-                                                            <a className="swiper-slide-inner" href="https://vapetasia.com/vta-individual-memberships-now-available">
+                                                            <a className="swiper-slide-inner" href={process.env.REACT_BASE_URL +  '/vta-individual-memberships-now-available'}>
                                                                 <div className="swiper-slide-contents">
                                                                   <div className="vapetasia-slide-heading">VTA Individual Memberships</div>
                                                                   <div className="vapetasia-slide-description">The Vapor Technology Association has opened its doors to individual memberships! </div>
@@ -79,7 +79,7 @@ const IndustryUpdates = () => {
                                                           <div className="vapetasia-repeater-item-8dafaa4 swiper-slide vt-custom-slider-item">
                                                             <div className="swiper-slide-bg">
                                                             </div>
-                                                            <a className="swiper-slide-inner" href="https://vapetasia.com/vapetasia-pmta-update">
+                                                            <a className="swiper-slide-inner" href={process.env.REACT_BASE_URL +  '/vapetasia-pmta-update'}>
                                                                 <div className="swiper-slide-contents">
                                                                   <div className="vapetasia-slide-heading">What is a PMTA and Our Submission Update</div>
                                                                   <div className="vapetasia-slide-description">Vapetasia would like to announce the successful submission of our extensive and thorough Pre-Market Tobacco Application.</div>

@@ -83,7 +83,6 @@ function App() {
                               <Route path="/store-locator" element={<StoreLocator />} /> 
                               {/* <Route path="/pact" element={<Pact />} />  */}
                               <Route path="/wholesale" element={<Wholesale />} /> 
-                              <Route path="/newsletter" element={<Newsletter2 />} /> 
                             </Routes>
                         </div>
                       </div>

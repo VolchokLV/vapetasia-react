@@ -1,4 +1,5 @@
 import React from 'react'
+import {NewsletterForm} from '../../components';
 
 const Footer = () => {
   return (
@@ -138,90 +139,71 @@ const Footer = () => {
                         </div>
                         <div className="vapetasia-element vapetasia-element-6ddb51e vapetasia-button-align-stretch vapetasia-widget vapetasia-widget-form" data-id="6ddb51e" data-element_type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
                           <div className="vapetasia-widget-container">
-                            <form className="vapetasia-form" method="post" name="Newsletter"> 
-                            <input type="hidden" name="post_id" value="1644" /> 
-                            <input type="hidden" name="form_id" value="6ddb51e" /> 
-                            <input type="hidden" name="referer_title" value="" /> 
-                            <input type="hidden" name="queried_id" value="191" />
-                            <div className="vapetasia-form-fields-wrapper vapetasia-labels-">
-                              <div className="vapetasia-field-type-email vapetasia-field-group vapetasia-column vapetasia-field-group-email vapetasia-col-100 vapetasia-field-required"> 
-                              <label htmlFor="form-field-email" className="vapetasia-field-label vapetasia-screen-only"> Email </label> 
-                              <input size="1" type="email" name="form_fields[email]" id="form-field-email" className="vapetasia-field vapetasia-size-sm  vapetasia-field-textual" placeholder="Email" required="required" aria-required="true" />
-                            </div>
-                            <div className="vapetasia-field-group vapetasia-column vapetasia-field-type-submit vapetasia-col-100 e-form__buttons"> 
-                            <button type="submit" className="vapetasia-button vapetasia-size-sm"> 
-                              <span> 
-                                <span className=" vapetasia-button-icon"> </span> 
-                                <span className="vapetasia-button-text">SIGN UP</span> 
-                              </span> 
-                            </button>
+                            <NewsletterForm />
                           </div>
                         </div>
-                      </form>
-                    </div>
-                  </div>
-                  <div className="vapetasia-element vapetasia-element-1377b6a vapetasia-widget vapetasia-widget-heading" data-id="1377b6a" data-element_type="widget" data-widget_type="heading.default">
-                    <div className="vapetasia-widget-container">
-                      <h2 className="vapetasia-heading-title vapetasia-size-default">
-                        <a href="">(702) 769-1139 </a>
-                      </h2>
-                    </div>
-                  </div>
-                  <div className="vapetasia-element vapetasia-element-9b4c53c vapetasia-widget vapetasia-widget-heading" data-id="9b4c53c" data-element_type="widget" data-widget_type="heading.default">
-                    <div className="vapetasia-widget-container">
-                      <h2 className="vapetasia-heading-title vapetasia-size-default">
-                        <a href="mailto:info@vapetasia.com">info@vapetasia.com</a>
-                      </h2>
-                    </div>
-                  </div>
-                </div>
-                </div>
-                </div>
-                  <div className="vapetasia-column vapetasia-col-25 vapetasia-top-column vapetasia-element vapetasia-element-0a71f90" data-id="0a71f90" data-element_type="column">
-                    <div className="vapetasia-column-wrap vapetasia-element-populated">
-                      <div className="vapetasia-widget-wrap">
-                        <div className="vapetasia-element vapetasia-element-8b395a3 vapetasia-widget vapetasia-widget-heading" data-id="8b395a3" data-element_type="widget" data-widget_type="heading.default">
+                        <div className="vapetasia-element vapetasia-element-1377b6a vapetasia-widget vapetasia-widget-heading" data-id="1377b6a" data-element_type="widget" data-widget_type="heading.default">
                           <div className="vapetasia-widget-container">
                             <h2 className="vapetasia-heading-title vapetasia-size-default">
-                              <a href="https://vapetasia.com/wholesale-registration/">Wholesale Registration</a>
+                              <a href="">(702) 769-1139 </a>
                             </h2>
                           </div>
                         </div>
-                        <div className="vapetasia-element vapetasia-element-20a7454 vapetasia-widget vapetasia-widget-text-editor" data-id="20a7454" data-element_type="widget" data-widget_type="text-editor.default">
+                        <div className="vapetasia-element vapetasia-element-9b4c53c vapetasia-widget vapetasia-widget-heading" data-id="9b4c53c" data-element_type="widget" data-widget_type="heading.default">
                           <div className="vapetasia-widget-container">
-                            <div className="vapetasia-text-editor vapetasia-clearfix">
-                              <p>
-                                <img className=" lazyloaded" src="https://cdn2.vapetasia.com/img/yellow-triangle-warning.png" data-src="https://cdn2.vapetasia.com/img/yellow-triangle-warning.png" />
-                                <noscript>
-                                  <img className="lazyload" src="https://cdn2.vapetasia.com/img/yellow-triangle-warning.png" />
-                                </noscript> 
-                                PROP 65 WARNING: This product can expose you to chemicals including formaldehyde, which is known to the State of California to cause cancer, and nicotine, which is known to the State of California to cause birth defects or reproductive harm: For more information, go to: P65WARNINGS.ca.gov
-                              </p>
-                            </div>
+                            <h2 className="vapetasia-heading-title vapetasia-size-default">
+                              <a href="mailto:info@vapetasia.com">info@vapetasia.com</a>
+                            </h2>
                           </div>
                         </div>
-                        <div className="vapetasia-element vapetasia-element-f5fe10b vapetasia-widget vapetasia-widget-text-editor" data-id="f5fe10b" data-element_type="widget" data-widget_type="text-editor.default">
-                          <div className="vapetasia-widget-container">
-                            <div className="vapetasia-text-editor vapetasia-clearfix">
-                              <p>The sale of tobacco products to minors is prohibited by law.&nbsp;</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="vapetasia-element vapetasia-element-cae01a3 vapetasia-widget vapetasia-widget-text-editor" data-id="cae01a3" data-element_type="widget" data-widget_type="text-editor.default">
-                          <div className="vapetasia-widget-container">
-                            <div className="vapetasia-text-editor vapetasia-clearfix">
-                              <p><strong>WARNING</strong>: This product contains nicotine. Nicotine is an addictive chemical.</p>
+                      </div>
+                      </div>
+                      </div>
+                        <div className="vapetasia-column vapetasia-col-25 vapetasia-top-column vapetasia-element vapetasia-element-0a71f90" data-id="0a71f90" data-element_type="column">
+                          <div className="vapetasia-column-wrap vapetasia-element-populated">
+                            <div className="vapetasia-widget-wrap">
+                              <div className="vapetasia-element vapetasia-element-8b395a3 vapetasia-widget vapetasia-widget-heading" data-id="8b395a3" data-element_type="widget" data-widget_type="heading.default">
+                                <div className="vapetasia-widget-container">
+                                  <h2 className="vapetasia-heading-title vapetasia-size-default">
+                                    <a href="https://vapetasia.com/wholesale-registration/">Wholesale Registration</a>
+                                  </h2>
+                                </div>
+                              </div>
+                              <div className="vapetasia-element vapetasia-element-20a7454 vapetasia-widget vapetasia-widget-text-editor" data-id="20a7454" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div className="vapetasia-widget-container">
+                                  <div className="vapetasia-text-editor vapetasia-clearfix">
+                                    <p>
+                                      <img className=" lazyloaded" src="https://cdn2.vapetasia.com/img/yellow-triangle-warning.png" data-src="https://cdn2.vapetasia.com/img/yellow-triangle-warning.png" />
+                                      <noscript>
+                                        <img className="lazyload" src="https://cdn2.vapetasia.com/img/yellow-triangle-warning.png" />
+                                      </noscript> 
+                                      PROP 65 WARNING: This product can expose you to chemicals including formaldehyde, which is known to the State of California to cause cancer, and nicotine, which is known to the State of California to cause birth defects or reproductive harm: For more information, go to: P65WARNINGS.ca.gov
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div className="vapetasia-element vapetasia-element-f5fe10b vapetasia-widget vapetasia-widget-text-editor" data-id="f5fe10b" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div className="vapetasia-widget-container">
+                                  <div className="vapetasia-text-editor vapetasia-clearfix">
+                                    <p>The sale of tobacco products to minors is prohibited by law.&nbsp;</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div className="vapetasia-element vapetasia-element-cae01a3 vapetasia-widget vapetasia-widget-text-editor" data-id="cae01a3" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div className="vapetasia-widget-container">
+                                  <div className="vapetasia-text-editor vapetasia-clearfix">
+                                    <p><strong>WARNING</strong>: This product contains nicotine. Nicotine is an addictive chemical.</p>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
+                  </section>
               </div>
-            </section>
-        </div>
-      </div>
+            </div>
     </>
   )
 }

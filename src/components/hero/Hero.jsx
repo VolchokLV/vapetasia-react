@@ -64,7 +64,7 @@ const Hero = (props) => {
                               <div className="vapetasia-element vapetasia-element-a6dbbf1 vapetasia-widget vapetasia-widget-image" data-id="a6dbbf1" data-element_type="widget" data-widget_type="image.default">
                                 <div className="vapetasia-widget-container">
                                   <div className="vapetasia-image"> 
-                                    <img width="18" height="300" src="https://cdn.vapetasia.com/wp-content/uploads/2020/05/11155755/IMG-1-18x300.png" className="attachment-medium size-medium lazyload" alt="" />
+                                    <img width="18" height="300" src="https://cdn2.vapetasia.com/img/hero/vertical-bar.png" className="attachment-medium size-medium lazyload" alt="" />
                                   </div>
                                 </div>
                               </div>

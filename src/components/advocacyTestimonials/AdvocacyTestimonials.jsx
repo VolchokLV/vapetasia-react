@@ -35,7 +35,7 @@ const AdvocacyTestimonials = () => {
                               <div className="vapetasia-swiper">
                                 <div className="vapetasia-main-swiper swiper-container">
                                     <div className="swiper-wrapper vt-carousel">
-                                    <Carousel emulateTouch={true} swipeable={true} showStatus={false} showThumbs={false} autoPlay={true} interval={6000} showArrows={true} showIndicators={false} infiniteLoop={true} width={1100}  >
+                                    <Carousel emulateTouch={true} swipeable={true} showStatus={false} showThumbs={false} autoPlay={true} interval={8000} showArrows={true} showIndicators={false} infiniteLoop={true} width={1100}  >
                                       <div className="swiper-slide vt-custom-slider-item ">
                                           <div className="vapetasia-testimonial">
                                             <div className="vapetasia-testimonial__content">
@@ -83,13 +83,6 @@ const AdvocacyTestimonials = () => {
                                       </div>
                                     </Carousel>
                                     </div>
-                                    {/* <div className="swiper-pagination"></div>
-                                    <div className="vapetasia-swiper-button vapetasia-swiper-button-prev">
-                                      <i aria-hidden="true" className="eicon-chevron-left"></i>							<span className="vapetasia-screen-only">Previous</span>
-                                    </div>
-                                    <div className="vapetasia-swiper-button vapetasia-swiper-button-next">
-                                      <i aria-hidden="true" className="eicon-chevron-right"></i>							<span className="vapetasia-screen-only">Next</span>
-                                    </div> */}
                                 </div>
                               </div>
                           </div>

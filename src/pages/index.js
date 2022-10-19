@@ -4,6 +4,7 @@ export { default as Blog } from './blog/Blog';
 export { default as TheBanOnVapeMail } from './blog/TheBanOnVapeMail';
 export { default as ContactUs } from './contactUs/ContactUs';
 export { default as ContactSupport } from './contactSupport/ContactSupport'
+export { default as Compliance } from './compliance/Compliance'
 export { default as Home } from './home/Home';
 export { default as Pact } from './pact/Pact';
 export { default as StoreLocator } from './storeLocator/StoreLocator';

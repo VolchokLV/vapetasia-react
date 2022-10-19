@@ -3,7 +3,7 @@ import React from 'react'
 const TheBanOnVapeMail = () => {
   return (
     <>
-    <iframe src={process.env.PUBLIC_URL + '/the-ban-on-vape-mail.html'} height="2000px" ></iframe>
+    <iframe src={process.env.PUBLIC_URL + '/the-ban-on-vape-mail.html'} height="1000px" ></iframe>
     {/* <section className="elementor-section elementor-top-section elementor-element elementor-element-bd55b00 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="bd55b00" data-element_type="section">
    <div className="elementor-container elementor-column-gap-default">
       <div className="elementor-row">

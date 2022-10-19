@@ -4,9 +4,9 @@ import './App.css';
 import "./index.css"
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import { AboutUs, Advocacy, Blog, TheBanOnVapeMail, ContactUs, ContactSupport, MediaRequest, Product, ProductGrid, PromotionalRequest, Home, StoreLocator, Wholesale, WholesaleRegistration, Newsletter2 } from './pages';
-import { ContactSupportForm, WholesaleRegistrationForm, Navigation, Warning, Footer, Newsletter } from './components';
-import { Nav } from 'react-bootstrap';
+import { AboutUs, Advocacy, Blog, ContactUs, ContactSupport, Compliance, Home, MediaRequest, Product, ProductGrid, PromotionalRequest, StoreLocator, TheBanOnVapeMail, Wholesale, WholesaleRegistration } from './pages';
+import { Navigation, Warning, Footer } from './components';
+
 
 import * as products from './data/products.json';
 
@@ -51,52 +51,53 @@ function App() {
       <div id="outer-wrap" className="site clr">
         <a className="skip-link screen-reader-text" href="#main">Skip to content</a>
         <div id="wrap" className="clr">
-        <Navigation />
-        <main id="main" className="site-main clr" role="main">
-          <div id="content-wrap" className="clr">
-            <div id="primary" className="content-area clr">
-              <div id="content" className="site-content clr">
-                <article className="single-page-article clr">
-                  <div className="entry clr" itemProp="text">
-                    <div data-vapetasia-type="wp-page" data-vapetasia-id="191" className="vapetasia vapetasia-191">
-                      <div className="vapetasia-inner">
-                        <div className="vapetasia-section-wrap">
+          <Navigation />
+          <main id="main" className="site-main clr" role="main">
+            <div id="content-wrap" className="clr">
+              <div id="primary" className="content-area clr">
+                <div id="content" className="site-content clr">
+                  <article className="single-page-article clr">
+                    <div className="entry clr" itemProp="text">
+                      <div data-vapetasia-type="wp-page" data-vapetasia-id="191" className="vapetasia vapetasia-191">
+                        <div className="vapetasia-inner">
+                          <div className="vapetasia-section-wrap">
                             <Routes>
-                              <Route path="/" element={<Home 
-                                featured={featuredProducts} 
+                              <Route path="/" element={<Home
+                                featured={featuredProducts}
                                 featured2={featuredProducts2} />} />
-                              <Route path="/about-us" element={<AboutUs />} /> 
-                              <Route path="/advocacy" element={<Advocacy />} /> 
-                              <Route path="/blog" element={<Blog />} /> 
-                              <Route path="/blog/the-ban-on-vape-mail" element={<TheBanOnVapeMail />} /> 
-                              <Route path="/contact" element={<ContactUs />} /> 
-                              <Route path="/media-request" element={<MediaRequest/>} /> 
-                              <Route path="/promotional-request" element={<PromotionalRequest />} /> 
-                              <Route path="/wholesale-registration" element={<WholesaleRegistration />} /> 
-                              <Route path="/contact-support" element={<ContactSupport />} /> 
-                              <Route path="/category/:type/:topic/:value" element={<ProductGrid 
-                                products={products.default} />} /> 
-                              <Route path="/product/:slug/:sizeOrBrand" element={<Product 
-                                products={products.default} 
-                                featured={featuredProducts}                               
-                                featured2={featuredProducts2} />} />                              
-                              <Route path="/store-locator" element={<StoreLocator />} /> 
+                              <Route path="/about-us" element={<AboutUs />} />
+                              <Route path="/advocacy" element={<Advocacy />} />
+                              <Route path="/blog" element={<Blog />} />
+                              <Route path="/blog/the-ban-on-vape-mail" element={<TheBanOnVapeMail />} />
+                              <Route path="/contact" element={<ContactUs />} />
+                              <Route path="/contact-support" element={<ContactSupport />} />
+                              <Route path="/compliance" element={<Compliance />} />
+                              <Route path="/category/:type/:topic/:value" element={<ProductGrid
+                                products={products.default} />} />
+                              <Route path="/media-request" element={<MediaRequest />} />
+                              <Route path="/promotional-request" element={<PromotionalRequest />} />
+                              <Route path="/product/:slug/:sizeOrBrand" element={<Product
+                                products={products.default}
+                                featured={featuredProducts}
+                                featured2={featuredProducts2} />} />
+                              <Route path="/store-locator" element={<StoreLocator />} />
                               {/* <Route path="/pact" element={<Pact />} />  */}
-                              <Route path="/wholesale" element={<Wholesale />} /> 
+                              <Route path="/wholesale" element={<Wholesale />} />
+                              <Route path="/wholesale-registration" element={<WholesaleRegistration />} />
                             </Routes>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                </article>
+                  </article>
+                </div>
               </div>
             </div>
-          </div>
           </main>
           <Footer />
         </div>
       </div>
-    </>   
+    </>
   );
 }
 

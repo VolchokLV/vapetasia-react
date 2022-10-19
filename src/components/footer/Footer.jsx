@@ -1,5 +1,6 @@
 import React from 'react'
 import {NewsletterForm} from '../../components';
+import "./footer.css"
 
 const Footer = () => {
   return (
@@ -57,7 +58,7 @@ const Footer = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="vapetasia-column vapetasia-col-25 vapetasia-top-column vapetasia-element vapetasia-element-e272a6f" data-id="e272a6f" data-element_type="column">
+                  <div id="footer-links" className="vapetasia-column vapetasia-col-25 vapetasia-top-column vapetasia-element vapetasia-element-e272a6f" data-id="e272a6f" data-element_type="column">
                     <div className="vapetasia-column-wrap vapetasia-element-populated">
                       <div className="vapetasia-widget-wrap">
                         <div className="vapetasia-element vapetasia-element-cdace32 vapetasia-widget vapetasia-widget-heading" data-id="cdace32" data-element_type="widget" data-widget_type="heading.default">
@@ -68,59 +69,59 @@ const Footer = () => {
                         <div className="vapetasia-element vapetasia-element-8612a75 vapetasia-widget vapetasia-widget-heading" data-id="8612a75" data-element_type="widget" data-widget_type="heading.default">
                           <div className="vapetasia-widget-container">
                             <h2 className="vapetasia-heading-title vapetasia-size-default">
-                              <a href="https://vapetasia.com/about-us/">About Us</a>
+                              <a href={process.env.REACT_APP_BASE_URL + '/about-us/'}>About Us</a>
                             </h2>
                           </div>
                         </div>
                         <div className="vapetasia-element vapetasia-element-1970f6a vapetasia-widget vapetasia-widget-heading" data-id="1970f6a" data-element_type="widget" data-widget_type="heading.default">
                           <div className="vapetasia-widget-container">
                             <h2 className="vapetasia-heading-title vapetasia-size-default">
-                              <a href="https://vapetasia.com/contact/">Contact Us </a>
+                              <a href={process.env.REACT_APP_BASE_URL + '/contact/'}>Contact Us </a>
                             </h2>
                           </div>
                         </div>
                         <div className="vapetasia-element vapetasia-element-c28272b vapetasia-widget vapetasia-widget-heading" data-id="c28272b" data-element_type="widget" data-widget_type="heading.default">
                           <div className="vapetasia-widget-container">
                             <h2 className="vapetasia-heading-title vapetasia-size-default">
-                              <a href="https://vapetasia.com/privacy-policy">Privacy Policy </a>
+                              <a href={process.env.REACT_APP_BASE_URL + '/privacy-policy'}>Privacy Policy </a>
                             </h2>
                           </div>
                         </div>
                         <div className="vapetasia-element vapetasia-element-03f869b vapetasia-widget vapetasia-widget-heading" data-id="03f869b" data-element_type="widget" data-widget_type="heading.default">
                           <div className="vapetasia-widget-container">
                             <h2 className="vapetasia-heading-title vapetasia-size-default">
-                              <a href="https://vapetasia.com/terms-and-conditions">Terms &amp; Conditions </a>
+                              <a href={process.env.REACT_APP_BASE_URL + '/terms-and-conditions'}>Terms &amp; Conditions </a>
                             </h2>
                           </div>
                         </div>
                         <div className="vapetasia-element vapetasia-element-0d36f79 vapetasia-widget vapetasia-widget-heading" data-id="0d36f79" data-element_type="widget" data-widget_type="heading.default">
                           <div className="vapetasia-widget-container">
                             <h2 className="vapetasia-heading-title vapetasia-size-default">
-                              <a href="https://vapetasia.com/compliance">Compliance </a>
+                              <a href={process.env.REACT_APP_BASE_URL + '/compliance'}>Compliance </a>
                             </h2>
                           </div>
                         </div>
                         <div className="vapetasia-element vapetasia-element-642818d vapetasia-widget vapetasia-widget-heading" data-id="642818d" data-element_type="widget" data-widget_type="heading.default">
                           <div className="vapetasia-widget-container">
                             <h2 className="vapetasia-heading-title vapetasia-size-default">
-                              <a href="https://vapetasia.com/media-request-form/">Media Request Form</a>
+                              <a href={process.env.REACT_APP_BASE_URL + '/media-request-form/'}>Media Request Form</a>
                             </h2>
                           </div>
                         </div>
                         <div className="vapetasia-element vapetasia-element-b44263b vapetasia-widget vapetasia-widget-heading" data-id="b44263b" data-element_type="widget" data-widget_type="heading.default">
                           <div className="vapetasia-widget-container">
                             <h2 className="vapetasia-heading-title vapetasia-size-default">
-                              <a href="https://vapetasia.com/wholesale-registration/">Wholesale Registration</a>
+                              <a href={process.env.REACT_APP_BASE_URL + '/wholesale-registration/'}>Wholesale Registration</a>
                             </h2>
                           </div>
                         </div>
-                        <div className="vapetasia-element vapetasia-element-af84569 vapetasia-widget vapetasia-widget-heading" data-id="af84569" data-element_type="widget" data-widget_type="heading.default">
+                        {/* <div className="vapetasia-element vapetasia-element-af84569 vapetasia-widget vapetasia-widget-heading" data-id="af84569" data-element_type="widget" data-widget_type="heading.default">
                           <div className="vapetasia-widget-container">
                             <h2 className="vapetasia-heading-title vapetasia-size-default">
-                              <a href="https://vapetasia.com/pact/">PACT</a>
+                              <a href={REACT_BASE_URL + '/pact/'}>PACT</a>
                             </h2>
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>

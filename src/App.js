@@ -4,11 +4,12 @@ import './App.css';
 import "./index.css"
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import { AboutUs, Advocacy, Blog, ContactUs, ContactSupport, Compliance, Home, MediaRequest, Product, ProductGrid, PromotionalRequest, StoreLocator, TheBanOnVapeMail, Wholesale, WholesaleRegistration } from './pages';
+import { AboutUs, Advocacy, Blog, ContactUs, ContactSupport, Compliance, Home, MediaRequest, PrivacyPolicy, Product, ProductGrid, PromotionalRequest, StoreLocator, TheBanOnVapeMail, Wholesale, WholesaleRegistration } from './pages';
 import { Navigation, Warning, Footer } from './components';
 
 
 import * as products from './data/products.json';
+import Terms from './pages/termsAndConditions/TermsAndConditions';
 
 function App() {
 
@@ -75,12 +76,14 @@ function App() {
                               <Route path="/category/:type/:topic/:value" element={<ProductGrid
                                 products={products.default} />} />
                               <Route path="/media-request" element={<MediaRequest />} />
+                              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                               <Route path="/promotional-request" element={<PromotionalRequest />} />
                               <Route path="/product/:slug/:sizeOrBrand" element={<Product
                                 products={products.default}
                                 featured={featuredProducts}
                                 featured2={featuredProducts2} />} />
                               <Route path="/store-locator" element={<StoreLocator />} />
+                              <Route path="/terms-and-conditions" element={<Terms />} />
                               {/* <Route path="/pact" element={<Pact />} />  */}
                               <Route path="/wholesale" element={<Wholesale />} />
                               <Route path="/wholesale-registration" element={<WholesaleRegistration />} />

@@ -1,5 +1,5 @@
-body{
-    --wp--preset--color--black: #000000;
+body {
+  /* --wp--preset--color--black: #000000;
     --wp--preset--color--cyan-bluish-gray: #abb8c3;
     --wp--preset--color--white: #ffffff;
     --wp--preset--color--pale-pink: #f78da7;
@@ -33,135 +33,430 @@ body{
     --wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;
     --wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;
     --wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;
-    
-    }
-
-.easy-notification-bar {
-    line-height: 1 !important;
-    }
-    .easy-notification-bar-container {
-    border: 4px solid black;
-    padding: 10px;
-    box-sizing: border-box;
-    }
-    @media screen and (max-width: 600px) {
-    .easy-notification-bar-container {
-    font-size: 22px;
-    }
-    }
-   .verify-modal {
-    font-family: "rift", Sans-serif !important;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 10000;
-    width: 100%;
-    height: 100%;
-    background-image: url('https://cdn2.vapetasia.com/img/Age_Verify_Page_Background@2x.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-    opacity: 0;
-    background-color: #FFFFFF;
-    transition: all ease-in-out .5s;
-    display: none;
-   }
-   .verify-modal-box {
-    background-color: #FFFFFF;
-    box-shadow: 3px 2px 1px 0 #CCCCCC;
-    border-radius: 30px;
-    padding: 30px;
-    margin: 20% auto 0 auto;
-    display: inline-block;
-    max-width: 500px;
-    min-width: 350px;
-    width: 30%;
-   }
-   .verify-modal-logo {
-    width: 100%;
-    height: 70px;
-    background-image: url('https://cdn2.vapetasia.com/img/vapetasia-logo-small.png');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-   }
-   .verify-modal-title {
-    font-size: 48px;
-    color: #000000;
-    font-weight: bold;
-    font-style: italic;
-    margin: 20px 0 10px 0;
-    text-align: center;
-    line-height: 1 !important;
-    text-transform: uppercase;
-   }
-   .verify-modal-desc {
-    font-size: 18px;
-    color: #000000;
-    font-weight: normal;
-    text-align: center;
-    text-transform: none !important;
-    line-height: 1 !important;
-   }
-   .verify-modal-buttons {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    margin: 20px auto;
-   }
-   .age-verify-button {
-    display: inline-block;
-    margin: 0 10px;
-    background-color: #F9A704;
-    padding: 6px 10px;
-    font-weight: bold;
-    line-height: 1;
-    color: #FFFFFF;
-    text-align: center;
-    font-style: italic;
-    transition: all ease-in-out .3s;
-    cursor: pointer;
-   }
-   .age-verify-button:hover {
-    transform: scale(1.1);
-   }
-   .verify-locale-button {
-    width: 50px;
-    height: 50px;
-    box-sizing: border-box;
-    border-radius: 50%;
-    line-height: 50px;
-    font-size: 28px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    text-align: center;
-    margin: 0 5px;
-    transition: all ease-in-out .3s;
-    cursor: pointer;
-   }
-   .verify-locale-button:hover {
-    transform: scale(1.1);
-   }
-   .btn-us { background-color: #074097; }
-   .btn-eu { background-color: #679705; }
-   .btn-ca { background-color: #980605; }
-   .btn-as { background-color: #7902AA; }
-   .btn-au { background-color: #FB8A02; }
-   .active-strength {
-    background-color: #FFA500 !important;
-   }
-   .dropdown-menu .sub-menu {
-    border-top: 3px solid #FFA500;
-   }
-
-/*.verify-modal{font-family:"rift",Sans-serif !important;position:fixed;top:0;left:0;z-index:10000;width:100%;height:100%;background-image:url('https://vapetasia.com/wp-content/uploads/2020/08/Age_Verify_Page_Background.png');background-size:cover;background-repeat:no-repeat;text-align:center;opacity:0;background-color:#FFFFFF;transition:all ease-in-out .5s;display:none}.verify-modal-box{background-color:#FFFFFF;box-shadow:3px 2px 1px 0 #CCCCCC;border-radius:30px;padding:30px;margin:100px auto 0 auto;display:inline-block;max-width:500px;min-width:350px;width:30%}.verify-modal-logo{width:100%;height:70px;background-image:url('https://vapetasia.com/wp-content/uploads/2020/05/Vapetasia_Logo_2_small.png');background-size:contain;background-position:center;background-repeat:no-repeat}.verify-modal-title{font-size:48px;color:#000000;font-weight:bold;font-style:italic;margin:20px 0 10px 0;text-align:center;line-height:1 !important;text-transform:uppercase}.verify-modal-desc{font-size:18px;color:#000000;font-weight:normal;text-align:center;text-transform:none !important;line-height:1 !important}.verify-modal-buttons{display:flex;flex-wrap:nowrap;justify-content:space-around;margin:20px auto}.age-verify-button{display:inline-block;margin:0 10px;background-color:#F9A704;padding:6px 10px;font-weight:bold;line-height:1;color:#FFFFFF;text-align:center;font-style:italic;transition:all ease-in-out .3s;cursor:pointer}.age-verify-button:hover{transform:scale(1.1)}.verify-locale-button{width:50px;height:50px;box-sizing:border-box;border-radius:50%;line-height:50px;font-size:28px;text-transform:uppercase;color:#FFFFFF;text-align:center;margin:0 5px;transition:all ease-in-out .3s;cursor:pointer}.verify-locale-button:hover{transform:scale(1.1)}.btn-us{background-color:#074097}.btn-eu{background-color:#679705}.btn-ca{background-color:#980605}.btn-as{background-color:#7902AA}.btn-au{background-color:#FB8A02}.active-strength{background-color:#FFA500 !important}.dropdown-menu .sub-menu{border-top:3px solid #FFA500}/*div[class*="btn-strength-"]{display:none}div[class*="btn-strength-0"]{display:block}*//*remove parallax overlay when screen is XL*/@media screen and (min-width:2000px){.vapetasia-background-overlay{display:none}#hero-description{color:#FFFFFF !important}.vapetasia-597 .vapetasia-element.vapetasia-element-21957b3{color:#FFFFFF;font-size:28px}.vapetasia-2274 .vapetasia-element.vapetasia-element-94df9ed{color:#FFFFFF;font-size:28px}.vapetasia-621 .vapetasia-element.vapetasia-element-21957b3{color:#FFFFFF;font-size:28px}.vapetasia-523 .vapetasia-element.vapetasia-element-6ec93f8{color:#FFFFFF;font-size:28px}.vapetasia-523 .vapetasia-element-7078927{color:#FFFFFF}}.easy-notification-bar-message{font-family:"rift",Sans-serif !important}.vapetasia{padding-top:0 !important}
-*/
-/* General CSS */a:hover,a.light:hover,.theme-heading .text::before,.theme-heading .text::after,#top-bar-content >a:hover,#top-bar-social li.oceanwp-email a:hover,#site-navigation-wrap .dropdown-menu >li >a:hover,#site-header.medium-header #medium-searchform button:hover,.oceanwp-mobile-menu-icon a:hover,.blog-entry.post .blog-entry-header .entry-title a:hover,.blog-entry.post .blog-entry-readmore a:hover,.blog-entry.thumbnail-entry .blog-entry-category a,ul.meta li a:hover,.dropcap,.single nav.post-navigation .nav-links .title,body .related-post-title a:hover,body #wp-calendar caption,body .contact-info-widget.default i,body .contact-info-widget.big-icons i,body .custom-links-widget .oceanwp-custom-links li a:hover,body .custom-links-widget .oceanwp-custom-links li a:hover:before,body .posts-thumbnails-widget li a:hover,body .social-widget li.oceanwp-email a:hover,.comment-author .comment-meta .comment-reply-link,#respond #cancel-comment-reply-link:hover,#footer-widgets .footer-box a:hover,#footer-bottom a:hover,#footer-bottom #footer-bottom-menu a:hover,.sidr a:hover,.sidr-class-dropdown-toggle:hover,.sidr-class-menu-item-has-children.active >a,.sidr-class-menu-item-has-children.active >a >.sidr-class-dropdown-toggle,input[type=checkbox]:checked:before{color:}.single nav.post-navigation .nav-links .title .owp-icon use,.blog-entry.post .blog-entry-readmore a:hover .owp-icon use,body .contact-info-widget.default .owp-icon use,body .contact-info-widget.big-icons .owp-icon use{stroke:}input[type="button"],input[type="reset"],input[type="submit"],button[type="submit"],.button,#site-navigation-wrap .dropdown-menu >li.btn >a >span,.thumbnail:hover i,.post-quote-content,.omw-modal .omw-close-modal,body .contact-info-widget.big-icons li:hover i,body div.wpforms-container-full .wpforms-form input[type=submit],body div.wpforms-container-full .wpforms-form button[type=submit],body div.wpforms-container-full .wpforms-form .wpforms-page-button{background-color:}.thumbnail:hover .link-post-svg-icon{background-color:}body .contact-info-widget.big-icons li:hover .owp-icon{background-color:}.widget-title{border-color:}blockquote{border-color:}#searchform-dropdown{border-color:}.dropdown-menu .sub-menu{border-color:}.blog-entry.large-entry .blog-entry-readmore a:hover{border-color:}.oceanwp-newsletter-form-wrap input[type="email"]:focus{border-color:}.social-widget li.oceanwp-email a:hover{border-color:}#respond #cancel-comment-reply-link:hover{border-color:}body .contact-info-widget.big-icons li:hover i{border-color:}#footer-widgets .oceanwp-newsletter-form-wrap input[type="email"]:focus{border-color:}input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover,button[type="submit"]:hover,input[type="button"]:focus,input[type="reset"]:focus,input[type="submit"]:focus,button[type="submit"]:focus,.button:hover,.button:focus,#site-navigation-wrap .dropdown-menu >li.btn >a:hover >span,.post-quote-author,.omw-modal .omw-close-modal:hover,body div.wpforms-container-full .wpforms-form input[type=submit]:hover,body div.wpforms-container-full .wpforms-form button[type=submit]:hover,body div.wpforms-container-full .wpforms-form .wpforms-page-button:hover{background-color:}table th,table td,hr,.content-area,body.content-left-sidebar #content-wrap .content-area,.content-left-sidebar .content-area,#top-bar-wrap,#site-header,#site-header.top-header #search-toggle,.dropdown-menu ul li,.centered-minimal-page-header,.blog-entry.post,.blog-entry.grid-entry .blog-entry-inner,.blog-entry.thumbnail-entry .blog-entry-bottom,.single-post .entry-title,.single .entry-share-wrap .entry-share,.single .entry-share,.single .entry-share ul li a,.single nav.post-navigation,.single nav.post-navigation .nav-links .nav-previous,#author-bio,#author-bio .author-bio-avatar,#author-bio .author-bio-social li a,#related-posts,#comments,.comment-body,#respond #cancel-comment-reply-link,#blog-entries .type-page,.page-numbers a,.page-numbers span:not(.vapetasia-screen-only),.page-links span,body #wp-calendar caption,body #wp-calendar th,body #wp-calendar tbody,body .contact-info-widget.default i,body .contact-info-widget.big-icons i,body .posts-thumbnails-widget li,body .tagcloud a{border-color:}body .contact-info-widget.big-icons .owp-icon,body .contact-info-widget.default .owp-icon{border-color:}/* Header CSS */#site-header,.has-transparent-header .is-sticky #site-header,.has-vh-transparent .is-sticky #site-header.vertical-header,#searchform-header-replace{background-color:#0a0a0a}#site-header{border-color:rgba(241,241,241,0)}#site-header.has-header-media .overlay-header-media{background-color:rgba(0,0,0,0.5)}#site-logo #site-logo-inner a img,#site-header.center-header #site-navigation-wrap .middle-site-logo a img{max-width:149px}#site-header #site-logo #site-logo-inner a img,#site-header.center-header #site-navigation-wrap .middle-site-logo a img{max-height:163px}.effect-one #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:after,.effect-three #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:after,.effect-five #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:before,.effect-five #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:after,.effect-nine #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:before,.effect-nine #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:after{background-color:#fbb81f}.effect-four #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:before,.effect-four #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:after,.effect-seven #site-navigation-wrap .dropdown-menu >li >a.menu-link:hover >span:after,.effect-seven #site-navigation-wrap .dropdown-menu >li.sfHover >a.menu-link >span:after{color:#fbb81f}.effect-seven #site-navigation-wrap .dropdown-menu >li >a.menu-link:hover >span:after,.effect-seven #site-navigation-wrap .dropdown-menu >li.sfHover >a.menu-link >span:after{text-shadow:10px 0 #fbb81f,-10px 0 #fbb81f}#site-navigation-wrap .dropdown-menu >li >a,.oceanwp-mobile-menu-icon a,#searchform-header-replace-close{color:#ffffff}#site-navigation-wrap .dropdown-menu >li >a .owp-icon use,.oceanwp-mobile-menu-icon a .owp-icon use,#searchform-header-replace-close .owp-icon use{stroke:#ffffff}#site-navigation-wrap .dropdown-menu >li >a:hover,.oceanwp-mobile-menu-icon a:hover,#searchform-header-replace-close:hover{color:#fbb81f}#site-navigation-wrap .dropdown-menu >li >a:hover .owp-icon use,.oceanwp-mobile-menu-icon a:hover .owp-icon use,#searchform-header-replace-close:hover .owp-icon use{stroke:#fbb81f}.dropdown-menu .sub-menu,#searchform-dropdown,.current-shop-items-dropdown{border-color:#fbb81f}.mobile-menu .hamburger-inner,.mobile-menu .hamburger-inner::before,.mobile-menu .hamburger-inner::after{background-color:#ffffff}
-
-
-.vapetasia-heading-title {
-    font-family:"rift",Sans-serif !important;
-    font-style: italic;
-    font-size: 50px
+     */
 }
 
+.easy-notification-bar {
+  line-height: 1 !important;
+}
+.easy-notification-bar-container {
+  border: 4px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 600px) {
+  .easy-notification-bar-container {
+    font-size: 22px;
+  }
+}
+.verify-modal {
+  font-family: "rift", Sans-serif !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://cdn2.vapetasia.com/img/Age_Verify_Page_Background@2x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  opacity: 0;
+  background-color: #ffffff;
+  transition: all ease-in-out 0.5s;
+  display: none;
+}
+.verify-modal-box {
+  background-color: #ffffff;
+  box-shadow: 3px 2px 1px 0 #cccccc;
+  border-radius: 30px;
+  padding: 30px;
+  margin: 20% auto 0 auto;
+  display: inline-block;
+  max-width: 500px;
+  min-width: 350px;
+  width: 30%;
+}
+.verify-modal-logo {
+  width: 100%;
+  height: 70px;
+  background-image: url("https://cdn2.vapetasia.com/img/vapetasia-logo-small.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.verify-modal-title {
+  font-size: 48px;
+  color: #000000;
+  font-weight: bold;
+  font-style: italic;
+  margin: 20px 0 10px 0;
+  text-align: center;
+  line-height: 1 !important;
+  text-transform: uppercase;
+}
+.verify-modal-desc {
+  font-size: 18px;
+  color: #000000;
+  font-weight: normal;
+  text-align: center;
+  text-transform: none !important;
+  line-height: 1 !important;
+}
+.verify-modal-buttons {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: 20px auto;
+}
+.age-verify-button {
+  display: inline-block;
+  margin: 0 10px;
+  background-color: #f9a704;
+  padding: 6px 10px;
+  font-weight: bold;
+  line-height: 1;
+  color: #ffffff;
+  text-align: center;
+  font-style: italic;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+.age-verify-button:hover {
+  transform: scale(1.1);
+}
+.verify-locale-button {
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  line-height: 50px;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 5px;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+.verify-locale-button:hover {
+  transform: scale(1.1);
+}
+.btn-us {
+  background-color: #074097;
+}
+.btn-eu {
+  background-color: #679705;
+}
+.btn-ca {
+  background-color: #980605;
+}
+.btn-as {
+  background-color: #7902aa;
+}
+.btn-au {
+  background-color: #fb8a02;
+}
+.active-strength {
+  background-color: #ffa500 !important;
+}
+.dropdown-menu .sub-menu {
+  border-top: 3px solid #ffa500;
+}
+
+/*.verify-modal{font-family:"rift",Sans-serif !important;position:fixed;top:0;left:0;z-index:10000;width:100%;height:100%;background-image:url('https://vapetasia.com/wp-content/uploads/2020/08/Age_Verify_Page_Background.png');background-size:cover;background-repeat:no-repeat;text-align:center;opacity:0;background-color:#FFFFFF;transition:all ease-in-out .5s;display:none}.verify-modal-box{background-color:#FFFFFF;box-shadow:3px 2px 1px 0 #CCCCCC;border-radius:30px;padding:30px;margin:100px auto 0 auto;display:inline-block;max-width:500px;min-width:350px;width:30%}.verify-modal-logo{width:100%;height:70px;background-image:url('https://vapetasia.com/wp-content/uploads/2020/05/Vapetasia_Logo_2_small.png');background-size:contain;background-position:center;background-repeat:no-repeat}.verify-modal-title{font-size:48px;color:#000000;font-weight:bold;font-style:italic;margin:20px 0 10px 0;text-align:center;line-height:1 !important;text-transform:uppercase}.verify-modal-desc{font-size:18px;color:#000000;font-weight:normal;text-align:center;text-transform:none !important;line-height:1 !important}.verify-modal-buttons{display:flex;flex-wrap:nowrap;justify-content:space-around;margin:20px auto}.age-verify-button{display:inline-block;margin:0 10px;background-color:#F9A704;padding:6px 10px;font-weight:bold;line-height:1;color:#FFFFFF;text-align:center;font-style:italic;transition:all ease-in-out .3s;cursor:pointer}.age-verify-button:hover{transform:scale(1.1)}.verify-locale-button{width:50px;height:50px;box-sizing:border-box;border-radius:50%;line-height:50px;font-size:28px;text-transform:uppercase;color:#FFFFFF;text-align:center;margin:0 5px;transition:all ease-in-out .3s;cursor:pointer}.verify-locale-button:hover{transform:scale(1.1)}.btn-us{background-color:#074097}.btn-eu{background-color:#679705}.btn-ca{background-color:#980605}.btn-as{background-color:#7902AA}.btn-au{background-color:#FB8A02}.active-strength{background-color:#FFA500 !important}.dropdown-menu .sub-menu{border-top:3px solid #FFA500}/*div[class*="btn-strength-"]{display:none}div[class*="btn-strength-0"]{display:block}*/ /*remove parallax overlay when screen is XL*/
+@media screen and (min-width: 2000px) {
+  .vapetasia-background-overlay {
+    display: none;
+  }
+  #hero-description {
+    color: #ffffff !important;
+  }
+  .vapetasia-597 .vapetasia-element.vapetasia-element-21957b3 {
+    color: #ffffff;
+    font-size: 28px;
+  }
+  .vapetasia-2274 .vapetasia-element.vapetasia-element-94df9ed {
+    color: #ffffff;
+    font-size: 28px;
+  }
+  .vapetasia-621 .vapetasia-element.vapetasia-element-21957b3 {
+    color: #ffffff;
+    font-size: 28px;
+  }
+  .vapetasia-523 .vapetasia-element.vapetasia-element-6ec93f8 {
+    color: #ffffff;
+    font-size: 28px;
+  }
+  .vapetasia-523 .vapetasia-element-7078927 {
+    color: #ffffff;
+  }
+}
+.easy-notification-bar-message {
+  font-family: "rift", Sans-serif !important;
+}
+.vapetasia {
+  padding-top: 0 !important;
+}
+
+/* General CSS */
+/* 
+a:hover,a.light:hover,.theme-heading .text::before,.theme-heading .text::after,#top-bar-content >a:hover,#top-bar-social li.oceanwp-email a:hover,#site-navigation-wrap .dropdown-menu >li >a:hover,#site-header.medium-header #medium-searchform button:hover,.oceanwp-mobile-menu-icon a:hover,.blog-entry.post .blog-entry-header .entry-title a:hover,.blog-entry.post .blog-entry-readmore a:hover,.blog-entry.thumbnail-entry .blog-entry-category a,ul.meta li a:hover,.dropcap,.single nav.post-navigation .nav-links .title,body .related-post-title a:hover,body #wp-calendar caption,body .contact-info-widget.default i,body .contact-info-widget.big-icons i,body .custom-links-widget .oceanwp-custom-links li a:hover,body .custom-links-widget .oceanwp-custom-links li a:hover:before,body .posts-thumbnails-widget li a:hover,body .social-widget li.oceanwp-email a:hover,.comment-author .comment-meta .comment-reply-link,#respond #cancel-comment-reply-link:hover,#footer-widgets .footer-box a:hover,#footer-bottom a:hover,#footer-bottom #footer-bottom-menu a:hover,.sidr a:hover,.sidr-class-dropdown-toggle:hover,.sidr-class-menu-item-has-children.active >a,.sidr-class-menu-item-has-children.active >a >.sidr-class-dropdown-toggle,input[type=checkbox]:checked:before {
+  color: ;
+}
+.single nav.post-navigation .nav-links .title .owp-icon use,
+.blog-entry.post .blog-entry-readmore a:hover .owp-icon use,
+body .contact-info-widget.default .owp-icon use,
+body .contact-info-widget.big-icons .owp-icon use {
+  stroke: ;
+}
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+button[type="submit"],
+.button,
+#site-navigation-wrap .dropdown-menu > li.btn > a > span,
+.thumbnail:hover i,
+.post-quote-content,
+.omw-modal .omw-close-modal,
+body .contact-info-widget.big-icons li:hover i,
+body div.wpforms-container-full .wpforms-form input[type="submit"],
+body div.wpforms-container-full .wpforms-form button[type="submit"],
+body div.wpforms-container-full .wpforms-form .wpforms-page-button {
+  background-color: ;
+}
+.thumbnail:hover .link-post-svg-icon {
+  background-color: ;
+}
+body .contact-info-widget.big-icons li:hover .owp-icon {
+  background-color: ;
+}
+.widget-title {
+  border-color: ;
+}
+blockquote {
+  border-color: ;
+}
+#searchform-dropdown {
+  border-color: ;
+}
+.dropdown-menu .sub-menu {
+  border-color: ;
+}
+.blog-entry.large-entry .blog-entry-readmore a:hover {
+  border-color: ;
+}
+.oceanwp-newsletter-form-wrap input[type="email"]:focus {
+  border-color: ;
+}
+.social-widget li.oceanwp-email a:hover {
+  border-color: ;
+}
+#respond #cancel-comment-reply-link:hover {
+  border-color: ;
+}
+body .contact-info-widget.big-icons li:hover i {
+  border-color: ;
+}
+#footer-widgets .oceanwp-newsletter-form-wrap input[type="email"]:focus {
+  border-color: ;
+}
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+button[type="submit"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+button[type="submit"]:focus,
+.button:hover,
+.button:focus,
+#site-navigation-wrap .dropdown-menu > li.btn > a:hover > span,
+.post-quote-author,
+.omw-modal .omw-close-modal:hover,
+body div.wpforms-container-full .wpforms-form input[type="submit"]:hover,
+body div.wpforms-container-full .wpforms-form button[type="submit"]:hover,
+body div.wpforms-container-full .wpforms-form .wpforms-page-button:hover {
+  background-color: ;
+} 
+table th,
+table td,
+hr,
+.content-area,
+body.content-left-sidebar #content-wrap .content-area,
+.content-left-sidebar .content-area,
+#top-bar-wrap,
+#site-header,
+#site-header.top-header #search-toggle,
+.dropdown-menu ul li,
+.centered-minimal-page-header,
+.blog-entry.post,
+.blog-entry.grid-entry .blog-entry-inner,
+.blog-entry.thumbnail-entry .blog-entry-bottom,
+.single-post .entry-title,
+.single .entry-share-wrap .entry-share,
+.single .entry-share,
+.single .entry-share ul li a,
+.single nav.post-navigation,
+.single nav.post-navigation .nav-links .nav-previous,
+#author-bio,
+#author-bio .author-bio-avatar,
+#author-bio .author-bio-social li a,
+#related-posts,
+#comments,
+.comment-body,
+#respond #cancel-comment-reply-link,
+#blog-entries .type-page,
+.page-numbers a,
+.page-numbers span:not(.vapetasia-screen-only),
+.page-links span,
+body #wp-calendar caption,
+body #wp-calendar th,
+body #wp-calendar tbody,
+body .contact-info-widget.default i,
+body .contact-info-widget.big-icons i,
+body .posts-thumbnails-widget li,
+body .tagcloud a {
+  border-color: ;
+}
+body .contact-info-widget.big-icons .owp-icon,
+body .contact-info-widget.default .owp-icon {
+  border-color: ;
+} 
+*/
+
+/* Header CSS */
+#site-header,
+.has-transparent-header .is-sticky #site-header,
+.has-vh-transparent .is-sticky #site-header.vertical-header,
+#searchform-header-replace {
+  background-color: #0a0a0a;
+}
+#site-header {
+  border-color: rgba(241, 241, 241, 0);
+}
+#site-header.has-header-media .overlay-header-media {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#site-logo #site-logo-inner a img,
+#site-header.center-header #site-navigation-wrap .middle-site-logo a img {
+  max-width: 149px;
+}
+#site-header #site-logo #site-logo-inner a img,
+#site-header.center-header #site-navigation-wrap .middle-site-logo a img {
+  max-height: 163px;
+}
+.effect-one
+  #site-navigation-wrap
+  .dropdown-menu
+  > li
+  > a.menu-link
+  > span:after,
+.effect-three
+  #site-navigation-wrap
+  .dropdown-menu
+  > li
+  > a.menu-link
+  > span:after,
+.effect-five
+  #site-navigation-wrap
+  .dropdown-menu
+  > li
+  > a.menu-link
+  > span:before,
+.effect-five
+  #site-navigation-wrap
+  .dropdown-menu
+  > li
+  > a.menu-link
+  > span:after,
+.effect-nine
+  #site-navigation-wrap
+  .dropdown-menu
+  > li
+  > a.menu-link
+  > span:before,
+.effect-nine
+  #site-navigation-wrap
+  .dropdown-menu
+  > li
+  > a.menu-link
+  > span:after {
+  background-color: #fbb81f;
+}
+.effect-four
+  #site-navigation-wrap
+  .dropdown-menu
+  > li
+  > a.menu-link
+  > span:before,
+.effect-four
+  #site-navigation-wrap
+  .dropdown-menu
+  > li
+  > a.menu-link
+  > span:after,
+.effect-seven
+  #site-navigation-wrap
+  .dropdown-menu
+  > li
+  > a.menu-link:hover
+  > span:after,
+.effect-seven
+  #site-navigation-wrap
+  .dropdown-menu
+  > li.sfHover
+  > a.menu-link
+  > span:after {
+  color: #fbb81f;
+}
+.effect-seven
+  #site-navigation-wrap
+  .dropdown-menu
+  > li
+  > a.menu-link:hover
+  > span:after,
+.effect-seven
+  #site-navigation-wrap
+  .dropdown-menu
+  > li.sfHover
+  > a.menu-link
+  > span:after {
+  text-shadow: 10px 0 #fbb81f, -10px 0 #fbb81f;
+}
+#site-navigation-wrap .dropdown-menu > li > a,
+.oceanwp-mobile-menu-icon a,
+#searchform-header-replace-close {
+  color: #ffffff;
+}
+#site-navigation-wrap .dropdown-menu > li > a .owp-icon use,
+.oceanwp-mobile-menu-icon a .owp-icon use,
+#searchform-header-replace-close .owp-icon use {
+  stroke: #ffffff;
+}
+#site-navigation-wrap .dropdown-menu > li > a:hover,
+.oceanwp-mobile-menu-icon a:hover,
+#searchform-header-replace-close:hover {
+  color: #fbb81f;
+}
+#site-navigation-wrap .dropdown-menu > li > a:hover .owp-icon use,
+.oceanwp-mobile-menu-icon a:hover .owp-icon use,
+#searchform-header-replace-close:hover .owp-icon use {
+  stroke: #fbb81f;
+}
+.dropdown-menu .sub-menu,
+#searchform-dropdown,
+.current-shop-items-dropdown {
+  border-color: #fbb81f;
+}
+.mobile-menu .hamburger-inner,
+.mobile-menu .hamburger-inner::before,
+.mobile-menu .hamburger-inner::after {
+  background-color: #ffffff;
+}
+
+.vapetasia-heading-title {
+  font-family: "rift", Sans-serif !important;
+  font-style: italic;
+  font-size: 50px;
+}

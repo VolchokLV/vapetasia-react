@@ -17,6 +17,18 @@
   transition: height .2s !important;
 }
 
+#mobile-dropdown .sub-menu {
+  display: none !important;
+}
+
+#mobile-dropdown .sub-menu.open {
+  display: block !important;
+}
+
+#mobile-dropdown .dropdown-toggle:after {
+  display: none;
+}
+
 @media screen and (max-width: 776px) {
   #site-navigation-wrap {
     display: none;

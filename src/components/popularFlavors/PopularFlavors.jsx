@@ -30,8 +30,8 @@ const PopularFlavors = (props) => {
         <div className="vapetasia-container vapetasia-column-gap-default">
 
           <div id="vapetasia-carousel">
-            <Carousel emulateTouch={true} swipeable={true} showStatus={false} showThumbs={false} autoPlay={true} interval={7000} showArrows={false} showIndicators={false} infiniteLoop={true} >
-            <div id="vt-inner-carousel" style={{width: 250*props.featured.length}}>
+            <Carousel emulateTouch={true} swipeable={true} showStatus={false} showThumbs={false} autoPlay={false} interval={7000} showArrows={false} showIndicators={false} infiniteLoop={true} >
+            <div className="vt-inner-carousel">
 
                 {props.featured.map(p => (
                   <div key={p.product_slug} className="vt-custom-carousel-item">
@@ -79,7 +79,7 @@ const PopularFlavors = (props) => {
               </div>
               <div className="vapetasia-container vapetasia-column-gap-default">
                 <div id="vapetasia-carousel">
-                  <div id="vt-inner-carousel" style={{width: 250*props.featured2.length}}>
+                  <div className="vt-inner-carousel">
 
                       {props.featured2.map(p => (
                         <div key={p.product_slug} className="vt-custom-carousel-item">

@@ -60,7 +60,7 @@ const Wholesale = () => {
           </div>
       </div>
     </section>
-    <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-2b06a3a vapetasia-hidden-tablet vapetasia-hidden-phone vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="2b06a3a" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+    <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-2b06a3a vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="2b06a3a" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
       <div className="vapetasia-container vapetasia-column-gap-default">
           <div className="vapetasia-row">
             <div className="vapetasia-column vapetasia-col-16 vapetasia-top-column vapetasia-element vapetasia-element-0b73e85" data-id="0b73e85" data-element_type="column">
@@ -123,7 +123,7 @@ const Wholesale = () => {
             </div>
           </div>
       </div>
-    </section><section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-886720e vapetasia-hidden-tablet vapetasia-hidden-phone vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="886720e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+    </section><section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-886720e vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="886720e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
       <div className="vapetasia-container vapetasia-column-gap-default">
           <div className="vapetasia-row">
             <div className="vapetasia-column vapetasia-col-16 vapetasia-top-column vapetasia-element vapetasia-element-b841b8f" data-id="b841b8f" data-element_type="column">
@@ -187,7 +187,7 @@ const Wholesale = () => {
           </div>
       </div>
     </section>
-    <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-2258bf0 vapetasia-hidden-tablet vapetasia-hidden-phone vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="2258bf0" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+    <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-2258bf0 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="2258bf0" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
       <div className="vapetasia-container vapetasia-column-gap-default">
           <div className="vapetasia-row">
             <div className="vapetasia-column vapetasia-col-16 vapetasia-top-column vapetasia-element vapetasia-element-3e7192b" data-id="3e7192b" data-element_type="column">
@@ -251,7 +251,7 @@ const Wholesale = () => {
           </div>
       </div>
     </section>
-    <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-f21520e vapetasia-hidden-tablet vapetasia-hidden-phone vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="f21520e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+    <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-f21520e vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="f21520e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
       <div className="vapetasia-container vapetasia-column-gap-default">
           <div className="vapetasia-row">
             <div className="vapetasia-column vapetasia-col-16 vapetasia-top-column vapetasia-element vapetasia-element-fdca48b" data-id="fdca48b" data-element_type="column">
@@ -315,7 +315,7 @@ const Wholesale = () => {
           </div>
       </div>
     </section>
-    <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-0d6eff4 vapetasia-hidden-tablet vapetasia-hidden-phone vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="0d6eff4" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+    <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-0d6eff4 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="0d6eff4" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
       <div className="vapetasia-container vapetasia-column-gap-default">
           <div className="vapetasia-row">
             <div className="vapetasia-column vapetasia-col-16 vapetasia-top-column vapetasia-element vapetasia-element-9eee628" data-id="9eee628" data-element_type="column">
@@ -379,7 +379,7 @@ const Wholesale = () => {
           </div>
       </div>
     </section>
-    <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-68856dd vapetasia-hidden-tablet vapetasia-hidden-phone vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="68856dd" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+    <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-68856dd vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="68856dd" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
       <div className="vapetasia-container vapetasia-column-gap-default">
           <div className="vapetasia-row">
             <div className="vapetasia-column vapetasia-col-16 vapetasia-top-column vapetasia-element vapetasia-element-f3eeb56" data-id="f3eeb56" data-element_type="column">
@@ -443,7 +443,7 @@ const Wholesale = () => {
           </div>
       </div>
     </section>
-    <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-5d3e678 vapetasia-hidden-tablet vapetasia-hidden-phone vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="5d3e678" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+    <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-5d3e678 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="5d3e678" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
       <div className="vapetasia-container vapetasia-column-gap-default">
           <div className="vapetasia-row">
             <div className="vapetasia-column vapetasia-col-16 vapetasia-top-column vapetasia-element vapetasia-element-16b5cd4" data-id="16b5cd4" data-element_type="column">
@@ -507,7 +507,7 @@ const Wholesale = () => {
           </div>
       </div>
     </section>
-    <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-ae5151d vapetasia-hidden-tablet vapetasia-hidden-phone vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="ae5151d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+    <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-ae5151d vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="ae5151d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
       <div className="vapetasia-container vapetasia-column-gap-default">
           <div className="vapetasia-row">
             <div className="vapetasia-column vapetasia-col-16 vapetasia-top-column vapetasia-element vapetasia-element-f4956d7" data-id="f4956d7" data-element_type="column">

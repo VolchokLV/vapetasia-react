@@ -6,7 +6,7 @@ import './newsletter.css'
 const Newsletter = () => {
   return (
     <>
-      <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-16ea1b8 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="16ea1b8" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+      <section className="vapetasia-section-newsletter vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-16ea1b8 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="16ea1b8" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
         <div className="vapetasia-container vapetasia-column-gap-default">
           <div className="vapetasia-row">
             <div className="vapetasia-column vapetasia-col-100 vapetasia-top-column vapetasia-element vapetasia-element-8fd9880" data-id="8fd9880" data-element_type="column">

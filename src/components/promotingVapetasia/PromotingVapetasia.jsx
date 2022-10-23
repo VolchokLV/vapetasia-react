@@ -1,9 +1,10 @@
 import React from 'react'
+import './promotingVapetasia.css';
 
 const PromotingVapetasia = () => {
   return (
     <>
-      <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-b4a7020 vapetasia-hidden-tablet vapetasia-hidden-phone vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="b4a7020" data-element_type="section">
+      <section className="vapetasia-section-promoting vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-b4a7020 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="b4a7020" data-element_type="section">
         <div className="vapetasia-container vapetasia-column-gap-default">
           <div className="vapetasia-row">
             <div className="vapetasia-column vapetasia-col-100 vapetasia-top-column vapetasia-element vapetasia-element-5181dc0" data-id="5181dc0" data-element_type="column">

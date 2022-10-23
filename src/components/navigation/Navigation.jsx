@@ -8,6 +8,9 @@ const getTop = el => el.offsetTop + (el.offsetParent && getTop(el.offsetParent))
 const Navigation = () => {
   const [searchVal, setSearchVal] = useState('');
   const [menuOpen, setMenuOpen] = useState(false);
+  const [subMenuFlavor, setSubMenuFlavor] = useState('closed');
+  const [subMenuDisposable, setSubMenuDisposable] = useState('closed');
+  const [subMenuContact, setSubMenuContact] = useState('closed');
 
   const toggleMenu = () => {
     if (menuOpen) {
@@ -16,6 +19,35 @@ const Navigation = () => {
     } else {
       setMenuOpen(true);
       document.getElementById('mobile-dropdown').style.height = '400px';
+    }
+  }
+
+  const toggleSub = (e, subKey) => {
+    e.preventDefault();
+    switch (subKey) {
+      case 'Flavor':
+        if (subMenuFlavor === 'closed') {
+          setSubMenuFlavor('open');
+        } else {
+          setSubMenuFlavor('closed');
+        }
+        break;
+      case 'Disposable':
+        if (subMenuDisposable === 'closed') {
+          setSubMenuDisposable('open');
+        } else {
+          setSubMenuDisposable('closed');
+        }
+        break;
+      case 'Contact':
+        if (subMenuContact === 'closed') {
+          setSubMenuContact('open');
+        } else {
+          setSubMenuContact('closed');
+        }
+        break;
+      default:
+        break;
     }
   }
 
@@ -267,22 +299,22 @@ const Navigation = () => {
                 </a>
               </li>
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-652">
-                <a href={ process.env.REACT_APP_BASE_URL + '/flavors/' }>
+                <a href="#flavors" onClick={(e) => toggleSub(e, 'Flavor')}>
                   FLAVORS<span className="dropdown-toggle" tabIndex="0"></span>
                 </a>
-                <ul className="sub-menu">
+                <ul className={`${subMenuFlavor} sub-menu`}>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-619">
-                    <a href={ process.env.REACT_APP_BASE_URL + '/eliquid/size/100ml'}>
+                    <a href={ process.env.REACT_APP_BASE_URL + '/category/eliquid/size/100ml'}>
                       E-LIQUID 100ml
                     </a>
                   </li>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2279">
-                    <a href={ process.env.REACT_APP_BASE_URL + '/eliquid/size/60ml' }>
+                    <a href={ process.env.REACT_APP_BASE_URL + '/category/eliquid/size/60ml' }>
                       E-LIQUID 60ml
                     </a>
                   </li>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-655">
-                    <a href={ process.env.REACT_APP_BASE_URL + '/eliquid/size/30ml' }>
+                    <a href={ process.env.REACT_APP_BASE_URL + '/category/eliquid/size/30ml' }>
                       SALT 30ml
                     </a>
                   </li>
@@ -290,10 +322,10 @@ const Navigation = () => {
               </li>
               
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4893">
-                <a href={ process.env.REACT_APP_BASE_URL + '/category/disposable/brand/killer-disposables' }>
+                <a href="#flavors" onClick={(e) => toggleSub(e, 'Disposable')}>
                   DISPOSABLES<span className="dropdown-toggle" tabIndex="0"></span>
                 </a>
-                <ul className="sub-menu">
+                <ul className={`${subMenuDisposable} sub-menu`}>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-6022">
                     <a href={ process.env.REACT_APP_BASE_URL + '/category/disposable/brand/killer-disposables'}>
                       Killer Disposables
@@ -329,10 +361,10 @@ const Navigation = () => {
 
 
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-336">
-                <a href={ process.env.REACT_APP_BASE_URL + '/contact/' }>
+                <a href="#flavors" onClick={(e) => toggleSub(e, 'Contact')}>
                   CONTACT US<span className="dropdown-toggle" tabIndex="0"></span>
                 </a>
-                <ul className="sub-menu">
+                <ul className={`${subMenuContact} sub-menu`}>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1980">
                     <a href={ process.env.REACT_APP_BASE_URL + '/contact/'}>CONTACT</a>
                   </li>

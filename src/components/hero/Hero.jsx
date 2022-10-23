@@ -34,7 +34,7 @@ const Hero = (props) => {
                   >
                     <div className="vapetasia-widget-container">
                       <div className="vapetasia-spacer">
-                        <div className="vapetasia-spacer-inner"></div>
+                        <div className="vapetasia-spacer-inner" id="first-hero-spacer"></div>
                       </div>
                     </div>
                   </div>
@@ -46,7 +46,7 @@ const Hero = (props) => {
                   >
                     <div className="vapetasia-widget-container">
                       <div className="vapetasia-spacer">
-                        <div className="vapetasia-spacer-inner"></div>
+                        <div className="vapetasia-spacer-inner" id="second-hero-spacer"></div>
                       </div>
                     </div>
                   </div>

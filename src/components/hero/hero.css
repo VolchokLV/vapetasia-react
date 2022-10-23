@@ -6,6 +6,46 @@
   min-height: 250px;
 }
 
+
+ /*RELEVANT HERO CLASSES*/
+
+ .vapetasia-191 .vapetasia-element.vapetasia-element-page-hero:not(.vapetasia-motion-effects-element-type-background), .vapetasia-191 .vapetasia-element.vapetasia-element-HomeHero > .vapetasia-motion-effects-container > .vapetasia-motion-effects-layer {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.vapetasia-191 .vapetasia-element.vapetasia-element-page-hero > .vapetasia-background-overlay {
+  background-image: url("https://cdn2.vapetasia.com/img/hero/gash.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 1;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.vapetasia-191 .vapetasia-element.vapetasia-element-StoreLocatorHero {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 0px 0px 199px 0px;
+}
+
+
+ /*dim the gash overlay when screen is XL*/
+ @media screen and (min-width: 1600px) {
+  .vapetasia-background-overlay, .hero-paragraph-detail {
+    opacity: .2 !important;
+    border-bottom: 0 !important;
+  }
+  #hero-description {
+    color: #FFFFFF;
+  }
+ }
+ .widget-title {
+  border-color: #FAA500;
+ }
+
+
 /*
 ADJUST HERO SPACER AT VARYING SIZES
 */
@@ -47,17 +87,37 @@ ADJUST HERO SPACER AT VARYING SIZES
     display: none !important;
   }
   /*shrink the paragraph*/
-  .hero-paragraph-text {
+  .vapetasia-element-page-hero .hero-paragraph-text {
     font-size: 22px;
     min-height: 225px;
   }
 }
 @media screen and (max-width: 600px) {
+  #second-hero-spacer {
+    display: none !important;
+  }
   .hero-height-gap {
-    height: 30px !important;
+    height: 0 !important;
   }
   .vapetasia-background-overlay {
     border-bottom: 160px solid white;
+  }
+  /*remove title offset*/
+  .vapetasia-element-page-hero .vapetasia-widget-container {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+    margin-bottom: 30px !important;
+  }
+  /*shrink the title*/
+  .vapetasia-element-page-hero .vapetasia-heading-title {
+    font-size: 64px !important;
+    text-align: center;
+  }
+  /*shrink the paragraph*/
+  .hero-paragraph-text {
+    padding-top: 60px;
   }
 }
 @media screen and (max-width: 300px) {
@@ -67,43 +127,9 @@ ADJUST HERO SPACER AT VARYING SIZES
   .vapetasia-background-overlay {
     border-bottom: 250px solid white;
   }
-}
-
-
-
- /*dim the gash overlay when screen is XL*/
- @media screen and (min-width: 1600px) {
-  .vapetasia-background-overlay, .hero-paragraph-detail {
-    opacity: .2 !important;
-    border-bottom: 0 !important;
+  /*shrink the title*/
+  .vapetasia-element-page-hero .vapetasia-heading-title {
+    font-size: 32px !important;
+    text-align: center;
   }
-  #hero-description {
-    color: #FFFFFF;
-  }
- }
- .widget-title {
-  border-color: #FAA500;
- }
-
- /*RELEVANT HERO CLASSES*/
-
-.vapetasia-191 .vapetasia-element.vapetasia-element-page-hero:not(.vapetasia-motion-effects-element-type-background), .vapetasia-191 .vapetasia-element.vapetasia-element-HomeHero > .vapetasia-motion-effects-container > .vapetasia-motion-effects-layer {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.vapetasia-191 .vapetasia-element.vapetasia-element-page-hero > .vapetasia-background-overlay {
-  background-image: url("https://cdn2.vapetasia.com/img/hero/gash.png");
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  opacity: 1;
-  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
-}
-
-.vapetasia-191 .vapetasia-element.vapetasia-element-StoreLocatorHero {
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-  padding: 0px 0px 199px 0px;
 }

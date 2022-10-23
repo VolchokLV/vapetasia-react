@@ -1,0 +1,8 @@
+@media screen and (max-width: 600px) {
+    .vapetasia-section-promoting .vapetasia-heading-title {
+        font-size: 48px !important;
+    }
+    .vapetasia-section-promoting p {
+        font-size: 22px !important;
+    }
+}

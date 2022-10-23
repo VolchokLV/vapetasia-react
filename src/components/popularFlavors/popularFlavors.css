@@ -36,9 +36,10 @@ CAROUSEL
     background-color: black;
     margin: 30px auto;
 }
-    #vt-inner-carousel {
+    .vt-inner-carousel {
         display: block;
-        width: 3000px;
+        width: 100%;
+        margin: 0 auto;
     }
         .vt-custom-carousel-item {
             display: inline-block;
@@ -62,3 +63,17 @@ CAROUSEL
                 background-color: #FBB81F !important;
 
             }
+
+
+@media screen and (max-width: 1000px) {
+    .vt-inner-carousel {
+        width: 100% !important;
+    }
+    .vt-custom-carousel-item {
+        display: block;
+        margin: 60px auto;
+    }
+    .vt-custom-carousel-title {
+        min-height: auto !important;
+    }
+}

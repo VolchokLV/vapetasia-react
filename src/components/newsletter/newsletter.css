@@ -1,3 +1,10 @@
 .vapetasia-button-newsletter:hover {
     background-color: #424242 !important;
 }
+@media screen and (max-width: 600px) {
+    /*shrink the title*/
+    .vapetasia-section-newsletter .vapetasia-heading-title {
+      font-size: 32px !important;
+      text-align: center;
+    }
+  }

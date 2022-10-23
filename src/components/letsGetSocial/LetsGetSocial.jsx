@@ -1,9 +1,10 @@
 import React from 'react'
+import './letsGetSocial.css';
 
 const LetsGetSocial = () => {
   return (
     <>
-      <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-abd769f vapetasia-hidden-tablet vapetasia-hidden-mobile vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="abd769f" data-element_type="section">
+      <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-abd769f vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="abd769f" data-element_type="section">
         <div className="vapetasia-container vapetasia-column-gap-default">
           <div className="vapetasia-row">
             <div className="vapetasia-column vapetasia-col-100 vapetasia-top-column vapetasia-element vapetasia-element-84c9af3" data-id="84c9af3" data-element_type="column">
@@ -29,7 +30,7 @@ const LetsGetSocial = () => {
         </div>
       </section>
 
-      <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-f1ca2e7 vapetasia-hidden-tablet vapetasia-hidden-phone vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="f1ca2e7" data-element_type="section">
+      <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-f1ca2e7 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="f1ca2e7" data-element_type="section">
         <div className="vapetasia-container vapetasia-column-gap-default">
           <div className="vapetasia-row">
             <div className="vapetasia-column vapetasia-col-100 vapetasia-top-column vapetasia-element vapetasia-element-2a8937b" data-id="2a8937b" data-element_type="column">
@@ -37,7 +38,8 @@ const LetsGetSocial = () => {
                 <div className="vapetasia-widget-wrap">
                   <div className="vapetasia-element vapetasia-element-9a8f0a8 vapetasia-widget vapetasia-widget-text-editor" data-id="9a8f0a8" data-element_type="widget" data-widget_type="text-editor.default">
                     <div className="vapetasia-widget-container">
-                      <div className="vapetasia-text-editor vapetasia-clearfix"><p>Follow us on Instagram, Facebook, and Twitter for the latest product releases, announcements, coupon codes, and giveaway contests!</p>
+                      <div className="vapetasia-text-editor vapetasia-clearfix">
+                        <p className="lets-get-social-paragraph">Follow us on Instagram, Facebook, and Twitter for the latest product releases, announcements, coupon codes, and giveaway contests!</p>
                       </div>
                     </div>
                   </div>

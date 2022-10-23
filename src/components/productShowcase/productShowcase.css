@@ -1,3 +1,31 @@
 .vapetasia-orange {
     background-color: #FFA500 !important;
 }
+
+.vapetasia-hide-on-mobile {
+    display: block;
+}
+
+.vapetasia-custom-button-row {
+    display: flex;
+    justify-content: start;
+    column-gap: 10px;
+    margin-bottom: 30px;
+}
+
+.vapetasia-section-center-on-mobile {
+    text-align: left;
+}
+
+@media screen and (max-width: 800px) {
+    .vapetasia-hide-on-mobile {
+        display: none !important;
+    }
+    .vapetasia-section-center-on-mobile {
+        text-align: center;
+    }
+    .vapetasia-section-center-on-mobile .vapetasia-custom-button-row {
+        width: 100%;
+        justify-content: center;
+    }
+}

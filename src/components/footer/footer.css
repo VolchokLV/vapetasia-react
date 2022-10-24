@@ -13,3 +13,9 @@
 .mobile-footer-top-pad {
     padding-top: 60px !important;
 }
+
+@media screen and (max-width: 600px) {
+    .vapetasia-location-footer, .vapetasia-location-footer .vapetasia-heading-title {
+        text-align: center;
+    }
+}

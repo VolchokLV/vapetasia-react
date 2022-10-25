@@ -4,3 +4,6 @@
 .hideProductModal {
     display: none !important;
 }
+.vapetasia-product-modal-wrapper {
+    padding: 30px;
+}

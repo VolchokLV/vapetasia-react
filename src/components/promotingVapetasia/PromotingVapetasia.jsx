@@ -69,7 +69,7 @@ const PromotingVapetasia = () => {
                         <a
                           href={
                             process.env.REACT_APP_BASE_URL +
-                            "media-request-form"
+                            "/media-request"
                           }
                           className=" vapetasia-button-link vapetasia-button vapetasia-size-sm"
                           role="button"
@@ -86,6 +86,7 @@ const PromotingVapetasia = () => {
                       >
                         <a
                           href="https://www.dropbox.com/scl/fo/x1uhnn871zowslhowhdiu/h?dl=0&rlkey=5sd5gh6u3p5x12nij4h1tf3pm"
+                          target="_blank"
                           className=" vapetasia-button-link vapetasia-button vapetasia-size-sm"
                           role="button"
                         >

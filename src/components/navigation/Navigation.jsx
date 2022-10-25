@@ -175,13 +175,13 @@ const Navigation = () => {
               </li>
 
 
-              <li id="menu-item-3179" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3179">
+              {/*<li id="menu-item-3179" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3179">
                 <a href={ process.env.REACT_APP_BASE_URL + '/blog/' } className="menu-link">
                   <span className="text-wrap">
                     BLOG
                   </span>
                 </a>
-              </li>
+              </li>*/}
 
 
               <li id="menu-item-331" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-331">
@@ -267,7 +267,7 @@ const Navigation = () => {
 
 
             <li className="first-to-falloff search-toggle-li">
-              <a onClick={() => { return false }} className="site-search-toggle search-overlay-toggle fa fa-search" aria-label="Search website"></a>
+              {/*<a onClick={() => { return false }} className="site-search-toggle search-overlay-toggle fa fa-search" aria-label="Search website"></a>*/}
             </li>
 
           </ul>
@@ -350,9 +350,9 @@ const Navigation = () => {
               </li>
 
 
-              <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3179">
+              {/*<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3179">
                 <a href={ process.env.REACT_APP_BASE_URL + '/blog/' }>BLOG</a>
-              </li>
+              </li>*/}
 
 
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-331">
@@ -369,7 +369,7 @@ const Navigation = () => {
                     <a href={ process.env.REACT_APP_BASE_URL + '/contact/'}>CONTACT</a>
                   </li>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1978">
-                    <a href={ process.env.REACT_APP_BASE_URL + '/media-request-form/' }>MEDIA REQUEST</a>
+                    <a href={ process.env.REACT_APP_BASE_URL + '/media-request/' }>MEDIA REQUEST</a>
                   </li>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2445">
                     <a href={ process.env.REACT_APP_BASE_URL + '/promotional-request/' }>PROMOTIONAL REQUEST</a>
@@ -400,14 +400,14 @@ const Navigation = () => {
             </ul>
           </div>
 
-          <div id="mobile-menu-search" className="clr">
+          {/*<div id="mobile-menu-search" className="clr">
             <form aria-label="Search this website" method="get" action={ process.env.REACT_APP_BASE_URL + '/' } className="mobile-searchform" role="search"> 
               <input aria-label="Insert search query" value={searchVal} onChange={() => setSearchVal} className="field" id="ocean-mobile-search-1" type="search" name="s" autoComplete="off" placeholder="Search" /> 
               <button aria-label="Submit search" type="submit" className="searchform-submit"> 
                 <i className=" icon-magnifier" aria-hidden="true" role="img"></i> 
               </button>
             </form>
-          </div>
+          </div>*/}
       
         </nav>
     </div>

@@ -1,3 +1,6 @@
 .vapetasia-custom-grid-item {
     text-align: center;
 }
+.vapetasia-grid-item-wrapper {
+    padding: 0 10px;
+}

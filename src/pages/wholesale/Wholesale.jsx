@@ -70,7 +70,7 @@ const Wholesale = () => {
                         <div className="vapetasia-widget-container">
                             <div className="vapetasia-image">
                               <a href="https://cloudsvapors.com/index.php" className="no-lightbox">
-                                  <img width="652" height="550" src="https://cdn2.vapetasia.com/img/distributors/clouds-vapors.png" data-src="https://cdn2.vapetasia.com/img/distributors/clouds-vapors.png" className="attachment-large size-large lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/distributors/clouds-vapors.png 652w, https://cdn.vapetasia.com/wp-content/uploads/2020/05/11153304/Clouds_Vapors_Image%402x-300x253.png 300w" sizes="(max-width: 652px) 100vw, 652px" srcset="https://cdn2.vapetasia.com/img/distributors/clouds-vapors.png 652w, https://cdn.vapetasia.com/wp-content/uploads/2020/05/11153304/Clouds_Vapors_Image%402x-300x253.png 300w"></img>
+                                  <img width="652" height="550" src="https://cdn2.vapetasia.com/img/distributors/clouds-vapors.png" data-src="https://cdn2.vapetasia.com/img/distributors/clouds-vapors.png" className="attachment-large size-large lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/distributors/clouds-vapors.png 652w, https://cdn.vapetasia.com/wp-content/uploads/2020/05/11153304/Clouds_Vapors_Image%402x-300x253.png 300w" sizes="(max-width: 652px) 100vw, 652px" srcSet="https://cdn2.vapetasia.com/img/distributors/clouds-vapors.png 652w, https://cdn.vapetasia.com/wp-content/uploads/2020/05/11153304/Clouds_Vapors_Image%402x-300x253.png 300w"></img>
                               </a>
                             </div>
                         </div>
@@ -133,7 +133,7 @@ const Wholesale = () => {
                         <div className="vapetasia-widget-container">
                             <div className="vapetasia-image">
                               <a href="https://demandvape.com/" className="no-lightbox">
-                                  <img width="326" height="275" src="https://cdn2.vapetasia.com/img/distributors/demand-vape.png" data-src="https://cdn2.vapetasia.com/img/distributors/demand-vape.png" className="attachment-large size-large lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/distributors/demand-vape.png 326w, https://cdn.vapetasia.com/wp-content/uploads/2020/05/11153310/Mask-Group-18%402x-300x253.png 300w" sizes="(max-width: 326px) 100vw, 326px" srcset="https://cdn2.vapetasia.com/img/distributors/demand-vape.png 326w, https://cdn.vapetasia.com/wp-content/uploads/2020/05/11153310/Mask-Group-18%402x-300x253.png 300w"></img>
+                                  <img width="326" height="275" src="https://cdn2.vapetasia.com/img/distributors/demand-vape.png" data-src="https://cdn2.vapetasia.com/img/distributors/demand-vape.png" className="attachment-large size-large lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/distributors/demand-vape.png 326w, https://cdn.vapetasia.com/wp-content/uploads/2020/05/11153310/Mask-Group-18%402x-300x253.png 300w" sizes="(max-width: 326px) 100vw, 326px" srcSet="https://cdn2.vapetasia.com/img/distributors/demand-vape.png 326w, https://cdn.vapetasia.com/wp-content/uploads/2020/05/11153310/Mask-Group-18%402x-300x253.png 300w"></img>
                               </a>
                             </div>
                         </div>
@@ -197,7 +197,7 @@ const Wholesale = () => {
                         <div className="vapetasia-widget-container">
                             <div className="vapetasia-image">
                               <a href="https://eightcig.com&ZeroWidthSpace;/" className="no-lightbox">
-                                  <img width="500" height="414" src="https://cdn2.vapetasia.com/img/distributors/eightcig.jpg" data-src="https://cdn2.vapetasia.com/img/distributors/eightcig.jpg" className="attachment-large size-large lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/distributors/eightcig.jpg 500w, https://cdn.vapetasia.com/wp-content/uploads/2020/07/28184204/Eightcig-300x248.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" srcset="https://cdn2.vapetasia.com/img/distributors/eightcig.jpg 500w, https://cdn.vapetasia.com/wp-content/uploads/2020/07/28184204/Eightcig-300x248.jpg 300w"></img>
+                                  <img width="500" height="414" src="https://cdn2.vapetasia.com/img/distributors/eightcig.jpg" data-src="https://cdn2.vapetasia.com/img/distributors/eightcig.jpg" className="attachment-large size-large lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/distributors/eightcig.jpg 500w, https://cdn.vapetasia.com/wp-content/uploads/2020/07/28184204/Eightcig-300x248.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" srcSet="https://cdn2.vapetasia.com/img/distributors/eightcig.jpg 500w, https://cdn.vapetasia.com/wp-content/uploads/2020/07/28184204/Eightcig-300x248.jpg 300w"></img>
                               </a>
                             </div>
                         </div>
@@ -261,7 +261,7 @@ const Wholesale = () => {
                         <div className="vapetasia-widget-container">
                             <div className="vapetasia-image">
                               <a href="https://www.ejuices.co/" className="no-lightbox">
-                                  <img width="652" height="550" src="https://cdn2.vapetasia.com/img/distributors/ejuicesco.png" data-src="https://cdn2.vapetasia.com/img/distributors/ejuicesco.png" className="attachment-large size-large lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/distributors/ejuicesco.png 652w, https://cdn.vapetasia.com/wp-content/uploads/2020/05/11153305/ejuicesco_Image%402x-300x253.png 300w" sizes="(max-width: 652px) 100vw, 652px" srcset="https://cdn2.vapetasia.com/img/distributors/ejuicesco.png 652w, https://cdn.vapetasia.com/wp-content/uploads/2020/05/11153305/ejuicesco_Image%402x-300x253.png 300w"></img>
+                                  <img width="652" height="550" src="https://cdn2.vapetasia.com/img/distributors/ejuicesco.png" data-src="https://cdn2.vapetasia.com/img/distributors/ejuicesco.png" className="attachment-large size-large lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/distributors/ejuicesco.png 652w, https://cdn.vapetasia.com/wp-content/uploads/2020/05/11153305/ejuicesco_Image%402x-300x253.png 300w" sizes="(max-width: 652px) 100vw, 652px" srcSet="https://cdn2.vapetasia.com/img/distributors/ejuicesco.png 652w, https://cdn.vapetasia.com/wp-content/uploads/2020/05/11153305/ejuicesco_Image%402x-300x253.png 300w"></img>
                               </a>
                             </div>
                         </div>
@@ -325,7 +325,7 @@ const Wholesale = () => {
                         <div className="vapetasia-widget-container">
                             <div className="vapetasia-image">
                               <a href="https://www.eivape.com/" className="no-lightbox">
-                                  <img width="500" height="414" src="https://cdn2.vapetasia.com/img/distributors/empire-imports.jpg" data-src="https://cdn2.vapetasia.com/img/distributors/empire-imports.jpg" className="attachment-large size-large lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/distributors/empire-imports.jpg 500w, https://cdn.vapetasia.com/wp-content/uploads/20210329155440/EmpireImports-300x248.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" srcset="https://cdn2.vapetasia.com/img/distributors/empire-imports.jpg 500w, https://cdn.vapetasia.com/wp-content/uploads/20210329155440/EmpireImports-300x248.jpg 300w"></img>
+                                  <img width="500" height="414" src="https://cdn2.vapetasia.com/img/distributors/empire-imports.jpg" data-src="https://cdn2.vapetasia.com/img/distributors/empire-imports.jpg" className="attachment-large size-large lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/distributors/empire-imports.jpg 500w, https://cdn.vapetasia.com/wp-content/uploads/20210329155440/EmpireImports-300x248.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" srcSet="https://cdn2.vapetasia.com/img/distributors/empire-imports.jpg 500w, https://cdn.vapetasia.com/wp-content/uploads/20210329155440/EmpireImports-300x248.jpg 300w"></img>
                               </a>
                             </div>
                         </div>
@@ -389,7 +389,7 @@ const Wholesale = () => {
                         <div className="vapetasia-widget-container">
                             <div className="vapetasia-image">
                               <a href="https://hswsupply.com/vape-wholesale/" className="no-lightbox">
-                                  <img width="500" height="414" src="https://cdn2.vapetasia.com/img/distributors/hs-wholesale.jpg" data-src="https://cdn2.vapetasia.com/img/distributors/hs-wholesale.jpg" className="attachment-large size-large lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/distributors/hs-wholesale.jpg 500w, https://cdn.vapetasia.com/wp-content/uploads/2020/07/28175305/HS-Wholesale-300x248.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" srcset="https://cdn2.vapetasia.com/img/distributors/hs-wholesale.jpg 500w, https://cdn.vapetasia.com/wp-content/uploads/2020/07/28175305/HS-Wholesale-300x248.jpg 300w"></img>
+                                  <img width="500" height="414" src="https://cdn2.vapetasia.com/img/distributors/hs-wholesale.jpg" data-src="https://cdn2.vapetasia.com/img/distributors/hs-wholesale.jpg" className="attachment-large size-large lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/distributors/hs-wholesale.jpg 500w, https://cdn.vapetasia.com/wp-content/uploads/2020/07/28175305/HS-Wholesale-300x248.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" srcSet="https://cdn2.vapetasia.com/img/distributors/hs-wholesale.jpg 500w, https://cdn.vapetasia.com/wp-content/uploads/2020/07/28175305/HS-Wholesale-300x248.jpg 300w"></img>
                               </a>
                             </div>
                         </div>
@@ -453,7 +453,7 @@ const Wholesale = () => {
                         <div className="vapetasia-widget-container">
                             <div className="vapetasia-image">
                               <a href="https://medusadistribution.com/" className="no-lightbox">
-                                  <img width="652" height="550" src="https://cdn2.vapetasia.com/img/distributors/medusa-distro.png" data-src="https://cdn2.vapetasia.com/img/distributors/medusa-distro.png" className="attachment-large size-large lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/distributors/medusa-distro.png 652w, https://cdn.vapetasia.com/wp-content/uploads/2020/05/11152807/Medusa_Distro_Image%402x-300x253.png 300w" sizes="(max-width: 652px) 100vw, 652px" srcset="https://cdn2.vapetasia.com/img/distributors/medusa-distro.png 652w, https://cdn.vapetasia.com/wp-content/uploads/2020/05/11152807/Medusa_Distro_Image%402x-300x253.png 300w"></img>
+                                  <img width="652" height="550" src="https://cdn2.vapetasia.com/img/distributors/medusa-distro.png" data-src="https://cdn2.vapetasia.com/img/distributors/medusa-distro.png" className="attachment-large size-large lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/distributors/medusa-distro.png 652w, https://cdn.vapetasia.com/wp-content/uploads/2020/05/11152807/Medusa_Distro_Image%402x-300x253.png 300w" sizes="(max-width: 652px) 100vw, 652px" srcSet="https://cdn2.vapetasia.com/img/distributors/medusa-distro.png 652w, https://cdn.vapetasia.com/wp-content/uploads/2020/05/11152807/Medusa_Distro_Image%402x-300x253.png 300w"></img>
                               </a>
                             </div>
                         </div>
@@ -517,7 +517,7 @@ const Wholesale = () => {
                         <div className="vapetasia-widget-container">
                             <div className="vapetasia-image">
                               <a href="https://tritondistribution.com/" className="no-lightbox">
-                                  <img width="500" height="414" src="https://cdn2.vapetasia.com/img/distributors/triton.png" data-src="https://cdn2.vapetasia.com/img/distributors/triton.png" className="attachment-large size-large lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/distributors/triton.png 500w, https://cdn.vapetasia.com/wp-content/uploads/2020/07/16234503/Triton-300x248.png 300w" sizes="(max-width: 500px) 100vw, 500px" srcset="https://cdn2.vapetasia.com/img/distributors/triton.png 500w, https://cdn.vapetasia.com/wp-content/uploads/2020/07/16234503/Triton-300x248.png 300w"></img>
+                                  <img width="500" height="414" src="https://cdn2.vapetasia.com/img/distributors/triton.png" data-src="https://cdn2.vapetasia.com/img/distributors/triton.png" className="attachment-large size-large lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/distributors/triton.png 500w, https://cdn.vapetasia.com/wp-content/uploads/2020/07/16234503/Triton-300x248.png 300w" sizes="(max-width: 500px) 100vw, 500px" srcSet="https://cdn2.vapetasia.com/img/distributors/triton.png 500w, https://cdn.vapetasia.com/wp-content/uploads/2020/07/16234503/Triton-300x248.png 300w"></img>
                               </a>
                             </div>
                         </div>

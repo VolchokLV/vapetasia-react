@@ -129,7 +129,7 @@ const AboutUs = () => {
                         <div className="vapetasia-element vapetasia-element-34f70cf vapetasia-widget vapetasia-widget-image" data-id="34f70cf" data-element_type="widget" data-widget_type="image.default">
                           <div className="vapetasia-widget-container">
                               <div className="vapetasia-image">
-                                <img width="748" height="632" src="https://cdn2.vapetasia.com/img/our-flavors/Vapetasia.png" data-src="https://cdn2.vapetasia.com/img/our-flavors/Vapetasia.png" className="attachment-large size-large ls-is-cached lazyloaded" alt="" sizes="(max-width: 748px) 100vw, 748px" srcset="https://cdn.vapetasia.com/wp-content/uploads/20200817210416/Vapetasia-1.png 748w, https://cdn.vapetasia.com/wp-content/uploads/20200817210416/Vapetasia-1-300x253.png 300w"></img>
+                                <img width="748" height="632" src="https://cdn2.vapetasia.com/img/our-flavors/Vapetasia.png" data-src="https://cdn2.vapetasia.com/img/our-flavors/Vapetasia.png" className="attachment-large size-large ls-is-cached lazyloaded" alt="" sizes="(max-width: 748px) 100vw, 748px" srcSet="https://cdn.vapetasia.com/wp-content/uploads/20200817210416/Vapetasia-1.png 748w, https://cdn.vapetasia.com/wp-content/uploads/20200817210416/Vapetasia-1-300x253.png 300w"></img>
                               </div>
                           </div>
                         </div>
@@ -154,7 +154,7 @@ const AboutUs = () => {
                         <div className="vapetasia-element vapetasia-element-047975f vapetasia-widget vapetasia-widget-image" data-id="047975f" data-element_type="widget" data-widget_type="image.default">
                           <div className="vapetasia-widget-container">
                               <div className="vapetasia-image">
-                                <img width="748" height="632" src="https://cdn2.vapetasia.com/img/our-flavors/Killer-Kustard.png" data-src="https://cdn2.vapetasia.com/img/our-flavors/Killer-Kustard.png" className="attachment-large size-large ls-is-cached lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/our-flavors/Killer-Kustard.png 300w" sizes="(max-width: 748px) 100vw, 748px" srcset="https://cdn2.vapetasia.com/img/our-flavors/Killer-Kustard.png 748w, https://cdn2.vapetasia.com/img/our-flavors/Killer-Kustard.png 300w"></img>
+                                <img width="748" height="632" src="https://cdn2.vapetasia.com/img/our-flavors/Killer-Kustard.png" data-src="https://cdn2.vapetasia.com/img/our-flavors/Killer-Kustard.png" className="attachment-large size-large ls-is-cached lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/our-flavors/Killer-Kustard.png 300w" sizes="(max-width: 748px) 100vw, 748px" srcSet="https://cdn2.vapetasia.com/img/our-flavors/Killer-Kustard.png 748w, https://cdn2.vapetasia.com/img/our-flavors/Killer-Kustard.png 300w"></img>
                               </div>
                           </div>
                         </div>
@@ -179,7 +179,7 @@ const AboutUs = () => {
                         <div className="vapetasia-element vapetasia-element-1c265e3 vapetasia-widget vapetasia-widget-image" data-id="1c265e3" data-element_type="widget" data-widget_type="image.default">
                           <div className="vapetasia-widget-container">
                               <div className="vapetasia-image">
-                                <img width="748" height="632" src="https://cdn2.vapetasia.com/img/our-flavors/Lemonade.png" data-src="https://cdn2.vapetasia.com/img/our-flavors/Lemonade.png" className="attachment-large size-large ls-is-cached lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/our-flavors/Lemonade.png 748w, https://cdn.vapetasia.com/wp-content/uploads/20200817210429/Lemonade-1-300x253.png 300w" sizes="(max-width: 748px) 100vw, 748px" srcset="https://cdn2.vapetasia.com/img/our-flavors/Lemonade.png 748w, https://cdn.vapetasia.com/wp-content/uploads/20200817210429/Lemonade-1-300x253.png 300w"></img>
+                                <img width="748" height="632" src="https://cdn2.vapetasia.com/img/our-flavors/Lemonade.png" data-src="https://cdn2.vapetasia.com/img/our-flavors/Lemonade.png" className="attachment-large size-large ls-is-cached lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/our-flavors/Lemonade.png 748w, https://cdn.vapetasia.com/wp-content/uploads/20200817210429/Lemonade-1-300x253.png 300w" sizes="(max-width: 748px) 100vw, 748px" srcSet="https://cdn2.vapetasia.com/img/our-flavors/Lemonade.png 748w, https://cdn.vapetasia.com/wp-content/uploads/20200817210429/Lemonade-1-300x253.png 300w"></img>
                               </div>
                           </div>
                         </div>
@@ -210,7 +210,7 @@ const AboutUs = () => {
                         <div className="vapetasia-element vapetasia-element-f20ecb7 vapetasia-widget vapetasia-widget-image" data-id="f20ecb7" data-element_type="widget" data-widget_type="image.default">
                           <div className="vapetasia-widget-container">
                               <div className="vapetasia-image">
-                                <img width="748" height="632" src="https://cdn2.vapetasia.com/img/our-flavors/Killer-Disposables.jpg" data-src="https://cdn2.vapetasia.com/img/our-flavors/Killer-Disposables.jpg" className="attachment-large size-large ls-is-cached lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/our-flavors/Killer-Disposables.jpg 748w, https://cdn.vapetasia.com/wp-content/uploads/2022/07/14225620/Our-Flavors_0003_Killer-Disposables-300x253.jpg 300w" sizes="(max-width: 748px) 100vw, 748px" srcset="https://cdn2.vapetasia.com/img/our-flavors/Killer-Disposables.jpg 748w, https://cdn.vapetasia.com/wp-content/uploads/2022/07/14225620/Our-Flavors_0003_Killer-Disposables-300x253.jpg 300w"></img>
+                                <img width="748" height="632" src="https://cdn2.vapetasia.com/img/our-flavors/Killer-Disposables.jpg" data-src="https://cdn2.vapetasia.com/img/our-flavors/Killer-Disposables.jpg" className="attachment-large size-large ls-is-cached lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/our-flavors/Killer-Disposables.jpg 748w, https://cdn.vapetasia.com/wp-content/uploads/2022/07/14225620/Our-Flavors_0003_Killer-Disposables-300x253.jpg 300w" sizes="(max-width: 748px) 100vw, 748px" srcSet="https://cdn2.vapetasia.com/img/our-flavors/Killer-Disposables.jpg 748w, https://cdn.vapetasia.com/wp-content/uploads/2022/07/14225620/Our-Flavors_0003_Killer-Disposables-300x253.jpg 300w"></img>
                               </div>
                           </div>
                         </div>
@@ -235,7 +235,7 @@ const AboutUs = () => {
                         <div className="vapetasia-element vapetasia-element-5fffdf3 vapetasia-widget vapetasia-widget-image" data-id="5fffdf3" data-element_type="widget" data-widget_type="image.default">
                           <div className="vapetasia-widget-container">
                               <div className="vapetasia-image">
-                                <img width="748" height="632" src="https://cdn2.vapetasia.com/img/our-flavors/Killer-Fruits.jpg" data-src="https://cdn2.vapetasia.com/img/our-flavors/Killer-Fruits.jpg" className="attachment-large size-large ls-is-cached lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/our-flavors/Killer-Fruits.jpg 748w, https://cdn.vapetasia.com/wp-content/uploads/2022/07/14225913/Our-Flavors_0002_Killer-Fruits-300x253.jpg 300w" sizes="(max-width: 748px) 100vw, 748px" srcset="https://cdn2.vapetasia.com/img/our-flavors/Killer-Fruits.jpg 748w, https://cdn.vapetasia.com/wp-content/uploads/2022/07/14225913/Our-Flavors_0002_Killer-Fruits-300x253.jpg 300w"></img>
+                                <img width="748" height="632" src="https://cdn2.vapetasia.com/img/our-flavors/Killer-Fruits.jpg" data-src="https://cdn2.vapetasia.com/img/our-flavors/Killer-Fruits.jpg" className="attachment-large size-large ls-is-cached lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/our-flavors/Killer-Fruits.jpg 748w, https://cdn.vapetasia.com/wp-content/uploads/2022/07/14225913/Our-Flavors_0002_Killer-Fruits-300x253.jpg 300w" sizes="(max-width: 748px) 100vw, 748px" srcSet="https://cdn2.vapetasia.com/img/our-flavors/Killer-Fruits.jpg 748w, https://cdn.vapetasia.com/wp-content/uploads/2022/07/14225913/Our-Flavors_0002_Killer-Fruits-300x253.jpg 300w"></img>
                               </div>
                           </div>
                         </div>
@@ -260,7 +260,7 @@ const AboutUs = () => {
                         <div className="vapetasia-element vapetasia-element-bb33020 vapetasia-widget vapetasia-widget-image" data-id="bb33020" data-element_type="widget" data-widget_type="image.default">
                           <div className="vapetasia-widget-container">
                               <div className="vapetasia-image">
-                                <img width="748" height="632" src="https://cdn2.vapetasia.com/img/our-flavors/Killer-Sweets.png" data-src="https://cdn2.vapetasia.com/img/our-flavors/Killer-Sweets.png" className="attachment-large size-large ls-is-cached lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/our-flavors/Killer-Sweets.png 748w, https://cdn.vapetasia.com/wp-content/uploads/2022/07/15214231/Killer-Sweets-Image-2-300x253.png 300w" sizes="(max-width: 748px) 100vw, 748px" srcset="https://cdn2.vapetasia.com/img/our-flavors/Killer-Sweets.png 748w, https://cdn.vapetasia.com/wp-content/uploads/2022/07/15214231/Killer-Sweets-Image-2-300x253.png 300w"></img>
+                                <img width="748" height="632" src="https://cdn2.vapetasia.com/img/our-flavors/Killer-Sweets.png" data-src="https://cdn2.vapetasia.com/img/our-flavors/Killer-Sweets.png" className="attachment-large size-large ls-is-cached lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/our-flavors/Killer-Sweets.png 748w, https://cdn.vapetasia.com/wp-content/uploads/2022/07/15214231/Killer-Sweets-Image-2-300x253.png 300w" sizes="(max-width: 748px) 100vw, 748px" srcSet="https://cdn2.vapetasia.com/img/our-flavors/Killer-Sweets.png 748w, https://cdn.vapetasia.com/wp-content/uploads/2022/07/15214231/Killer-Sweets-Image-2-300x253.png 300w"></img>
                               </div>
                           </div>
                         </div>
@@ -291,7 +291,7 @@ const AboutUs = () => {
                         <div className="vapetasia-element vapetasia-element-033efa5 vapetasia-widget vapetasia-widget-image" data-id="033efa5" data-element_type="widget" data-widget_type="image.default">
                           <div className="vapetasia-widget-container">
                               <div className="vapetasia-image">
-                                <img width="748" height="632" src="https://cdn2.vapetasia.com/img/our-flavors/Iced.png" data-src="https://cdn2.vapetasia.com/img/our-flavors/Iced.png" className="attachment-large size-large ls-is-cached lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/our-flavors/Iced.png 748w, https://cdn.vapetasia.com/wp-content/uploads/20200817210420/Iced-1-300x253.png 300w" sizes="(max-width: 748px) 100vw, 748px" srcset="https://cdn2.vapetasia.com/img/our-flavors/Iced.png 748w, https://cdn.vapetasia.com/wp-content/uploads/20200817210420/Iced-1-300x253.png 300w"></img>
+                                <img width="748" height="632" src="https://cdn2.vapetasia.com/img/our-flavors/Iced.png" data-src="https://cdn2.vapetasia.com/img/our-flavors/Iced.png" className="attachment-large size-large ls-is-cached lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/our-flavors/Iced.png 748w, https://cdn.vapetasia.com/wp-content/uploads/20200817210420/Iced-1-300x253.png 300w" sizes="(max-width: 748px) 100vw, 748px" srcSet="https://cdn2.vapetasia.com/img/our-flavors/Iced.png 748w, https://cdn.vapetasia.com/wp-content/uploads/20200817210420/Iced-1-300x253.png 300w"></img>
                               </div>
                           </div>
                         </div>
@@ -316,7 +316,7 @@ const AboutUs = () => {
                         <div className="vapetasia-element vapetasia-element-4e7df4a vapetasia-widget vapetasia-widget-image" data-id="4e7df4a" data-element_type="widget" data-widget_type="image.default">
                           <div className="vapetasia-widget-container">
                               <div className="vapetasia-image">
-                                <img width="748" height="632" src="https://cdn2.vapetasia.com/img/our-flavors/Vape-Parfait.png" data-src="https://cdn2.vapetasia.com/img/our-flavors/Vape-Parfait.png" className="attachment-large size-large ls-is-cached lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/our-flavors/Vape-Parfait.png 748w, https://cdn.vapetasia.com/wp-content/uploads/20200817210439/Vape-Parfait-300x253.png 300w" sizes="(max-width: 748px) 100vw, 748px" srcset="https://cdn2.vapetasia.com/img/our-flavors/Vape-Parfait.png 748w, https://cdn.vapetasia.com/wp-content/uploads/20200817210439/Vape-Parfait-300x253.png 300w"></img>
+                                <img width="748" height="632" src="https://cdn2.vapetasia.com/img/our-flavors/Vape-Parfait.png" data-src="https://cdn2.vapetasia.com/img/our-flavors/Vape-Parfait.png" className="attachment-large size-large ls-is-cached lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/our-flavors/Vape-Parfait.png 748w, https://cdn.vapetasia.com/wp-content/uploads/20200817210439/Vape-Parfait-300x253.png 300w" sizes="(max-width: 748px) 100vw, 748px" srcSet="https://cdn2.vapetasia.com/img/our-flavors/Vape-Parfait.png 748w, https://cdn.vapetasia.com/wp-content/uploads/20200817210439/Vape-Parfait-300x253.png 300w"></img>
                               </div>
                           </div>
                         </div>
@@ -341,7 +341,7 @@ const AboutUs = () => {
                         <div className="vapetasia-element vapetasia-element-2b5102c vapetasia-widget vapetasia-widget-image" data-id="2b5102c" data-element_type="widget" data-widget_type="image.default">
                           <div className="vapetasia-widget-container">
                               <div className="vapetasia-image">
-                                <img width="748" height="632" src="https://cdn2.vapetasia.com/img/our-flavors/Salt.png" data-src="https://cdn2.vapetasia.com/img/our-flavors/Salt.png" className="attachment-large size-large ls-is-cached lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/our-flavors/Salt.png 748w, https://cdn.vapetasia.com/wp-content/uploads/20200817210434/Salt-300x253.png 300w" sizes="(max-width: 748px) 100vw, 748px" srcset="https://cdn2.vapetasia.com/img/our-flavors/Salt.png 748w, https://cdn.vapetasia.com/wp-content/uploads/20200817210434/Salt-300x253.png 300w"></img>
+                                <img width="748" height="632" src="https://cdn2.vapetasia.com/img/our-flavors/Salt.png" data-src="https://cdn2.vapetasia.com/img/our-flavors/Salt.png" className="attachment-large size-large ls-is-cached lazyloaded" alt="" data-srcset="https://cdn2.vapetasia.com/img/our-flavors/Salt.png 748w, https://cdn.vapetasia.com/wp-content/uploads/20200817210434/Salt-300x253.png 300w" sizes="(max-width: 748px) 100vw, 748px" srcSet="https://cdn2.vapetasia.com/img/our-flavors/Salt.png 748w, https://cdn.vapetasia.com/wp-content/uploads/20200817210434/Salt-300x253.png 300w"></img>
                               </div>
                           </div>
                         </div>

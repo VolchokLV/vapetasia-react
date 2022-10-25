@@ -29123,7 +29123,7 @@ ul.vapetasia-icon-list-items.vapetasia-inline-items .vapetasia-inline-item {
   margin-inline-start: calc(var(--margin-start) + var(--margin-end));
 }
 
-.e-container.e-container--row[data-nesting-level]: not([data-nesting-level="0"])>:not(.vapetasia-element)+.vapetasia-widget-placeholder {
+.e-container.e-container--row[data-nesting-level]:not([data-nesting-level="0"])>:not(.vapetasia-element)+.vapetasia-widget-placeholder {
   -webkit-margin-end: var(--margin-end);
   margin-inline-end: var(--margin-end);
   -webkit-margin-start: var(--margin-start);
@@ -51128,7 +51128,7 @@ body.rtl .vapetasia-widget-slides .vapetasia-swiper-button-prev {
   margin-inline-end: var(--e-nav-menu-horizontal-menu-item-margin);
 }
 
-.vapetasia-nav-menu--layout-horizontal .vapetasia-nav-menu>li: not(:last-child):after {
+.vapetasia-nav-menu--layout-horizontal .vapetasia-nav-menu>li:not(:last-child):after {
   content: var(--e-nav-menu-divider-content, none);
   height: var(--e-nav-menu-divider-height, 35%);
   border-left: var(--e-nav-menu-divider-width, 2px)

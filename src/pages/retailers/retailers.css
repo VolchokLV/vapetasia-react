@@ -6,3 +6,9 @@
 .retailers-sublink a:hover {
   color: #faa500 !important;
 }
+
+@media screen and (max-width: 800px) {
+  .vapetasia-retailers-section .vapetasia-column {
+    text-align: center;
+  }
+}

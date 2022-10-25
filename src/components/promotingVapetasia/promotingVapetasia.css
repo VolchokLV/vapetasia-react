@@ -1,8 +1,48 @@
 @media screen and (max-width: 600px) {
-    .vapetasia-section-promoting .vapetasia-heading-title {
-        font-size: 48px !important;
-    }
-    .vapetasia-section-promoting p {
-        font-size: 22px !important;
-    }
+  .vapetasia-section-promoting .vapetasia-heading-title {
+    font-size: 48px !important;
+  }
+  .vapetasia-section-promoting p {
+    font-size: 22px !important;
+  }
+  .promo-column {
+    width: 100% !important;
+  }
+}
+
+#vapetasia-section-promoting .vapetasia-button {
+  background-color: #faa500 !important;
+  font-family: "rift", Sans-serif !important;
+  font-weight: bold !important;
+  font-style: italic !important;
+  font-size: 2em !important;
+  width: 250px;
+}
+
+#vapetasia-section-promoting .vapetasia-button:hover {
+  transform: scale(1.1);
+}
+
+.promo-row::after {
+  display: flex;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.promo-column {
+  float: left;
+  width: 50%;
+  padding: 30px;
+}
+
+.promo-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.promo-paragraph {
+  text-align: center;
+  padding-right: 20px;
+  font-size: 22px !important;
 }

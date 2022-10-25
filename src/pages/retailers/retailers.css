@@ -1,0 +1,8 @@
+.retailers-sublink {
+  font-style: italic;
+  color: gray !important;
+}
+
+.retailers-sublink a:hover {
+  color: #faa500 !important;
+}

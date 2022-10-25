@@ -8,6 +8,7 @@ export { default as Compliance } from './compliance/Compliance'
 export { default as Home } from './home/Home';
 export { default as Pact } from './pact/Pact';
 export { default as PrivacyPolicy } from './privacyPolicy/PrivacyPolicy'
+export { default as Retailers } from './retailers/Retailers'
 export { default as StoreLocator } from './storeLocator/StoreLocator';
 export { default as Wholesale } from './wholesale/Wholesale';
 export { default as Product } from './product/Product';

@@ -4,7 +4,7 @@ import './App.css';
 import "./index.css"
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import { AboutUs, Advocacy, Blog, ContactUs, ContactSupport, Compliance, Home, MediaRequest, PrivacyPolicy, Product, ProductGrid, PromotionalRequest, StoreLocator, TheBanOnVapeMail, Wholesale, WholesaleRegistration } from './pages';
+import { AboutUs, Advocacy, Blog, ContactUs, ContactSupport, Compliance, Home, MediaRequest, PrivacyPolicy, Product, ProductGrid, PromotionalRequest, StoreLocator, TheBanOnVapeMail, Wholesale, WholesaleRegistration, Retailers } from './pages';
 import { Navigation, Warning, Footer } from './components';
 
 
@@ -82,6 +82,7 @@ function App() {
                                 products={products.default}
                                 featured={featuredProducts}
                                 featured2={featuredProducts2} />} />
+                              <Route path="/retailers" element={<Retailers />} />
                               <Route path="/store-locator" element={<StoreLocator />} />
                               <Route path="/terms-and-conditions" element={<Terms />} />
                               {/* <Route path="/pact" element={<Pact />} />  */}

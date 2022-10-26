@@ -303,7 +303,8 @@ const Advocacy = () => {
                       <div className="vapetasia-button-wrapper">
                         <a
                           href={
-                            process.env.REACT_BASE_URL + "media-request-form"
+                            process.env.REACT_APP_BASE_URL +
+                            "media-request-form"
                           }
                           className="vapetasia-button-link vapetasia-button vapetasia-size-sm"
                           role="button"

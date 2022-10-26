@@ -1,10 +1,37 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { ProductImage } from "./../../components";
 import "./popularFlavors.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 const PopularFlavors = (props) => {
+  const MobileView = false;
+  const [isSwipeable, setIsSwipeable] = useState("true");
+
+  const resizeNav = () => {
+    const start = document.querySelector(".last-to-falloff");
+    const end = document.querySelector(".first-to-falloff");
+  };
+
+  useEffect(() => {
+    resizeNav();
+
+    window.addEventListener("resize", () => {
+      resizeNav();
+      if (window.innerWidth <= 776) {
+        MobileView = true;
+      }
+    });
+  });
+
+  useEffect(() => {
+    if (MobileView === "true") {
+      setIsSwipeable("false");
+    } else {
+      setIsSwipeable("true");
+    }
+  }, [isSwipeable]);
+
   return (
     <>
       <section
@@ -49,7 +76,7 @@ const PopularFlavors = (props) => {
           <div id="vapetasia-carousel">
             <Carousel
               emulateTouch={true}
-              swipeable={false}
+              swipeable={`${isSwipeable}`}
               showStatus={false}
               showThumbs={false}
               autoPlay={true}

@@ -54,8 +54,8 @@ const ProductGrid = (props) => {
               {props.products.map(p => {
                 if (p.product_types.includes(type) && 
                   (
-                    (topic == 'size' && p.sizes[type].includes(value)) || // display only products with specified size
-                    (topic == 'brand' && p.product_slug.includes(value)) // display only products with specified brand
+                    (topic === 'size' && p.sizes[type].includes(value)) || // display only products with specified size
+                    (topic === 'brand' && p.product_slug.includes(value)) // display only products with specified brand
                   ) 
                 ) {
                   return (<ProductGridItem 

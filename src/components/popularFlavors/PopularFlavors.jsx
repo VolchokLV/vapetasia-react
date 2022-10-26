@@ -1,10 +1,28 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { ProductImage } from "./../../components";
 import "./popularFlavors.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 const PopularFlavors = (props) => {
+  const [isMobile, setIsMobile] = useState(true);
+
+  const determineIsMobile = () => {
+    if (window.innerWidth <= 776) {
+      setIsMobile(false);
+    } else {
+      setIsMobile(true);
+    }
+  };
+
+  useEffect(() => {
+    determineIsMobile(); //run on page load
+    window.addEventListener("resize", () => {
+      //and any time window size changes
+      determineIsMobile();
+    });
+  }, [isMobile]);
+
   return (
     <>
       <section
@@ -49,13 +67,13 @@ const PopularFlavors = (props) => {
           <div id="vapetasia-carousel">
             <Carousel
               emulateTouch={true}
-              swipeable={false}
+              swipeable={isMobile}
               showStatus={false}
               showThumbs={false}
               autoPlay={true}
               interval={7000}
-              showArrows={true}
-              showIndicators={false}
+              showArrows={isMobile}
+              showIndicators={true}
               infiniteLoop={true}
             >
               <div className="vt-inner-carousel">

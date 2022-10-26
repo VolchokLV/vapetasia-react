@@ -10,7 +10,7 @@ const Retailers = () => {
         top={"Vapetasia"}
         bottom={"Retailers"}
         paragraph={
-          "Below are authorized online retailers we reccomend for purchasing authentic Vapetasia products at the lowest costs."
+          "Interested in registering for a wholesale account to resell Vapetasia products? Click the link below to submit an inquiry and a brand ambassador will follow up with you soon! "
         }
       ></Hero>
       <div className="vapetasia-retailers-section">

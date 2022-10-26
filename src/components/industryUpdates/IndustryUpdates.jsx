@@ -122,27 +122,36 @@ const IndustryUpdates = () => {
                                           </div>
                                           <div className="vapetasia-repeater-item-510b559 swiper-slide vt-custom-slider-item">
                                             <div className="swiper-slide-bg"></div>
-                                            <div className="swiper-slide-inner">
-                                              <div className="swiper-slide-contents">
-                                                <div className="vapetasia-slide-heading">
-                                                  SB810 Vetoed!
-                                                </div>
-                                                <div className="vapetasia-slide-description">
-                                                  By vetoing SB 810, Governor
-                                                  DeSantis is supporting
-                                                  decisions by FDA to allow
-                                                  low-risk flavored nicotine
-                                                  products on the market after
-                                                  concluding that these products
-                                                  meet the "appropriate for the
-                                                  protection of public health"
-                                                  standard.
-                                                </div>
-                                                <div className="vapetasia-button vapetasia-slide-button vapetasia-size-lg">
-                                                  LEARN MORE
+                                            <a
+                                              className="swiper-slide-inner"
+                                              href={
+                                                process.env.REACT_APP_BASE_URL +
+                                                "/floridas-big-win-sb-810-vetoed/"
+                                              }
+                                            >
+                                              <div className="swiper-slide-inner">
+                                                <div className="swiper-slide-contents">
+                                                  <div className="vapetasia-slide-heading">
+                                                    SB810 Vetoed!
+                                                  </div>
+                                                  <div className="vapetasia-slide-description">
+                                                    By vetoing SB 810, Governor
+                                                    DeSantis is supporting
+                                                    decisions by FDA to allow
+                                                    low-risk flavored nicotine
+                                                    products on the market after
+                                                    concluding that these
+                                                    products meet the
+                                                    "appropriate for the
+                                                    protection of public health"
+                                                    standard.
+                                                  </div>
+                                                  <div className="vapetasia-button vapetasia-slide-button vapetasia-size-lg">
+                                                    LEARN MORE
+                                                  </div>
                                                 </div>
                                               </div>
-                                            </div>
+                                            </a>
                                           </div>
                                           <div className="vapetasia-repeater-item-440ec32 swiper-slide vt-custom-slider-item">
                                             <div className="swiper-slide-bg"></div>

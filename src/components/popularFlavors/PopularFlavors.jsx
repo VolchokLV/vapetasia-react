@@ -7,7 +7,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 const PopularFlavors = (props) => {
   const [isMobile, setIsMobile] = useState(true);
 
-  const determineSwipeability = () => {
+  const determineIsMobile = () => {
     if (window.innerWidth <= 776) {
       setIsMobile(false);
     } else {
@@ -16,10 +16,10 @@ const PopularFlavors = (props) => {
   };
 
   useEffect(() => {
-    determineSwipeability(); //run on page load
+    determineIsMobile(); //run on page load
     window.addEventListener("resize", () => {
       //and any time window size changes
-      determineSwipeability();
+      determineIsMobile();
     });
   }, [isMobile]);
 

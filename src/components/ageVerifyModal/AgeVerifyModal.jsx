@@ -5,11 +5,14 @@ const AgeVerifyModal = () => {
 
     const [showVerify, setShowVerify] = useState('verify-modal-hidden');
 
-    const oldEnough = () => {
+    const oldEnough = (e) => {
+        e.preventDefault();
         setCookie('age-verified', 'yes', 3);
         setShowVerify('verify-modal-hidden');
+        window.location.reload();
     }
-    const notOldEnough = () =>  {
+    const notOldEnough = (e) =>  {
+        e.preventDefault();
         alert('You must be 21 or older to visit this site.');
     }
 
@@ -19,10 +22,10 @@ const AgeVerifyModal = () => {
         var ca = decodedCookie.split(';');
         for(var i = 0; i <ca.length; i++) {
             var c = ca[i];
-            while (c.charAt(0) == ';') {
+            while (c.charAt(0) === ';') {
                 c = c.substring(1);
             }
-            if (c.indexOf(name) == 0) {
+            if (c.indexOf(name) === 0) {
                 return c.substring(name.length, c.length);
             }
         }
@@ -54,12 +57,12 @@ const AgeVerifyModal = () => {
                         The products and services on this website are intended for adult use only. By entering this website, you certify that you are over the age of 21.
                     </div>
                     <div className="verify-modal-buttons">
-                        <div className="age-verify-button" id="age-verify-yes" onClick={() => oldEnough()}>
+                        <a className="age-verify-button" id="age-verify-yes" onClick={oldEnough} href="#verified">
                             I am over the age of 21
-                        </div>
-                        <div className="age-verify-button" id="age-verify-no" onClick={() => notOldEnough()}>
+                        </a>
+                        <a className="age-verify-button" id="age-verify-no" onClick={notOldEnough} href="#not-verified">
                             I am not over the age of 21
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>

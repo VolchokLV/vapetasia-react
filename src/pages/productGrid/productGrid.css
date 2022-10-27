@@ -6,6 +6,10 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
+.vapetasia-section-custom-grid {
+    padding-top: 60px;
+}
+
 @media screen and (max-width: 800px) {
     .vapetasia-custom-grid {
         max-width: 100%;

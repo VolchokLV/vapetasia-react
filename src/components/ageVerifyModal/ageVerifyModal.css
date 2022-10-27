@@ -18,9 +18,11 @@
 
 .verify-modal-hidden {
   opacity: 0;
+  visibility: hidden;
 }
 .verify-modal-shown {
   opacity: 1;
+  visibility: visible;
 }
 
 .verify-modal-box {

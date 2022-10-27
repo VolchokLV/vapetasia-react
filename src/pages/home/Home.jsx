@@ -20,7 +20,7 @@ const Home = (props) => {
         top={"Vapetasia Handcrafted"}
         bottom={"Award Winning E-Liquid"}
         paragraph={
-          "TEST  We invest our energy and commitment to produce delicious, flavorful alternatives to combustible cigarettes."
+          "We invest our energy and commitment to produce delicious, flavorful alternatives to combustible cigarettes."
         }
       ></Hero>
       <SeeWhatWeAreAbout></SeeWhatWeAreAbout>

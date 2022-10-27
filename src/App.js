@@ -5,7 +5,7 @@ import "./index.css"
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import { AboutUs, Advocacy, Blog, ContactUs, ContactSupport, Compliance, Home, MediaRequest, PrivacyPolicy, Product, ProductGrid, PromotionalRequest, StoreLocator, TheBanOnVapeMail, Wholesale, WholesaleRegistration, Retailers } from './pages';
-import { Navigation, Warning, Footer } from './components';
+import { Navigation, Warning, Footer, AgeVerifyModal } from './components';
 
 
 import * as products from './data/products.json';
@@ -101,6 +101,7 @@ function App() {
           <Footer />
         </div>
       </div>
+      <AgeVerifyModal />
     </>
   );
 }

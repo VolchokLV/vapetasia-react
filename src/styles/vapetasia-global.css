@@ -12638,7 +12638,7 @@ body.page.content-max-width .entry .alignfull {
 }
 
 img.aligncenter,
-.wp-caption.aligncenter {
+.vt-caption.aligncenter {
   display: block;
   margin: 0 auto;
 }

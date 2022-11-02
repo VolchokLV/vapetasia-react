@@ -11,7 +11,7 @@ const ProductPopUp = (props) => {
       return stores.default[0]["stores"]["elementvape.com"];
     } else if (url.indexOf("vape.com") > -1) {
       return stores.default[0]["stores"]["vape.com"];
-    } else if (url.indexOf("eightvape.com" > -1)) {
+    } else if (url.indexOf("eightvape.com") > -1) {
       return stores.default[0]["stores"]["eightvape.com"];
     }
   };

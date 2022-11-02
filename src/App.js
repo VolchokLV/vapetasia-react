@@ -69,7 +69,7 @@ function App() {
                               <Route path="/about-us" element={<AboutUs />} />
                               <Route path="/advocacy" element={<Advocacy />} />
                               <Route path="/blog" element={<Blog />} />
-                              <Route path="/blog/:slug" element={<BlogPost />} />
+                              <Route path="/:slug" element={<BlogPost />} />
                               <Route path="/contact" element={<ContactUs />} />
                               <Route path="/contact-support" element={<ContactSupport />} />
                               <Route path="/compliance" element={<Compliance />} />

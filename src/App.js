@@ -10,6 +10,7 @@ import { Navigation, Warning, Footer, AgeVerifyModal } from './components';
 
 import * as products from './data/products.json';
 import Terms from './pages/termsAndConditions/TermsAndConditions';
+import Post from './components/blog/Post';
 
 function App() {
 
@@ -69,6 +70,7 @@ function App() {
                               <Route path="/about-us" element={<AboutUs />} />
                               <Route path="/advocacy" element={<Advocacy />} />
                               <Route path="/blog" element={<Blog />} />
+                              <Route path="/blog/post" element={<Post />} />
                               <Route path="/blog/the-ban-on-vape-mail" element={<TheBanOnVapeMail />} />
                               <Route path="/contact" element={<ContactUs />} />
                               <Route path="/contact-support" element={<ContactSupport />} />

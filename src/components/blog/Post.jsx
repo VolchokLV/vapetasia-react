@@ -14,27 +14,32 @@ const Post = (props) => {
           <div className="post">
             <header className="post-header">
               <h2 className="single-post-title">
-                {posts.default[1]["post_title"]}
+                {posts.default[2]["post_title"]}
               </h2>
             </header>
             <hr />
             <span className="author-heading">
               <h5>
-                <AiOutlineUser />
-                {posts.default[1]["author"]}
+                <AiOutlineUser /> {posts.default[2]["author"]}
+              </h5>
+              -
+              <h5>
                 <MdDateRange />
-                {posts.default[1]["post_date"]}
+                {posts.default[2]["post_date"]}
+              </h5>
+              -
+              <h5>
                 <AiOutlineFolder />
-                {posts.default[1]["category"]}
+                {posts.default[2]["category"]}
               </h5>
             </span>
             <hr />
             <div className="post-banner">
-              <img src={baseUrl + posts.default[1]["banner"]} alt="" />
+              <img src={baseUrl + posts.default[2]["banner"]} alt="" />
             </div>
             <div className="post-paragraph">
               <p
-                dangerouslySetInnerHTML={{ __html: posts.default[1]["body"] }}
+                dangerouslySetInnerHTML={{ __html: posts.default[2]["body"] }}
               ></p>
             </div>
           </div>
@@ -67,9 +72,29 @@ const Post = (props) => {
               </a>
             </li>
             <hr />
-            <li>Sidebar items</li>
+            <li>
+              <a
+                href={
+                  process.env.REACT_APP_BASE_URL +
+                  "/blog/" +
+                  posts.default[2]["post_slug"]
+                }
+              >
+                {posts.default[2]["post_title"]}
+              </a>
+            </li>
             <hr />
-            <li>Sidebar items</li>
+            <li>
+              <a
+                href={
+                  process.env.REACT_APP_BASE_URL +
+                  "/blog/" +
+                  posts.default[2]["post_slug"]
+                }
+              >
+                {posts.default[2]["post_title"]}
+              </a>
+            </li>
             <hr />
           </ul>
         </div>

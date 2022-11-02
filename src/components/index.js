@@ -20,5 +20,4 @@ export { default as ProductPopUp } from './productPopUp/ProductPopUp';
 export { default as Newsletter } from './newsletter/Newsletter';
 export { NewsletterForm } from './newsletterForm/NewsletterForm';
 export { default as AdvocacyTestimonials } from './advocacyTestimonials/AdvocacyTestimonials';
-export { default as Blog } from './blog/Post'
 export { default as AgeVerifyModal } from './ageVerifyModal/AgeVerifyModal';

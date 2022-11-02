@@ -35,3 +35,8 @@
   font-family: Monterrat;
   font-size: 14px;
 }
+
+.vapetasia-blog-entry {
+  border-bottom: 1px solid grey;
+  padding: 40px 0;
+}

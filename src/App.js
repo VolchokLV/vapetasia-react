@@ -4,13 +4,12 @@ import './App.css';
 import "./index.css"
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import { AboutUs, Advocacy, Blog, ContactUs, ContactSupport, Compliance, Home, MediaRequest, PrivacyPolicy, Product, ProductGrid, PromotionalRequest, StoreLocator, TheBanOnVapeMail, Wholesale, WholesaleRegistration, Retailers } from './pages';
+import { AboutUs, Advocacy, Blog, BlogPost, ContactUs, ContactSupport, Compliance, Home, MediaRequest, PrivacyPolicy, Product, ProductGrid, PromotionalRequest, StoreLocator, TheBanOnVapeMail, Wholesale, WholesaleRegistration, Retailers } from './pages';
 import { Navigation, Warning, Footer, AgeVerifyModal } from './components';
 
 
 import * as products from './data/products.json';
 import Terms from './pages/termsAndConditions/TermsAndConditions';
-import Post from './components/blog/Post';
 
 function App() {
 
@@ -70,8 +69,7 @@ function App() {
                               <Route path="/about-us" element={<AboutUs />} />
                               <Route path="/advocacy" element={<Advocacy />} />
                               <Route path="/blog" element={<Blog />} />
-                              <Route path="/blog/post" element={<Post />} />
-                              <Route path="/blog/the-ban-on-vape-mail" element={<TheBanOnVapeMail />} />
+                              <Route path="/blog/:slug" element={<BlogPost />} />
                               <Route path="/contact" element={<ContactUs />} />
                               <Route path="/contact-support" element={<ContactSupport />} />
                               <Route path="/compliance" element={<Compliance />} />

@@ -60,6 +60,11 @@
   list-style-type: none;
 }
 
+.post-sidebar li {
+  padding: 8px 0;
+  border-bottom: 1px solid #e9e9e9;
+}
+
 .post-sidebar a:hover {
   color: var(--first-color) !important;
 }
@@ -80,4 +85,16 @@
 
 .post-categories {
   padding-top: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+  #blog-page {
+    display: block;
+  }
+  .post-content {
+    min-width: auto;
+  }
+  .post-sidebar {
+    padding: 10px;
+  }
 }

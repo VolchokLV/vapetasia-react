@@ -271,13 +271,17 @@ const Navigation = () => {
                 </a>
               </li>
 
-              {/*<li id="menu-item-3179" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3179">
-                <a href={ process.env.REACT_APP_BASE_URL + '/blog/' } className="menu-link">
-                  <span className="text-wrap">
-                    BLOG
-                  </span>
+              <li
+                id="menu-item-3179"
+                className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3179"
+              >
+                <a
+                  href={process.env.REACT_APP_BASE_URL + "/blog/"}
+                  className="menu-link"
+                >
+                  <span className="text-wrap">BLOG</span>
                 </a>
-              </li>*/}
+              </li>
 
               <li
                 id="menu-item-331"
@@ -533,9 +537,9 @@ const Navigation = () => {
                 </a>
               </li>
 
-              {/*<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3179">
-                <a href={ process.env.REACT_APP_BASE_URL + '/blog/' }>BLOG</a>
-              </li>*/}
+              <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3179">
+                <a href={process.env.REACT_APP_BASE_URL + "/blog/"}>BLOG</a>
+              </li>
 
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-331">
                 <a href={process.env.REACT_APP_BASE_URL + "/about-us/"}>

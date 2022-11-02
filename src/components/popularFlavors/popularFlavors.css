@@ -75,10 +75,3 @@ CAROUSEL
     min-height: auto !important;
   }
 }
-
-.carousel .control-dots .dot.selected,
-.carousel .control-dots .dot:hover {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  color: #fbb81f !important;
-}

@@ -101,14 +101,30 @@ const Post = (props) => {
                 href={
                   process.env.REACT_APP_BASE_URL +
                   "/blog/" +
-                  posts.default[3]["post_slug"]
+                  posts.default[4]["post_slug"]
                 }
               >
-                {posts.default[3]["post_title"]}
+                {posts.default[4]["post_title"]}
               </a>
             </li>
             <hr />
           </ul>
+          <div className="post-archives">
+            <ul>
+              <h2>Archives</h2>
+              <li>January 2021</li>
+              <li>December 2020</li>
+              <li>November 2020</li>
+              <li>October 2020</li>
+              <li>Septemper 2020</li>
+            </ul>
+          </div>
+          <div className="post-categories">
+            <ul>
+              <h2>Categories</h2>
+              <li>Vapetasia News</li>
+            </ul>
+          </div>
         </div>
       </div>
     </>

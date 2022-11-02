@@ -67,3 +67,17 @@
 .post-sidebar hr {
   border: 0.5px solid lightgray;
 }
+
+.post-sidebar h2 {
+  border-left: 5px solid var(--first-color);
+  height: 20px;
+  padding: 0px 10px;
+}
+
+.post-archives {
+  padding-top: 25px;
+}
+
+.post-categories {
+  padding-top: 25px;
+}

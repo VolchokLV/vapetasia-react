@@ -87,6 +87,14 @@
   padding-top: 25px;
 }
 
+.error404 {
+  padding: 50px;
+}
+
+.error404 .error-btn {
+  background-color: var(--first-color) !important;
+}
+
 @media screen and (max-width: 1000px) {
   #blog-page {
     display: block;

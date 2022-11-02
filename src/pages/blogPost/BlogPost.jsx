@@ -1,6 +1,6 @@
 import React from "react";
 import "./blogPost.css";
-import { useParams } from 'react-router-dom'
+import { useParams } from "react-router-dom";
 import * as posts from "../../data/blog.json";
 import { AiOutlineUser, AiOutlineFolder } from "react-icons/ai";
 import { MdDateRange } from "react-icons/md";
@@ -11,7 +11,7 @@ const BlogPost = () => {
   const { slug } = useParams();
   let post = null;
   let recentPosts = [];
-  posts.default.map(p => {
+  posts.default.map((p) => {
     if (p.post_slug === slug) {
       post = p;
     }
@@ -27,9 +27,7 @@ const BlogPost = () => {
           <div className="post-content">
             <div className="post">
               <header className="post-header">
-                <h2 className="single-post-title">
-                  {post.post_title}
-                </h2>
+                <h2 className="single-post-title">{post.post_title}</h2>
               </header>
               <hr />
               <span className="author-heading">
@@ -52,9 +50,7 @@ const BlogPost = () => {
                 <img src={baseUrl + post.banner} alt="" />
               </div>
               <div className="post-paragraph">
-                <p
-                  dangerouslySetInnerHTML={{ __html: post.body }}
-                ></p>
+                <p dangerouslySetInnerHTML={{ __html: post.body }}></p>
               </div>
             </div>
           </div>
@@ -62,18 +58,18 @@ const BlogPost = () => {
             <ul>
               <h2>Recent Posts</h2>
               <hr />
-              {recentPosts.map(p => {
-                return <li key={"recent_" + p.post_slug}>
-                  <a
-                    href={
-                      process.env.REACT_APP_BASE_URL +
-                      "/blog/" +
-                      p.post_slug
-                    }
-                  >
-                    {p.post_title}
-                  </a>
-                </li>
+              {recentPosts.map((p) => {
+                return (
+                  <li key={"recent_" + p.post_slug}>
+                    <a
+                      href={
+                        process.env.REACT_APP_BASE_URL + "/blog/" + p.post_slug
+                      }
+                    >
+                      {p.post_title}
+                    </a>
+                  </li>
+                );
               })}
             </ul>
             <div className="post-archives">
@@ -97,7 +93,51 @@ const BlogPost = () => {
       </>
     );
   } else {
-    return <div>Post not found</div>
+    return (
+      <>
+        <div id="404" class="error404" role="main">
+          <div id="content" class="clr site-content">
+            <div className="error404-content">
+              <h2 className="error-title">This page could not be found!</h2>
+              <p className="error-text">
+                We are sorry. But the page you are looking for must have
+                vaporized!
+                <br />
+                {/* Perhaps you can try a new search. */}
+              </p>
+              {/* <form
+                      role="search"
+                      method="get"
+                      class="searchform"
+                      action={process.env.REACT_APP_BASE_URL}
+                    >
+                      {" "}
+                      <label for="ocean-search-form-2">
+                        {" "}
+                        <span class="screen-reader-text">
+                          Search this website
+                        </span>{" "}
+                        <input
+                          type="search"
+                          id="ocean-search-form-2"
+                          class="field"
+                          autocomplete="off"
+                          placeholder="Search"
+                          name="s"
+                        ></input>{" "}
+                      </label>
+                    </form> */}
+              <a
+                className="error-btn button"
+                href={process.env.REACT_APP_BASE_URL}
+              >
+                Back To Homepage
+              </a>
+            </div>
+          </div>
+        </div>
+      </>
+    );
   }
 };
 

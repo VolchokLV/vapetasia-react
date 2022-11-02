@@ -1,10 +1,14 @@
-import React from 'react'
-import './productImage.css'
+import React from "react";
+import "./productImage.css";
 
 const ProductImage = (props) => {
   return (
-    <img className="vapetasia-image-object" src={'https://cdn2.vapetasia.com' + props.src} alt="Product Image" />
-  )
-}
+    <img
+      className="vapetasia-image-object"
+      src={"https://cdn2.vapetasia.com" + props.src}
+      alt="Product"
+    />
+  );
+};
 
-export default ProductImage
+export default ProductImage;

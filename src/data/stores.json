@@ -1,22 +1,22 @@
 [
-    {
-        "stores": {
-            "ejuices.com": {
-              "name": "EJUICES",
-              "img_url": "https://cdn2.vapetasia.com/img/stores/ejc.png" 
-            }, 
-            "elementvape.com": {
-              "name": "ELEMENT",
-              "img_url": "https://cdn2.vapetasia.com/img/stores/element.png"
-            }, 
-            "vape.com": {
-              "name": "VAPE.COM",
-              "img_url": "https://cdn2.vapetasia.com/img/stores/vapecom.png" 
-            },
-            "vapesocietysupplies.com": {
-              "name": "VAPE SOCIETY",
-              "img_url": "https://cdn2.vapetasia.com/img/stores/VapeSociety.png" 
-            }
-        }
+  {
+    "stores": {
+      "ejuices.com": {
+        "name": "EJUICES",
+        "img_url": "https://cdn2.vapetasia.com/img/stores/ejc.png"
+      },
+      "elementvape.com": {
+        "name": "ELEMENT",
+        "img_url": "https://cdn2.vapetasia.com/img/stores/element.png"
+      },
+      "vape.com": {
+        "name": "VAPE.COM",
+        "img_url": "https://cdn2.vapetasia.com/img/stores/vapecom.png"
+      },
+      "eightvape": {
+        "name": "EIGHT VAPE",
+        "img_url": "https://cdn2.vapetasia.com/img/stores/EightVape.png"
+      }
     }
+  }
 ]

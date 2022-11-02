@@ -96,13 +96,13 @@ const BlogPost = () => {
         <div id="404" class="error404" role="main">
           <div id="content" class="clr site-content">
             <div className="error404-content">
-              <h2 className="error-title">This page could not be found!</h2>
-              <p className="error-text">
+              <h1 className="error-title">This page could not be found!</h1>
+              <span className="error-text">
                 We are sorry. But the page you are looking for must have
                 vaporized!
                 <br />
                 {/* Perhaps you can try a new search. */}
-              </p>
+              </span>
               {/* <form
                       role="search"
                       method="get"

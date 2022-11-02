@@ -1,5 +1,5 @@
 .post hr {
-  border: 1px solid gray;
+  border: 1px solid lightgray;
 }
 
 .post-banner {
@@ -12,6 +12,7 @@
 
 .single-post-title {
   font-size: 34px;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 .author-heading {
@@ -50,8 +51,19 @@
   flex-grow: 5;
   min-width: 630px;
   white-space: break-spaces;
+  /*font-family: "Roboto Mono", monospace !important;*/
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 500;
 }
 
 .post-sidebar ul {
   list-style-type: none;
+}
+
+.post-sidebar a:hover {
+  color: var(--first-color) !important;
+}
+
+.post-sidebar hr {
+  border: 0.5px solid lightgray;
 }

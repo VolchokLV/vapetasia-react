@@ -61,11 +61,7 @@ const BlogPost = () => {
               {recentPosts.map((p) => {
                 return (
                   <li key={"recent_" + p.post_slug}>
-                    <a
-                      href={
-                        process.env.REACT_APP_BASE_URL + "/blog/" + p.post_slug
-                      }
-                    >
+                    <a href={process.env.REACT_APP_BASE_URL + p.post_slug}>
                       {p.post_title}
                     </a>
                   </li>

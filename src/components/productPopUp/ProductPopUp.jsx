@@ -179,7 +179,7 @@ const ProductPopUp = (props) => {
                                         src={
                                           storeFromURL(retailerLink)["img_url"]
                                         }
-                                        className="attachment-large size-large vapetasia-custom-image-ratio-50"
+                                        className="attachment-large size-large"
                                         alt=""
                                       />
                                     </a>

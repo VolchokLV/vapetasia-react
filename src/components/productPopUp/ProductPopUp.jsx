@@ -52,7 +52,7 @@ const ProductPopUp = (props) => {
                             data-widget_type="image.default"
                           >
                             <div className="vapetasia-widget-container">
-                              <div className="vapetasia-image">
+                              <div className="vapetasia-image vapetasia-custom-image-ratio-75">
                                 <ProductImage src={props.imgSrc}></ProductImage>
                               </div>
                             </div>
@@ -68,25 +68,13 @@ const ProductPopUp = (props) => {
                       <div className="vapetasia-column-wrap vapetasia-element-populated">
                         <div className="vapetasia-widget-wrap">
                           <div
-                            className="vapetasia-element vapetasia-element-6072090d vapetasia-widget vapetasia-widget-spacer"
-                            data-id="6072090d"
-                            data-element_type="widget"
-                            data-widget_type="spacer.default"
-                          >
-                            <div className="vapetasia-widget-container">
-                              <div className="vapetasia-spacer">
-                                <div className="vapetasia-spacer-inner"></div>
-                              </div>
-                            </div>
-                          </div>
-                          <div
                             className="vapetasia-element vapetasia-element-2ade2736 vapetasia-widget vapetasia-widget-heading"
                             data-id="2ade2736"
                             data-element_type="widget"
                             data-widget_type="heading.default"
                           >
                             <div className="vapetasia-widget-container">
-                              <h2 className="vapetasia-heading-title vapetasia-size-default">
+                              <h2 className="vapetasia-heading-title vapetasia-size-default vapetasia-custom-padding-top-30">
                                 {props.product.product_name}
                                 <br />
                               </h2>
@@ -188,12 +176,10 @@ const ProductPopUp = (props) => {
                                   <div className="vapetasia-image">
                                     <a href={retailerLink}>
                                       <img
-                                        width="240"
-                                        height="240"
                                         src={
                                           storeFromURL(retailerLink)["img_url"]
                                         }
-                                        className="attachment-large size-large"
+                                        className="attachment-large size-large vapetasia-custom-image-ratio-50"
                                         alt=""
                                       />
                                     </a>

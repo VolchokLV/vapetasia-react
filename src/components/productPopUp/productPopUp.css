@@ -5,7 +5,7 @@
   display: none !important;
 }
 .vapetasia-product-modal-wrapper {
-  padding: 30px;
+  padding: 0 30px;
 }
 
 .dialog-close-button {
@@ -37,4 +37,14 @@
 .dialog-lightbox-message {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+}
+
+.vapetasia-custom-padding-top-30 {
+    padding-top: 30px !important;
+}
+.vapetasia-custom-image-ratio-75 img {
+    width: 75% !important;
+}
+.vapetasia-custom-image-ratio-50 {
+    width: 50% !important;
 }

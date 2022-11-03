@@ -27,12 +27,12 @@ const ProductPopUp = (props) => {
       id="vapetasia-popup-modal-5469"
     >
       <div className="dialog-widget-content dialog-lightbox-widget-content animated">
-        <div className="dialog-header dialog-lightbox-header"></div>
+        {/* <div className="dialog-header dialog-lightbox-header"></div> */}
         <div className="dialog-message dialog-lightbox-message">
           <div className="showProductModal vapetasia vapetasia-5469 vapetasia-location-popup">
             <div className="vapetasia-section-wrap">
               <section
-                className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-1e770d55 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default vapetasia-product-modal-wrapper"
+                className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-1e770d55 vapetasia-section-boxed  vapetasia-product-modal-wrapper" //vapetasia-section-height-default
                 data-id="1e770d55"
                 data-element_type="section"
               >
@@ -99,7 +99,7 @@ const ProductPopUp = (props) => {
                             data-widget_type="text-editor.default"
                           >
                             <div className="vapetasia-widget-container">
-                              <div className="vapetasia-text-editor vapetasia-clearfix">
+                              <div className="vapetasia-text-editor vapetasia-clearfix pop-up-text">
                                 <p>{props.product.popup_txt}</p>
                               </div>
                             </div>

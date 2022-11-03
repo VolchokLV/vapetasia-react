@@ -1,31 +1,51 @@
 .vapetasia-orange {
-    background-color: #FFA500 !important;
+  background-color: #ffa500 !important;
 }
 
 .vapetasia-hide-on-mobile {
-    display: block;
+  display: block;
 }
 
 .vapetasia-custom-button-row {
-    display: flex;
-    justify-content: start;
-    column-gap: 10px;
-    margin-bottom: 30px;
+  display: flex;
+  justify-content: start;
+  column-gap: 10px;
+  margin-bottom: 30px;
 }
 
 .vapetasia-section-center-on-mobile {
-    text-align: left;
+  text-align: left;
+}
+.vapetasia-product-showcase .vapetasia-button {
+  font-size: 20px;
+}
+
+.vapetasia-product-showcase p {
+  font-family: "Montserrat", Montserrat;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.vapetasia-strength-button {
+  font-size: 15px;
+  font-family: "Montserrat", Montserrat;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.vapetasia-product-showcase a:hover {
+  color: black !important;
 }
 
 @media screen and (max-width: 800px) {
-    .vapetasia-hide-on-mobile {
-        display: none !important;
-    }
-    .vapetasia-section-center-on-mobile {
-        text-align: center;
-    }
-    .vapetasia-section-center-on-mobile .vapetasia-custom-button-row {
-        width: 100%;
-        justify-content: center;
-    }
+  .vapetasia-hide-on-mobile {
+    display: none !important;
+  }
+  .vapetasia-section-center-on-mobile {
+    text-align: center;
+  }
+  .vapetasia-section-center-on-mobile .vapetasia-custom-button-row {
+    width: 100%;
+    justify-content: center;
+  }
 }

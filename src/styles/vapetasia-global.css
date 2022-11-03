@@ -64386,7 +64386,7 @@ body.rtl
 
 #vapetasia-popup-modal-5469 .dialog-message {
   width: 700px;
-  height: 800px;
+  height: 800px !important;
   align-items: flex-start;
 }
 

@@ -8,6 +8,26 @@
   padding: 30px;
 }
 
+.dialog-close-button {
+  font-size: 35px !important;
+}
+
+.dialog-close-button:hover {
+  color: var(--first-color);
+}
+
+.pop-up-text p {
+  font-size: 14px;
+}
+
+.pop-up-heading {
+  font-style: italic;
+}
+
+.vapetasia-product-popup {
+  font-style: italic !important;
+}
+
 /* Hide scrollbar for Chrome, Safari and Opera */
 .dialog-lightbox-message::-webkit-scrollbar {
   display: none;

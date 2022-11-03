@@ -1481,7 +1481,7 @@
     "flavor_line": ["hyve-disposables"],
     "img_src": {
       "product": "/img/Disposables/Vapetasia_x_Hyve_Dragons_Breath_12ml_50mg.jpg",
-      "display": "/img/Disposables/Vapetasia_x_Hyve_Dragons_Breath_Display_4000_50mg.jpg"
+      "display": "/img/Disposables/Vapetasia_x_Hyve_Dragons_Breath_Display_5000_50mg.jpg"
     },
     "sizes": ["12ml"],
     "disposable_strengths": ["50mg"],
@@ -1490,8 +1490,14 @@
     "sub_txt": "Embrace yourself! Dragon fruit, strawberry and honeydew create a firestorm of fruity flavor. Bring something to cool off, this flavor is HOT!",
     "popup_txt": "Embrace yourself! Dragon fruit, strawberry and honeydew create a firestorm of fruity flavor. Bring something to cool off, this flavor is HOT!",
     "buy_now": {
-      "only": ["COMING SOON", "COMING SOON", "COMING SOON"],
-      "10ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
+      "only": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ],
+      "12ml": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ]
     },
     "sort_order": 1,
     "featured": {
@@ -1523,8 +1529,14 @@
     "sub_txt": "Embrace yourself! Dragon fruit, strawberry and honeydew create a firestorm of fruity flavor. Bring something to cool off, this flavor is HOT!",
     "popup_txt": "Embrace yourself! Dragon fruit, strawberry and honeydew create a firestorm of fruity flavor. Bring something to cool off, this flavor is HOT!",
     "buy_now": {
-      "only": ["COMING SOON", "COMING SOON", "COMING SOON"],
-      "6ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
+      "only": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ],
+      "6ml": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ]
     },
     "sort_order": 2,
     "featured": {
@@ -1547,7 +1559,7 @@
     "flavor_line": ["hyve-disposables"],
     "img_src": {
       "product": "/img/Disposables/Vapetasia_x_Hyve_Trapple_12ml_50mg.jpg",
-      "display": "/img/Disposables/Vapetasia_x_Hyve_Trapple_Display_4000_50mg.jpg"
+      "display": "/img/Disposables/Vapetasia_x_Hyve_Trapple_Display_5000_50mg.jpg"
     },
     "sizes": ["12ml"],
     "disposable_strengths": ["50mg"],
@@ -1556,8 +1568,14 @@
     "sub_txt": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
     "popup_txt": "A smooth inhale of vanilla flavor will leave you wanting to get cozy and rest on a light cloud of rich sweetness.",
     "buy_now": {
-      "only": ["COMING SOON", "COMING SOON", "COMING SOON"],
-      "10ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
+      "only": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ],
+      "12ml": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ]
     },
     "sort_order": 3,
     "featured": {
@@ -1589,8 +1607,14 @@
     "sub_txt": "An apple a day? How about three! A tasteful blend of red, green and golden apples will leave a crisp taste of delightful fruit for you to enjoy.",
     "popup_txt": "A smooth inhale of vanilla flavor will leave you wanting to get cozy and rest on a light cloud of rich sweetness.",
     "buy_now": {
-      "only": ["COMING SOON", "COMING SOON", "COMING SOON"],
-      "6ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
+      "only": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ],
+      "6ml": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ]
     },
     "sort_order": 4,
     "featured": {
@@ -1613,7 +1637,7 @@
     "flavor_line": ["hyve-disposables"],
     "img_src": {
       "product": "/img/Disposables/Vapetasia_x_Hyve_Honeydew_Kream_12ml_50mg.jpg",
-      "display": "/img/Disposables/Vapetasia_x_Hyve_Honeydew_Kream_Display_4000_50mg.jpg"
+      "display": "/img/Disposables/Vapetasia_x_Hyve_Honeydew_Kream_Display_5000_50mg.jpg"
     },
     "sizes": ["12ml"],
     "disposable_strengths": ["50mg"],
@@ -1622,8 +1646,14 @@
     "sub_txt": "A smooth vanilla cream topped with ripe chunks of honeydew melons create a juicy blend of ripe flavor to take over your world.",
     "popup_txt": "A smooth vanilla cream topped with ripe chunks of honeydew melons create a juicy blend of ripe flavor to take over your world.",
     "buy_now": {
-      "only": ["COMING SOON", "COMING SOON", "COMING SOON"],
-      "10ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
+      "only": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ],
+      "12ml": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ]
     },
     "sort_order": 5,
     "featured": {
@@ -1646,7 +1676,7 @@
     "flavor_line": ["hyve-disposables"],
     "img_src": {
       "product": "/img/Disposables/Vapetasia_x_Hyve_Honeydew_Kream_6ml_50mg.jpg",
-      "display": "/img/Vapetasia_x_Hyve_Honeydew_Kream_Display_2500_50mg.jpg"
+      "display": "/img/Disposables/Vapetasia_x_Hyve_Honeydew_Kream_Display_2500_50mg.jpg"
     },
     "display_img": "",
     "sizes": ["6ml"],
@@ -1656,8 +1686,14 @@
     "sub_txt": "A smooth vanilla cream topped with ripe chunks of honeydew melons create a juicy blend of ripe flavor to take over your world.",
     "popup_txt": "A smooth vanilla cream topped with ripe chunks of honeydew melons create a juicy blend of ripe flavor to take over your world.",
     "buy_now": {
-      "only": ["COMING SOON", "COMING SOON", "COMING SOON"],
-      "6ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
+      "only": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ],
+      "6ml": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ]
     },
     "sort_order": 6,
     "featured": {
@@ -1680,7 +1716,7 @@
     "flavor_line": ["hyve-disposables"],
     "img_src": {
       "product": "/img/Disposables/Vapetasia_x_Hyve_VNLA_12ml_50mg.jpg",
-      "display": "/img/Disposables/Vapetasia_x_Hyve_VNLA_Display_4000_50mg.jpg"
+      "display": "/img/Disposables/Vapetasia_x_Hyve_VNLA_Display_5000_50mg.jpg"
     },
     "sizes": ["12ml"],
     "disposable_strengths": ["50mg"],
@@ -1689,8 +1725,14 @@
     "sub_txt": "A smooth inhale of vanilla flavor will leave you wanting to get cozy and rest on a light cloud of rich sweetness.",
     "popup_txt": "A smooth inhale of vanilla flavor will leave you wanting to get cozy and rest on a light cloud of rich sweetness.",
     "buy_now": {
-      "only": ["COMING SOON", "COMING SOON", "COMING SOON"],
-      "10ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
+      "only": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ],
+      "12ml": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ]
     },
     "sort_order": 7,
     "featured": {
@@ -1722,8 +1764,14 @@
     "sub_txt": "A smooth inhale of vanilla flavor will leave you wanting to get cozy and rest on a light cloud of rich sweetness.",
     "popup_txt": "A smooth inhale of vanilla flavor will leave you wanting to get cozy and rest on a light cloud of rich sweetness.",
     "buy_now": {
-      "only": ["COMING SOON", "COMING SOON", "COMING SOON"],
-      "6ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
+      "only": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ],
+      "6ml": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ]
     },
     "sort_order": 8,
     "featured": {

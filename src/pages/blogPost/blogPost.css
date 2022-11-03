@@ -89,9 +89,9 @@
 
 .error404 {
   padding: 200px;
-  background-image: url("https://cdn2.vapetasia.com/img/404-cloud.png");
+  background-image: url("https://cdn2.vapetasia.com/img/404-cloud-grey.png");
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   background-position: center;
   height: 75vh;
 }

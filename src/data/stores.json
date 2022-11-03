@@ -16,6 +16,14 @@
       "eightvape.com": {
         "name": "EIGHT VAPE",
         "img_url": "https://cdn2.vapetasia.com/img/stores/EightVape.png"
+      },
+      "flawlessvapeshop.com": {
+        "name": "FLAWLESS",
+        "img_url": "https://cdn2.vapetasia.com/img/stores/Flawless.png"
+      },
+      "ecigmafia.com": {
+        "name": "ECIG MAFIA",
+        "img_url": "https://cdn2.vapetasia.com/img/stores/Ecig-Mafia.png"
       }
     }
   }

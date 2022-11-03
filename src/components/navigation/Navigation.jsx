@@ -240,7 +240,7 @@ const Navigation = () => {
                       </span>
                     </a>
                   </li>
-                  <li
+                  {/* <li
                     id="menu-item-6021"
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-6021"
                   >
@@ -255,7 +255,7 @@ const Navigation = () => {
                         Vapetasia X Air Disposables
                       </span>
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
 
@@ -518,7 +518,7 @@ const Navigation = () => {
                       Vapetasia X Hyve Disposables
                     </a>
                   </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-6021">
+                  {/* <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-6021">
                     <a
                       href={
                         process.env.REACT_APP_BASE_URL +
@@ -527,7 +527,7 @@ const Navigation = () => {
                     >
                       Vapetasia X Air Disposables
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
 

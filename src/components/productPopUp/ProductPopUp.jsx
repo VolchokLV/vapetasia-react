@@ -9,10 +9,14 @@ const ProductPopUp = (props) => {
       return stores.default[0]["stores"]["ejuices.com"];
     } else if (url.indexOf("elementvape.com") > -1) {
       return stores.default[0]["stores"]["elementvape.com"];
-    } else if (url.indexOf("vape.com") > -1) {
-      return stores.default[0]["stores"]["vape.com"];
     } else if (url.indexOf("eightvape.com") > -1) {
       return stores.default[0]["stores"]["eightvape.com"];
+    } else if (url.indexOf("vape.com") > -1) {
+      return stores.default[0]["stores"]["vape.com"];
+    } else if (url.indexOf("flawlessvapeshop.com") > -1) {
+      return stores.default[0]["stores"]["flawlessvapeshop.com"];
+    } else if (url.indexOf("ecigmafia.com") > -1) {
+      return stores.default[0]["stores"]["ecigmafia.com"];
     }
   };
   return (

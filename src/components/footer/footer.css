@@ -1,21 +1,23 @@
 .vapetasia-footer-socials {
-    padding: 2px !important;
+  padding: 2px !important;
 }
 
-#footer-links a,h2 {
-    font-family: Montserrat !important;
-    font-style: normal;  
+#footer-links a,
+h2 {
+  font-family: Montserrat !important;
+  font-style: normal;
 }
 
-.vapetasia-heading-title {
-    font-style: normal !important; 
+.vapetasia-footer-section .vapetasia-heading-title {
+  font-style: normal !important;
 }
 .mobile-footer-top-pad {
-    padding-top: 60px !important;
+  padding-top: 60px !important;
 }
 
 @media screen and (max-width: 600px) {
-    .vapetasia-location-footer, .vapetasia-location-footer .vapetasia-heading-title {
-        text-align: center;
-    }
+  .vapetasia-location-footer,
+  .vapetasia-location-footer .vapetasia-heading-title {
+    text-align: center;
+  }
 }

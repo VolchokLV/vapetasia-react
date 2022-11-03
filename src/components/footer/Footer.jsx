@@ -8,7 +8,7 @@ const Footer = () => {
       <div
         data-vapetasia-type="footer"
         data-vapetasia-id="1644"
-        className="vapetasia vapetasia-1644 vapetasia-location-footer"
+        className="vapetasia vapetasia-1644 vapetasia-location-footer vapetasia-footer-section"
       >
         <div className="vapetasia-section-wrap">
           <section

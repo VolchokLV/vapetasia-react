@@ -23,9 +23,14 @@
     text-align: center;
     padding-bottom: 10px;
   }
-  #wholesale-section body,
-  p,
-  h2 {
+  #wholesale-section h2,
+  #wholesale-section p {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  #distributors-section h2,
+  #distributors-section p {
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -99,7 +104,8 @@
 } */
 
 .distributors-section h2 {
-  line-height: 0.5 !important;
+  line-height: 1 !important;
+  margin-bottom: 0;
 }
 
 .distributors-section hr {

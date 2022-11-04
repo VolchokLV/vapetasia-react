@@ -1,67 +1,115 @@
-#crmWebToEntityForm tr , #crmWebToEntityForm td { 
-    padding:6px;
-    border-spacing:0px;
-    border-width:0px;
-    display: block;
-    width: 100%;
-    }
+#crmWebToEntityForm tr,
+#crmWebToEntityForm td {
+  padding: 6px;
+  border-spacing: 0px;
+  border-width: 0px;
+  display: block;
+  width: 100%;
+}
 @media screen and (max-width: 600px) {
-  #crmWebToEntityForm tr , #crmWebToEntityForm td { 
+  #crmWebToEntityForm tr,
+  #crmWebToEntityForm td {
     box-sizing: border-box;
     padding-left: 20px;
     width: 100% !important;
-    }
-    #crmWebToEntityForm table {
+  }
+  #crmWebToEntityForm table {
     margin-left: 0 !important;
     margin-right: 0 !important;
-    }
+  }
+  .distributor-paragraph {
+    font-family: "Montserrat", Montserrat;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  #wholesale-section body,
+  p,
+  h2 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
-/* .vapetasia-button {
-  background-color: #FAA500;
-} */
-
 .wholesale-heading-url {
-    color: #7A7A7A;
-    font-family: "rift", Montserrat;
-    font-size: 35px;
-    font-style: italic;
+  color: #7a7a7a;
+  font-family: "rift", Montserrat;
+  font-size: 35px;
+  font-style: italic;
 }
 
 .wholesale-heading-phone {
-  color: #FAA500; 
+  color: #faa500;
   font-size: 2rem;
 }
 
-a:hover {
-  color: #7A7A7A!important;
-  transition: color 1s ease
-}
+/* #wholesale-section a:hover {
+  color: #7a7a7a !important;
+  transition: color 1s ease;
+} */
 
 .vapetasia-button-wholesale {
-  color: #FFF !important;
+  color: #fff !important;
   align-items: center;
   justify-content: center;
-  background-color: #FAA500 !important;
+  background-color: #faa500 !important;
 }
 
 .vapetasia-button-wholesale a {
-  color: #FFF !important;
-  font-family:"rift",Sans-serif !important;
+  color: #fff !important;
+  font-family: "rift", Sans-serif !important;
   font-weight: bold !important;
   font-style: italic !important;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 #wholesale-section .vapetasia-button {
-  background-color: #FAA500 !important;
-  font-family:"rift",Sans-serif !important;
+  background-color: #faa500 !important;
+  font-family: "rift", Sans-serif !important;
   font-weight: bold !important;
   font-style: italic !important;
   font-size: 2.2em;
-
 }
 
 .vapetasia-button-wholesale:hover {
+  color: gray;
   transform: scale(1.1);
+}
+
+.distributor-paragraph {
+  font-family: "Montserrat", Montserrat;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.site-url {
+  text-transform: uppercase;
+  font-family: "rift", Sans-serif !important;
+  font-size: 34px;
+}
+
+.site-url a {
+  color: gray !important;
+}
+
+/* #wholesale-section {
+  margin-bottom: 25px;
+} */
+
+.distributors-section h2 {
+  line-height: 0.5 !important;
+}
+
+.distributors-section hr {
+  border: 1px solid black;
+  width: 50%;
+  margin: 25px 25% 50px 25% !important;
+  align-content: center;
+}
+
+.distributors-section a:hover {
+  color: black !important;
+  transition: color 1s ease;
 }

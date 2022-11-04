@@ -1,0 +1,32 @@
+[
+  {
+    "name": "VAPE.com",
+    "site_url": "vape.com",
+    "link": "https://vape.com",
+    "img_url": "https://cdn2.vapetasia.com/img/retailers/vapecom.png"
+  },
+  {
+    "name": "EIGHT VAPE",
+    "site_url": "eightvape.com",
+    "link": "https://vape.com",
+    "img_url": "https://cdn2.vapetasia.com/img/retailers/eightcigvape.png"
+  },
+  {
+    "name": "VAPE SOCIETY SUPPLIES",
+    "site_url": "vapesocietysupplies.com",
+    "link": "https://vapesocietysupplies.com/collections/all-e-juice-brands/vapetasia/",
+    "img_url": "https://cdn2.vapetasia.com/img/retailers/vapesocietysupply.png"
+  },
+  {
+    "name": "ELEMENT VAPE",
+    "site_url": "elementvape.com",
+    "link": "https://www.elementvape.com/vapetasia",
+    "img_url": "https://cdn2.vapetasia.com/img/retailers/elementvape.png"
+  },
+  {
+    "name": "EJUICES.com",
+    "site_url": "ejuices.com",
+    "link": "https://www.ejuices.com/collections/vapetasia",
+    "img_url": "https://cdn2.vapetasia.com/img/retailers/EJC.png"
+  }
+]

@@ -29,11 +29,17 @@
   display: none;
 }
 
+#mobile-menu-trigger a {
+  outline: none !important;
+}
+
 @media screen and (max-width: 776px) {
   #site-navigation-wrap {
     display: none;
   }
   #mobile-menu-trigger {
     display: inline-block;
+    position: absolute;
+    right: 10px;
   }
 }

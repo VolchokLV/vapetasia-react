@@ -6,17 +6,23 @@
   min-height: 250px;
 }
 
+/*RELEVANT HERO CLASSES*/
 
- /*RELEVANT HERO CLASSES*/
-
- .vapetasia-191 .vapetasia-element.vapetasia-element-page-hero:not(.vapetasia-motion-effects-element-type-background), .vapetasia-191 .vapetasia-element.vapetasia-element-HomeHero > .vapetasia-motion-effects-container > .vapetasia-motion-effects-layer {
+.vapetasia-191
+  .vapetasia-element.vapetasia-element-page-hero:not(.vapetasia-motion-effects-element-type-background),
+.vapetasia-191
+  .vapetasia-element.vapetasia-element-HomeHero
+  > .vapetasia-motion-effects-container
+  > .vapetasia-motion-effects-layer {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
-.vapetasia-191 .vapetasia-element.vapetasia-element-page-hero > .vapetasia-background-overlay {
+.vapetasia-191
+  .vapetasia-element.vapetasia-element-page-hero
+  > .vapetasia-background-overlay {
   background-image: url("https://cdn2.vapetasia.com/img/hero/gash.png");
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -37,21 +43,23 @@ EVERY SECTION BELOW THE HERO SHOULD HAVE A TOP PADDING
   padding-top: 100px;
 }
 
-
- /*dim the gash overlay when screen is XL*/
- @media screen and (min-width: 1600px) {
-  .vapetasia-background-overlay, .hero-paragraph-detail {
-    opacity: .3 !important;
+/*dim the gash overlay when screen is XL*/
+@media screen and (min-width: 1600px) {
+  .vapetasia-background-overlay,
+  .hero-paragraph-detail {
+    opacity: 0.3 !important;
     border-bottom: 0 !important;
   }
   #hero-description {
-    color: #FFFFFF;
+    color: #ffffff;
   }
- }
- .widget-title {
-  border-color: #FAA500;
- }
-
+}
+.widget-title {
+  border-color: #faa500;
+}
+.vapetasia-element-page-hero + section {
+  padding-top: 10px;
+}
 
 /*
 ADJUST HERO SPACER AT VARYING SIZES

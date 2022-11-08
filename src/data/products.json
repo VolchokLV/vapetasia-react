@@ -1944,7 +1944,7 @@
     }
   },
   {
-    "product_name": "Vapetasia X Hyve Strawberry Appple Lemonade 2500 Puff",
+    "product_name": "Vapetasia X Hyve Strawberry Apple Lemonade 2500 Puff",
     "product_types": ["disposable"],
     "product_slug": "vapetasia-x-hyve-disposables-strawberry-apple-lemonade-2500-puff",
     "flavor_line": ["hyve-disposables"],
@@ -1993,10 +1993,10 @@
     },
     "sizes": ["6ml"],
     "disposable_strengths": ["50mg"],
-    "hero_txt": "‌Cool off with a tropical refresher. Pineapple coupled with an orange pop are frozen over to create this flavorful!",
-    "main_text": "‌Cool off with a tropical refresher. Pineapple coupled with an orange pop are frozen over to create this flavorful!",
-    "sub_txt": "‌Cool off with a tropical refresher. Pineapple coupled with an orange pop are frozen over to create this flavorful!",
-    "popup_txt": "‌Cool off with a tropical refresher. Pineapple coupled with an orange pop are frozen over to create this flavorful!",
+    "hero_txt": "‌Cool off with a tropical refresher. Pineapple coupled with an orange pop are frozen over to create this flavorful vape!",
+    "main_text": "‌Cool off with a tropical refresher. Pineapple coupled with an orange pop are frozen over to create this flavorful vape!",
+    "sub_txt": "‌Cool off with a tropical refresher. Pineapple coupled with an orange pop are frozen over to create this flavorful vape!",
+    "popup_txt": "‌Cool off with a tropical refresher. Pineapple coupled with an orange pop are frozen over to create this flavorful vape!",
     "buy_now": {
       "only": [
         "https://www.elementvape.com/vapetasia-x-hyve-4000",

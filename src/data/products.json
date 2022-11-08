@@ -1597,7 +1597,7 @@
     "product_slug": "vapetasia-x-hyve-disposables-trapple-2500-puff",
     "flavor_line": ["hyve-disposables"],
     "img_src": {
-      "product": "/img/Disposables/Vapetasia_x_Hyve_Trapple_6ml_50mg.jpg",
+      "product": "/img/Disposables/Vapetasia_x_Hyve_Trapple_2500_50mg.jpg",
       "display": "/img/Disposables/Vapetasia_x_Hyve_Trapple_Display_2500_50mg.jpg"
     },
     "sizes": ["6ml"],
@@ -1675,7 +1675,7 @@
     "product_slug": "vapetasia-x-hyve-disposables-honeydew-kream-2500-puff",
     "flavor_line": ["hyve-disposables"],
     "img_src": {
-      "product": "/img/Disposables/Vapetasia_x_Hyve_Honeydew_Kream_6ml_50mg.jpg",
+      "product": "/img/Disposables/Vapetasia_x_Hyve_Honeydew_Kream_2500_50mg.jpg",
       "display": "/img/Disposables/Vapetasia_x_Hyve_Honeydew_Kream_Display_2500_50mg.jpg"
     },
     "display_img": "",
@@ -1754,7 +1754,7 @@
     "product_slug": "vapetasia-x-hyve-disposables-vnla-2500-puff",
     "flavor_line": ["hyve-disposables"],
     "img_src": {
-      "product": "/img/Disposables/Vapetasia_x_Hyve_VNLA_6ml_50mg.jpg",
+      "product": "/img/Disposables/Vapetasia_x_Hyve_VNLA_2500_50mg.jpg",
       "display": "/img/Disposables/Vapetasia_x_Hyve_VNLA_Display_2500_50mg.jpg"
     },
     "sizes": ["6ml"],
@@ -1763,6 +1763,240 @@
     "main_text": "A smooth inhale of vanilla flavor will leave you wanting to get cozy and rest on a light cloud of rich sweetness.",
     "sub_txt": "A smooth inhale of vanilla flavor will leave you wanting to get cozy and rest on a light cloud of rich sweetness.",
     "popup_txt": "A smooth inhale of vanilla flavor will leave you wanting to get cozy and rest on a light cloud of rich sweetness.",
+    "buy_now": {
+      "only": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ],
+      "6ml": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ]
+    },
+    "sort_order": 8,
+    "featured": {
+      "display": 0,
+      "key": "disposable",
+      "strength": "50mg",
+      "size": "6ml"
+    },
+    "featured2": {
+      "display": 0,
+      "key": "disposable",
+      "strength": "50mg",
+      "size": "6ml"
+    }
+  },
+  {
+    "product_name": "Vapetasia X Hyve Disposable Sour Blue Gummy 5000 Puff",
+    "product_types": ["disposable"],
+    "product_slug": "vapetasia-x-hyve-disposables-sour-blue-gummy-5000-puff",
+    "flavor_line": ["hyve-disposables"],
+    "img_src": {
+      "product": "/img/Disposables/Vapetasia_x_Hyve_Sour_Blue_Gummy_5000_50mg.jpg",
+      "display": "/img/Disposables/Vapetasia_x_Hyve_Sour_Blue_Gummy_Display_5000_50mg.jpg"
+    },
+    "sizes": ["12ml"],
+    "disposable_strengths": ["50mg"],
+    "hero_txt": "‌Satisfy your sweet tooth and sink your teeth into the candy flavor of plump gummy worms sprinkled with sour sugar!.",
+    "main_text": "‌Satisfy your sweet tooth and sink your teeth into the candy flavor of plump gummy worms sprinkled with sour sugar!.",
+    "sub_txt": "‌Satisfy your sweet tooth and sink your teeth into the candy flavor of plump gummy worms sprinkled with sour sugar!.",
+    "popup_txt": "‌Satisfy your sweet tooth and sink your teeth into the candy flavor of plump gummy worms sprinkled with sour sugar!.",
+    "buy_now": {
+      "only": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ],
+      "12ml": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ]
+    },
+    "sort_order": 8,
+    "featured": {
+      "display": 0,
+      "key": "disposable",
+      "strength": "50mg",
+      "size": "12ml"
+    },
+    "featured2": {
+      "display": 0,
+      "key": "disposable",
+      "strength": "50mg",
+      "size": "12ml"
+    }
+  },
+  {
+    "product_name": "Vapetasia X Hyve Disposable Sour Strawberry 5000 Puff",
+    "product_types": ["disposable"],
+    "product_slug": "vapetasia-x-hyve-disposables-sour-strawberry-5000-puff",
+    "flavor_line": ["hyve-disposables"],
+    "img_src": {
+      "product": "/img/Disposables/Vapetasia_x_Hyve_Sour_Strawberry_5000_50mg.jpg",
+      "display": "/img/Disposables/Vapetasia_x_Hyve_Sour_Strawberry_Display_5000_50mg.jpg"
+    },
+    "sizes": ["12ml"],
+    "disposable_strengths": ["50mg"],
+    "hero_txt": "‌Get ready for a blast of strawberry sweetness balanced by a complimentary sourness to create a perfect vape.",
+    "main_text": "‌Get ready for a blast of strawberry sweetness balanced by a complimentary sourness to create a perfect vape.",
+    "sub_txt": "‌‌Get ready for a blast of strawberry sweetness balanced by a complimentary sourness to create a perfect vape.",
+    "popup_txt": "‌‌Get ready for a blast of strawberry sweetness balanced by a complimentary sourness to create a perfect vape.",
+    "buy_now": {
+      "only": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ],
+      "12ml": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ]
+    },
+    "sort_order": 8,
+    "featured": {
+      "display": 0,
+      "key": "disposable",
+      "strength": "50mg",
+      "size": "12ml"
+    },
+    "featured2": {
+      "display": 0,
+      "key": "disposable",
+      "strength": "50mg",
+      "size": "12ml"
+    }
+  },
+  {
+    "product_name": "Vapetasia X Hyve Disposable Blueberry Lemonade Ice 5000 Puff",
+    "product_types": ["disposable"],
+    "product_slug": "vapetasia-x-hyve-disposables-blueberry-lemonade-ice-5000-puff",
+    "flavor_line": ["hyve-disposables"],
+    "img_src": {
+      "product": "/img/Disposables/Vapetasia_x_Hyve_Blueberry_Lemonade_Ice_5000_50mg.jpg",
+      "display": "/img/Disposables/Vapetasia_x_Hyve_Blueberry_Lemonade_Ice_Display_5000_50mg.jpg"
+    },
+    "sizes": ["12ml"],
+    "disposable_strengths": ["50mg"],
+    "hero_txt": "‌‌Quench your thirst with a splash of blueberry flavor perfectly mixed into a cold glass of freshly squeezed lemonade",
+    "main_text": "‌Quench your thirst with a splash of blueberry flavor perfectly mixed into a cold glass of freshly squeezed lemonade.",
+    "sub_txt": "‌Quench your thirst with a splash of blueberry flavor perfectly mixed into a cold glass of freshly squeezed lemonade.",
+    "popup_txt": "‌Quench your thirst with a splash of blueberry flavor perfectly mixed into a cold glass of freshly squeezed lemonade.",
+    "buy_now": {
+      "only": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ],
+      "12ml": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ]
+    },
+    "sort_order": 8,
+    "featured": {
+      "display": 0,
+      "key": "disposable",
+      "strength": "50mg",
+      "size": "12ml"
+    },
+    "featured2": {
+      "display": 0,
+      "key": "disposable",
+      "strength": "50mg",
+      "size": "12ml"
+    }
+  },
+  {
+    "product_name": "Vapetasia X Hyve Disposable Mango Lemonade 2500 Puff",
+    "product_types": ["disposable"],
+    "product_slug": "vapetasia-x-hyve-disposables-mango-lemonade-2500-puff",
+    "flavor_line": ["hyve-disposables"],
+    "img_src": {
+      "product": "/img/Disposables/Vapetasia_x_Hyve_Mango_Lemonade_2500_50mg.jpg",
+      "display": "/img/Disposables/Vapetasia_x_Hyve_Display_2500_Mango_Lemonade_50mg.jpg"
+    },
+    "sizes": ["6ml"],
+    "disposable_strengths": ["50mg"],
+    "hero_txt": "‌‌Perfectly made lemonade mixed with tropical flavors of mango create a paradise of flavor for you to enjoy!",
+    "main_text": "‌Perfectly made lemonade mixed with tropical flavors of mango create a paradise of flavor for you to enjoy!",
+    "sub_txt": "‌Perfectly made lemonade mixed with tropical flavors of mango create a paradise of flavor for you to enjoy!",
+    "popup_txt": "‌Perfectly made lemonade mixed with tropical flavors of mango create a paradise of flavor for you to enjoy!",
+    "buy_now": {
+      "only": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ],
+      "6ml": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ]
+    },
+    "sort_order": 8,
+    "featured": {
+      "display": 0,
+      "key": "disposable",
+      "strength": "50mg",
+      "size": "6ml"
+    },
+    "featured2": {
+      "display": 0,
+      "key": "disposable",
+      "strength": "50mg",
+      "size": "6ml"
+    }
+  },
+  {
+    "product_name": "Vapetasia X Hyve Strawberry Appple Lemonade 2500 Puff",
+    "product_types": ["disposable"],
+    "product_slug": "vapetasia-x-hyve-disposables-strawberry-apple-lemonade-2500-puff",
+    "flavor_line": ["hyve-disposables"],
+    "img_src": {
+      "product": "/img/Disposables/Vapetasia_x_Hyve_Strawberry_Apple_Lemonade_2500_50mg.jpg",
+      "display": "/img/Disposables/Vapetasia_x_Hyve_Display_2500_Strawberry_Apple_Lemonade_50mg.jpg"
+    },
+    "sizes": ["6ml"],
+    "disposable_strengths": ["50mg"],
+    "hero_txt": "‌Ripe strawberries and crisp crimson apples dive into a pool of delicious lemonade. Get ready for a refreshing fruit drink flavor. ",
+    "main_text": "‌Ripe strawberries and crisp crimson apples dive into a pool of delicious lemonade. Get ready for a refreshing fruit drink flavor. ",
+    "sub_txt": "‌Ripe strawberries and crisp crimson apples dive into a pool of delicious lemonade. Get ready for a refreshing fruit drink flavor. ",
+    "popup_txt": "‌Ripe strawberries and crisp crimson apples dive into a pool of delicious lemonade. Get ready for a refreshing fruit drink flavor. ",
+    "buy_now": {
+      "only": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ],
+      "6ml": [
+        "https://www.elementvape.com/vapetasia-x-hyve-4000",
+        "https://vape.com/products/vapetasia-hyve-mesh-disposable-4000-puffs-10ml"
+      ]
+    },
+    "sort_order": 8,
+    "featured": {
+      "display": 0,
+      "key": "disposable",
+      "strength": "50mg",
+      "size": "6ml"
+    },
+    "featured2": {
+      "display": 0,
+      "key": "disposable",
+      "strength": "50mg",
+      "size": "6ml"
+    }
+  },
+  {
+    "product_name": "Vapetasia X Hyve Pineapple Orange Slushy 2500 Puff",
+    "product_types": ["disposable"],
+    "product_slug": "vapetasia-x-hyve-disposables-pineapple-orange-slushy-2500-puff",
+    "flavor_line": ["hyve-disposables"],
+    "img_src": {
+      "product": "/img/Disposables/Vapetasia_x_Hyve_Pineapple Orange Slushie_2500_50mg.jpg",
+      "display": "/img/Disposables/Vapetasia_x_Hyve_Display_2500_Pineapple_Orange_Slushy_50mg.jpg"
+    },
+    "sizes": ["6ml"],
+    "disposable_strengths": ["50mg"],
+    "hero_txt": "‌Cool off with a tropical refresher. Pineapple coupled with an orange pop are frozen over to create this flavorful!",
+    "main_text": "‌Cool off with a tropical refresher. Pineapple coupled with an orange pop are frozen over to create this flavorful!",
+    "sub_txt": "‌Cool off with a tropical refresher. Pineapple coupled with an orange pop are frozen over to create this flavorful!",
+    "popup_txt": "‌Cool off with a tropical refresher. Pineapple coupled with an orange pop are frozen over to create this flavorful!",
     "buy_now": {
       "only": [
         "https://www.elementvape.com/vapetasia-x-hyve-4000",

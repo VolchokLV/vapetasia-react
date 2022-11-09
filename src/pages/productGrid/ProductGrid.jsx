@@ -51,7 +51,7 @@ const ProductGrid = (props) => {
           
             <div className="vapetasia-custom-grid">
 
-              {props.products.map(p => {
+              {props.products.sort((a, b) => a.sort_order > b.sort_order ? 1 : -1).map(p => {
                 if (p.product_types.includes(type) && 
                   (
                     (topic === 'size' && p.sizes[type].includes(value)) || // display only products with specified size

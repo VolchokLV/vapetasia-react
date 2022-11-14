@@ -22,7 +22,10 @@
 
 .vapetasia-heading-subtitle {
   text-transform: uppercase;
-  font-size: 28px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Rift", Rift !important;
+  font-size: 48px;
 }
 
 .vapetasia-product-showcase p {

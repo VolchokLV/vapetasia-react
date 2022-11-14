@@ -483,7 +483,7 @@ const Navigation = () => {
                     <a
                       href={
                         process.env.REACT_APP_BASE_URL +
-                        "/category/eliquid/size/30ml"
+                        "/category/salt/size/30ml"
                       }
                     >
                       SALT 30ml

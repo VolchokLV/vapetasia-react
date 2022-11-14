@@ -15,7 +15,7 @@ const ProductShowcase = (props) => {
     imgSrc = props.product["img_src"]["product"];
     imgSrcDisplay = props.product["img_src"]["display"];
     buyNowSlug = "only";
-    strengthSlug = 'disposable_strengths';
+    strengthSlug = 'disposable';
   } else {
     imgSrc = props.product.img_src[props.sizeOrBrand];
     imgSrcDisplay = imgSrc;
@@ -82,6 +82,14 @@ const ProductShowcase = (props) => {
                       <h2 className="vapetasia-heading-title vapetasia-size-default">
                         {props.product.product_name}
                       </h2>
+                      {
+                        strengthSlug !== 'disposable' ?
+                        <h3 className="vapetasia-heading-subtitle vapetasia-size-default">
+                          {strengthSlug}
+                        </h3>
+                        :
+                        <></>
+                      }
                     </div>
                   </div>
 

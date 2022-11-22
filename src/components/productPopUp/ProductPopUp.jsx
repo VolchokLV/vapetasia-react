@@ -180,7 +180,7 @@ const ProductPopUp = (props) => {
                                           storeFromURL(retailerLink)["img_url"]
                                         }
                                         className="attachment-large size-large"
-                                        alt=""
+                                        alt="retialerLink"
                                       />
                                     </a>
                                   </div>
@@ -212,6 +212,8 @@ const ProductPopUp = (props) => {
                                       href={retailerLink}
                                       className="vapetasia-button-link vapetasia-button vapetasia-size-md"
                                       role="button"
+                                      target="_blank"
+                                      rel="noopener noreferrer"
                                     >
                                       <span className="vapetasia-button-content-wrapper">
                                         <span className="vapetasia-button-text">

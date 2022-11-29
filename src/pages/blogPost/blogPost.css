@@ -87,6 +87,17 @@
   padding-top: 25px;
 }
 
+.post-buttons {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  gap: 80%;
+}
+
+.vapetasia-button-blog {
+  gap: 10px;
+}
+
 .error404 {
   padding: 200px;
   background-image: url("https://cdn2.vapetasia.com/img/404-cloud-grey.png");
@@ -114,5 +125,11 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+  }
+  .post-buttons {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 50px;
   }
 }

@@ -11,15 +11,27 @@ const BlogPost = () => {
   const { slug } = useParams();
   let post = null;
   let recentPosts = [];
-  posts.default.map((p) => {
+  let prevPost = null;
+  let nextPost = null;
+  posts.default.map((p, index) => {
     if (p.post_slug === slug) {
       post = p;
+      prevPost =
+        index === 0
+          ? posts.default[posts.default.length - 1]
+          : posts.default[index - 1];
+      nextPost =
+        index === posts.default.length - 1
+          ? posts.default[0]
+          : posts.default[index + 1];
     }
     if (recentPosts.length < 5) {
       recentPosts.push(p);
     }
   });
-  console.log(recentPosts);
+  console.log(prevPost);
+  console.log(nextPost);
+
   if (post) {
     return (
       <>
@@ -51,6 +63,34 @@ const BlogPost = () => {
               </div>
               <div className="post-paragraph">
                 <p dangerouslySetInnerHTML={{ __html: post.body }}></p>
+              </div>
+              <div className="vapetasia-widget-container post-buttons">
+                <div className="vapetasia-button vapetasia-button-wholesale vapetasia-slide-button vapetasia-size-lg">
+                  <span key="prevPost" className="postButton">
+                    <a
+                      href={
+                        process.env.REACT_APP_BASE_URL +
+                        "/" +
+                        prevPost.post_slug
+                      }
+                    >
+                      Prev Post
+                    </a>
+                  </span>
+                </div>
+                <div className="vapetasia-button vapetasia-button-wholesale vapetasia-slide-button vapetasia-size-lg">
+                  <span key="nexPost" className="postButton">
+                    <a
+                      href={
+                        process.env.REACT_APP_BASE_URL +
+                        "/" +
+                        nextPost.post_slug
+                      }
+                    >
+                      Next Post
+                    </a>
+                  </span>
+                </div>
               </div>
             </div>
           </div>

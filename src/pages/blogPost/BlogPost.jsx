@@ -138,7 +138,7 @@ const BlogPost = () => {
             <div className="error404-content">
               <h1 className="error-title">This page could not be found!</h1>
               <span className="error-text">
-                We are sorry. But the page you are looking for must have
+                We are sorry, but the page you are looking for must have been
                 vaporized!
                 <br />
                 {/* Perhaps you can try a new search. */}

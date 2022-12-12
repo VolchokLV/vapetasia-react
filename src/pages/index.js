@@ -1,3 +1,5 @@
+import DisposableSupport from './disposableSupport/DisposableSupport';
+
 export { default as AboutUs } from './aboutUs/AboutUs';
 export { default as Advocacy } from './advocacy/Advocacy';
 export { default as Blog } from './blog/Blog';
@@ -6,6 +8,7 @@ export { default as TheBanOnVapeMail } from './blog/TheBanOnVapeMail';
 export { default as ContactUs } from './contactUs/ContactUs';
 export { default as ContactSupport } from './contactSupport/ContactSupport'
 export { default as Compliance } from './compliance/Compliance'
+export { default as DisposableSupport } from './disposableSupport/DisposableSupport'
 export { default as Home } from './home/Home';
 export { default as Pact } from './pact/Pact';
 export { default as PrivacyPolicy } from './privacyPolicy/PrivacyPolicy'

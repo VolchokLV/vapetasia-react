@@ -4,7 +4,7 @@ import './App.css';
 import "./index.css"
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import { AboutUs, Advocacy, Blog, BlogPost, ContactUs, ContactSupport, Compliance, Home, MediaRequest, PrivacyPolicy, Product, ProductGrid, PromotionalRequest, StoreLocator, TheBanOnVapeMail, Wholesale, WholesaleRegistration, Retailers } from './pages';
+import { AboutUs, Advocacy, Blog, BlogPost, ContactUs, ContactSupport, Compliance, DisposableSupport, Home, MediaRequest, PrivacyPolicy, Product, ProductGrid, PromotionalRequest, StoreLocator, Wholesale, WholesaleRegistration, Retailers } from './pages';
 import { Navigation, Warning, Footer, AgeVerifyModal } from './components';
 
 
@@ -75,6 +75,7 @@ function App() {
                               <Route path="/compliance" element={<Compliance />} />
                               <Route path="/category/:type/:topic/:value" element={<ProductGrid
                                 products={products.default} />} />
+                              <Route path="/disposable-support" element={<DisposableSupport />} />
                               <Route path="/media-request" element={<MediaRequest />} />
                               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                               <Route path="/promotional-request" element={<PromotionalRequest />} />

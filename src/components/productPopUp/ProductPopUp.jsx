@@ -21,6 +21,7 @@ const ProductPopUp = (props) => {
       return stores.default[0]["stores"]["vapesocietysupplies.com"];
     }
   };
+
   return (
     <div
       className={`${

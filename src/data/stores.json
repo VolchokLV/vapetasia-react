@@ -24,6 +24,10 @@
       "ecigmafia.com": {
         "name": "ECIG MAFIA",
         "img_url": "https://cdn2.vapetasia.com/img/stores/Ecig-Mafia.png"
+      },
+      "vapesocietysupplies.com": {
+        "name": "VAPE SOCIETY",
+        "img_url": "https://cdn2.vapetasia.com/img/stores/VapeSociety.png"
       }
     }
   }

@@ -17,6 +17,8 @@ const ProductPopUp = (props) => {
       return stores.default[0]["stores"]["flawlessvapeshop.com"];
     } else if (url.indexOf("ecigmafia.com") > -1) {
       return stores.default[0]["stores"]["ecigmafia.com"];
+    } else if (url.indexOf("vapesocietysupplies.com") > -1) {
+      return stores.default[0]["stores"]["vapesocietysupplies.com"];
     }
   };
   return (

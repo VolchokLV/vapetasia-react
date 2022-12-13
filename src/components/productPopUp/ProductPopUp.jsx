@@ -133,7 +133,7 @@ const ProductPopUp = (props) => {
                             data-widget_type="text-editor.default"
                           >
                             <div className="vapetasia-widget-container">
-                              <div className="vapetasia-text-editor vapetasia-clearfix">
+                              <div className="vapetasia-text-editor vapetasia-clearfix popup-text-online-stores">
                                 <p>
                                   Choose from a variety of our online retail
                                   stores, all stores listed are equipped with

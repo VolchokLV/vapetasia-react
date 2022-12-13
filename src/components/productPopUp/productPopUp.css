@@ -17,7 +17,7 @@
 }
 
 .pop-up-text p {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .pop-up-heading {
@@ -36,4 +36,8 @@
 }
 .vapetasia-custom-image-ratio-50 {
   width: 50% !important;
+}
+
+.popup-text-online-stores p {
+  font-size: 16px !important;
 }

@@ -1,9 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 import { ProductImage } from "../../components";
 import "./productPopUp.css";
 import * as stores from "../../data/stores.json";
 
 const ProductPopUp = (props) => {
+
   const storeFromURL = (url) => {
     if (url.indexOf("ejuices.com") > -1) {
       return stores.default[0]["stores"]["ejuices.com"];
@@ -21,6 +22,26 @@ const ProductPopUp = (props) => {
       return stores.default[0]["stores"]["vapesocietysupplies.com"];
     }
   };
+
+  /*
+  Create an array of indices, then randomize
+  */
+  let order = [];
+  props.product.buy_now[props.buyNowSlug].map((item, idx) => {
+    order.push(idx);
+  });
+  for (let i = order.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [order[i], order[j]] = [order[j], order[i]];
+  }
+  /*
+  Create a new array mapping idx to link
+  */
+  let buyNow = [];
+  order.map((idx) => {
+    buyNow.push(props.product.buy_now[props.buyNowSlug][idx]);
+  });
+  
 
   return (
     <div
@@ -159,7 +180,7 @@ const ProductPopUp = (props) => {
               >
                 <div className="vapetasia-container vapetasia-column-gap-default">
                   <div className="vapetasia-row">
-                    {props.product.buy_now[props.buyNowSlug].map(
+                    {buyNow.map(
                       (retailerLink) => (
                         <div
                           key={retailerLink}

@@ -26,13 +26,96 @@
              border-width:0px;
              }
      </style>
-     <table style='width:600px;background-color:#ffffff;background-color:white;color:black'><tr><td class="form-header" colspan='2' align='left' style='color:black;font-family:Rift !important;font-size:1.75rem !important;word-break: break-word;'><strong>Wholesale Registration</strong></td></tr> <br></br><tr><td  style='word-break: break-word;text-align:left;font-family:Montserrat;font-size:18px;width:30%;'>Business Name<span style='color:red;'>*</span></td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='100' name='Company' /></td><td style='width:30%;'></td></tr><tr><td  style='word-break: break-word;text-align:left;font-family:Montserrat;font-size:18px;width:30%;'>First Name<span style='color:red;'>*</span></td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='40' name='First Name' /></td><td style='width:30%;'></td></tr><tr><td  style='word-break: break-word;text-align:left;font-size:12px;font-family:Arial;width:30%;'>Last Name<span style='color:red;'>*</span></td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='80' name='Last Name' /></td><td style='width:30%;'></td></tr><tr><td  style='word-break: break-word;text-align:left;font-size:12px;font-family:Arial;width:30%;'>Email<span style='color:red;'>*</span></td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='100' name='Email' ftype='email'/></td><td style='width:30%;'></td></tr><tr><td  style='word-break: break-word;text-align:left;font-size:12px;font-family:Arial;width:30%;'>Phone<span style='color:red;'>*</span></td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='30' name='Phone' /></td><td style='width:30%;'></td></tr><tr><td  style='word-break: break-word;text-align:left;font-size:12px;font-family:Arial;width:30%;'>Street</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='250' name='Street' /></td><td style='width:30%;'></td></tr><tr><td  style='word-break: break-word;text-align:left;font-size:12px;font-family:Arial;width:30%;'>City</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='100' name='City' /></td><td style='width:30%;'></td></tr><tr><td  style='word-break: break-word;text-align:left;font-size:12px;font-family:Arial;width:30%;'>State</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='100' name='State' /></td><td style='width:30%;'></td></tr><tr><td  style='word-break: break-word;text-align:left;font-size:12px;font-family:Arial;width:30%;'>Zip Code</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='30' name='Zip Code' /></td><td style='width:30%;'></td></tr><tr><td  style='word-break: break-word;text-align:left;font-size:12px;font-family:Arial;width:30%;'>Country</td><td style='width:40%;' ><input type='text' style='width:100%;box-sizing:border-box;'  maxlength='100' name='Country' /></td><td style='width:30%;'></td></tr><tr><td style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:30%;box-sizing:border-box;'>Upload Tax Document</td>
-         <td style='padding-top: 10px;width:40%;box-sizing:border-box;'><input type='file' name='theFile' id='theFile' multiple style='width:100%;box-sizing:border-box;'/><p style='color:black;font-family:Montserrat;font-size:1rem;padding-left:3px;'>File(s) size limit is 20MB.</p></td>
-     <td style='width:30%;vertical-align: bottom;'></td>
-     </tr><tr><td></td><td><div class='g-recaptcha' data-sitekey='6LdfKMQUAAAAAFG4HL-gwwb_hEhH2qCRjFFm9c-z' data-theme='light' data-callback='rccallback' captcha-verified='false' id='recap'></div></td><td></td></tr>
- 
-     <tr><td colspan='2' style='text-align:center; padding-top:15px;font-size:12px;'>
-         <input style='margin-right: 5px;cursor: pointer;font-size:12px;color:#000000' id='formsubmit' type='submit' value='Submit' disabled ></input> <input type='reset' name='reset' style='cursor: pointer;font-size:12px;color:#000000' value='Reset' ></input> </td></tr></table>
+     <table>
+        <tr>
+           <td class="form-header" colspan='2' align='left' style='color:black;font-family:Rift !important;font-size:1.75rem !important;word-break: break-word;'><strong>Wholesale Registration</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <label>Business Name<span style='color:red;'>*</span></label>
+                <input type='text' maxlength='100' name='Company' />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>First Name<span style='color:red;'>*</span></label>
+                <input type='text'  maxlength='40' name='First Name' />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Last Name<span style='color:red;'>*</span></label>
+                <input type='text' maxlength='80' name='Last Name' />
+            </td>
+        </tr>
+        <tr>
+           <td>
+                <label>Email<span style='color:red;'>*</span></label>
+                <input type='text' maxlength='100' name='Email' ftype='email'/>
+           </td>
+        </tr>
+        <tr>
+           <td>
+                <label>Phone<span style='color:red;'>*</span></label>
+                <input type='text' maxlength='30' name='Phone' />
+           </td>
+        </tr>
+        <tr>
+           <td>
+                <label>Street</label>
+                <input type='text' maxlength='250' name='Street' />
+            </td>
+        </tr>
+        <tr>
+           <td>
+                <label>City</label>
+                <input type='text' maxlength='100' name='City' />
+           </td>
+        </tr>
+        <tr>
+           <td>
+                <label>State</label>
+                <input type='text' maxlength='100' name='State' />
+           </td>
+        </tr>
+        <tr>
+           <td>
+                <label>Zip Code</label>
+                <input type='text' maxlength='30' name='Zip Code' />
+            </td>
+        </tr>
+        <tr>
+           <td>
+                <label>Country</label>
+                <input type='text' maxlength='100' name='Country' />
+           </td>
+        </tr>
+        <tr>
+           <td>
+                <label>Upload Tax Document</label>
+                <input type='file' name='theFile' id='theFile' multiple />
+           </td>
+        </tr>
+        <tr>
+            <td>
+                 <label></label>
+                 File(s) size limit is 20MB.
+            </td>
+         </tr>
+        <tr>
+           <td>
+                <label></label>
+                <div class='g-recaptcha' data-sitekey='6LdfKMQUAAAAAFG4HL-gwwb_hEhH2qCRjFFm9c-z' data-theme='light' data-callback='rccallback' captcha-verified='false' id='recap'></div>
+           </td>
+        </tr>
+        <tr>
+           <td style='text-align:center; padding-top:15px;font-size:12px;'>
+              <input style='margin-right: 5px;cursor: pointer;font-size:12px;color:#000000' id='formsubmit' type='submit' value='Submit' disabled ></input> <input type='reset' name='reset' style='cursor: pointer;font-size:12px;color:#000000' value='Reset' ></input> 
+           </td>
+        </tr>
+     </table>
+     
+     
      <script>
         var mndFileds=new Array('Company','First Name','Last Name','Email','Phone');
         var fldLangVal=new Array('Business Name','First Name','Last Name','Email','Phone'); 
@@ -144,23 +227,35 @@
      <!-- Do not remove this --- Analytics Tracking code starts --><script id='wf_anal' src='https://crm.zohopublic.com/crm/WebFormAnalyticsServeServlet?rid=098768d23b55f35c975dfc75c7bb6de298c4148d4adcc96111ba53d38056574cgidb86e36298673cf220aba57ce4dda9dd4a05e06a500473b2f4862c9daf1a9e6f2gid885e3c1045bd9bdcc91bdf30f82b5696gid14f4ec16431e0686150daa43f3210513&tw=61690b96c1d0471b638f31426f38e68aa67fb7ed6da86f32dc10ad817fe55a0a'></script><!-- Do not remove this --- Analytics Tracking code ends. --></form>
  </div>
  <style type="text/css">
+
+
+    .main-form-div {
+        max-width: 600px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .main-form-div td {
+        width: 100%;
+    }
+    .main-form-div label {
+        display: inline-block;
+        width: 30%;
+        margin-bottom: 20px;
+    }
+    .main-form-div input {
+        display: inline-block;
+        width: 65%;
+    }
     table {
-    width: 100%;
-    max-width: 600px;
+        width: 100%;
     }
     td {
     border-bottom: none !important;
     color:black;
     font-family:Montserrat !important;
     font-size:18px !important;
-    word-break: break-word;
     }
-    td::before {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 10px;
-    }
+
     input[type="submit"], input[type="button"] {
      display: inline-block;
      color: #fff !important;
@@ -199,18 +294,18 @@
     background-color: #FAA500;
     opacity: .8;
     }
+
+
+
     @media screen and (max-width: 600px) {
-    td {
-    display: table-row;
-    width: 100%;
-    }
-    td::before {
-    height: 25px;
-    }
-    .main-form-div {
-        max-width: 600px;
-        width: 90%;
-        margin: 0 auto;
-    }
+        td:before {
+            display: none;
+        }
+        td {
+            width: 100% !important;
+        }
+        input {
+            width: 100% !important;
+        }
     }
  </style>

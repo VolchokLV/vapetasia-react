@@ -178,6 +178,25 @@
       .zsMaxSizeMessage {
         font-size: 13px;
       }
+      @media screen and (max-width: 600px) {
+        td {
+          display: table-row;
+          width: 100%;
+        }
+        td::before {
+          height: 25px;
+        }
+        .main-form-div {
+          padding-left: 25px;
+        }
+        .form-header {
+          text-align: center;
+        }
+        input[type="submit"],
+        input[type="button"] {
+          margin-top: 25px;
+        }
+      }
     </style>
     <script src="https://d17nz991552y2g.cloudfront.net/app/js/jqueryandencoder.ffa5afd5124fbedceea9.js"></script>
     <script>
@@ -514,7 +533,7 @@
     <!-- Adobe Font -->
     <link rel="stylesheet" href="https://use.typekit.net/fde1wvh.css" />
   </head>
-  <div id="zohoSupportWebToCase" align="center">
+  <div id="zohoSupportWebToCase" align="center" class="main-form-div">
     <form
       name="zsWebToCase_482508000015416291"
       id="zsWebToCase_482508000015416291"

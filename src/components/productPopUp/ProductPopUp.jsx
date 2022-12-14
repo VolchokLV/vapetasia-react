@@ -17,8 +17,11 @@ const ProductPopUp = (props) => {
       return stores.default[0]["stores"]["flawlessvapeshop.com"];
     } else if (url.indexOf("ecigmafia.com") > -1) {
       return stores.default[0]["stores"]["ecigmafia.com"];
+    } else if (url.indexOf("vapesocietysupplies.com") > -1) {
+      return stores.default[0]["stores"]["vapesocietysupplies.com"];
     }
   };
+
   return (
     <div
       className={`${
@@ -131,7 +134,7 @@ const ProductPopUp = (props) => {
                             data-widget_type="text-editor.default"
                           >
                             <div className="vapetasia-widget-container">
-                              <div className="vapetasia-text-editor vapetasia-clearfix">
+                              <div className="vapetasia-text-editor vapetasia-clearfix popup-text-online-stores">
                                 <p>
                                   Choose from a variety of our online retail
                                   stores, all stores listed are equipped with

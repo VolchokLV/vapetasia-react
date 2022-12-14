@@ -51,8 +51,12 @@
     <style>
       .zsFontClass {
         color: #000000;
-        font-family: Arial;
-        font-size: 13px;
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 1.125rem;
+      }
+      .form-header {
+        font: bold 1.75rem Rift, sans-serif;
       }
     </style>
     <style>
@@ -64,6 +68,27 @@
       }
       input[type="file"]::-webkit-file-upload-button {
         cursor: pointer;
+      }
+      input[type="submit"],
+      input[type="button"] {
+        display: inline-block;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 14px 20px;
+        border: 0;
+        cursor: pointer;
+        text-align: center;
+        letter-spacing: 0.1em;
+        line-height: 1;
+        background-color: #faa500 !important;
+      }
+      input[type="submit"]:hover,
+      input[type="button"]:hover {
+        background-color: #faa500;
+        opacity: 0.8;
       }
       .wtcsepcode {
         margin: 0px 15px;
@@ -482,6 +507,12 @@
         setAllDependancyFieldsMapping();
       }
     </script>
+    <!--init google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <!-- Adobe Font -->
+    <link rel="stylesheet" href="https://use.typekit.net/fde1wvh.css" />
   </head>
   <div id="zohoSupportWebToCase" align="center">
     <form
@@ -517,7 +548,7 @@
       />
       <table border="0" cellspacing="0" class="zsFormClass">
         <tr>
-          <td colspan="2" class="zsFontClass">
+          <td colspan="2" class="zsFontClass form-header">
             <strong>Contact Support</strong>
           </td>
         </tr>
@@ -602,7 +633,7 @@
               <img src="#" id="zsCaptchaUrl" name="zsCaptchaImage" /><a
                 href="javascript:;"
                 style="
-                  color: #00a3fe;
+                  color: #faa500;
                   cursor: pointer;
                   margin-left: 10px;
                   vertical-align: middle;
@@ -647,7 +678,7 @@
         <tr>
           <td width="25%" align="left"></td>
           <td style="padding: 0px 5px" align="left" width="75%">
-            <div class="wb_FtCon wb_common">
+            <!-- <div class="wb_FtCon wb_common">
               <span>powered by </span
               ><a
                 target="_blank"
@@ -658,7 +689,7 @@
                   class="wb_logo"
                   src="https://d1ydxa2xvtn0b5.cloudfront.net/app/images/portalLogo.de847024ebc0131731a3.png"
               /></a>
-            </div>
+            </div> -->
           </td>
         </tr>
       </table>

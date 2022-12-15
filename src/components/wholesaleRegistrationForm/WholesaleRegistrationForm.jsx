@@ -1,13 +1,17 @@
-import React from 'react'
-import styles from './wholesaleRegistrationForm.css'
+import React from "react";
+import styles from "./wholesaleRegistrationForm.css";
 
 const WholesaleRegistration = () => {
   return (
-   // WHOLESALE REGISTRATION FORM GOES HERE
-  <>
-    <iframe src={process.env.PUBLIC_URL + '/wholesale-registration.html'} height="900px" ></iframe>  
-  </>
-  )
-}
+    // WHOLESALE REGISTRATION FORM GOES HERE
+    <>
+      <iframe
+        title="Wholesale Registration "
+        src={process.env.PUBLIC_URL + "/wholesale-registration.html"}
+        height="900px"
+      ></iframe>
+    </>
+  );
+};
 
-export default WholesaleRegistration
+export default WholesaleRegistration;

@@ -8,7 +8,7 @@ const WholesaleRegistration = () => {
       <iframe
         title="Wholesale Registration "
         src={process.env.PUBLIC_URL + "/wholesale-registration.html"}
-        height="900px"
+        height="1300px"
       ></iframe>
     </>
   );

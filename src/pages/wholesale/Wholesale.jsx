@@ -1,9 +1,72 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import { Hero } from "../../components";
 import "./wholesale.css";
 import * as distributors from "../../data/distributors.json";
 
 const Wholesale = () => {
+
+  let checking = false;
+  const [coords, setCoords] = useState({lat: 0, long: 0})
+  const [zip, setZip] = useState('')
+
+  const getCoordsFromZip = () => {
+    console.log('zip', zip);
+    let route = 'https://api.openweathermap.org/geo/1.0/zip?zip=' + zip + '&appid=647965af2adedadd2f90ab3299ca5db6';
+    console.log(route);
+    fetch(route)
+    .then((res) => res.json())
+    .then((data) => {
+      console.log(data);
+      if ('lat' in data) {
+        setCoords({
+          lat: data.lat,
+          long: data.lon
+        })
+      }
+    })
+    .catch((e) => {
+      console.log(e);
+    })
+  }
+
+  const toRad = (deg) => {
+    return deg * (Math.PI/180);
+  }
+
+  const getDistanceFromUser = (lat, long) => {
+    if (coords.lat === 0 || coords.long === 0) return 0;
+    var R = 3960; // Radius of the earth in miles
+    var dLat = toRad(lat-coords.lat);
+    var dLon = toRad(long-coords.long); 
+    var a = 
+      Math.sin(dLat/2) * Math.sin(dLat/2) +
+      Math.cos(toRad(coords.lat)) * Math.cos(toRad(lat)) * 
+      Math.sin(dLon/2) * Math.sin(dLon/2)
+      ; 
+    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
+    var d = R * c; // Distance in miles
+    return Math.round(d);
+  }
+
+  const requestUserLocation = () => {
+    if ("geolocation" in navigator) {
+      navigator.geolocation.getCurrentPosition((position) => {
+        setCoords({lat: position.coords.latitude, long: position.coords.longitude});
+      })
+    } else {
+      console.log('no access');
+    }
+  }
+
+  useEffect(() => {
+    /**
+     * immediately attempt to fetch user location
+     */
+    if (!checking) {
+      checking = true;
+      requestUserLocation();
+    }
+  }, [])
   return (
     <>
       <Hero
@@ -128,8 +191,25 @@ const Wholesale = () => {
           </div>
         </div>
       </section>
-      {distributors.default.map((d) => (
+      <section
+          id="distributors-section"
+          className="distributors-section vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-2b06a3a vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default"
+          data-id="2b06a3a"
+          data-element_type="section"
+          data-settings='{"background_background":"classic"}'
+        >
+          <div className="vapetasia-container vapetasia-column-gap-default">
+            <div className="vapetasia-row">
+                <div id="wholesaler-search">
+                  <input type="text" placeholder="Enter zip code" maxLength="5" onChange={(e) => setZip(e.target.value)}></input>
+                  <button type="submit" onClick={() => getCoordsFromZip()}>Find Closest Distributor</button>
+                </div>
+              </div>
+            </div>
+      </section>
+      {distributors.default.map((d, idx) => (
         <section
+          key={'distributor_' + idx}
           id="distributors-section"
           className="distributors-section vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-2b06a3a vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default"
           data-id="2b06a3a"
@@ -240,6 +320,18 @@ const Wholesale = () => {
                       data-element_type="widget"
                       data-widget_type="image.default"
                     >
+                      <div>{ 
+                        coords.lat === 0 || coords.long === 0 ?
+                          <div id="set-location-trigger">
+                            <span className="location-button" onClick={() => {requestUserLocation()}}>
+                              <i className="fa fa-map-marker"></i> enable location
+                              </span>
+                            <span>or set zip for distance</span>
+                          </div> :
+                          <div className="location-results">
+                            {getDistanceFromUser(parseFloat(d.coords.lat), parseFloat(d.coords.long))} miles
+                          </div>
+                        }</div>
                       <div className="vapetasia-widget-container">
                         <div className="vapetasia-button vapetasia-button-wholesale vapetasia-slide-button vapetasia-size-lg">
                           <a href={d.contact}>CONTACT</a>

@@ -43,12 +43,12 @@
     "site_url": "ejuices.co",
     "link": "https://www.ejuices.co/",
     "img_url": "https://cdn2.vapetasia.com/img/distributors/ejuicesco.png",
-    "location_phone": "Western United States |  1-833-358-4237",
-    "address": "1100 Palms Airport Drive Las Vegas , Nevada, 89119",
+    "location_phone": "Central United States |  1-833-358-4237",
+    "address": "1465 Busch Parkway Buffalo Grove IL, 60089",
     "contact": "mailto:sales@ejuices.co​?subject=Wholesale Inquiry through Vapetasia.com",
     "coords": {
-      "lat": "36.066130",
-      "long": "-115.139590"
+      "lat": "42.17134475708008",
+      "long": "-87.9308090209961"
     }
   },
   {
@@ -90,43 +90,18 @@
       "long": "-74.298030"
     }
   },
-  {
-    "name": "Glass Tech Wholesale",
-    "site_url": "GTVape.com",
-    "link": "https://gtvape.com/",
-    "img_url": "https://cdn2.vapetasia.com/img/distributors/glass-tech-wholesale.jpg",
-    "location_phone": "Western United States | (714) 533-8968 ",
-    "address": "200 N Crescent Way Suite D, Anaheim, CA 92801",
-    "contact": "mailto:gtvape@gmail.com?subject=Wholesale Inquiry through Vapetasia.com",
-    "coords": {
-      "lat": "33.8335175",
-      "long": "-117.9465495"
-    }
-  },
+
   {
     "name": "Day Star Distribution",
     "site_url": "Daystardistribution.net",
     "link": "https://www.daystardistribution.net/",
-    "img_url": "https://cdn2.vapetasia.com/img/distributors/day-star-distribution.jpg",
+    "img_url": "https://cdn2.vapetasia.com/img/distributors/daystar-distribution.jpg",
     "location_phone": "Western United States | 213-265-7472 ",
     "address": "230 E 3rd street, Los Angeles, CA 90013",
     "contact": "mailto:daystardistribution@yahoo.com?subject=Wholesale Inquiry through Vapetasia.com",
     "coords": {
       "lat": "34.0482516",
       "long": "-118.2444506"
-    }
-  },
-  {
-    "name": "GT Hyper Distribution",
-    "site_url": "gtvape.com",
-    "link": "http://gtvape.com/",
-    "img_url": "https://cdn2.vapetasia.com/img/distributors/gt-hyper-distribution.jpg",
-    "location_phone": "Western United States | (661) 992-7618 ",
-    "address": "700 N Valley Street Suite E, Anaheim, CA 92801",
-    "contact": "mailto:gtvapeinfo@gmail.com?subject=Wholesale Inquiry through Vapetasia.com",
-    "coords": {
-      "lat": "33.841191",
-      "long": "-117.9557313"
     }
   },
   {
@@ -159,7 +134,7 @@
     "name": "World Wide Vape",
     "site_url": "wwvape.com",
     "link": "https://wwvape.com/",
-    "img_url": "https://cdn2.vapetasia.com/img/distributors/world-wide-vape.jpg",
+    "img_url": "https://cdn2.vapetasia.com/img/distributors/worldwide-vape-distribution.jpg",
     "location_phone": "Central United States | 469-906-2860 ",
     "address": "10601 King William Drive, Dallas, TX 75220",
     "contact": "mailto:ilpurchase.wwvape@gmail.com?subject=Wholesale Inquiry through Vapetasia.com",
@@ -198,7 +173,7 @@
     "name": "Angel Distributors",
     "site_url": "Vapewholesaleatlanta.com",
     "link": "http://www.vapewholesaleatlanta.com/",
-    "img_url": "https://cdn2.vapetasia.com/img/distributors/angel-distributors.jpg",
+    "img_url": "https://cdn2.vapetasia.com/img/distributors/angels-wholesale.jpg",
     "location_phone": "Eastern United States | 404-445-6525 ",
     "address": "2725 Mountain Industrial Blvd Suite A4, Tucker, GA 30084",
     "contact": "mailto:distributorsangel@yahoo.com?subject=Wholesale Inquiry through Vapetasia.com",
@@ -224,7 +199,7 @@
     "name": "Rave Distribution",
     "site_url": "ravedistro.com",
     "link": "https://www.ravedistro.com/",
-    "img_url": "https://cdn2.vapetasia.com/img/distributors/rave-distro.jpg",
+    "img_url": "https://cdn2.vapetasia.com/img/distributors/rave-distribution.jpg",
     "location_phone": "Central United States | (404) 428-4692 ",
     "address": "10549 King William Drive, Dallas TX 75220",
     "contact": "mailto:ravedistro@gmail.com?subject=Wholesale Inquiry through Vapetasia.com",

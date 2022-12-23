@@ -8,16 +8,14 @@ const Wholesale = () => {
   let checking = false;
   const [userCoords, setUserCoords] = useState({lat: 0, long: 0})
   const [zip, setZip] = useState('')
-  const locations = useRef([])
+  const [locationsLoading, setLocationsLoading] = useState(true)
+  const locations = useRef(distributors.default)
 
   const getCoordsFromZip = () => {
-    console.log('zip', zip);
     let route = 'https://api.openweathermap.org/geo/1.0/zip?zip=' + zip + '&appid=647965af2adedadd2f90ab3299ca5db6';
-    console.log(route);
     fetch(route)
     .then((res) => res.json())
     .then((data) => {
-      console.log(data);
       if ('lat' in data) {
         setUserCoords({
           lat: data.lat,
@@ -53,7 +51,7 @@ const Wholesale = () => {
     return Math.round(d);
   }
 
-  const sortRandomly = async () => {
+  const sortRandomly = () => {
       /*
       Randomly order the distributors on initial load
       */
@@ -72,8 +70,8 @@ const Wholesale = () => {
       order.map((idx) => {
         l.push(distributors.default[idx]);
       });
-      console.log('random', l);
       locations.current = l;
+      setLocationsLoading(false);
   }
 
   const sortByDistance = async (userCoords) => {
@@ -87,17 +85,23 @@ const Wholesale = () => {
       return loc[0];
     })
     locations.current = lf;
+    setLocationsLoading(false);
   }
 
   const requestUserLocation = () => {
     if ("geolocation" in navigator) {
+      /**
+       * the response from this request may never return when
+       * location has been disabled or blocked
+       */
       navigator.geolocation.getCurrentPosition(async (position) => {
         setUserCoords({lat: position.coords.latitude, long: position.coords.longitude});
-        console.log('have coords');
         await sortByDistance({lat: position.coords.latitude, long: position.coords.longitude});
+        setLocationsLoading(false);
       })
     } else {
-      console.log('no access');
+      console.log('geo not available in navigator');
+      setLocationsLoading(false);
     }
   }
 
@@ -107,9 +111,7 @@ const Wholesale = () => {
      */
     if (!checking) {
       checking = true;
-
       sortRandomly();
-
       requestUserLocation();
     }
   }, [])
@@ -254,10 +256,10 @@ const Wholesale = () => {
             </div>
       </section>
       {
-        locations.current.length === 0 
+        locationsLoading
         ?
-        <div id="loading">
-          Loading Distributors
+        <div id="loading-distributors">
+          Loading Distributors...
         </div> 
         :
           locations.current.map((d, idx) => (

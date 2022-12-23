@@ -27,15 +27,21 @@ ZIP CODE ENTRY
 /**
 LOCATION REQUEST
 **/
+#set-location-trigger {
+  line-height: 1;
+  padding: 10px 0;
+}
 .location-button {
   display: block;
   cursor: pointer;
-  border-bottom: 2px solid #FFFFFF;
-}
-.location-button:hover {
-  border-bottom: 2px solid #F0F0F0;
 }
 
+#loading-distributors {
+  padding: 60px 0;
+  padding-bottom: 1px solid #CCCCCC;
+  text-align: center;
+  width: 100%;
+}
 
 #crmWebToEntityForm tr,
 #crmWebToEntityForm td {

@@ -43,6 +43,24 @@ LOCATION REQUEST
   width: 100%;
 }
 
+#pagination-controls {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  border-bottom: 2px solid gray;
+  padding: 15px 0;
+  margin-bottom: 30px;
+}
+#pagination-controls a {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: underline;
+}
+#pagination-controls .active {
+  text-decoration: none;
+}
+
 #crmWebToEntityForm tr,
 #crmWebToEntityForm td {
   padding: 6px;

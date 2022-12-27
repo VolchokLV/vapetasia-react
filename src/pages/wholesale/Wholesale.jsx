@@ -10,6 +10,8 @@ const Wholesale = () => {
   const [zip, setZip] = useState('')
   const [locationsLoading, setLocationsLoading] = useState(true)
   const locations = useRef(distributors.default)
+  const [page, setPage] = useState(1)
+  const pages = new Array(Math.ceil(distributors.default.length/5)).fill(0)
 
   const getCoordsFromZip = () => {
     let route = 'https://api.openweathermap.org/geo/1.0/zip?zip=' + zip + '&appid=647965af2adedadd2f90ab3299ca5db6';
@@ -103,6 +105,10 @@ const Wholesale = () => {
       console.log('geo not available in navigator');
       setLocationsLoading(false);
     }
+  }
+
+  const changePage = (to) => {
+    setPage(to)
   }
 
   useEffect(() => {
@@ -255,6 +261,29 @@ const Wholesale = () => {
               </div>
             </div>
       </section>
+      <section
+          className="distributors-section vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-2b06a3a vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default"
+          data-id="2b06a3a"
+          data-element_type="section"
+          data-settings='{"background_background":"classic"}'
+        >
+          <div className="vapetasia-container vapetasia-column-gap-default">
+            <div className="vapetasia-row">
+                <div id="pagination-controls">
+                  {
+                    pages.map((p, idx) => {
+                      return <a 
+                        key={'pagination_' + idx} 
+                        className={page == idx+1 ? 'active' : 'inactive'}
+                        onClick={() => changePage(idx+1)}>
+                          Page {idx+1}
+                        </a>
+                    })
+                  }
+                </div>
+              </div>
+            </div>
+      </section>
       {
         locationsLoading
         ?
@@ -262,7 +291,7 @@ const Wholesale = () => {
           Loading Distributors...
         </div> 
         :
-          locations.current.map((d, idx) => (
+          locations.current.slice(5*(page-1), 5*(page-1)+5).map((d, idx) => (
             <section
               key={'distributor_' + idx}
               id="distributors-section"

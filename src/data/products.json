@@ -693,7 +693,7 @@
   },
   {
     "product_name": "Killer Fruits Pango",
-    "product_types": ["eliquid"],
+    "product_types": ["eliquid", "salt"],
     "product_slug": "pango",
     "flavor_line": ["killer-fruits"],
     "img_src": {
@@ -1365,7 +1365,7 @@
   },
   {
     "product_name": "Killer Fruits Grape",
-    "product_types": ["eliquid"],
+    "product_types": ["eliquid", "salt"],
     "product_slug": "grape",
     "flavor_line": ["killer-fruits"],
     "img_src": {
@@ -1412,12 +1412,12 @@
   },
   {
     "product_name": "Iced Pango",
-    "product_types": ["eliquid"],
+    "product_types": ["eliquid", "salt"],
     "product_slug": "iced-pango",
     "flavor_line": ["iced"],
     "img_src": {
       "100ml": "/img/100ml/Iced_Pango_100ml_3mg.jpg",
-      "30ml": "/img/30ml/Iced_Pango_30ml_24mg.jpg"
+      "30ml": "/img/30ml/Iced_Grape_30ml_24mg.jpg"
     },
     "sizes": {
       "eliquid": ["100ml"],
@@ -1459,12 +1459,12 @@
   },
   {
     "product_name": "Iced Grape",
-    "product_types": ["eliquid"],
+    "product_types": ["eliquid", "salt"],
     "product_slug": "iced-grape",
     "flavor_line": ["iced"],
     "img_src": {
       "100ml": "/img/100ml/Iced_Grape_100ml_3mg.jpg",
-      "30ml": "/img/30ml/Iced_Grape_30ml_24mg.jpg"
+      "30ml": "/img/30ml/Iced_Pango_30ml_24mg.jpg"
     },
     "sizes": {
       "eliquid": ["100ml"],

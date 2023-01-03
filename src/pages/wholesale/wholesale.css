@@ -1,3 +1,66 @@
+/**
+ZIP CODE ENTRY
+**/
+#wholesaler-search {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  margin-bottom: 40px;
+}
+#wholesaler-search input {
+  width: 250px;
+  max-width: 70%;
+  padding: 10px;
+  font-size: 18px;
+}
+#wholesaler-search input::placeholder {
+  color: #CCCCCC;
+}
+#wholesaler-search button {
+  background-color: #424242;
+  color: #FFFFFF;
+  font-family: 'Rift';
+  font-size: 22px;
+  font-style: italic;
+}
+
+/**
+LOCATION REQUEST
+**/
+#set-location-trigger {
+  line-height: 1;
+  padding: 10px 0;
+}
+.location-button {
+  display: block;
+  cursor: pointer;
+}
+
+#loading-distributors {
+  padding: 60px 0;
+  padding-bottom: 1px solid #CCCCCC;
+  text-align: center;
+  width: 100%;
+}
+
+#pagination-controls {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  border-bottom: 2px solid gray;
+  padding: 15px 0;
+  margin-bottom: 30px;
+}
+#pagination-controls a {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: underline;
+}
+#pagination-controls .active {
+  text-decoration: none;
+}
+
 #crmWebToEntityForm tr,
 #crmWebToEntityForm td {
   padding: 6px;

@@ -2457,7 +2457,7 @@
     "buy_now": {
       "only": ["COMING SOON", "COMING SOON", "COMING SOON"]
     },
-    "sort_order": 1,
+    "sort_order": 4,
     "featured": {
       "display": 0,
       "key": "disposable",
@@ -2489,7 +2489,7 @@
     "buy_now": {
       "only": ["COMING SOON", "COMING SOON", "COMING SOON"]
     },
-    "sort_order": 2,
+    "sort_order": 1,
     "featured": {
       "display": 0,
       "key": "disposable",
@@ -2521,7 +2521,7 @@
     "buy_now": {
       "only": ["COMING SOON", "COMING SOON", "COMING SOON"]
     },
-    "sort_order": 3,
+    "sort_order": 6,
     "featured": {
       "display": 0,
       "key": "disposable",
@@ -2553,7 +2553,7 @@
     "buy_now": {
       "only": ["COMING SOON", "COMING SOON", "COMING SOON"]
     },
-    "sort_order": 4,
+    "sort_order": 2,
     "featured": {
       "display": 0,
       "key": "disposable",
@@ -2617,7 +2617,7 @@
     "buy_now": {
       "only": ["COMING SOON", "COMING SOON", "COMING SOON"]
     },
-    "sort_order": 6,
+    "sort_order": 3,
     "featured": {
       "display": 0,
       "key": "disposable",

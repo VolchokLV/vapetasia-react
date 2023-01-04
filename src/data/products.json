@@ -2521,7 +2521,7 @@
     "buy_now": {
       "only": ["COMING SOON", "COMING SOON", "COMING SOON"]
     },
-    "sort_order": 3,
+    "sort_order": 6,
     "featured": {
       "display": 0,
       "key": "disposable",
@@ -2617,7 +2617,7 @@
     "buy_now": {
       "only": ["COMING SOON", "COMING SOON", "COMING SOON"]
     },
-    "sort_order": 6,
+    "sort_order": 3,
     "featured": {
       "display": 0,
       "key": "disposable",

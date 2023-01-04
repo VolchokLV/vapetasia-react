@@ -28,5 +28,11 @@
     "site_url": "ejuices.com",
     "link": "https://www.ejuices.com/collections/vapetasia",
     "img_url": "https://cdn2.vapetasia.com/img/retailers/EJC.png"
+  },
+  {
+    "name": "COMINGSOON",
+    "site_url": "comingsoon.com",
+    "link": "https://www.comingsoon.com/vapetasia",
+    "img_url": "https://cdn2.vapetasia.com/img/retailers/Coming-Soon.png"
   }
 ]

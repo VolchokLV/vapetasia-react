@@ -28,6 +28,10 @@
       "vapesocietysupplies.com": {
         "name": "VAPE SOCIETY",
         "img_url": "https://cdn2.vapetasia.com/img/stores/VapeSociety.png"
+      },
+      "COMING SOON": {
+        "name": "COMING SOON",
+        "img_url": "https://cdn2.vapetasia.com/img/retailers/Coming-Soon.png"
       }
     }
   }

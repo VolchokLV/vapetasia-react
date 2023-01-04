@@ -1,10 +1,9 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { ProductImage } from "../../components";
 import "./productPopUp.css";
 import * as stores from "../../data/stores.json";
 
 const ProductPopUp = (props) => {
-
   const storeFromURL = (url) => {
     if (url.indexOf("ejuices.com") > -1) {
       return stores.default[0]["stores"]["ejuices.com"];
@@ -20,6 +19,8 @@ const ProductPopUp = (props) => {
       return stores.default[0]["stores"]["ecigmafia.com"];
     } else if (url.indexOf("vapesocietysupplies.com") > -1) {
       return stores.default[0]["stores"]["vapesocietysupplies.com"];
+    } else if (url.indexOf("COMING SOON") > -1) {
+      return stores.default[0]["stores"]["COMING SOON"];
     }
   };
 
@@ -31,8 +32,8 @@ const ProductPopUp = (props) => {
     order.push(idx);
   });
   for (let i = order.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [order[i], order[j]] = [order[j], order[i]];
+    const j = Math.floor(Math.random() * (i + 1));
+    [order[i], order[j]] = [order[j], order[i]];
   }
   /*
   Create a new array mapping idx to link
@@ -41,7 +42,6 @@ const ProductPopUp = (props) => {
   order.map((idx) => {
     buyNow.push(props.product.buy_now[props.buyNowSlug][idx]);
   });
-  
 
   return (
     <div
@@ -180,79 +180,77 @@ const ProductPopUp = (props) => {
               >
                 <div className="vapetasia-container vapetasia-column-gap-default">
                   <div className="vapetasia-row">
-                    {buyNow.map(
-                      (retailerLink) => (
-                        <div
-                          key={retailerLink}
-                          className="vapetasia-column vapetasia-col-33 vapetasia-top-column vapetasia-element vapetasia-element-4dc8305d"
-                          data-id="4dc8305d"
-                          data-element_type="column"
-                        >
-                          <div className="vapetasia-column-wrap vapetasia-element-populated">
-                            <div className="vapetasia-widget-wrap">
-                              <div
-                                className="vapetasia-element vapetasia-element-6c50dac4 vapetasia-widget vapetasia-widget-image"
-                                data-id="6c50dac4"
-                                data-element_type="widget"
-                                data-widget_type="image.default"
-                              >
-                                <div className="vapetasia-widget-container">
-                                  <div className="vapetasia-image">
-                                    <a href={retailerLink}>
-                                      <img
-                                        src={
-                                          storeFromURL(retailerLink)["img_url"]
-                                        }
-                                        className="attachment-large size-large"
-                                        alt="retialerLink"
-                                      />
-                                    </a>
-                                  </div>
+                    {buyNow.map((retailerLink) => (
+                      <div
+                        key={retailerLink}
+                        className="vapetasia-column vapetasia-col-33 vapetasia-top-column vapetasia-element vapetasia-element-4dc8305d"
+                        data-id="4dc8305d"
+                        data-element_type="column"
+                      >
+                        <div className="vapetasia-column-wrap vapetasia-element-populated">
+                          <div className="vapetasia-widget-wrap">
+                            <div
+                              className="vapetasia-element vapetasia-element-6c50dac4 vapetasia-widget vapetasia-widget-image"
+                              data-id="6c50dac4"
+                              data-element_type="widget"
+                              data-widget_type="image.default"
+                            >
+                              <div className="vapetasia-widget-container">
+                                <div className="vapetasia-image">
+                                  <a href={retailerLink}>
+                                    <img
+                                      src={
+                                        storeFromURL(retailerLink)["img_url"]
+                                      }
+                                      className="attachment-large size-large"
+                                      alt="retialerLink"
+                                    />
+                                  </a>
                                 </div>
                               </div>
-                              <div
-                                className="vapetasia-element vapetasia-element-e91ca4a vapetasia-widget vapetasia-widget-heading"
-                                data-id="e91ca4a"
-                                data-element_type="widget"
-                                data-widget_type="heading.default"
-                              >
-                                <div className="vapetasia-widget-container">
-                                  <h2 className="vapetasia-heading-title vapetasia-size-default">
-                                    <a href={retailerLink}>
-                                      {storeFromURL(retailerLink)["name"]}
-                                    </a>
-                                  </h2>
-                                </div>
+                            </div>
+                            <div
+                              className="vapetasia-element vapetasia-element-e91ca4a vapetasia-widget vapetasia-widget-heading"
+                              data-id="e91ca4a"
+                              data-element_type="widget"
+                              data-widget_type="heading.default"
+                            >
+                              <div className="vapetasia-widget-container">
+                                <h2 className="vapetasia-heading-title vapetasia-size-default">
+                                  <a href={retailerLink}>
+                                    {storeFromURL(retailerLink)["name"]}
+                                  </a>
+                                </h2>
                               </div>
-                              <div
-                                className="vapetasia-element vapetasia-element-2856fdf9 vapetasia-align-center vapetasia-widget vapetasia-widget-button"
-                                data-id="2856fdf9"
-                                data-element_type="widget"
-                                data-widget_type="button.default"
-                              >
-                                <div className="vapetasia-widget-container">
-                                  <div className="vapetasia-button-wrapper">
-                                    <a
-                                      href={retailerLink}
-                                      className="vapetasia-button-link vapetasia-button vapetasia-size-md"
-                                      role="button"
-                                      target="_blank"
-                                      rel="noopener noreferrer"
-                                    >
-                                      <span className="vapetasia-button-content-wrapper">
-                                        <span className="vapetasia-button-text">
-                                          BUY NOW
-                                        </span>
+                            </div>
+                            <div
+                              className="vapetasia-element vapetasia-element-2856fdf9 vapetasia-align-center vapetasia-widget vapetasia-widget-button"
+                              data-id="2856fdf9"
+                              data-element_type="widget"
+                              data-widget_type="button.default"
+                            >
+                              <div className="vapetasia-widget-container">
+                                <div className="vapetasia-button-wrapper">
+                                  <a
+                                    href={retailerLink}
+                                    className="vapetasia-button-link vapetasia-button vapetasia-size-md"
+                                    role="button"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
+                                    <span className="vapetasia-button-content-wrapper">
+                                      <span className="vapetasia-button-text">
+                                        BUY NOW
                                       </span>
-                                    </a>
-                                  </div>
+                                    </span>
+                                  </a>
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
-                      )
-                    )}
+                      </div>
+                    ))}
                   </div>
                 </div>
               </section>

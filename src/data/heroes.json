@@ -37,7 +37,7 @@
       "FlavorLemonade": "Lemonade.jpg",
       "FlavorHyveDisposables": "Hyve-Disposables.png",
       "FlavorKillerDisposables": "Killer-Disposables.png",
-      "FlavorAirDisposables": "Hyve-Disposables.png"
+      "FlavorAirDisposables": "Air-Disposables.png"
     },
     "flavors": {
       "killer-kustard": "FlavorKillerKustard",

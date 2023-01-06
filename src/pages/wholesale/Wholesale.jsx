@@ -122,7 +122,7 @@ const Wholesale = () => {
     setPage(to);
   };
 
-  const handleKeyDown = (event) => {
+  const handleKeyUp = (event) => {
     if (event.key === "Enter") {
       getCoordsFromZip();
     }
@@ -277,7 +277,7 @@ const Wholesale = () => {
                 placeholder="Enter zip code"
                 maxLength="5"
                 onChange={(e) => setZip(e.target.value)}
-                onKeyDown={handleKeyDown}
+                onKeyUp={handleKeyUp}
               ></input>
               <button type="submit" onClick={() => getCoordsFromZip()}>
                 Find Closest Distributor

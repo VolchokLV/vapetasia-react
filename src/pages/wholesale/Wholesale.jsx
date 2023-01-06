@@ -1,94 +1,99 @@
-import React, {useEffect, useState, useRef} from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { Hero } from "../../components";
 import "./wholesale.css";
 import * as distributors from "../../data/distributors.json";
 
 const Wholesale = () => {
-
   let checking = false;
-  const [userCoords, setUserCoords] = useState({lat: 0, long: 0})
-  const [zip, setZip] = useState('')
-  const [locationsLoading, setLocationsLoading] = useState(true)
-  const locations = useRef(distributors.default)
-  const [page, setPage] = useState(1)
-  const pages = new Array(Math.ceil(distributors.default.length/5)).fill(0)
+  const [userCoords, setUserCoords] = useState({ lat: 0, long: 0 });
+  const [zip, setZip] = useState("");
+  const [locationsLoading, setLocationsLoading] = useState(true);
+  const locations = useRef(distributors.default);
+  const [page, setPage] = useState(1);
+  const pages = new Array(Math.ceil(distributors.default.length / 5)).fill(0);
 
   const getCoordsFromZip = () => {
-    let route = 'https://api.openweathermap.org/geo/1.0/zip?zip=' + zip + '&appid=647965af2adedadd2f90ab3299ca5db6';
+    let route =
+      "https://api.openweathermap.org/geo/1.0/zip?zip=" +
+      zip +
+      "&appid=647965af2adedadd2f90ab3299ca5db6";
     fetch(route)
-    .then((res) => res.json())
-    .then((data) => {
-      if ('lat' in data) {
-        setUserCoords({
-          lat: data.lat,
-          long: data.lon
-        })
-        sortByDistance({
-          lat: data.lat,
-          long: data.lon
-        })
-      }
-    })
-    .catch((e) => {
-      console.log(e);
-    })
-  }
+      .then((res) => res.json())
+      .then((data) => {
+        if ("lat" in data) {
+          setUserCoords({
+            lat: data.lat,
+            long: data.lon,
+          });
+          sortByDistance({
+            lat: data.lat,
+            long: data.lon,
+          });
+        }
+      })
+      .catch((e) => {
+        console.log(e);
+      });
+  };
 
   const toRad = (deg) => {
-    return deg * (Math.PI/180);
-  }
+    return deg * (Math.PI / 180);
+  };
 
   const getDistanceFromUser = async (coords, loc) => {
     if (coords.lat === 0 || coords.long === 0) return 0;
     var R = 3960; // Radius of the earth in miles
-    var dLat = toRad(loc.coords.lat-coords.lat);
-    var dLon = toRad(loc.coords.long-coords.long); 
-    var a = 
-      Math.sin(dLat/2) * Math.sin(dLat/2) +
-      Math.cos(toRad(coords.lat)) * Math.cos(toRad(loc.coords.lat)) * 
-      Math.sin(dLon/2) * Math.sin(dLon/2)
-      ; 
-    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
+    var dLat = toRad(loc.coords.lat - coords.lat);
+    var dLon = toRad(loc.coords.long - coords.long);
+    var a =
+      Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+      Math.cos(toRad(coords.lat)) *
+        Math.cos(toRad(loc.coords.lat)) *
+        Math.sin(dLon / 2) *
+        Math.sin(dLon / 2);
+    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
     var d = R * c; // Distance in miles
     return Math.round(d);
-  }
+  };
 
   const sortRandomly = () => {
-      /*
+    /*
       Randomly order the distributors on initial load
       */
-      let order = [];
-      distributors.default.map((d, idx) => {
-        order.push(idx);
-      });
-      for (let i = order.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [order[i], order[j]] = [order[j], order[i]];
-      }
-      /*
+    let order = [];
+    distributors.default.map((d, idx) => {
+      order.push(idx);
+    });
+    for (let i = order.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [order[i], order[j]] = [order[j], order[i]];
+    }
+    /*
       Create a new array mapping idx to link
       */
-      let l = [];
-      order.map((idx) => {
-        l.push(distributors.default[idx]);
-      });
-      locations.current = l;
-      setLocationsLoading(false);
-  }
+    let l = [];
+    order.map((idx) => {
+      l.push(distributors.default[idx]);
+    });
+    locations.current = l;
+    setLocationsLoading(false);
+  };
 
   const sortByDistance = async (userCoords) => {
     let l = distributors.default;
-    let ld = await Promise.all(l.map(async loc => [loc, await getDistanceFromUser(userCoords, loc)]));
+    let ld = await Promise.all(
+      l.map(async (loc) => [loc, await getDistanceFromUser(userCoords, loc)])
+    );
     ld.sort((a, b) => {
       return a[1] - b[1];
-    })
+    });
     let lf = ld.map((loc) => {
-      loc[0]['distance'] = loc[1];
+      loc[0]["distance"] = loc[1];
       return loc[0];
-    })
+    });
     locations.current = lf;
     setLocationsLoading(false);
-  }
+  };
 
   const requestUserLocation = () => {
     if ("geolocation" in navigator) {
@@ -97,19 +102,31 @@ const Wholesale = () => {
        * location has been disabled or blocked
        */
       navigator.geolocation.getCurrentPosition(async (position) => {
-        setUserCoords({lat: position.coords.latitude, long: position.coords.longitude});
-        await sortByDistance({lat: position.coords.latitude, long: position.coords.longitude});
+        setUserCoords({
+          lat: position.coords.latitude,
+          long: position.coords.longitude,
+        });
+        await sortByDistance({
+          lat: position.coords.latitude,
+          long: position.coords.longitude,
+        });
         setLocationsLoading(false);
-      })
+      });
     } else {
-      console.log('geo not available in navigator');
+      console.log("geo not available in navigator");
       setLocationsLoading(false);
     }
-  }
+  };
 
   const changePage = (to) => {
-    setPage(to)
-  }
+    setPage(to);
+  };
+
+  const handleKeyDown = (event) => {
+    if (event.key === "Enter") {
+      getCoordsFromZip();
+    }
+  };
 
   useEffect(() => {
     /**
@@ -120,7 +137,7 @@ const Wholesale = () => {
       sortRandomly();
       requestUserLocation();
     }
-  }, [])
+  }, []);
   return (
     <>
       <Hero
@@ -246,54 +263,61 @@ const Wholesale = () => {
         </div>
       </section>
       <section
-          id="distributors-section"
-          className="distributors-section vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-2b06a3a vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default"
-          data-id="2b06a3a"
-          data-element_type="section"
-          data-settings='{"background_background":"classic"}'
-        >
-          <div className="vapetasia-container vapetasia-column-gap-default">
-            <div className="vapetasia-row">
-                <div id="wholesaler-search">
-                  <input type="text" placeholder="Enter zip code" maxLength="5" onChange={(e) => setZip(e.target.value)}></input>
-                  <button type="submit" onClick={() => getCoordsFromZip()}>Find Closest Distributor</button>
-                </div>
-              </div>
+        id="distributors-section"
+        className="distributors-section vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-2b06a3a vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default"
+        data-id="2b06a3a"
+        data-element_type="section"
+        data-settings='{"background_background":"classic"}'
+      >
+        <div className="vapetasia-container vapetasia-column-gap-default">
+          <div className="vapetasia-row">
+            <div id="wholesaler-search">
+              <input
+                type="text"
+                placeholder="Enter zip code"
+                maxLength="5"
+                onChange={(e) => setZip(e.target.value)}
+                onKeyDown={handleKeyDown}
+              ></input>
+              <button type="submit" onClick={() => getCoordsFromZip()}>
+                Find Closest Distributor
+              </button>
             </div>
+          </div>
+        </div>
       </section>
       <section
-          className="distributors-section vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-2b06a3a vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default"
-          data-id="2b06a3a"
-          data-element_type="section"
-          data-settings='{"background_background":"classic"}'
-        >
-          <div className="vapetasia-container vapetasia-column-gap-default">
-            <div className="vapetasia-row">
-                <div id="pagination-controls">
-                  {
-                    pages.map((p, idx) => {
-                      return <a 
-                        key={'pagination_' + idx} 
-                        className={page == idx+1 ? 'active' : 'inactive'}
-                        onClick={() => changePage(idx+1)}>
-                          Page {idx+1}
-                        </a>
-                    })
-                  }
-                </div>
-              </div>
+        className="distributors-section vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-2b06a3a vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default"
+        data-id="2b06a3a"
+        data-element_type="section"
+        data-settings='{"background_background":"classic"}'
+      >
+        <div className="vapetasia-container vapetasia-column-gap-default">
+          <div className="vapetasia-row">
+            <div id="pagination-controls">
+              {pages.map((p, idx) => {
+                return (
+                  <a
+                    key={"pagination_" + idx}
+                    className={page == idx + 1 ? "active" : "inactive"}
+                    onClick={() => changePage(idx + 1)}
+                  >
+                    Page {idx + 1}
+                  </a>
+                );
+              })}
             </div>
+          </div>
+        </div>
       </section>
-      {
-        locationsLoading
-        ?
-        <div id="loading-distributors">
-          Loading Distributors...
-        </div> 
-        :
-          locations.current.slice(5*(page-1), 5*(page-1)+5).map((d, idx) => (
+      {locationsLoading ? (
+        <div id="loading-distributors">Loading Distributors...</div>
+      ) : (
+        locations.current
+          .slice(5 * (page - 1), 5 * (page - 1) + 5)
+          .map((d, idx) => (
             <section
-              key={'distributor_' + idx}
+              key={"distributor_" + idx}
               id="distributors-section"
               className="distributors-section vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-2b06a3a vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default"
               data-id="2b06a3a"
@@ -404,18 +428,28 @@ const Wholesale = () => {
                           data-element_type="widget"
                           data-widget_type="image.default"
                         >
-                          <div>{ 
-                            userCoords.lat === 0 || userCoords.long === 0 || !('distance' in d) ?
+                          <div>
+                            {userCoords.lat === 0 ||
+                            userCoords.long === 0 ||
+                            !("distance" in d) ? (
                               <div id="set-location-trigger">
-                                <span className="location-button" onClick={() => {requestUserLocation()}}>
-                                  <i className="fa fa-map-marker"></i> enable location
-                                  </span>
+                                <span
+                                  className="location-button"
+                                  onClick={() => {
+                                    requestUserLocation();
+                                  }}
+                                >
+                                  <i className="fa fa-map-marker"></i> enable
+                                  location
+                                </span>
                                 <span>or set zip for distance</span>
-                              </div> :
+                              </div>
+                            ) : (
                               <div className="location-results">
                                 {d.distance} miles
                               </div>
-                            }</div>
+                            )}
+                          </div>
                           <div className="vapetasia-widget-container">
                             <div className="vapetasia-button vapetasia-button-wholesale vapetasia-slide-button vapetasia-size-lg">
                               <a href={d.contact}>CONTACT</a>
@@ -430,7 +464,31 @@ const Wholesale = () => {
               <hr />
             </section>
           ))
-        }
+      )}
+      <section
+        className="distributors-section vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-2b06a3a vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default"
+        data-id="2b06a3a"
+        data-element_type="section"
+        data-settings='{"background_background":"classic"}'
+      >
+        <div className="vapetasia-container vapetasia-column-gap-default">
+          <div className="vapetasia-row">
+            <div id="pagination-controls">
+              {pages.map((p, idx) => {
+                return (
+                  <a
+                    key={"pagination_" + idx}
+                    className={page == idx + 1 ? "active" : "inactive"}
+                    onClick={() => changePage(idx + 1)}
+                  >
+                    Page {idx + 1}
+                  </a>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };

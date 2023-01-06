@@ -1,3 +1,7 @@
+.location-results {
+  font-weight: bold;
+}
+
 /**
 ZIP CODE ENTRY
 **/
@@ -14,12 +18,12 @@ ZIP CODE ENTRY
   font-size: 18px;
 }
 #wholesaler-search input::placeholder {
-  color: #CCCCCC;
+  color: #cccccc;
 }
 #wholesaler-search button {
   background-color: #424242;
-  color: #FFFFFF;
-  font-family: 'Rift';
+  color: #ffffff;
+  font-family: "Rift";
   font-size: 22px;
   font-style: italic;
 }
@@ -38,7 +42,7 @@ LOCATION REQUEST
 
 #loading-distributors {
   padding: 60px 0;
-  padding-bottom: 1px solid #CCCCCC;
+  padding-bottom: 1px solid #cccccc;
   text-align: center;
   width: 100%;
 }
@@ -50,6 +54,7 @@ LOCATION REQUEST
   border-bottom: 2px solid gray;
   padding: 15px 0;
   margin-bottom: 30px;
+  font-weight: bold;
 }
 #pagination-controls a {
   cursor: pointer;

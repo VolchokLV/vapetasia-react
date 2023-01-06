@@ -295,6 +295,7 @@ const Wholesale = () => {
         <div className="vapetasia-container vapetasia-column-gap-default">
           <div className="vapetasia-row">
             <div id="pagination-controls">
+              More Results:
               {pages.map((p, idx) => {
                 return (
                   <a
@@ -474,6 +475,7 @@ const Wholesale = () => {
         <div className="vapetasia-container vapetasia-column-gap-default">
           <div className="vapetasia-row">
             <div id="pagination-controls">
+              More Results:
               {pages.map((p, idx) => {
                 return (
                   <a

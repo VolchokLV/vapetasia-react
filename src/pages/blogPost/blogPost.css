@@ -102,6 +102,8 @@
   background-color: var(--first-color) !important;
   text-align: center;
   border: none !important;
+  font-weight: bold !important;
+  font-size: 18px !important;
 }
 
 .wasfa-button-row {

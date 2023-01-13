@@ -98,6 +98,25 @@
   gap: 10px;
 }
 
+.vapetasia-blog-sb5239-button {
+  background-color: var(--first-color) !important;
+  text-align: center;
+  border: none !important;
+}
+
+.wasfa-button-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.wasfa-img {
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+  /* padding-left: 25px; */
+}
+
 .error404 {
   padding: 200px;
   background-image: url("https://cdn2.vapetasia.com/img/404-cloud-grey.png");

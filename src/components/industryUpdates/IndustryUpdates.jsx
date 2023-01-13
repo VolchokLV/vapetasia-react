@@ -104,6 +104,32 @@ const IndustryUpdates = () => {
                                             >
                                               <div className="swiper-slide-contents">
                                                 <div className="vapetasia-slide-heading">
+                                                  Washington Flavor Ban SB5239
+                                                </div>
+                                                <div className="vapetasia-slide-description">
+                                                  If passed, SB 5239 would allow
+                                                  DOH to ban all products that
+                                                  they deem unsafe, even if no
+                                                  harm or injury has been
+                                                  proven.
+                                                </div>
+                                                <div className="vapetasia-button vapetasia-slide-button vapetasia-size-lg">
+                                                  LEARN MORE
+                                                </div>
+                                              </div>
+                                            </a>
+                                          </div>
+                                          <div className="vapetasia-repeater-item-cfeef4f swiper-slide vt-custom-slider-item">
+                                            <div className="swiper-slide-bg"></div>
+                                            <a
+                                              className="swiper-slide-inner"
+                                              href={
+                                                process.env.REACT_APP_BASE_URL +
+                                                "/keep-vape-mail-alive-say-no-to-s-1253"
+                                              }
+                                            >
+                                              <div className="swiper-slide-contents">
+                                                <div className="vapetasia-slide-heading">
                                                   United States - Reject S.1253
                                                 </div>
                                                 <div className="vapetasia-slide-description">

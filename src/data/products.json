@@ -13,7 +13,7 @@
       "salt": ["30ml"]
     },
     "strengths": {
-      "eliquid": ["3mg", "6mg", "12mg"],
+      "eliquid": ["3mg", "6mg"],
       "salt": ["24mg", "48mg"]
     },
     "main_text": "Grab a luscious handful of sugar-coated, bite sized, watermelon flavored gummies.",
@@ -52,7 +52,7 @@
       "salt": ["30ml"]
     },
     "strengths": {
-      "eliquid": ["3mg", "6mg", "12mg"],
+      "eliquid": ["3mg", "6mg"],
       "salt": ["24mg", "48mg"]
     },
     "main_text": " A cool take on a chewy snack, taste gummy watermelons and embrace the frozen splash of flavor.",
@@ -91,7 +91,7 @@
       "salt": ["30ml"]
     },
     "strengths": {
-      "eliquid": ["3mg", "6mg", "12mg"],
+      "eliquid": ["3mg", "6mg"],
       "salt": ["24mg", "48mg"]
     },
     "main_text": "Get a load of these melons. Taste a juicy combination of cantaloupe, watermelon and honeydew in this melon explosion!",
@@ -130,7 +130,7 @@
       "salt": ["30ml"]
     },
     "strengths": {
-      "eliquid": ["3mg", "6mg", "12mg"],
+      "eliquid": ["3mg", "6mg"],
       "salt": ["24mg", "48mg"]
     },
     "main_text": "A winter breeze takes over a fusion of watermelon, cantaloupe, and honeydew to create a melon trifecta of icy sweetness.",
@@ -300,13 +300,13 @@
     },
     "sort_order": 7,
     "featured": {
-      "display": 1,
+      "display": 0,
       "key": "eliquid",
       "strength": "3mg",
       "size": "100ml"
     },
     "featured2": {
-      "display": 0,
+      "display": 1,
       "key": "eliquid",
       "strength": "3mg",
       "size": "100ml"
@@ -347,7 +347,7 @@
     },
     "sort_order": 8,
     "featured": {
-      "display": 1,
+      "display": 0,
       "key": "eliquid",
       "strength": "3mg",
       "size": "100ml"
@@ -450,7 +450,7 @@
     },
     "sort_order": 10,
     "featured": {
-      "display": 1,
+      "display": 0,
       "key": "eliquid",
       "strength": "3mg",
       "size": "100ml"
@@ -1353,7 +1353,7 @@
       "size": "30ml"
     },
     "featured2": {
-      "display": 1,
+      "display": 0,
       "key": "salt",
       "strength": "48mg",
       "size": "30ml"

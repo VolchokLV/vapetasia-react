@@ -8,7 +8,7 @@
 
 .vapetasia-custom-button-row {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   column-gap: 10px;
   margin-bottom: 30px;
 }

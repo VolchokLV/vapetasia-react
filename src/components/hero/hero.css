@@ -9,7 +9,9 @@
 /*RELEVANT HERO CLASSES*/
 
 .vapetasia-191
-  .vapetasia-element.vapetasia-element-page-hero:not(.vapetasia-motion-effects-element-type-background),
+  .vapetasia-element.vapetasia-element-page-hero:not(
+    .vapetasia-motion-effects-element-type-background
+  ),
 .vapetasia-191
   .vapetasia-element.vapetasia-element-HomeHero
   > .vapetasia-motion-effects-container
@@ -133,9 +135,10 @@ ADJUST HERO SPACER AT VARYING SIZES
   /*shrink the paragraph*/
   .hero-paragraph-text {
     padding-top: 60px;
+    font-size: 20px !important;
   }
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 360px) {
   .hero-height-gap {
     height: 0 !important;
   }
@@ -146,5 +149,29 @@ ADJUST HERO SPACER AT VARYING SIZES
   .vapetasia-element-page-hero .vapetasia-heading-title {
     font-size: 32px !important;
     text-align: center;
+  }
+  /*shrink the paragraph*/
+  .hero-paragraph-text {
+    padding-top: 100px;
+    /* font-size: 18px !important; */
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .hero-height-gap {
+    height: 0 !important;
+  }
+  /* .vapetasia-background-overlay {
+    border-bottom: 250px solid white;
+  }
+  /*shrink the title*/
+  .vapetasia-element-page-hero .vapetasia-heading-title {
+    font-size: 32px !important;
+    text-align: center;
+  }
+  */
+  /*shrink the paragraph*/
+  .hero-paragraph-text {
+    padding-top: 100px;
   }
 }

@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./tradeshowRegistrationForm.css";
+import ReCAPTCHA from "react-google-recaptcha";
 
 export const TradeShowRegistrationForm = () => {
   const form = useRef();
@@ -13,12 +14,21 @@ export const TradeShowRegistrationForm = () => {
     setSent(true); //show disabled form state
     setErrorMessage(null); //in case it was lingering
 
+    //Validate reCAPTCHA
+    const recaptchaValue = form.current["g-recaptcha-response"].value;
+    if (!recaptchaValue) {
+      setSent(false);
+      setErrorMessage("Please verify that you are not a robot.");
+      return;
+    }
+
     emailjs
       .sendForm(
         "service_lz6bg3h",
         "template_1hf9s1j",
         form.current,
-        "y0SHW5CdIrH4sQyfD"
+        "y0SHW5CdIrH4sQyfD",
+        { "g-recaptcha-response": recaptchaValue }
       )
       .then(
         (result) => {
@@ -37,7 +47,7 @@ export const TradeShowRegistrationForm = () => {
     <section className="tradeshowRegistration">
       <div id="tradeshow-registration">
         <h1>Tradeshow Registration Form</h1>
-        <p>Please fill out the form below to submit a tradeshow contact</p>
+        <p>Please fill out the form below to submit a tradeshow contact.</p>
         <form ref={form} onSubmit={sendEmail}>
           <div className="form-block">
             <label>Contact Name:</label>
@@ -74,17 +84,8 @@ export const TradeShowRegistrationForm = () => {
             <label>Email:</label>
             <input type="email" name="user_email" disabled={sent} />
           </div>
-          {/* <div className="form-block">
-            <label>Address</label>
-            <input
-              type="text"
-              name="address"
-              disabled={sent}
-              id="contact-form-address"
-            />
-          </div> */}
           <div className="form-block">
-            <label>EIN:</label>
+            <label>EIN or Tax ID:</label>
             <input
               type="text"
               name="ein"
@@ -101,20 +102,18 @@ export const TradeShowRegistrationForm = () => {
               id="contact-form-ein"
             />
           </div>
-          {/* <div className="form-block">
-            <label>Sales Rep</label>
-            <select name="sales_rep" disabled={sent} id="contact-form-ein">
-              <option value="Danny">Danny</option>
-              <option value="Tyler">Tyler</option>
-              <option value="Joey">Joey</option>
-              <option value="Bonn">Bonn</option>
-            </select>
-          </div> */}
+          <div className="form-block">
+            <ReCAPTCHA
+              sitekey="6Ldq1KYkAAAAAOCIW7QQtMGMWvyXtYw_6CuXh3nJ"
+              onChange={(value) => console.log("reCAPTCHA value: ", value)}
+            />
+          </div>
+
           <div className="form-block">
             <label>Message: (optional)</label>
             <textarea name="message" disabled={sent} />
           </div>
-          <input type="submit" value="Send" disabled={sent} />
+          <input type="submit" value="Submit" disabled={sent} />
         </form>
         {received ? (
           <p className="success-message">Received! We'll reach out soon.</p>

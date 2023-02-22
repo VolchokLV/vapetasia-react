@@ -10,7 +10,7 @@ const TradeshowRegistration = () => {
         top={"Vapetasia"}
         bottom={"TRADESHOW REGISTRATION"}
         paragraph={
-          "Please submit the form below and a sales ambassador will follow up with you as soon as possible."
+          "Please submit the form below for samples and follow up information."
         }
       ></Hero>
       <section

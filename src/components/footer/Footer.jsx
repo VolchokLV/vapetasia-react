@@ -276,13 +276,25 @@ const Footer = () => {
                           </h2>
                         </div>
                       </div>
-                      {/* <div className="vapetasia-element vapetasia-element-af84569 vapetasia-widget vapetasia-widget-heading" data-id="af84569" data-element_type="widget" data-widget_type="heading.default">
-                    <div className="vapetasia-widget-container">
-                      <h2 className="vapetasia-heading-title vapetasia-size-default">
-                        <a href={REACT_BASE_URL + '/pact/'}>PACT</a>
-                      </h2>
-                    </div>
-                  </div> */}
+                      <div
+                        className="vapetasia-element vapetasia-element-af84569 vapetasia-widget vapetasia-widget-heading"
+                        data-id="af84569"
+                        data-element_type="widget"
+                        data-widget_type="heading.default"
+                      >
+                        <div className="vapetasia-widget-container">
+                          <h2 className="vapetasia-heading-title vapetasia-size-default">
+                            <a
+                              href={
+                                process.env.REACT_APP_BASE_URL +
+                                "/tradeshow-registration/"
+                              }
+                            >
+                              Tradeshow Registration
+                            </a>
+                          </h2>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>

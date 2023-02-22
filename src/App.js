@@ -4,7 +4,7 @@ import './App.css';
 import "./index.css"
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import { AboutUs, Advocacy, Blog, BlogPost, ContactUs, ContactSupport, Compliance, Home, MediaRequest, PrivacyPolicy, Product, ProductGrid, PromotionalRequest, StoreLocator, Wholesale, WholesaleRegistration, Retailers } from './pages';
+import { AboutUs, Advocacy, Blog, BlogPost, ContactUs, ContactSupport, Compliance, Home, MediaRequest, PrivacyPolicy, Product, ProductGrid, PromotionalRequest, StoreLocator, TradeshowRegistration, Wholesale, WholesaleRegistration, Retailers } from './pages';
 import { Navigation, Warning, Footer, AgeVerifyModal } from './components';
 
 
@@ -88,6 +88,7 @@ function App() {
                               {/* <Route path="/pact" element={<Pact />} />  */}
                               <Route path="/wholesale" element={<Wholesale />} />
                               <Route path="/wholesale-registration" element={<WholesaleRegistration />} />
+                              <Route path="/tradeshow-registration" element={<TradeshowRegistration />} />
                             </Routes>
                           </div>
                         </div>

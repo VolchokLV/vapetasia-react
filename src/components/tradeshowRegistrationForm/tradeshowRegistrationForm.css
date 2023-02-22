@@ -1,0 +1,93 @@
+.tradeshowRegistration {
+  display: flex;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+}
+.tradeshowRegistration h1 {
+  font-family: "Rift", sans-serif;
+  font-size: 36px;
+}
+.tradeshowRegistration label {
+  font-weight: bold;
+}
+
+#tradeshow-registration {
+  color: black;
+  margin: 100px auto;
+  text-align: center;
+}
+#tradeshow-registration .form-block {
+  display: block;
+  margin: 15px auto;
+  width: 400px;
+}
+#tradeshow-registration label {
+  display: block;
+  text-align: left;
+  display: block;
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 5px;
+}
+#tradeshow-registration input[type="text"],
+input[type="email"],
+input[type="phone"],
+textarea {
+  width: 100%;
+  display: block;
+  line-height: 1.5;
+  font-size: 16px;
+  padding: 3px;
+  border-radius: 6px;
+}
+#tradeshow-registration textarea {
+  height: 150px;
+}
+#tradeshow-registration input[type="submit"] {
+  display: block;
+  padding: 10px 40px;
+  font-size: 16px;
+  background-color: #faa502;
+  color: #000;
+  border: none;
+  margin: 30px auto;
+  border-radius: 5px;
+}
+#tradeshow-registration .success-message {
+  color: green;
+}
+#tradeshow-registration .error-message {
+  color: red;
+}
+
+@media screen and (max-width: 600px) {
+  #tradeshow-registration .form-block {
+    width: 90%;
+  }
+  .tradeshowRegistration {
+    display: flex;
+    width: auto;
+    align-items: left;
+    justify-content: left;
+    padding: 10px;
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  /* #tradeshow-registration .form-block {
+    width: 90%;
+  } */
+  /* .tradeshowRegistration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+  } */
+}

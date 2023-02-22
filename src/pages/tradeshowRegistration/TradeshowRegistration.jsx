@@ -1,16 +1,16 @@
 import React from "react";
-import { Hero, WholesaleRegistrationForm } from "../../components";
-//import './wholesaleregistration.css';
+import { Hero, TradeshowRegistrationForm } from "../../components";
+import "./tradeshowRegistration.css";
 
-const WholesaleRegistration = () => {
+const TradeshowRegistration = () => {
   return (
     <>
       <Hero
         heroClass="Wholesale"
         top={"Vapetasia"}
-        bottom={"WHOLESALE REGISTRATION"}
+        bottom={"TRADESHOW REGISTRATION"}
         paragraph={
-          "Please submit the form below and a sales ambassador will follow up with you as soon as possible."
+          "Please submit the form below for samples and follow up information."
         }
       ></Hero>
       <section
@@ -39,9 +39,9 @@ const WholesaleRegistration = () => {
           </div>
         </div>
       </section>
-      <WholesaleRegistrationForm />
+      <TradeshowRegistrationForm />
     </>
   );
 };
 
-export default WholesaleRegistration;
+export default TradeshowRegistration;

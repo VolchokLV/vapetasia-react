@@ -21,3 +21,4 @@ export { default as Newsletter } from './newsletter/Newsletter';
 export { NewsletterForm } from './newsletterForm/NewsletterForm';
 export { default as AdvocacyTestimonials } from './advocacyTestimonials/AdvocacyTestimonials';
 export { default as AgeVerifyModal } from './ageVerifyModal/AgeVerifyModal';
+export { default as TradeshowRegistrationForm } from './tradeshowRegistrationForm/TradeshowRegistrationForm'

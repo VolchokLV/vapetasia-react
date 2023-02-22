@@ -40,7 +40,7 @@ export const TradeShowRegistrationForm = () => {
         <p>Please fill out the form below to submit a tradeshow contact</p>
         <form ref={form} onSubmit={sendEmail}>
           <div className="form-block">
-            <label>Contact Name</label>
+            <label>Contact Name:</label>
             <input
               type="text"
               name="contact_name"
@@ -49,7 +49,7 @@ export const TradeShowRegistrationForm = () => {
             />
           </div>
           <div className="form-block">
-            <label>Contact Title</label>
+            <label>Contact Title:</label>
             <input
               type="text"
               name="contact_title"
@@ -58,7 +58,7 @@ export const TradeShowRegistrationForm = () => {
             />
           </div>
           <div className="form-block">
-            <label>Company Name</label>
+            <label>Company Name:</label>
             <input
               type="text"
               name="company_name"
@@ -67,11 +67,11 @@ export const TradeShowRegistrationForm = () => {
             />
           </div>
           <div className="form-block">
-            <label>Phone Number</label>
+            <label>Phone Number:</label>
             <input type="phone" name="user_phone" disabled={sent} />
           </div>
           <div className="form-block">
-            <label>Email</label>
+            <label>Email:</label>
             <input type="email" name="user_email" disabled={sent} />
           </div>
           {/* <div className="form-block">
@@ -84,7 +84,7 @@ export const TradeShowRegistrationForm = () => {
             />
           </div> */}
           <div className="form-block">
-            <label>EIN</label>
+            <label>EIN:</label>
             <input
               type="text"
               name="ein"
@@ -102,7 +102,7 @@ export const TradeShowRegistrationForm = () => {
             </select>
           </div>
           <div className="form-block">
-            <label>Message (optional)</label>
+            <label>Message: (optional)</label>
             <textarea name="message" disabled={sent} />
           </div>
           <input type="submit" value="Send" disabled={sent} />

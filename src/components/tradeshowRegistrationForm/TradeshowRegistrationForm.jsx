@@ -93,6 +93,15 @@ export const TradeShowRegistrationForm = () => {
             />
           </div>
           <div className="form-block">
+            <label>Sales Rep:</label>
+            <input
+              type="text"
+              name="sales_rep"
+              disabled={sent}
+              id="contact-form-ein"
+            />
+          </div>
+          {/* <div className="form-block">
             <label>Sales Rep</label>
             <select name="sales_rep" disabled={sent} id="contact-form-ein">
               <option value="Danny">Danny</option>
@@ -100,7 +109,7 @@ export const TradeShowRegistrationForm = () => {
               <option value="Joey">Joey</option>
               <option value="Bonn">Bonn</option>
             </select>
-          </div>
+          </div> */}
           <div className="form-block">
             <label>Message: (optional)</label>
             <textarea name="message" disabled={sent} />

@@ -68,4 +68,26 @@ textarea {
   #tradeshow-registration .form-block {
     width: 90%;
   }
+  .tradeshowRegistration {
+    display: flex;
+    width: auto;
+    align-items: left;
+    justify-content: left;
+    padding: 10px;
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  /* #tradeshow-registration .form-block {
+    width: 90%;
+  } */
+  /* .tradeshowRegistration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+  } */
 }

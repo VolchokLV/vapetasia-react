@@ -43,7 +43,7 @@ export const TradeShowRegistrationForm = () => {
             <label>Contact Name</label>
             <input
               type="text"
-              name="user_name"
+              name="contact_name"
               disabled={sent}
               id="tradeshow-form-name"
             />
@@ -52,7 +52,7 @@ export const TradeShowRegistrationForm = () => {
             <label>Contact Title</label>
             <input
               type="text"
-              name="user_title"
+              name="contact_title"
               disabled={sent}
               id="tradeshow-form-title"
             />

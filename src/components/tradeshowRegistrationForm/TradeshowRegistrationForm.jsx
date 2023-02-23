@@ -84,7 +84,7 @@ export const TradeShowRegistrationForm = () => {
             />
           </div> */}
           <div className="form-block">
-            <label>EIN:</label>
+            <label>EIN or Tax ID:</label>
             <input
               type="text"
               name="ein"

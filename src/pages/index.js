@@ -13,6 +13,7 @@ export { default as Retailers } from './retailers/Retailers'
 export { default as StoreLocator } from './storeLocator/StoreLocator';
 export { default as Wholesale } from './wholesale/Wholesale';
 export { default as Product } from './product/Product';
+export { default as TeamVapetasia } from './teamVapetasia/TeamVapetasia';
 export { default as ProductGrid } from './productGrid/ProductGrid';
 export { default as MediaRequest } from './mediaRequest/MediaRequest';
 export { default as PromotionalRequest } from './promotionalRequest/PromotionalRequest'

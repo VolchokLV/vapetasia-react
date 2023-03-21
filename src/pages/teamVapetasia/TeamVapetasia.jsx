@@ -197,15 +197,15 @@ const TeamVapetasia = () => {
     "MES_0594.JPG",
     "MES_0595.JPG",
   ];
-  const handleDownload = (url) => {
-    const link = document.createElement("a");
-    link.href = url;
-    // link.download = "image";
-    link.setAttribute("download", "MES_0566.JPG");
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+  // const handleDownload = (url) => {
+  //   const link = document.createElement("a");
+  //   link.href = url;
+  //   // link.download = "image";
+  //   link.setAttribute("download", "MES_0566.JPG");
+  //   document.body.appendChild(link);
+  //   link.click();
+  //   document.body.removeChild(link);
+  // };
 
   const settings = {
     dots: false,
@@ -213,7 +213,8 @@ const TeamVapetasia = () => {
     speed: 250,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: true,
+    prevArrow: <button className="slick-prev" aria-label="Previous" />,
+    nextArrow: <button className="slick-next" aria-label="Next" />,
     fade: true,
     responsive: [
       {
@@ -281,12 +282,6 @@ const TeamVapetasia = () => {
         {images.map((image, index) => (
           <div key={index} className="team-vapetasia">
             <img src={src + image} alt={image.alt} />
-            <button
-              className="team-vapetasia-download"
-              onClick={() => handleDownload(image)}
-            >
-              Download
-            </button>
           </div>
         ))}
       </Slider>

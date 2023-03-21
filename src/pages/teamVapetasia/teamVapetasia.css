@@ -6,12 +6,12 @@
   text-align: center;
 }
 
-.team-vapetasia-download {
+/* .team-vapetasia-download {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-}
+} */
 
 @media (max-width: 768px) {
   .team-vapetasia {

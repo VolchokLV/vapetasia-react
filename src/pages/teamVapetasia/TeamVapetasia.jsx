@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "./teamVapetasia.css";
 
 const TeamVapetasia = () => {
+  const src = "https://cdn2.vapetasia.com/img/team-vapetasia/";
   const images = [
     "MES_0597.JPG",
     "MES_0598.JPG",
@@ -199,7 +200,8 @@ const TeamVapetasia = () => {
   const handleDownload = (url) => {
     const link = document.createElement("a");
     link.href = url;
-    link.download = "image";
+    // link.download = "image";
+    link.setAttribute("download", "MES_0566.JPG");
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -208,10 +210,11 @@ const TeamVapetasia = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 250,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
+    fade: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -277,10 +280,7 @@ const TeamVapetasia = () => {
       <Slider {...settings}>
         {images.map((image, index) => (
           <div key={index} className="team-vapetasia">
-            <img
-              src={"https://cdn2.vapetasia.com/img/team-vapetasia/" + image}
-              alt={image.alt}
-            />
+            <img src={src + image} alt={image.alt} />
             <button
               className="team-vapetasia-download"
               onClick={() => handleDownload(image)}

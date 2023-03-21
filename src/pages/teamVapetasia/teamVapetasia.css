@@ -1,20 +1,20 @@
-.slide-container {
-  max-width: 100%;
-  position: relative;
-}
-
-.each-slide {
+.team-vapetasia {
+  padding: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  text-align: center;
+}
+
+.team-vapetasia-download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
   .team-vapetasia {
-    height: 50vh;
+    padding: 10px;
   }
 }

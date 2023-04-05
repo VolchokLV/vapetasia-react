@@ -210,7 +210,7 @@ const Navigation = () => {
                   </span>
                 </a>
                 <ul className="sub-menu">
-                  <li
+                  {/* <li
                     id="menu-item-6022"
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-6022"
                   >
@@ -223,7 +223,7 @@ const Navigation = () => {
                     >
                       <span className="text-wrap">Killer Disposables</span>
                     </a>
-                  </li>
+                  </li> */}
                   <li
                     id="menu-item-6021"
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-6021"
@@ -512,7 +512,7 @@ const Navigation = () => {
                   <span className="dropdown-toggle" tabIndex="0"></span>
                 </a>
                 <ul className={`${subMenuDisposable} sub-menu`}>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-6022">
+                  {/* <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-6022">
                     <a
                       href={
                         process.env.REACT_APP_BASE_URL +
@@ -521,7 +521,7 @@ const Navigation = () => {
                     >
                       Killer Disposables
                     </a>
-                  </li>
+                  </li> */}
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-6021">
                     <a
                       href={

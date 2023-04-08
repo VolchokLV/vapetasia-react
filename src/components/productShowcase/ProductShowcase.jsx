@@ -24,7 +24,7 @@ const ProductShowcase = (props) => {
       strengthSlug = "salt";
     }
   }
-
+  // console.log(props.sizeOrBrand);
   const [show, setShow] = useState(false);
 
   return (
@@ -34,6 +34,11 @@ const ProductShowcase = (props) => {
         top={"Vapetasia"}
         bottom={props.product.product_name}
         paragraph={props.product.hero_txt}
+        id={
+          props.sizeOrBrand === "air-disposables"
+            ? "hero-description-air"
+            : "hero-description"
+        }
       />
 
       <section

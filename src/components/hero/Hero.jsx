@@ -6,8 +6,8 @@ import { useHistory, useParams } from "react-router-dom";
 const baseUrl = "https://cdn2.vapetasia.com/img/hero/";
 
 const Hero = (props) => {
-  const { topic, value } = useParams();
-  console.log(topic, value);
+  const { topic, value, sizeOrBrand } = useParams();
+  console.log(topic, value, sizeOrBrand);
   return (
     <>
       <section
@@ -151,7 +151,8 @@ const Hero = (props) => {
                                   <div className="vapetasia-text-editor vapetasia-clearfix">
                                     <p
                                       className={
-                                        value !== "air-disposables"
+                                        value !== "air-disposables" &&
+                                        sizeOrBrand !== "air-disposables"
                                           ? "hero-paragraph-text"
                                           : "hero-paragraph-text-air"
                                       }

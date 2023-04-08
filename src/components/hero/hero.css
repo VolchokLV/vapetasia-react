@@ -55,6 +55,12 @@ EVERY SECTION BELOW THE HERO SHOULD HAVE A TOP PADDING
   #hero-description {
     color: #ffffff;
   }
+  /* #hero-description .hero-paragraph-text-air {
+    color: #000 !important;
+  } */
+  .hero-paragraph-text-air {
+    color: #000 !important;
+  }
 }
 .widget-title {
   border-color: #faa500;

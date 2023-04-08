@@ -1,10 +1,13 @@
 import React from "react";
 import "./hero.css";
 import * as heroes from "../../data/heroes.json";
+import { useHistory, useParams } from "react-router-dom";
 
 const baseUrl = "https://cdn2.vapetasia.com/img/hero/";
 
 const Hero = (props) => {
+  const { topic, value } = useParams();
+  console.log(topic, value);
   return (
     <>
       <section
@@ -34,7 +37,10 @@ const Hero = (props) => {
                   >
                     <div className="vapetasia-widget-container">
                       <div className="vapetasia-spacer">
-                        <div className="vapetasia-spacer-inner" id="first-hero-spacer"></div>
+                        <div
+                          className="vapetasia-spacer-inner"
+                          id="first-hero-spacer"
+                        ></div>
                       </div>
                     </div>
                   </div>
@@ -46,7 +52,10 @@ const Hero = (props) => {
                   >
                     <div className="vapetasia-widget-container">
                       <div className="vapetasia-spacer">
-                        <div className="vapetasia-spacer-inner" id="second-hero-spacer"></div>
+                        <div
+                          className="vapetasia-spacer-inner"
+                          id="second-hero-spacer"
+                        ></div>
                       </div>
                     </div>
                   </div>
@@ -140,7 +149,13 @@ const Hero = (props) => {
                               >
                                 <div className="vapetasia-widget-container">
                                   <div className="vapetasia-text-editor vapetasia-clearfix">
-                                    <p className="hero-paragraph-text">
+                                    <p
+                                      className={
+                                        value !== "air-disposables"
+                                          ? "hero-paragraph-text"
+                                          : "hero-paragraph-text-air"
+                                      }
+                                    >
                                       {props.paragraph}
                                     </p>
                                   </div>

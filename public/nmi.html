@@ -1,12 +1,187 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <script
+      src="https://secure.nmi.com/token/Collect.js"
+      data-tokenization-key="your-token-key-here"
+      data-payment-selector="#demoPayButton"
+      data-variant="inline"
+      data-style-sniffer="false"
+      data-google-font="Montserrat:400"
+      data-validation-callback="(function (field, valid, message) {console.log(field + ': ' + valid + ' -- ' + message)})"
+      data-custom-css='{
+                "background-color": "#a0a0ff",
+                "color": "#0000ff"
+                }'
+      data-invalid-css='{
+                "background-color":"red",
+                "color":"white"
+                }'
+      data-valid-css='{
+                "background-color":"#d0ffd0",
+                "color":"black"
+                }'
+      data-placeholder-css='{
+                "background-color":"#687C8D",
+                "color":"green"
+            }'
+      data-focus-css='{
+                "background-color":"#202020",
+                "color":"yellow"
+            }'
+      data-timeout-duration="10000"
+      data-timeout-callback="(function() {console.log('Timeout reached')})"
+      data-fields-available-callback="(function() {console.log('Collect.js has added fields to the form')})"
+      data-field-cvv-display="required"
+      data-field-ccnumber-selector="#demoCcnumber"
+      data-field-ccnumber-title="Card Number"
+      data-field-ccnumber-placeholder="0000 0000 0000 0000"
+      data-field-ccnumber-enable-card-brand-previews="true"
+      data-field-ccexp-selector="#demoCcexp"
+      data-field-ccexp-title="Expiration Date"
+      data-field-ccexp-placeholder="00 / 00"
+      data-field-cvv-display="required"
+      data-field-cvv-selector="#demoCvv"
+      data-field-cvv-title="CVV Code"
+      data-field-cvv-placeholder="***"
+      data-field-checkaccount-selector="#demoCheckaccount"
+      data-field-checkaccount-title="Account Number"
+      data-field-checkaccount-placeholder="000000000000"
+      data-field-checkaba-selector="#demoCheckaba"
+      data-field-checkaba-title="Routing Number"
+      data-field-checkaba-placeholder="000000000"
+      data-field-checkname-selector="#demoCheckname"
+      data-field-checkname-title="Account Name"
+      data-field-checkname-placeholder="Customer Name"
+      data-price="1.00"
+      data-currency="USD"
+      data-country="US"
+      data-field-google-pay-shipping-address-required="true"
+      data-field-google-pay-shipping-address-parameters-phone-number-required="true"
+      data-field-google-pay-shipping-address-parameters-allowed-country-codes="US,CA"
+      data-field-google-pay-billing-address-required="true"
+      data-field-google-pay-billing-address-parameters-phone-number-required="true"
+      data-field-google-pay-billing-address-parameters-format="MIN"
+      data-field-google-pay-email-required="true"
+      data-field-google-pay-button-type="buy"
+      data-field-google-pay-button-locale="en"
+      data-field-google-pay-button-color="default"
+      data-field-apple-pay-shipping-type="delivery"
+      data-field-apple-pay-shipping-methods='[{"label":"Free Standard Shipping","amount":"0.00","detail":"Arrives in 5-7 days","identifier":"standardShipping"},{"label":"Express Shipping","amount":"10.00","detail":"Arrives in 2-3 days","identifier":"expressShipping"}]'
+      data-field-apple-pay-required-billing-contact-fields='["postalAddress","name"]'
+      data-field-apple-pay-required-shipping-contact-fields='["postalAddress","name"]'
+      data-field-apple-pay-contact-fields='["phone","email"]'
+      data-field-apple-pay-contact-fields-mapped-to="shipping"
+      data-field-apple-pay-line-items='[{"label":"Foobar","amount":"3.00"},{"label":"Arbitrary Line Item #2","amount":"1.00"}]'
+      data-field-apple-pay-total-label="foobar"
+      data-field-apple-pay-type="buy"
+      data-field-apple-pay-style-button-style="black"
+      data-field-apple-pay-style-height="40px"
+      data-field-apple-pay-style-border-radius="4px"
+    ></script>
+    <!-- This style will be inherited by the style-sniffer, with the additions in the configuration -->
+    <style>
+      input {
+        border: 5px inset #687c8d;
+        background-color: #c0c0c0;
+        color: green;
+        font-size: 25px;
+        font-family: monospace;
+        padding: 5px;
+      }
+    </style>
   </head>
   <body>
-    <p>TEST</p>
+    <h1>CollectJS Payment Form</h1>
+    <form action="/your-page.php" method="post">
+      <table>
+        <tr>
+          <td>Amount:</td>
+          <td><input size="50" type="text" name="amount" value="1.00" /></td>
+        </tr>
+        <tr>
+          <td>First Name:</td>
+          <td>
+            <input size="50" type="text" name="first_name" value="Test" />
+          </td>
+        </tr>
+        <tr>
+          <td>Last Name:</td>
+          <td><input size="50" type="text" name="last_name" value="User" /></td>
+        </tr>
+        <tr>
+          <td>Address1</td>
+          <td>
+            <input
+              size="50"
+              type="text"
+              name="address1"
+              value="123 Main Street"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>City</td>
+          <td>
+            <input size="50" type="text" name="city" value="Beverley Hills" />
+          </td>
+        </tr>
+        <tr>
+          <td>State</td>
+          <td><input size="50" type="text" name="state" value="CA" /></td>
+        </tr>
+        <tr>
+          <td>zip</td>
+          <td><input size="50" type="text" name="zip" value="90210" /></td>
+        </tr>
+        <tr>
+          <td>country</td>
+          <td><input size="50" type="text" name="country" value="US" /></td>
+        </tr>
+        <tr>
+          <td>phone</td>
+          <td>
+            <input size="50" type="text" name="phone" value="5555555555" />
+          </td>
+        </tr>
+        <tr>
+          <td>CC Number</td>
+          <td id="demoCcnumber"></td>
+        </tr>
+        <tr>
+          <td>CC Exp</td>
+          <td id="demoCcexp"></td>
+        </tr>
+        <tr>
+          <td>CVV</td>
+          <td id="demoCvv"></td>
+        </tr>
+        <tr>
+          <td>Account Number</td>
+          <td id="demoCheckaccount"></td>
+        </tr>
+        <tr>
+          <td>Routing Number</td>
+          <td id="demoCheckaba"></td>
+        </tr>
+        <tr>
+          <td>Name on Account</td>
+          <td id="demoCheckname"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <div id="googlepaybutton"></div>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <div id="applepaybutton"></div>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <button id="demoPayButton" type="button">Pay the money.</button>
+    </form>
   </body>
 </html>

@@ -21,8 +21,16 @@
     "sub_txt": "Grab a luscious handful of sugar-coated, bite sized, watermelon flavored gummies.",
     "popup_txt": "Grab a luscious handful of sugar-coated, bite sized, watermelon flavored gummies.",
     "buy_now": {
-      "100ml": ["COMING SOON", "COMING SOON", "COMING SOON", "COMING SOON"],
-      "30ml": ["COMING SOON", "COMING SOON", "COMING SOON", "COMING SOON"]
+      "100ml": [
+        "https://www.ejuices.com/products/vapetasia-killer-sweets-ntn-watermelon-gummy?_pos=1&_sid=b7575e0c2&_ss=r",
+        "https://vape.com/collections/all/products/killer-sweets-watermelon-gummy-by-vapetasia-synthetic-100ml",
+        "https://www.elementvape.com/watermelon-gummy-vapetasia"
+      ],
+      "30ml": [
+        "https://www.ejuices.com/products/vapetasia-killer-sweets-ntn-salts-watermelon-gummy?_pos=4&_sid=b7575e0c2&_ss=r",
+        "https://vape.com/products/killer-sweets-watermelon-gummy-by-vapetasia-synthetic-salts-30ml",
+        "https://www.elementvape.com/watermelon-gummy-vapetasia-salts"
+      ]
     },
     "sort_order": 1,
     "featured": {
@@ -60,8 +68,16 @@
     "sub_txt": " A cool take on a chewy snack, taste gummy watermelons and embrace the frozen splash of flavor.",
     "popup_txt": " A cool take on a chewy snack, taste gummy watermelons and embrace the frozen splash of flavor.",
     "buy_now": {
-      "100ml": ["COMING SOON", "COMING SOON", "COMING SOON", "COMING SOON"],
-      "30ml": ["COMING SOON", "COMING SOON", "COMING SOON", "COMING SOON"]
+      "100ml": [
+        "https://www.ejuices.com/products/vapetasia-killer-sweets-ntn-iced-watermelon-gummy?_pos=3&_sid=b7575e0c2&_ss=r",
+        "https://vape.com/products/killer-sweets-iced-watermelon-gummy-by-vapetasia-synthetic-100ml",
+        "https://www.elementvape.com/iced-watermelon-gummy-vapetasia"
+      ],
+      "30ml": [
+        "https://www.ejuices.com/products/vapetasia-killer-sweets-ntn-salts-iced-watermelon-gummy?_pos=5&_sid=b7575e0c2&_ss=r",
+        "https://vape.com/products/killer-sweets-iced-watermelon-gummy-by-vapetasia-synthetic-salts-30ml",
+        "https://www.elementvape.com/iced-watermelon-gummy-vapetasia-salts"
+      ]
     },
     "sort_order": 2,
     "featured": {
@@ -99,8 +115,16 @@
     "sub_txt": "Get a load of these melons. Taste a juicy combination of cantaloupe, watermelon and honeydew in this melon explosion!",
     "popup_txt": "Get a load of these melons. Taste a juicy combination of cantaloupe, watermelon and honeydew in this melon explosion!",
     "buy_now": {
-      "100ml": ["COMING SOON", "COMING SOON", "COMING SOON", "COMING SOON"],
-      "30ml": ["COMING SOON", "COMING SOON", "COMING SOON", "COMING SOON"]
+      "100ml": [
+        "https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-melons?_pos=10&_sid=eaceefd87&_ss=r",
+        "https://vape.com/products/killer-fruits-melons-by-vapetasia-synthetic-100ml",
+        "https://www.elementvape.com/melons-vapetasia"
+      ],
+      "30ml": [
+        "https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-salts-melons?_pos=11&_sid=eaceefd87&_ss=r",
+        "https://vape.com/products/killer-fruits-melons-by-vapetasia-synthetic-salts-30ml",
+        "https://www.elementvape.com/melons-vapetasia-salts"
+      ]
     },
     "sort_order": 3,
     "featured": {
@@ -138,8 +162,16 @@
     "sub_txt": "A winter breeze takes over a fusion of watermelon, cantaloupe, and honeydew to create a melon trifecta of icy sweetness.",
     "popup_txt": "A winter breeze takes over a fusion of watermelon, cantaloupe, and honeydew to create a melon trifecta of icy sweetness.",
     "buy_now": {
-      "100ml": ["COMING SOON", "COMING SOON", "COMING SOON", "COMING SOON"],
-      "30ml": ["COMING SOON", "COMING SOON", "COMING SOON", "COMING SOON"]
+      "100ml": [
+        "https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-iced-melons?_pos=13&_sid=eaceefd87&_ss=r",
+        "https://vape.com/products/killer-fruits-iced-melons-by-vapetasia-synthetic-100ml",
+        "https://www.elementvape.com/iced-melons-vapetasia"
+      ],
+      "30ml": [
+        "https://www.ejuices.com/products/vapetasia-killer-fruits-ntn-salts-iced-melons?_pos=4&_sid=eaceefd87&_ss=r",
+        "https://vape.com/products/killer-fruits-iced-melons-by-vapetasia-synthetic-salts-30ml",
+        "https://www.elementvape.com/iced-melons-vapetasia-salts"
+      ]
     },
     "sort_order": 4,
     "featured": {

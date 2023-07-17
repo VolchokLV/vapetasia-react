@@ -102,9 +102,9 @@ const Footer = () => {
                         <div className="vapetasia-widget-container">
                           <div className="vapetasia-text-editor vapetasia-clearfix">
                             <p>
-                              789 N. Grove Rd. Suite 111
+                              6870 Paradise Rd.
                               <br />
-                              Richardson, TX 75081
+                              Las Vegas, NV 89119
                               <br />
                               United States
                             </p>

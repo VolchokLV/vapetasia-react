@@ -8,8 +8,8 @@ const PMTA = () => {
         <>
             <Hero
                 heroClass="StoreLocator"
-                top={"Vapetasia"}
-                bottom={"PMTA \n \n"}
+                top={"Vapetasia vs fda"}
+                bottom={"THE PMTA PROCESS \n \n"}
                 paragraph={
                     "\n Vapetasia Scores Major Victory Against FDA in 2024 Ruling!"
                 }

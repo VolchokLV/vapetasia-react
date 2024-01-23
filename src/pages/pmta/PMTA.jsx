@@ -25,6 +25,7 @@ const PMTA = () => {
                                 </div>  
                             </div> 
                         </div>*/}
+                        <img src="https://cdn2.vapetasia.com/img/blog/PMTA-Banner.jpg" alt="PMTA Banner" className="pmta-banner" />
                         <h1>Vapetasia's Victory in the Court of Appeals</h1>
                         <p><a href="https://www.ca5.uscourts.gov/opinions/pub/21/21-60766-CV3.pdf" target="_blank" rel="noreferrer" className="pmta-underlined">The recent decision by the U.S. Court of Appeals for the Fifth Circuit in the case against the Food and Drug Administration (FDA) marks a significant moment for the vaping industry, particularly for Vapetasia (Wages and White Lion Investments).</a> In a decisive 10-6 vote, the court overturned the FDA's marketing denial orders (MDOs) for Vapetasia's products, addressing critical issues surrounding the FDA's handling of the premarket tobacco application (PMTA) process.</p>
 

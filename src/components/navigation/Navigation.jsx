@@ -272,6 +272,18 @@ const Navigation = () => {
               </li>
 
               <li
+                id="menu-item-292"
+                className="menu-item menu-item-type-post_type menu-item-object-page menu-item-292"
+              >
+                <a
+                  href={process.env.REACT_APP_BASE_URL + "/vapetasia-pmta/"}
+                  className="menu-link"
+                >
+                  <span className="text-wrap">PMTA</span>
+                </a>
+              </li>
+
+              <li
                 id="menu-item-3179"
                 className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3179"
               >
@@ -548,6 +560,13 @@ const Navigation = () => {
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-292">
                 <a href={process.env.REACT_APP_BASE_URL + "/advocacy/"}>
                   ADVOCACY
+                </a>
+              </li>
+
+
+              <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-292">
+                <a href={process.env.REACT_APP_BASE_URL + "/vapetasia-pmta/"}>
+                  PMTA
                 </a>
               </li>
 

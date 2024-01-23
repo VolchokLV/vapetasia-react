@@ -4,7 +4,7 @@ import './App.css';
 import "./index.css"
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import { AboutUs, Advocacy, Blog, BlogPost, ContactUs, ContactSupport, Compliance, Home, MediaRequest, PrivacyPolicy, Product, ProductGrid, PromotionalRequest, StoreLocator, TradeshowRegistration, Wholesale, WholesaleRegistration, Retailers, TeamVapetasia } from './pages';
+import { AboutUs, Advocacy, Blog, BlogPost, ContactUs, ContactSupport, Compliance, Home, MediaRequest, PrivacyPolicy, Product, ProductGrid, PromotionalRequest, PMTA, StoreLocator, TradeshowRegistration, Wholesale, WholesaleRegistration, Retailers, TeamVapetasia } from './pages';
 import { Navigation, Warning, Footer, AgeVerifyModal } from './components';
 
 
@@ -78,6 +78,7 @@ function App() {
                               <Route path="/media-request" element={<MediaRequest />} />
                               <Route path="/team-vapetasia" element={<TeamVapetasia />} />
                               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+                              <Route path="/vapetasia-pmta" element={<PMTA />} />
                               <Route path="/promotional-request" element={<PromotionalRequest />} />
                               <Route path="/product/:slug/:sizeOrBrand" element={<Product
                                 products={products.default}

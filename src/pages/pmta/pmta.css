@@ -1,0 +1,12 @@
+.pmta-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  padding: 50px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.pmta-underlined {
+  text-decoration: underline !important;
+}

@@ -107,75 +107,76 @@ const ProductShowcase = (props) => {
                       <div className="vapetasia-custom-button-row">
                         {props.product.product_types.includes("disposable")
                           ? props.product.disposable_strengths.map(
-                              (strength) => (
-                                <div
-                                  key={"p" + strength}
-                                  className="vapetasia-element-f23b596 product-strength-toggle-button"
-                                  data-id="f23b596"
-                                  data-element_type="column"
-                                  data-strength="0"
-                                >
-                                  <div className="vapetasia-widget-wrap">
-                                    <div
-                                      className="vapetasia-element vapetasia-element-e3ef45e vapetasia-widget vapetasia-widget-button"
-                                      data-id="e3ef45e"
-                                      data-element_type="widget"
-                                      data-widget_type="button.default"
-                                    >
-                                      <div className="vapetasia-widget-container">
-                                        <div className="vapetasia-button-wrapper">
-                                          <a
-                                            href="#"
-                                            className="vapetasia-button-link vapetasia-button vapetasia-size-sm "
-                                            role="button"
-                                          >
-                                            <span className="vapetasia-button-content-wrapper">
-                                              <span className="vapetasia-button-text vapetasia-strength-button">
-                                                {strength}
-                                              </span>
+                            (strength) => (
+                              <div
+                                key={"p" + strength}
+                                className="vapetasia-element-f23b596 product-strength-toggle-button"
+                                data-id="f23b596"
+                                data-element_type="column"
+                                data-strength="0"
+                              >
+                                <div className="vapetasia-widget-wrap">
+                                  <div
+                                    className="vapetasia-element vapetasia-element-e3ef45e vapetasia-widget vapetasia-widget-button"
+                                    data-id="e3ef45e"
+                                    data-element_type="widget"
+                                    data-widget_type="button.default"
+                                  >
+                                    <div className="vapetasia-widget-container">
+                                      <div className="vapetasia-button-wrapper">
+                                        <a
+                                          href="#"
+                                          className="vapetasia-button-link vapetasia-button vapetasia-size-sm "
+                                          role="button"
+                                        >
+                                          <span className="vapetasia-button-content-wrapper">
+                                            <span className="vapetasia-button-text vapetasia-strength-button">
+                                              {strength}
                                             </span>
-                                          </a>
-                                        </div>
+                                          </span>
+                                        </a>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                              )
+                              </div>
                             )
+                          )
+
                           : props.product.strengths[strengthSlug].map(
-                              (strength) => (
-                                <div
-                                  key={"p" + strength}
-                                  className="vapetasia-element-f23b596 product-strength-toggle-button"
-                                  data-id="f23b596"
-                                  data-strength="0"
-                                >
-                                  <div className="vapetasia-widget-wrap">
-                                    <div
-                                      className="vapetasia-element vapetasia-element-e3ef45e vapetasia-widget vapetasia-widget-button"
-                                      data-id="e3ef45e"
-                                      data-element_type="widget"
-                                      data-widget_type="button.default"
-                                    >
-                                      <div className="vapetasia-widget-container">
-                                        <div className="vapetasia-button-wrapper">
-                                          <a
-                                            className="vapetasia-button-link vapetasia-button vapetasia-size-sm"
-                                            role="button"
-                                          >
-                                            <span className="vapetasia-button-content-wrapper">
-                                              <span className="vapetasia-button-text vapetasia-strength-button">
-                                                {strength}
-                                              </span>
+                            (strength) => (
+                              <div
+                                key={"p" + strength}
+                                className="vapetasia-element-f23b596 product-strength-toggle-button"
+                                data-id="f23b596"
+                                data-strength="0"
+                              >
+                                <div className="vapetasia-widget-wrap">
+                                  <div
+                                    className="vapetasia-element vapetasia-element-e3ef45e vapetasia-widget vapetasia-widget-button"
+                                    data-id="e3ef45e"
+                                    data-element_type="widget"
+                                    data-widget_type="button.default"
+                                  >
+                                    <div className="vapetasia-widget-container">
+                                      <div className="vapetasia-button-wrapper">
+                                        <a
+                                          className="vapetasia-button-link vapetasia-button vapetasia-size-sm"
+                                          role="button"
+                                        >
+                                          <span className="vapetasia-button-content-wrapper">
+                                            <span className="vapetasia-button-text vapetasia-strength-button">
+                                              {strength}
                                             </span>
-                                          </a>
-                                        </div>
+                                          </span>
+                                        </a>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                              )
-                            )}
+                              </div>
+                            )
+                          )}
                       </div>
                     </div>
                   </section>

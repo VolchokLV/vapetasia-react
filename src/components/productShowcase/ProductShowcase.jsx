@@ -16,6 +16,11 @@ const ProductShowcase = (props) => {
     imgSrcDisplay = props.product["img_src"]["display"];
     buyNowSlug = "only";
     strengthSlug = "disposable";
+  } if (props.product.product_types[0] === 'podpunch') {
+    imgSrc = props.product.img_src['product'];
+    imgSrcDisplay = imgSrc;
+    buyNowSlug = '30ml';
+    strengthSlug = 'salt';
   } else {
     imgSrc = props.product.img_src[props.sizeOrBrand];
     imgSrcDisplay = imgSrc;

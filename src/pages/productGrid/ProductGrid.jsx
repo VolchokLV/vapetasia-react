@@ -15,7 +15,7 @@ const ProductGrid = (props) => {
   let heroKey = 'Fallback'; // defines which hero image and settings to apply to the hero
   let bottomText = '...'; // defines what comes below "vapetasia" in the hero
   let paragraphKey = '...'; // defines which paragraph should be displayed in the hero
-  if (topic == 'brand') {
+  if (topic === 'brand') {
     //looking for a brand of disposables
     if (value === 'killer-disposables') {
       heroKey = 'KillerDisposables'
@@ -23,23 +23,22 @@ const ProductGrid = (props) => {
       heroKey = 'HyveDisposables';
     } else if (value === 'air-disposables') {
       heroKey = 'AirDisposables';
-    } else if (value === 'pod-punch') {
+    } else if (value === 'podpunch') {
       heroKey = 'PodPunch';
     }
     bottomText = value.replace('-', ' ').replace('-', ' ');
     paragraphKey = value;
-  } else if (topic == 'size') {
-    if (type == 'eliquid') {
+  } else if (topic === 'size') {
+    if (type === 'eliquid') {
       //looking for a size of eliquid
       bottomText = 'E-Liquid ' + value;
       paragraphKey = type + '-' + value;
-    } else if (type == 'salt') {
+    } else if (type === 'salt') {
       //looking for a size of salt
       bottomText = 'Salt ' + value;
       paragraphKey = type;
-    } else if (type == 'podpunch') {
-      //looking for a size of salt
-      bottomText = 'Pod Punch ' + value;
+    } else if (type === 'podpunch') {
+      bottomText = 'Pod Punch';
       paragraphKey = type;
     }
     heroKey = value;
@@ -58,19 +57,26 @@ const ProductGrid = (props) => {
         <div className="vapetasia-custom-grid">
 
           {props.products.sort((a, b) => a.sort_order > b.sort_order ? 1 : -1).map(p => {
-            if (p.product_types.includes(type) &&
-              (
-                (topic === 'size' && p.sizes[type].includes(value)) || // display only products with specified size
-                (topic === 'brand' && p.product_slug.includes(value)) // display only products with specified brand
-              )
-            ) {
-              return (<ProductGridItem
-                key={p.product_slug}
-                product={p}
-                type={type}
-                topic={topic}
-                topicValue={value} />)
+            if (typeof(p) !== 'undefined' && typeof(p.product_types) !== 'undefined') {
+              try {
+                if (p.product_types.includes(type) &&
+                  (
+                    (topic === 'size' && p.sizes[type].includes(value)) || // display only products with specified size
+                    (topic === 'brand' && p.product_slug.includes(value)) // display only products with specified brand
+                  )
+                ) {
+                  return (<ProductGridItem
+                    key={p.product_slug}
+                    product={p}
+                    type={type}
+                    topic={topic}
+                    topicValue={value} />)
+                }
+              } catch (e) {
+                return <></>
+              }
             }
+            return <></>
           })}
 
         </div>

@@ -4,12 +4,14 @@ import { Hero, ProductImage } from '../../components'
 
 const ProductGridItem = (props) => {
 
+  console.log('props', props);
+
   let imgSrc = ''; //TODO: set default/fallback image here
   try {
     if (props.topicValue === 'killer-disposables'
       || props.topicValue === 'hyve-disposables'
       || props.topicValue === 'air-disposables'
-      || props.topicValue === 'pod-punch') {
+      || props.type === 'podpunch') {
 
       imgSrc = props.product['img_src']['product'];
     } else {

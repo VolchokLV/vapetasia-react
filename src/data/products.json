@@ -2,13 +2,13 @@
   {
     "product_name": "Blue Razz Lemon",
     "product_types": ["podpunch"],
-    "product_slug": "pod-punch/blue-razz-lemon",
-    "flavor_line": ["pod-punch"],
+    "product_slug": "blue-razz-lemon",
+    "flavor_line": ["podpunch"],
     "img_src": {
       "product": "/img/podpunch/Blue-Razz-Lemon-Mock-Up.png"
     },
     "sizes": {
-      "salt": ["30ml"]
+      "podpunch": ["30ml"]
     },
     "strengths": {
       "salt": ["25mg", "50mg"]
@@ -36,14 +36,14 @@
   },
   {
     "product_name": "Hawaiian POG",
-    "product_types": "podpunch",
-    "product_slug": "pod-punch/hawaiian-pog",
-    "flavor_line": ["pod-punch"],
+    "product_types": ["podpunch"],
+    "product_slug": "hawaiian-pog",
+    "flavor_line": ["podpunch"],
     "img_src": {
       "product": "/img/podpunch/Hawaiin-POG-Mock-Up.png"
     },
     "sizes": {
-      "salt": ["30ml"]
+      "podpunch": ["30ml"]
     },
     "strengths": {
       "salt": ["25mg", "50mg"]
@@ -71,7 +71,7 @@
   },
   {
     "product_name": "Strawberry Banana",
-    "product_types": "podpunch",
+    "product_types": ["podpunch"],
     "product_slug": "pod-punch/strawberry-banana",
     "flavor_line": ["pod-punch"],
     "img_src": {
@@ -106,7 +106,7 @@
   },
   {
     "product_name": "Strawberry Kiwi Ice",
-    "product_types": "podpunch",
+    "product_types": ["podpunch"],
     "product_slug": "pod-punch/strawberry-kiwi-ice",
     "flavor_line": ["pod-punch"],
     "img_src": {
@@ -141,7 +141,7 @@
   },
   {
     "product_name": "White Gummy",
-    "product_types": "podpunch",
+    "product_types": ["podpunch"],
     "product_slug": "pod-punch/white-gummy",
     "flavor_line": ["pod-punch"],
     "img_src": {
@@ -176,7 +176,7 @@
   },
   {
     "product_name": "Watermelon Lime",
-    "product_types": "podpunch",
+    "product_types": ["podpunch"],
     "product_slug": "pod-punch/watermelon-lime",
     "flavor_line": ["pod-punch"],
     "img_src": {

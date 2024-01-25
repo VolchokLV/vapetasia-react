@@ -260,6 +260,18 @@ const Navigation = () => {
               </li>
 
               <li
+                id="menu-item-331"
+                className="menu-item menu-item-type-post_type menu-item-object-page menu-item-331"
+              >
+                <a
+                  href={process.env.REACT_APP_BASE_URL + "/category/podpunch/size/30ml"}
+                  className="menu-link"
+                >
+                  <span className="text-wrap">POD PUNCH</span>
+                </a>
+              </li>
+
+              <li
                 id="menu-item-292"
                 className="menu-item menu-item-type-post_type menu-item-object-page menu-item-292"
               >

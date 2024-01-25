@@ -1,5 +1,75 @@
 [
   {
+    "product_name": "Blue Razz Lemon",
+    "product_types": "podpunch",
+    "product_slug": "pod-punch/blue-razz-lemon",
+    "flavor_line": ["pod-punch"],
+    "img_src": {
+      "30ml": "/img/podpunch/Blue-Razz-Lemon-Mock-Up.png"
+    },
+    "sizes": {
+      "salt": ["30ml"]
+    },
+    "strengths": {
+      "salt": ["25mg", "50mg"]
+    },
+    "main_text": "Tangy notes of blue raspberry and a refreshing burst of zesty lemon will take over your senses with a sweetness explosion.",
+    "hero_txt": "Tangy notes of blue raspberry and a refreshing burst of zesty lemon will take over your senses with a sweetness explosion.",
+    "sub_txt": "Tangy notes of blue raspberry and a refreshing burst of zesty lemon will take over your senses with a sweetness explosion.",
+    "popup_txt": "Tangy notes of blue raspberry and a refreshing burst of zesty lemon will take over your senses with a sweetness explosion.",
+    "buy_now": {
+      "30ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
+    },
+    "sort_order": 1,
+    "featured": {
+      "display": 1,
+      "key": "podpunch",
+      "strength": "24mg",
+      "size": "30ml"
+    },
+    "featured2": {
+      "display": 0,
+      "key": "podpunch",
+      "strength": "24mg",
+      "size": "30ml"
+    }
+  },
+  {
+    "product_name": "Hawaiian POG",
+    "product_types": "podpunch",
+    "product_slug": "pod-punch/hawaiian-pog",
+    "flavor_line": ["pod-punch"],
+    "img_src": {
+      "30ml": "/img/podpunch/Hawaiin-POG-Mock-Up.png"
+    },
+    "sizes": {
+      "salt": ["30ml"]
+    },
+    "strengths": {
+      "salt": ["25mg", "50mg"]
+    },
+    "main_text": "A hurricane of tropical fruits will engulf your tastebuds with a whirlwind of passion fruit, orange, and guava flavors.",
+    "hero_txt": "A hurricane of tropical fruits will engulf your tastebuds with a whirlwind of passion fruit, orange, and guava flavors.",
+    "sub_txt": "A hurricane of tropical fruits will engulf your tastebuds with a whirlwind of passion fruit, orange, and guava flavors.",
+    "popup_txt": "A hurricane of tropical fruits will engulf your tastebuds with a whirlwind of passion fruit, orange, and guava flavors.",
+    "buy_now": {
+      "30ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
+    },
+    "sort_order": 1,
+    "featured": {
+      "display": 1,
+      "key": "podpunch",
+      "strength": "24mg",
+      "size": "30ml"
+    },
+    "featured2": {
+      "display": 0,
+      "key": "podpunch",
+      "strength": "24mg",
+      "size": "30ml"
+    }
+  },
+  {
     "product_name": "Watermelon Gummy",
     "product_types": ["eliquid", "salt"],
     "product_slug": "watermelon-gummy",

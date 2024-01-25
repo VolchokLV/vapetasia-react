@@ -2,7 +2,7 @@ import React from 'react'
 import './productGrid.css'
 import { useHistory, useParams } from 'react-router-dom'
 
-import {Hero, ProductGridItem} from '../../components'
+import { Hero, ProductGridItem } from '../../components'
 import * as heroes from '../../data/heroes.json'
 
 const ProductGrid = (props) => {
@@ -41,33 +41,33 @@ const ProductGrid = (props) => {
 
   return (
     <>
-      <Hero 
+      <Hero
         heroClass={heroKey}
-        top={'Vapetasia'} 
-        bottom={bottomText} 
+        top={'Vapetasia'}
+        bottom={bottomText}
         paragraph={heroes.default[0]['paragraphs'][paragraphKey]} />
 
-        <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-d4932c3 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="d4932c3" data-element_type="section">
-          
-            <div className="vapetasia-custom-grid">
+      <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-d4932c3 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="d4932c3" data-element_type="section">
 
-              {props.products.sort((a, b) => a.sort_order > b.sort_order ? 1 : -1).map(p => {
-                if (p.product_types.includes(type) && 
-                  (
-                    (topic === 'size' && p.sizes[type].includes(value)) || // display only products with specified size
-                    (topic === 'brand' && p.product_slug.includes(value)) // display only products with specified brand
-                  ) 
-                ) {
-                  return (<ProductGridItem 
-                    key={p.product_slug} 
-                    product={p} 
-                    type={type} 
-                    topic={topic} 
-                    topicValue={value} />)
-                }
-              })}
+        <div className="vapetasia-custom-grid">
 
-          </div>
+          {props.products.sort((a, b) => a.sort_order > b.sort_order ? 1 : -1).map(p => {
+            if (p.product_types.includes(type) &&
+              (
+                (topic === 'size' && p.sizes[type].includes(value)) || // display only products with specified size
+                (topic === 'brand' && p.product_slug.includes(value)) // display only products with specified brand
+              )
+            ) {
+              return (<ProductGridItem
+                key={p.product_slug}
+                product={p}
+                type={type}
+                topic={topic}
+                topicValue={value} />)
+            }
+          })}
+
+        </div>
       </section>
 
     </>

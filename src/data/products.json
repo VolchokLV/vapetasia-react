@@ -5,7 +5,7 @@
     "product_slug": "blue-razz-lemon",
     "flavor_line": ["podpunch"],
     "img_src": {
-      "product": "/img/podpunch/Blue-Razz-Lemon-Mock-Up.png"
+      "product": "/img/podpunch/Blue-Razz-Lemon.png"
     },
     "sizes": {
       "podpunch": ["30ml"]
@@ -40,7 +40,7 @@
     "product_slug": "hawaiian-pog",
     "flavor_line": ["podpunch"],
     "img_src": {
-      "product": "/img/podpunch/Hawaiin-POG-Mock-Up.png"
+      "product": "/img/podpunch/Hawaiin-POG.png"
     },
     "sizes": {
       "podpunch": ["30ml"]
@@ -75,7 +75,7 @@
     "product_slug": "strawberry-banana",
     "flavor_line": ["podpunch"],
     "img_src": {
-      "product": "/img/podpunch/Strawberry-banana-Mock-Up.png"
+      "product": "/img/podpunch/Strawberry-Banana.png"
     },
     "sizes": {
       "podpunch": ["30ml"]
@@ -110,7 +110,7 @@
     "product_slug": "strawberry-kiwi-ice",
     "flavor_line": ["podpunch"],
     "img_src": {
-      "product": "/img/podpunch/Strawberry-Kiwi-Mock-Up.png"
+      "product": "/img/podpunch/Strawberry-Kiwi.png"
     },
     "sizes": {
       "podpunch": ["30ml"]
@@ -145,7 +145,7 @@
     "product_slug": "white-gummy",
     "flavor_line": ["podpunch"],
     "img_src": {
-      "product": "/img/podpunch/White-Gummy-Mock-Up.png"
+      "product": "/img/podpunch/White-Gummy.png"
     },
     "sizes": {
       "podpunch": ["30ml"]
@@ -180,7 +180,7 @@
     "product_slug": "watermelon-lime",
     "flavor_line": ["podpunch"],
     "img_src": {
-      "product": "/img/podpunch/Watermelon-Lime-Mock-Up.png"
+      "product": "/img/podpunch/Watermelon-Lime.png"
     },
     "sizes": {
       "podpunch": ["30ml"]

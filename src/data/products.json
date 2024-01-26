@@ -1,5 +1,215 @@
 [
   {
+    "product_name": "Blue Razz Lemon",
+    "product_types": ["podpunch"],
+    "product_slug": "blue-razz-lemon",
+    "flavor_line": ["podpunch"],
+    "img_src": {
+      "product": "/img/podpunch/Blue-Razz-Lemon-Mock-Up.png"
+    },
+    "sizes": {
+      "podpunch": ["30ml"]
+    },
+    "strengths": {
+      "salt": ["25mg", "50mg"]
+    },
+    "main_text": "Tangy notes of blue raspberry and a refreshing burst of zesty lemon will take over your senses with a sweetness explosion.",
+    "hero_txt": "Tangy notes of blue raspberry and a refreshing burst of zesty lemon will take over your senses with a sweetness explosion.",
+    "sub_txt": "Tangy notes of blue raspberry and a refreshing burst of zesty lemon will take over your senses with a sweetness explosion.",
+    "popup_txt": "Tangy notes of blue raspberry and a refreshing burst of zesty lemon will take over your senses with a sweetness explosion.",
+    "buy_now": {
+      "30ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
+    },
+    "sort_order": 1,
+    "featured": {
+      "display": 1,
+      "key": "podpunch",
+      "strength": "25mg",
+      "size": "30ml"
+    },
+    "featured2": {
+      "display": 0,
+      "key": "podpunch",
+      "strength": "25mg",
+      "size": "30ml"
+    }
+  },
+  {
+    "product_name": "Hawaiian POG",
+    "product_types": ["podpunch"],
+    "product_slug": "hawaiian-pog",
+    "flavor_line": ["podpunch"],
+    "img_src": {
+      "product": "/img/podpunch/Hawaiin-POG-Mock-Up.png"
+    },
+    "sizes": {
+      "podpunch": ["30ml"]
+    },
+    "strengths": {
+      "salt": ["25mg", "50mg"]
+    },
+    "main_text": "A hurricane of tropical fruits will engulf your tastebuds with a whirlwind of passion fruit, orange, and guava flavors.",
+    "hero_txt": "A hurricane of tropical fruits will engulf your tastebuds with a whirlwind of passion fruit, orange, and guava flavors.",
+    "sub_txt": "A hurricane of tropical fruits will engulf your tastebuds with a whirlwind of passion fruit, orange, and guava flavors.",
+    "popup_txt": "A hurricane of tropical fruits will engulf your tastebuds with a whirlwind of passion fruit, orange, and guava flavors.",
+    "buy_now": {
+      "30ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
+    },
+    "sort_order": 2,
+    "featured": {
+      "display": 1,
+      "key": "podpunch",
+      "strength": "25mg",
+      "size": "30ml"
+    },
+    "featured2": {
+      "display": 0,
+      "key": "podpunch",
+      "strength": "25mg",
+      "size": "30ml"
+    }
+  },
+  {
+    "product_name": "Strawberry Banana",
+    "product_types": ["podpunch"],
+    "product_slug": "strawberry-banana",
+    "flavor_line": ["podpunch"],
+    "img_src": {
+      "product": "/img/podpunch/Strawberry-banana-Mock-Up.png"
+    },
+    "sizes": {
+      "podpunch": ["30ml"]
+    },
+    "strengths": {
+      "salt": ["25mg", "50mg"]
+    },
+    "main_text": "The all-time classic combination of Strawberries and Banana is executed perfectly with our enhanced version of this timeless flavor.",
+    "hero_txt": "The all-time classic combination of Strawberries and Banana is executed perfectly with our enhanced version of this timeless flavor.",
+    "sub_txt": "The all-time classic combination of Strawberries and Banana is executed perfectly with our enhanced version of this timeless flavor.",
+    "popup_txt": "The all-time classic combination of Strawberries and Banana is executed perfectly with our enhanced version of this timeless flavor.",
+    "buy_now": {
+      "30ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
+    },
+    "sort_order": 3,
+    "featured": {
+      "display": 0,
+      "key": "podpunch",
+      "strength": "25mg",
+      "size": "30ml"
+    },
+    "featured2": {
+      "display": 0,
+      "key": "podpunch",
+      "strength": "25mg",
+      "size": "30ml"
+    }
+  },
+  {
+    "product_name": "Strawberry Kiwi Ice",
+    "product_types": ["podpunch"],
+    "product_slug": "strawberry-kiwi-ice",
+    "flavor_line": ["podpunch"],
+    "img_src": {
+      "product": "/img/podpunch/Strawberry-Kiwi-Mock-Up.png"
+    },
+    "sizes": {
+      "podpunch": ["30ml"]
+    },
+    "strengths": {
+      "salt": ["25mg", "50mg"]
+    },
+    "main_text": "Ambush your tastebuds with an exciting rush of sweet strawberries and juicy kiwi flavor on the hunt to cure your sweetness cravings",
+    "hero_txt": "Ambush your tastebuds with an exciting rush of sweet strawberries and juicy kiwi flavor on the hunt to cure your sweetness cravings",
+    "sub_txt": "Ambush your tastebuds with an exciting rush of sweet strawberries and juicy kiwi flavor on the hunt to cure your sweetness cravings",
+    "popup_txt": "Ambush your tastebuds with an exciting rush of sweet strawberries and juicy kiwi flavor on the hunt to cure your sweetness cravings",
+    "buy_now": {
+      "30ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
+    },
+    "sort_order": 4,
+    "featured": {
+      "display": 0,
+      "key": "podpunch",
+      "strength": "25mg",
+      "size": "30ml"
+    },
+    "featured2": {
+      "display": 0,
+      "key": "podpunch",
+      "strength": "25mg",
+      "size": "30ml"
+    }
+  },
+  {
+    "product_name": "White Gummy",
+    "product_types": ["podpunch"],
+    "product_slug": "white-gummy",
+    "flavor_line": ["podpunch"],
+    "img_src": {
+      "product": "/img/podpunch/White-Gummy-Mock-Up.png"
+    },
+    "sizes": {
+      "podpunch": ["30ml"]
+    },
+    "strengths": {
+      "salt": ["25mg", "50mg"]
+    },
+    "main_text": "You’ll fight off a bear to experience a bite of this tropical gummy paradise, this is a pineapple gummy bear flavor to die for.",
+    "hero_txt": "You’ll fight off a bear to experience a bite of this tropical gummy paradise, this is a pineapple gummy bear flavor to die for.",
+    "sub_txt": "You’ll fight off a bear to experience a bite of this tropical gummy paradise, this is a pineapple gummy bear flavor to die for.",
+    "popup_txt": "You’ll fight off a bear to experience a bite of this tropical gummy paradise, this is a pineapple gummy bear flavor to die for.",
+    "buy_now": {
+      "30ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
+    },
+    "sort_order": 5,
+    "featured": {
+      "display": 1,
+      "key": "podpunch",
+      "strength": "25mg",
+      "size": "30ml"
+    },
+    "featured2": {
+      "display": 0,
+      "key": "podpunch",
+      "strength": "25mg",
+      "size": "30ml"
+    }
+  },
+  {
+    "product_name": "Watermelon Lime",
+    "product_types": ["podpunch"],
+    "product_slug": "watermelon-lime",
+    "flavor_line": ["podpunch"],
+    "img_src": {
+      "product": "/img/podpunch/Watermelon-Lime-Mock-Up.png"
+    },
+    "sizes": {
+      "podpunch": ["30ml"]
+    },
+    "strengths": {
+      "salt": ["25mg", "50mg"]
+    },
+    "main_text": "With a kick of watermelon juiciness and an extra punch of zingy lime, your tastebuds are in for a summertime flavor smackdown.",
+    "hero_txt": "With a kick of watermelon juiciness and an extra punch of zingy lime, your tastebuds are in for a summertime flavor smackdown.",
+    "sub_txt": "With a kick of watermelon juiciness and an extra punch of zingy lime, your tastebuds are in for a summertime flavor smackdown.",
+    "popup_txt": "With a kick of watermelon juiciness and an extra punch of zingy lime, your tastebuds are in for a summertime flavor smackdown.",
+    "buy_now": {
+      "30ml": ["COMING SOON", "COMING SOON", "COMING SOON"]
+    },
+    "sort_order": 6,
+    "featured": {
+      "display": 0,
+      "key": "podpunch",
+      "strength": "25mg",
+      "size": "30ml"
+    },
+    "featured2": {
+      "display": 0,
+      "key": "podpunch",
+      "strength": "25mg",
+      "size": "30ml"
+    }
+  },
+  {
     "product_name": "Watermelon Gummy",
     "product_types": ["eliquid", "salt"],
     "product_slug": "watermelon-gummy",
@@ -34,7 +244,7 @@
     },
     "sort_order": 1,
     "featured": {
-      "display": 1,
+      "display": 0,
       "key": "eliquid",
       "strength": "3mg",
       "size": "100ml"
@@ -81,7 +291,7 @@
     },
     "sort_order": 2,
     "featured": {
-      "display": 1,
+      "display": 0,
       "key": "eliquid",
       "strength": "3mg",
       "size": "100ml"
@@ -128,7 +338,7 @@
     },
     "sort_order": 3,
     "featured": {
-      "display": 1,
+      "display": 0,
       "key": "eliquid",
       "strength": "3mg",
       "size": "100ml"
@@ -175,7 +385,7 @@
     },
     "sort_order": 4,
     "featured": {
-      "display": 1,
+      "display": 0,
       "key": "eliquid",
       "strength": "3mg",
       "size": "100ml"
@@ -338,7 +548,7 @@
       "size": "100ml"
     },
     "featured2": {
-      "display": 1,
+      "display": 0,
       "key": "eliquid",
       "strength": "3mg",
       "size": "100ml"

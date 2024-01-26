@@ -2,7 +2,7 @@ import React from 'react'
 import './productGrid.css'
 import { useHistory, useParams } from 'react-router-dom'
 
-import {Hero, ProductGridItem} from '../../components'
+import { Hero, ProductGridItem } from '../../components'
 import * as heroes from '../../data/heroes.json'
 
 const ProductGrid = (props) => {
@@ -15,7 +15,7 @@ const ProductGrid = (props) => {
   let heroKey = 'Fallback'; // defines which hero image and settings to apply to the hero
   let bottomText = '...'; // defines what comes below "vapetasia" in the hero
   let paragraphKey = '...'; // defines which paragraph should be displayed in the hero
-  if (topic == 'brand') {
+  if (topic === 'brand') {
     //looking for a brand of disposables
     if (value === 'killer-disposables') {
       heroKey = 'KillerDisposables'
@@ -26,48 +26,60 @@ const ProductGrid = (props) => {
     }
     bottomText = value.replace('-', ' ').replace('-', ' ');
     paragraphKey = value;
-  } else if (topic == 'size') {
-    if (type == 'eliquid') {
+  } else if (topic === 'size') {
+    if (type === 'eliquid') {
       //looking for a size of eliquid
       bottomText = 'E-Liquid ' + value;
       paragraphKey = type + '-' + value;
-    } else {
+    } else if (type === 'salt') {
       //looking for a size of salt
       bottomText = 'Salt ' + value;
       paragraphKey = type;
     }
     heroKey = value;
+    if (type === 'podpunch') {
+      bottomText = 'Pod Punch';
+      paragraphKey = type;
+      heroKey = 'PodPunch';
+    }
   }
 
   return (
     <>
-      <Hero 
+      <Hero
         heroClass={heroKey}
-        top={'Vapetasia'} 
-        bottom={bottomText} 
+        top={'Vapetasia'}
+        bottom={bottomText}
         paragraph={heroes.default[0]['paragraphs'][paragraphKey]} />
 
-        <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-d4932c3 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="d4932c3" data-element_type="section">
-          
-            <div className="vapetasia-custom-grid">
+      <section className="vapetasia-section vapetasia-top-section vapetasia-element vapetasia-element-d4932c3 vapetasia-section-boxed vapetasia-section-height-default vapetasia-section-height-default" data-id="d4932c3" data-element_type="section">
 
-              {props.products.sort((a, b) => a.sort_order > b.sort_order ? 1 : -1).map(p => {
-                if (p.product_types.includes(type) && 
+        <div className="vapetasia-custom-grid">
+
+          {props.products.sort((a, b) => a.sort_order > b.sort_order ? 1 : -1).map(p => {
+            if (typeof(p) !== 'undefined' && typeof(p.product_types) !== 'undefined') {
+              try {
+                if (p.product_types.includes(type) &&
                   (
                     (topic === 'size' && p.sizes[type].includes(value)) || // display only products with specified size
                     (topic === 'brand' && p.product_slug.includes(value)) // display only products with specified brand
-                  ) 
+                  )
                 ) {
-                  return (<ProductGridItem 
-                    key={p.product_slug} 
-                    product={p} 
-                    type={type} 
-                    topic={topic} 
+                  return (<ProductGridItem
+                    key={p.product_slug}
+                    product={p}
+                    type={type}
+                    topic={topic}
                     topicValue={value} />)
                 }
-              })}
+              } catch (e) {
+                return <></>
+              }
+            }
+            return <></>
+          })}
 
-          </div>
+        </div>
       </section>
 
     </>

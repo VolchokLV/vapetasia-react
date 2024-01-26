@@ -24,13 +24,13 @@
     "featured": {
       "display": 1,
       "key": "podpunch",
-      "strength": "24mg",
+      "strength": "25mg",
       "size": "30ml"
     },
     "featured2": {
       "display": 0,
       "key": "podpunch",
-      "strength": "24mg",
+      "strength": "25mg",
       "size": "30ml"
     }
   },
@@ -59,26 +59,26 @@
     "featured": {
       "display": 1,
       "key": "podpunch",
-      "strength": "24mg",
+      "strength": "25mg",
       "size": "30ml"
     },
     "featured2": {
       "display": 0,
       "key": "podpunch",
-      "strength": "24mg",
+      "strength": "25mg",
       "size": "30ml"
     }
   },
   {
     "product_name": "Strawberry Banana",
     "product_types": ["podpunch"],
-    "product_slug": "pod-punch/strawberry-banana",
-    "flavor_line": ["pod-punch"],
+    "product_slug": "strawberry-banana",
+    "flavor_line": ["podpunch"],
     "img_src": {
       "product": "/img/podpunch/Strawberry-banana-Mock-Up.png"
     },
     "sizes": {
-      "salt": ["30ml"]
+      "podpunch": ["30ml"]
     },
     "strengths": {
       "salt": ["25mg", "50mg"]
@@ -94,26 +94,26 @@
     "featured": {
       "display": 0,
       "key": "podpunch",
-      "strength": "24mg",
+      "strength": "25mg",
       "size": "30ml"
     },
     "featured2": {
       "display": 0,
       "key": "podpunch",
-      "strength": "24mg",
+      "strength": "25mg",
       "size": "30ml"
     }
   },
   {
     "product_name": "Strawberry Kiwi Ice",
     "product_types": ["podpunch"],
-    "product_slug": "pod-punch/strawberry-kiwi-ice",
-    "flavor_line": ["pod-punch"],
+    "product_slug": "strawberry-kiwi-ice",
+    "flavor_line": ["podpunch"],
     "img_src": {
       "product": "/img/podpunch/Strawberry-Kiwi-Mock-Up.png"
     },
     "sizes": {
-      "salt": ["30ml"]
+      "podpunch": ["30ml"]
     },
     "strengths": {
       "salt": ["25mg", "50mg"]
@@ -129,26 +129,26 @@
     "featured": {
       "display": 0,
       "key": "podpunch",
-      "strength": "24mg",
+      "strength": "25mg",
       "size": "30ml"
     },
     "featured2": {
       "display": 0,
       "key": "podpunch",
-      "strength": "24mg",
+      "strength": "25mg",
       "size": "30ml"
     }
   },
   {
     "product_name": "White Gummy",
     "product_types": ["podpunch"],
-    "product_slug": "pod-punch/white-gummy",
-    "flavor_line": ["pod-punch"],
+    "product_slug": "white-gummy",
+    "flavor_line": ["podpunch"],
     "img_src": {
       "product": "/img/podpunch/White-Gummy-Mock-Up.png"
     },
     "sizes": {
-      "salt": ["30ml"]
+      "podpunch": ["30ml"]
     },
     "strengths": {
       "salt": ["25mg", "50mg"]
@@ -164,26 +164,26 @@
     "featured": {
       "display": 1,
       "key": "podpunch",
-      "strength": "24mg",
+      "strength": "25mg",
       "size": "30ml"
     },
     "featured2": {
       "display": 0,
       "key": "podpunch",
-      "strength": "24mg",
+      "strength": "25mg",
       "size": "30ml"
     }
   },
   {
     "product_name": "Watermelon Lime",
     "product_types": ["podpunch"],
-    "product_slug": "pod-punch/watermelon-lime",
-    "flavor_line": ["pod-punch"],
+    "product_slug": "watermelon-lime",
+    "flavor_line": ["podpunch"],
     "img_src": {
       "product": "/img/podpunch/Watermelon-Lime-Mock-Up.png"
     },
     "sizes": {
-      "salt": ["30ml"]
+      "podpunch": ["30ml"]
     },
     "strengths": {
       "salt": ["25mg", "50mg"]
@@ -199,13 +199,13 @@
     "featured": {
       "display": 0,
       "key": "podpunch",
-      "strength": "24mg",
+      "strength": "25mg",
       "size": "30ml"
     },
     "featured2": {
       "display": 0,
       "key": "podpunch",
-      "strength": "24mg",
+      "strength": "25mg",
       "size": "30ml"
     }
   },

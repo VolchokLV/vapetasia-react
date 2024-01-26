@@ -8,7 +8,8 @@
       "killer-disposables": "Enjoy Vapetasia flavors in convenient disposables. Vapetasia offers unique flavors in 10ml 3500 puff, 5% Nicotine, 1.5 Ohm rechargeable disposables.",
       "hyve-disposables": "Vapetasia and Hyve collaborated to bring the best of our flavors together with one of the most popular devices in 2500 and 5000 puff counts.",
       "air-disposables": "Vapetasia and Air collaborated to bring the best of our flavors together with one of the most popular devices in 6000 puff counts.",
-      "disposable": "Vapetasia has many disposable choices - Need to update the text here"
+      "disposable": "Vapetasia has many disposable choices - Need to update the text here",
+      "podpunch": "\n An extra punch of flavor for your pod! \n Flavor enhanced e-liquid salts."
     },
     "images": {
       "100ml": "100ml.jpg",
@@ -17,6 +18,7 @@
       "KillerDisposables": "Killer-Disposables.png",
       "HyveDisposables": "Hyve-Disposables.jpg",
       "AirDisposables": "Air-Disposables.png",
+      "PodPunch": "Pod-Punch-Hero.jpg",
       "About": "About-Us.jpg",
       "Advocacy": "Advocacy.jpg",
       "Blog": "Blog.png",
@@ -25,6 +27,7 @@
       "Home": "Home-1.jpg",
       "MediaRequest": "Media-Request-Form.jpg",
       "PromotionalRequestForm": "Promotional-Request-Form.jpg",
+      "PACT": "Blog.png",
       "StoreLocator": "StoreLocator.png",
       "Wholesale": "Wholesale-Inquiry.jpg",
       "FlavorKillerKustard": "Killer-Kustard.jpg",
@@ -43,6 +46,7 @@
       "killer-kustard": "FlavorKillerKustard",
       "killer-sweets": "FlavorKillerSweets",
       "killer-fruits": "FlavorKillerFruits",
+      "pod-punch": "FlavorPodPunch",
       "parfait": "FlavorParfait",
       "iced": "FlavorIced",
       "vapetasia": "FlavorVapetasia",

@@ -1,15 +1,18 @@
 import React from 'react'
 import './productGridItem.css'
-import {Hero, ProductImage} from '../../components'
+import { Hero, ProductImage } from '../../components'
 
 const ProductGridItem = (props) => {
 
+  console.log('props', props);
+
   let imgSrc = ''; //TODO: set default/fallback image here
   try {
-    if (props.topicValue === 'killer-disposables' 
-    || props.topicValue === 'hyve-disposables' 
-    || props.topicValue === 'air-disposables') {
-      
+    if (props.topicValue === 'killer-disposables'
+      || props.topicValue === 'hyve-disposables'
+      || props.topicValue === 'air-disposables'
+      || props.type === 'podpunch') {
+
       imgSrc = props.product['img_src']['product'];
     } else {
       imgSrc = props.product.img_src[props.topicValue];
@@ -23,7 +26,7 @@ const ProductGridItem = (props) => {
       <div className="vapetasia-element vapetasia-element-f80e103 vapetasia-widget vapetasia-widget-image" data-id="f80e103" data-element_type="widget" data-widget_type="image.default">
         <div className="vapetasia-widget-container">
           <div className="vapetasia-image">
-            <a href={ '/product/' + props.product.product_slug + '/' + props.topicValue } onClick={() => { console.log('clicked') }}>
+            <a href={'/product/' + props.product.product_slug + '/' + props.topicValue} onClick={() => { console.log('clicked') }}>
               <ProductImage src={imgSrc}></ProductImage>
             </a>
           </div>
@@ -32,7 +35,7 @@ const ProductGridItem = (props) => {
       <div className="vapetasia-element vapetasia-element-f371ea7 vapetasia-widget vapetasia-widget-heading vapetasia-grid-item-wrapper" data-id="f371ea7" data-element_type="widget" data-widget_type="heading.default">
         <div className="vapetasia-widget-container">
           <h2 className="vapetasia-heading-title vapetasia-size-default">
-            <a className="vape-font h-2" href={ '/product/' + props.product.product_slug + '/' + props.topicValue }>
+            <a className="vape-font h-2" href={'/product/' + props.product.product_slug + '/' + props.topicValue}>
               {props.product.product_name}
             </a>
           </h2>

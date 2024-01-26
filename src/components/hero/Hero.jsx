@@ -6,6 +6,7 @@ import { useHistory, useParams } from "react-router-dom";
 const baseUrl = "https://cdn2.vapetasia.com/img/hero/";
 
 const Hero = (props) => {
+  console.log(props);
   const { value, sizeOrBrand } = useParams();
   // console.log(topic, value, sizeOrBrand);
   return (

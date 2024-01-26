@@ -195,7 +195,7 @@ const Navigation = () => {
                 </ul>
               </li>
 
-              <li
+              {/* <li
                 id="menu-item-4893"
                 className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-4893 nav-no-click"
               >
@@ -223,7 +223,7 @@ const Navigation = () => {
                     >
                       <span className="text-wrap">Killer Disposables</span>
                     </a>
-                  </li> */}
+                  </li> 
                   <li
                     id="menu-item-6021"
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-6021"
@@ -257,6 +257,18 @@ const Navigation = () => {
                     </a>
                   </li>
                 </ul>
+              </li> */}
+
+              <li
+                id="menu-item-331"
+                className="menu-item menu-item-type-post_type menu-item-object-page menu-item-331"
+              >
+                <a
+                  href={process.env.REACT_APP_BASE_URL + "/category/podpunch/size/30ml"}
+                  className="menu-link"
+                >
+                  <span className="text-wrap">POD PUNCH</span>
+                </a>
               </li>
 
               <li
@@ -268,6 +280,18 @@ const Navigation = () => {
                   className="menu-link"
                 >
                   <span className="text-wrap">ADVOCACY</span>
+                </a>
+              </li>
+
+              <li
+                id="menu-item-292"
+                className="menu-item menu-item-type-post_type menu-item-object-page menu-item-292"
+              >
+                <a
+                  href={process.env.REACT_APP_BASE_URL + "/vapetasia-pmta/"}
+                  className="menu-link"
+                >
+                  <span className="text-wrap">PMTA</span>
                 </a>
               </li>
 
@@ -548,6 +572,13 @@ const Navigation = () => {
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-292">
                 <a href={process.env.REACT_APP_BASE_URL + "/advocacy/"}>
                   ADVOCACY
+                </a>
+              </li>
+
+
+              <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-292">
+                <a href={process.env.REACT_APP_BASE_URL + "/vapetasia-pmta/"}>
+                  PMTA
                 </a>
               </li>
 

@@ -23,8 +23,6 @@ const ProductGrid = (props) => {
       heroKey = 'HyveDisposables';
     } else if (value === 'air-disposables') {
       heroKey = 'AirDisposables';
-    } else if (value === 'podpunch') {
-      heroKey = 'PodPunch';
     }
     bottomText = value.replace('-', ' ').replace('-', ' ');
     paragraphKey = value;
@@ -37,11 +35,13 @@ const ProductGrid = (props) => {
       //looking for a size of salt
       bottomText = 'Salt ' + value;
       paragraphKey = type;
-    } else if (type === 'podpunch') {
-      bottomText = 'Pod Punch';
-      paragraphKey = type;
     }
     heroKey = value;
+    if (type === 'podpunch') {
+      bottomText = 'Pod Punch';
+      paragraphKey = type;
+      heroKey = 'PodPunch';
+    }
   }
 
   return (

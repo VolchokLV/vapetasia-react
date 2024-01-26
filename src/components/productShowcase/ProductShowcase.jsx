@@ -11,6 +11,7 @@ const ProductShowcase = (props) => {
   let imgSrcDisplay = ""; //TODO ^^
   let buyNowSlug = "";
   let strengthSlug = "eliquid";
+  let heroClass = heroes.default[0]["flavors"][props.product.flavor_line[0]];
   if (props.product.product_types[0] === "disposable") {
     imgSrc = props.product["img_src"]["product"];
     imgSrcDisplay = props.product["img_src"]["display"];
@@ -21,6 +22,7 @@ const ProductShowcase = (props) => {
     imgSrcDisplay = imgSrc;
     buyNowSlug = '30ml';
     strengthSlug = 'salt';
+    heroClass = 'PodPunch';
   } else {
     imgSrc = props.product.img_src[props.sizeOrBrand];
     imgSrcDisplay = imgSrc;
@@ -35,7 +37,7 @@ const ProductShowcase = (props) => {
   return (
     <>
       <Hero
-        heroClass={heroes.default[0]["flavors"][props.product.flavor_line[0]]}
+        heroClass={heroClass}
         top={"Vapetasia"}
         bottom={props.product.product_name}
         paragraph={props.product.hero_txt}

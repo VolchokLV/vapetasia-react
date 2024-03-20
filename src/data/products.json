@@ -1,14 +1,14 @@
 [
   {
     "product_name": "Blue Razz Lemon",
-    "product_types": ["podpunch"],
+    "product_types": ["bettersalt"],
     "product_slug": "blue-razz-lemon",
-    "flavor_line": ["podpunch"],
+    "flavor_line": ["bettersalt"],
     "img_src": {
-      "product": "/img/podpunch/Blue-Razz-Lemon.png"
+      "product": "/img/bettersalt/Better-Salt-Blue-Razz-Lemon.png"
     },
     "sizes": {
-      "podpunch": ["30ml"]
+      "bettersalt": ["30ml"]
     },
     "strengths": {
       "salt": ["25mg", "50mg"]
@@ -23,27 +23,27 @@
     "sort_order": 1,
     "featured": {
       "display": 1,
-      "key": "podpunch",
+      "key": "bettersalt",
       "strength": "25mg",
       "size": "30ml"
     },
     "featured2": {
       "display": 0,
-      "key": "podpunch",
+      "key": "bettersalt",
       "strength": "25mg",
       "size": "30ml"
     }
   },
   {
     "product_name": "Hawaiian POG",
-    "product_types": ["podpunch"],
+    "product_types": ["bettersalt"],
     "product_slug": "hawaiian-pog",
-    "flavor_line": ["podpunch"],
+    "flavor_line": ["bettersalt"],
     "img_src": {
-      "product": "/img/podpunch/Hawaiin-POG.png"
+      "product": "/img/bettersalt/Better-Salt-Hawaiin-POG.png"
     },
     "sizes": {
-      "podpunch": ["30ml"]
+      "bettersalt": ["30ml"]
     },
     "strengths": {
       "salt": ["25mg", "50mg"]
@@ -58,27 +58,27 @@
     "sort_order": 2,
     "featured": {
       "display": 1,
-      "key": "podpunch",
+      "key": "bettersalt",
       "strength": "25mg",
       "size": "30ml"
     },
     "featured2": {
       "display": 0,
-      "key": "podpunch",
+      "key": "bettersalt",
       "strength": "25mg",
       "size": "30ml"
     }
   },
   {
     "product_name": "Strawberry Banana",
-    "product_types": ["podpunch"],
+    "product_types": ["bettersalt"],
     "product_slug": "strawberry-banana",
-    "flavor_line": ["podpunch"],
+    "flavor_line": ["bettersalt"],
     "img_src": {
-      "product": "/img/podpunch/Strawberry-Banana.png"
+      "product": "/img/bettersalt/Better-Salt-Strawberry-Banana.png"
     },
     "sizes": {
-      "podpunch": ["30ml"]
+      "bettersalt": ["30ml"]
     },
     "strengths": {
       "salt": ["25mg", "50mg"]
@@ -93,27 +93,27 @@
     "sort_order": 3,
     "featured": {
       "display": 0,
-      "key": "podpunch",
+      "key": "bettersalt",
       "strength": "25mg",
       "size": "30ml"
     },
     "featured2": {
       "display": 0,
-      "key": "podpunch",
+      "key": "bettersalt",
       "strength": "25mg",
       "size": "30ml"
     }
   },
   {
     "product_name": "Strawberry Kiwi Ice",
-    "product_types": ["podpunch"],
+    "product_types": ["bettersalt"],
     "product_slug": "strawberry-kiwi-ice",
-    "flavor_line": ["podpunch"],
+    "flavor_line": ["bettersalt"],
     "img_src": {
-      "product": "/img/podpunch/Strawberry-Kiwi.png"
+      "product": "/img/bettersalt/Better-Salt-Strawberry-Kiwi.png"
     },
     "sizes": {
-      "podpunch": ["30ml"]
+      "bettersalt": ["30ml"]
     },
     "strengths": {
       "salt": ["25mg", "50mg"]
@@ -128,27 +128,27 @@
     "sort_order": 4,
     "featured": {
       "display": 0,
-      "key": "podpunch",
+      "key": "bettersalt",
       "strength": "25mg",
       "size": "30ml"
     },
     "featured2": {
       "display": 0,
-      "key": "podpunch",
+      "key": "bettersalt",
       "strength": "25mg",
       "size": "30ml"
     }
   },
   {
     "product_name": "White Gummy",
-    "product_types": ["podpunch"],
+    "product_types": ["bettersalt"],
     "product_slug": "white-gummy",
-    "flavor_line": ["podpunch"],
+    "flavor_line": ["bettersalt"],
     "img_src": {
-      "product": "/img/podpunch/White-Gummy.png"
+      "product": "/img/bettersalt/Better-Salt-White-Gummy.png"
     },
     "sizes": {
-      "podpunch": ["30ml"]
+      "bettersalt": ["30ml"]
     },
     "strengths": {
       "salt": ["25mg", "50mg"]
@@ -163,27 +163,27 @@
     "sort_order": 5,
     "featured": {
       "display": 1,
-      "key": "podpunch",
+      "key": "bettersalt",
       "strength": "25mg",
       "size": "30ml"
     },
     "featured2": {
       "display": 0,
-      "key": "podpunch",
+      "key": "bettersalt",
       "strength": "25mg",
       "size": "30ml"
     }
   },
   {
     "product_name": "Watermelon Lime",
-    "product_types": ["podpunch"],
+    "product_types": ["bettersalt"],
     "product_slug": "watermelon-lime",
-    "flavor_line": ["podpunch"],
+    "flavor_line": ["bettersalt"],
     "img_src": {
-      "product": "/img/podpunch/Watermelon-Lime.png"
+      "product": "/img/bettersalt/Better-Salt-Watermelon-Lime.png"
     },
     "sizes": {
-      "podpunch": ["30ml"]
+      "bettersalt": ["30ml"]
     },
     "strengths": {
       "salt": ["25mg", "50mg"]
@@ -198,13 +198,13 @@
     "sort_order": 6,
     "featured": {
       "display": 0,
-      "key": "podpunch",
+      "key": "bettersalt",
       "strength": "25mg",
       "size": "30ml"
     },
     "featured2": {
       "display": 0,
-      "key": "podpunch",
+      "key": "bettersalt",
       "strength": "25mg",
       "size": "30ml"
     }

@@ -11,7 +11,7 @@ const ProductGridItem = (props) => {
     if (props.topicValue === 'killer-disposables'
       || props.topicValue === 'hyve-disposables'
       || props.topicValue === 'air-disposables'
-      || props.type === 'podpunch') {
+      || props.type === 'bettersalt') {
 
       imgSrc = props.product['img_src']['product'];
     } else {

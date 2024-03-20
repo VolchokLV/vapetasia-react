@@ -9,7 +9,7 @@
       "hyve-disposables": "Vapetasia and Hyve collaborated to bring the best of our flavors together with one of the most popular devices in 2500 and 5000 puff counts.",
       "air-disposables": "Vapetasia and Air collaborated to bring the best of our flavors together with one of the most popular devices in 6000 puff counts.",
       "disposable": "Vapetasia has many disposable choices - Need to update the text here",
-      "podpunch": "\n An extra punch of flavor for your pod! \n Flavor enhanced e-liquid salts."
+      "bettersalt": "\n  \n Extra concentrated flavor for your pod. "
     },
     "images": {
       "100ml": "100ml.jpg",
@@ -18,7 +18,7 @@
       "KillerDisposables": "Killer-Disposables.png",
       "HyveDisposables": "Hyve-Disposables.jpg",
       "AirDisposables": "Air-Disposables.png",
-      "PodPunch": "Pod-Punch-Hero.jpg",
+      "bettersalt": "Hero_Better-Salt-Banner.png",
       "About": "About-Us.jpg",
       "Advocacy": "Advocacy.jpg",
       "Blog": "Blog.png",
@@ -46,7 +46,7 @@
       "killer-kustard": "FlavorKillerKustard",
       "killer-sweets": "FlavorKillerSweets",
       "killer-fruits": "FlavorKillerFruits",
-      "pod-punch": "FlavorPodPunch",
+      "pod-punch": "Flavorbettersalt",
       "parfait": "FlavorParfait",
       "iced": "FlavorIced",
       "vapetasia": "FlavorVapetasia",

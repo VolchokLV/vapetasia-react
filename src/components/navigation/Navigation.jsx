@@ -264,10 +264,10 @@ const Navigation = () => {
                 className="menu-item menu-item-type-post_type menu-item-object-page menu-item-331"
               >
                 <a
-                  href={process.env.REACT_APP_BASE_URL + "/category/podpunch/size/30ml"}
+                  href={process.env.REACT_APP_BASE_URL + "/category/bettersalt/size/30ml"}
                   className="menu-link"
                 >
-                  <span className="text-wrap">POD PUNCH</span>
+                  <span className="text-wrap">BETTER SALT</span>
                 </a>
               </li>
 

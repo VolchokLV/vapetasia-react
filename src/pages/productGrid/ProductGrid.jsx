@@ -37,10 +37,10 @@ const ProductGrid = (props) => {
       paragraphKey = type;
     }
     heroKey = value;
-    if (type === 'podpunch') {
-      bottomText = 'Pod Punch';
+    if (type === 'bettersalt') {
+      bottomText = 'Better Salt.';
       paragraphKey = type;
-      heroKey = 'PodPunch';
+      heroKey = 'bettersalt';
     }
   }
 
@@ -57,7 +57,7 @@ const ProductGrid = (props) => {
         <div className="vapetasia-custom-grid">
 
           {props.products.sort((a, b) => a.sort_order > b.sort_order ? 1 : -1).map(p => {
-            if (typeof(p) !== 'undefined' && typeof(p.product_types) !== 'undefined') {
+            if (typeof (p) !== 'undefined' && typeof (p.product_types) !== 'undefined') {
               try {
                 if (p.product_types.includes(type) &&
                   (
